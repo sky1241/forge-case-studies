@@ -1,0 +1,28 @@
+{
+  "n_train_cases": 5,
+  "n_train_rows": 593,
+  "n_holdout_cases": 5,
+  "method": "grid",
+  "weights_calibrated": {
+    "kalman": 0.3409402366674215,
+    "wavelet": 0.05808861590492854,
+    "crash": 0.22593199407791545,
+    "coupling": 0.3606576799724882,
+    "churn": 0.014381473377246327
+  },
+  "weights_heuristic": {
+    "kalman": 0.2,
+    "wavelet": 0.15,
+    "crash": 0.25,
+    "coupling": 0.15,
+    "churn": 0.25
+  },
+  "auc_train_grid": 0.9124109587151852,
+  "auc_train_logreg": 0.8529950141438707,
+  "auc_train_heuristic": 0.8529950141438707,
+  "auc_holdout_heuristic": 0.7697357102433503,
+  "auc_holdout_calibrated": 0.7155051630947401,
+  "delta_auc": -0.0542305471486102,
+  "threshold_c3": 0.05,
+  "verdict_c3": "NON"
+}
