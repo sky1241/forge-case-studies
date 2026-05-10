@@ -5,6 +5,7 @@ __pycache__/
 *.pyc
 *.pyo
 .pytest_cache/
-results_*.jsonl
+# results_*.jsonl committed for reproducibility — ignore only intermediate logs
+*.tmp.jsonl
 *.log
 .coverage
