@@ -1,4 +1,5 @@
 clones/
+clones_tmp_v2/
 venv/
 .venv/
 __pycache__/
@@ -9,3 +10,5 @@ __pycache__/
 *.tmp.jsonl
 *.log
 .coverage
+bench/results/**/*.txt
+bench/results/**/*.log

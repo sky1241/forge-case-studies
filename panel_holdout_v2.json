@@ -1,0 +1,100 @@
+[
+  {
+    "project": "RouteLLM",
+    "bug_id": "RouteLLM-94b9791",
+    "github_url": "https://github.com/lm-sys/RouteLLM",
+    "buggy_commit": "6a5af478f345f1424a6c60e19696fab043f03ffe",
+    "fixed_commit": "94b97917a5148962e9f2b0bc0a107a3953f42e82",
+    "test_file": "",
+    "change_file": "routellm/calibrate_threshold.py",
+    "python_version": "",
+    "source": "gh_search_fallback",
+    "fix_msg": "Small punctuation fix for calibration",
+    "bucket": "small"
+  },
+  {
+    "project": "dataset",
+    "bug_id": "dataset-4a6bf5f",
+    "github_url": "https://github.com/pudo/dataset",
+    "buggy_commit": "3cbef3bb91515988eba488c5f8a00eafd84d3863",
+    "fixed_commit": "4a6bf5fa1ab448c16a36adfacd71c680f0c2f084",
+    "test_file": "",
+    "change_file": "dataset/database.py",
+    "python_version": "",
+    "source": "gh_search_fallback",
+    "fix_msg": "Release thread connections after transaction ends, fixes #425",
+    "bucket": "small"
+  },
+  {
+    "project": "httpie",
+    "bug_id": "httpie-5",
+    "github_url": "https://github.com/jakubroztocil/httpie",
+    "buggy_commit": "16df8848e81eefac830f407e4b985f42b52970da",
+    "fixed_commit": "90af1f742230831792d74d303d1e7ce56c96d4bd",
+    "test_file": "tests/tests.py",
+    "change_file": "httpie/cli.py",
+    "python_version": "3.7.3",
+    "source": "BugsInPy",
+    "bucket": "medium"
+  },
+  {
+    "project": "cookiecutter",
+    "bug_id": "cookiecutter-2",
+    "github_url": "https://github.com/cookiecutter/cookiecutter",
+    "buggy_commit": "d7e7b28811e474e14d1bed747115e47dcdd15ba3",
+    "fixed_commit": "90434ff4ea4477941444f1e83313beb414838535",
+    "test_file": "tests/test_hooks.py",
+    "change_file": "cookiecutter/hooks.py",
+    "python_version": "3.6.9",
+    "source": "BugsInPy",
+    "bucket": "medium"
+  },
+  {
+    "project": "PySnooper",
+    "bug_id": "PySnooper-1",
+    "github_url": "https://github.com/cool-RR/PySnooper",
+    "buggy_commit": "e21a31162f4c54be693d8ca8260e42393b39abd3",
+    "fixed_commit": "56f22f8ffe1c6b2be4d2cf3ad1987fdb66113da2",
+    "test_file": "tests/test_chinese.py",
+    "change_file": "pysnooper/pycompat.py",
+    "python_version": "3.8.1",
+    "source": "BugsInPy",
+    "bucket": "medium"
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-11",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "buggy_commit": "241bd00e76df142a24699819f8496bdec8f5c83a",
+    "fixed_commit": "9de6f1ca757b7f200d15e94840c9d431cf202276",
+    "test_file": "tests/test_utils_gz.py",
+    "change_file": "scrapy/utils/gz.py",
+    "python_version": "3.8.3",
+    "source": "BugsInPy",
+    "bucket": "large"
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-4",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "buggy_commit": "7ccd81f70653857bd8f3a15ee946aa3fb0edc2cb",
+    "fixed_commit": "74c4d1c1dbe6bfdb05d6e4fc767ffe062398f0a3",
+    "test_file": "tests/test_param_in_path_and_dependency.py",
+    "change_file": "fastapi/openapi/utils.py",
+    "python_version": "3.8.3",
+    "source": "BugsInPy",
+    "bucket": "large"
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-19",
+    "github_url": "https://github.com/spotify/luigi",
+    "buggy_commit": "3d2f75224c7649402927a5ef57558d8c3717cd94",
+    "fixed_commit": "6cffbf438d023441f7f42c2019a51c62eecd9018",
+    "test_file": "test/central_planner_test.py",
+    "change_file": "luigi/scheduler.py",
+    "python_version": "3.8.3",
+    "source": "BugsInPy",
+    "bucket": "large"
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "project": "adetailer",
+    "bug_id": "adetailer-c999e8c",
+    "github_url": "https://github.com/Bing-su/adetailer",
+    "buggy_commit": "7ae5d7abb7f2aa0cd9dd0bea742c4a7b8450f113",
+    "fixed_commit": "c999e8c9edf12155b8cee54b8efffe57b2e37fdb",
+    "test_file": "",
+    "change_file": "install.py",
+    "python_version": "",
+    "source": "gh_search_fallback",
+    "fix_msg": "fix: install.py ultralytics",
+    "bucket": "small"
+  },
+  {
+    "project": "sherlock",
+    "bug_id": "sherlock-43a354b",
+    "github_url": "https://github.com/sherlock-project/sherlock",
+    "buggy_commit": "aa5c3b0010ee0d0948809172d3112b8ffb76e6a6",
+    "fixed_commit": "43a354b235aaa8782ba8cdc947ae47d1bb8c08f0",
+    "test_file": "",
+    "change_file": "sherlock_project/sherlock.py",
+    "python_version": "",
+    "source": "gh_search_fallback",
+    "fix_msg": "Merge pull request #2853 from salmanrajz/fix/unicode-decode-error-special-chars",
+    "bucket": "small"
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-10",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "buggy_commit": "8bd6c5da67e55c64257345efa4e3cc454c42475c",
+    "fixed_commit": "0c84eefa55fc1b4bc4940b41d74568884344e35c",
+    "test_file": "tests/rules/test_man.py",
+    "change_file": "thefuck/rules/man.py",
+    "python_version": "3.7.0",
+    "source": "BugsInPy",
+    "bucket": "medium"
+  },
+  {
+    "project": "cookiecutter",
+    "bug_id": "cookiecutter-3",
+    "github_url": "https://github.com/cookiecutter/cookiecutter",
+    "buggy_commit": "5c282f020a8db7e5e7c4e7b51b010556ca31fb7f",
+    "fixed_commit": "7129d474206761a6156925db78eee4b62a0e3944",
+    "test_file": "tests/test_read_user_choice.py",
+    "change_file": "cookiecutter/prompt.py",
+    "python_version": "3.6.9",
+    "source": "BugsInPy",
+    "bucket": "medium"
+  },
+  {
+    "project": "httpie",
+    "bug_id": "httpie-4",
+    "github_url": "https://github.com/jakubroztocil/httpie",
+    "buggy_commit": "8c892edd4fe700a7ca5cc733dcb4817831d253e2",
+    "fixed_commit": "040d981f00c3f6830b2d0db3daf3c64c080e96e3",
+    "test_file": "tests/test_regressions.py",
+    "change_file": "httpie/models.py",
+    "python_version": "3.7.3",
+    "source": "BugsInPy",
+    "bucket": "medium"
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-13",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "buggy_commit": "6f7f9268f6b03f42831dcfeaa5c15ba9813333ec",
+    "fixed_commit": "c8df3ae57c57e119d115dd3c1f44efa78de1022a",
+    "test_file": "tests/test_additional_responses_router.py",
+    "change_file": "fastapi/routing.py",
+    "python_version": "3.8.3",
+    "source": "BugsInPy",
+    "bucket": "large"
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-12",
+    "github_url": "https://github.com/ansible/ansible",
+    "buggy_commit": "05e2e1806162393d76542a75c2520c7d61c2d855",
+    "fixed_commit": "2fa8f9cfd80daf32c7d222190edf7cfc7234582a",
+    "test_file": "test/units/plugins/lookup/test_env.py",
+    "change_file": "lib/ansible/plugins/lookup/env.py",
+    "python_version": "3.6.9",
+    "source": "BugsInPy",
+    "bucket": "large"
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-14",
+    "github_url": "https://github.com/spotify/luigi",
+    "buggy_commit": "f7219c38121098d464011a094156d99b5b320362",
+    "fixed_commit": "43f2de2646c8e1efd6e17ffabbb11accc21e70b6",
+    "test_file": "test/central_planner_test.py",
+    "change_file": "luigi/scheduler.py",
+    "python_version": "3.8.3",
+    "source": "BugsInPy",
+    "bucket": "large"
+  }
+]
