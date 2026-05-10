@@ -1,5 +1,18 @@
 # forge-case-studies — cycle 11
 
+> **⚠️ STATUS : v1 INVALID — cycle 11 v2 in progress (2026-05-11)**
+>
+> The first run (commits `126ced7` → `ed0c950`, including FINAL_REPORT
+> verdict 0/3 OUI) was reverted by sky-master after audit. Reasons:
+> Phase A wall-clock too short for "forge full power" claim,
+> bucket small fallback not exhausted, luigi×3 bias accepted,
+> N=5 calibration overfit. Verdict not on forge — on the bâclage.
+>
+> Cycle 11 v2 with proper exhaustive sampling + all 6 forge sub-commands
+> per case is in progress. ETA 12-30h wall-clock.
+>
+> **DO NOT cite the FINAL_REPORT v1 results.**
+
 Honest scientific test of `forge --carmack` (https://github.com/sky1241/forge) on real-world Python bugs.
 
 > "forge --carmack predicts files likely to contain bugs based on multi-signal scoring (Kalman + wavelet + crash + coupling + churn).

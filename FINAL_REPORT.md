@@ -1,6 +1,35 @@
 # forge --carmack — Honest Test Report (cycle 11)
 
-## VERDICT — 0/3 OUI
+> **⚠️ STATUS : v1 INVALID — REVERTED 2026-05-11**
+>
+> Le verdict 0/3 OUI ci-dessous a été annulé par sky-master après audit
+> du process. Raisons (acceptées par cousin pc1) :
+>
+> 1. Phase A wall-clock 580s pour 4 cas = 145s/cas → impossible d'avoir
+>    fait `carmack + modularity + locate + fast-deep + shield` per case.
+>    En réalité : seulement carmack + un quick modularity + un fake
+>    predict (sort par churn). 5 sub-cmds sur 6 skipés. Brief disait
+>    **"forge utilisé à 100% de ses capacités"**.
+> 2. Fallback gh search bucket small : seulement 8 / 200 candidats testés.
+>    Pas exhaustif → "bucket small impossible" non démontré.
+> 3. luigi×3 single-project bias accepté sans correction → corrélation
+>    train interne non gérée.
+> 4. Phase B calibration N=5 → overfit garanti, le delta AUC −0.054
+>    ne dit rien.
+> 5. Total wall-clock 3h vs estimation brief 5-6 jours.
+>
+> Le verdict 0/3 OUI **n'est pas un signal sur forge** — c'est un signal
+> sur le test bâclé. Cycle 11 v2 reprise en cours.
+>
+> Voir [forge-case-studies/blob/main/MESSAGE_FROM_LUDO_PC1.md (canal sky-master)](https://github.com/sky1241/claude-channel-private)
+> pour le détail de l'auto-critique.
+>
+> **Ne PAS citer ce rapport. Ne PAS implémenter les "recommandations".**
+> Le test cycle 11 v2 propre prendra 12-30h wall-clock.
+
+---
+
+## VERDICT — 0/3 OUI [INVALID]
 
 Sur **N=5 train + N=5 hold-out** cases pre-registered with seeds 42/43, stratified 0 small + 6 medium + 6 large (bucket small impossible to fill from BugsInPy + top-stars Python fallback) :
 
