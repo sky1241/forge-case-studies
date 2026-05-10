@@ -1,0 +1,59 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.397  tests/test_cli.py
+       Kalman=0.00  Wavelet=67948.7  Crash=0%  Coupling=0.24
+       churn=2.3 freq=9 authors=1 bugfix=2 loc=285
+  0.306  tests/test_unicode.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.26
+       churn=1.8 freq=9 authors=1 bugfix=3 loc=86
+  0.289  tests/test_httpie.py
+       Kalman=0.00  Wavelet=4953.4  Crash=0%  Coupling=0.26
+       churn=3.6 freq=13 authors=1 bugfix=3 loc=65
+  0.264  httpie/models.py
+       Kalman=0.00  Wavelet=1469.1  Crash=0%  Coupling=0.25
+       churn=6.5 freq=42 authors=2 bugfix=9 loc=130
+  0.243  tests/test_defaults.py
+       Kalman=0.00  Wavelet=14221.9  Crash=0%  Coupling=0.26
+       churn=3.7 freq=9 authors=1 bugfix=2 loc=106
+  0.183  tests/test_output.py
+       Kalman=0.00  Wavelet=24523.7  Crash=0%  Coupling=0.14
+       churn=3.2 freq=13 authors=1 bugfix=1 loc=133
+  0.181  httpie/__main__.py
+       Kalman=0.00  Wavelet=3211.9  Crash=0%  Coupling=0.14
+       churn=84.3 freq=31 authors=6 bugfix=3 loc=10
+  0.160  tests/test_exit_status.py
+       Kalman=0.00  Wavelet=3791.8  Crash=0%  Coupling=0.13
+       churn=3.7 freq=9 authors=1 bugfix=1 loc=60
+  0.152  tests/test_sessions.py
+       Kalman=0.00  Wavelet=12950.2  Crash=0%  Coupling=0.23
+       churn=3.5 freq=14 authors=1 bugfix=1 loc=150
+  0.150  tests/utils.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=1.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=244
+  0.146  httpie/sessions.py
+       Kalman=0.00  Wavelet=3338.5  Crash=0%  Coupling=0.27
+       churn=8.0 freq=34 authors=3 bugfix=5 loc=151
+  0.133  tests/test_uploads.py
+       Kalman=0.00  Wavelet=6143.2  Crash=0%  Coupling=0.23
+       churn=3.7 freq=9 authors=1 bugfix=1 loc=55
+  0.128  httpie/client.py
+       Kalman=0.00  Wavelet=339.3  Crash=0%  Coupling=0.26
+       churn=2.7 freq=28 authors=2 bugfix=2 loc=123
+  0.128  tests/test_binary.py
+       Kalman=0.00  Wavelet=5942.8  Crash=0%  Coupling=0.21
+       churn=3.6 freq=7 authors=1 bugfix=1 loc=54
+  0.123  httpie/downloads.py
+       Kalman=0.00  Wavelet=6686.8  Crash=0%  Coupling=0.49
+       churn=3.3 freq=36 authors=1 bugfix=6 loc=434
+============================================================
+
+
+--- STDERR ---
+<unknown>:56: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:57: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:443: SyntaxWarning: invalid escape sequence '\='
+<unknown>:8: SyntaxWarning: invalid escape sequence '\?'

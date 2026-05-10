@@ -1,0 +1,52 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.556  sherlock_project/sherlock.py
+       Kalman=0.00  Wavelet=2804.5  Crash=0%  Coupling=1.00
+       churn=0.4 freq=18 authors=6 bugfix=5 loc=942
+  0.467  tests/test_validate_targets.py
+       Kalman=0.00  Wavelet=1379.2  Crash=0%  Coupling=0.40
+       churn=1.1 freq=6 authors=2 bugfix=1 loc=100
+  0.411  tests/test_probes.py
+       Kalman=0.00  Wavelet=3096.7  Crash=0%  Coupling=0.40
+       churn=2.3 freq=6 authors=2 bugfix=1 loc=105
+  0.341  tests/sherlock_interactives.py
+       Kalman=0.00  Wavelet=340.7  Crash=37%  Coupling=0.79
+       churn=1.7 freq=9 authors=2 bugfix=3 loc=38
+  0.323  tests/test_ux.py
+       Kalman=0.00  Wavelet=n/a   Crash=33%  Coupling=0.52
+       churn=1.6 freq=5 authors=1 bugfix=1 loc=43
+  0.302  tests/conftest.py
+       Kalman=0.00  Wavelet=77.4  Crash=0%  Coupling=0.27
+       churn=1.4 freq=8 authors=1 bugfix=1 loc=51
+  0.278  sherlock_project/sites.py
+       Kalman=0.00  Wavelet=287.2  Crash=0%  Coupling=0.27
+       churn=0.2 freq=3 authors=2 bugfix=1 loc=265
+  0.246  tests/test_version.py
+       Kalman=0.00  Wavelet=70.2  Crash=33%  Coupling=0.26
+       churn=1.9 freq=6 authors=1 bugfix=2 loc=16
+  0.139  tests/test_manifest.py
+       Kalman=0.00  Wavelet=530.2  Crash=0%  Coupling=0.00
+       churn=1.7 freq=5 authors=1 bugfix=0 loc=39
+  0.112  devel/site-list.py
+       Kalman=0.00  Wavelet=35.9  Crash=12%  Coupling=0.00
+       churn=1.3 freq=7 authors=4 bugfix=2 loc=45
+  0.100  sherlock_project/__init__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.43
+       churn=0.6 freq=2 authors=1 bugfix=0 loc=30
+  0.098  tests/few_test_basic.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.6 freq=2 authors=1 bugfix=0 loc=7
+  0.062  devel/summarize_site_validation.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.1 freq=2 authors=1 bugfix=0 loc=72
+  0.000  sherlock_project/__main__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.2 freq=1 authors=1 bugfix=0 loc=22
+============================================================
+
+
+--- STDERR ---

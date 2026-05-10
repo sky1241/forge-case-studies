@@ -10,5 +10,5 @@ __pycache__/
 *.tmp.jsonl
 *.log
 .coverage
-bench/results/**/*.txt
+# bench/results/**/*.txt committed verbatim per sky-master charter
 bench/results/**/*.log

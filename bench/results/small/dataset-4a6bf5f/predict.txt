@@ -1,0 +1,30 @@
+
+==================================================
+  DEFECT PREDICTION — 11 files, last 999 weeks
+==================================================
+  0.84  setup.py
+       churn=8.5 freq=111 burst=10 authors=7 bugfix=14 loc=52 recent=0.00
+  0.71  dataset/table.py
+       churn=1.1 freq=57 burst=9 authors=16 bugfix=20 loc=735 recent=0.00
+  0.58  dataset/__init__.py
+       churn=5.1 freq=58 burst=6 authors=10 bugfix=9 loc=62 recent=0.00
+  0.47  docs/conf.py
+       churn=6.5 freq=24 burst=7 authors=2 bugfix=2 loc=103 recent=0.00
+  0.42  test/test_dataset.py
+       churn=1.2 freq=26 burst=3 authors=10 bugfix=8 loc=606 recent=0.00
+  0.40  dataset/database.py
+       churn=0.8 freq=28 burst=5 authors=6 bugfix=15 loc=330 recent=0.00
+  0.33  dataset/util.py
+       churn=2.9 freq=26 burst=2 authors=5 bugfix=11 loc=169 recent=0.00
+  0.25  test/sample_data.py
+       churn=6.4 freq=5 burst=2 authors=2 bugfix=2 loc=17 recent=0.00
+  0.15  dataset/types.py
+       churn=1.5 freq=9 burst=3 authors=3 bugfix=0 loc=46 recent=0.00
+  0.12  dataset/chunked.py
+       churn=1.6 freq=4 burst=2 authors=2 bugfix=0 loc=85 recent=0.00
+  0.00  test/__init__.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=0 loc=1 recent=0.00
+==================================================
+
+
+--- STDERR ---

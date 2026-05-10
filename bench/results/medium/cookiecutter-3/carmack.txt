@@ -1,0 +1,56 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.326  tests/zipfile/test_unzip.py
+       Kalman=0.00  Wavelet=17731.7  Crash=0%  Coupling=0.18
+       churn=1.7 freq=7 authors=1 bugfix=3 loc=325
+  0.315  cookiecutter/log.py
+       Kalman=0.00  Wavelet=91.8  Crash=0%  Coupling=0.42
+       churn=1.3 freq=8 authors=2 bugfix=3 loc=54
+  0.233  cookiecutter/zipfile.py
+       Kalman=0.00  Wavelet=3371.7  Crash=0%  Coupling=0.17
+       churn=2.3 freq=12 authors=1 bugfix=4 loc=124
+  0.168  tests/__init__.py
+       Kalman=0.00  Wavelet=1564.2  Crash=0%  Coupling=0.00
+       churn=258.0 freq=13 authors=5 bugfix=1 loc=1
+  0.163  cookiecutter/repository.py
+       Kalman=0.00  Wavelet=289.8  Crash=0%  Coupling=0.59
+       churn=1.9 freq=20 authors=3 bugfix=2 loc=124
+  0.160  cookiecutter/exceptions.py
+       Kalman=0.00  Wavelet=64.3  Crash=0%  Coupling=0.92
+       churn=1.6 freq=29 authors=12 bugfix=4 loc=126
+  0.156  cookiecutter/prompt.py
+       Kalman=0.00  Wavelet=399.8  Crash=0%  Coupling=1.00
+       churn=3.0 freq=59 authors=15 bugfix=11 loc=242
+  0.118  cookiecutter/extensions.py
+       Kalman=0.00  Wavelet=27.5  Crash=0%  Coupling=0.00
+       churn=1.4 freq=4 authors=3 bugfix=1 loc=20
+  0.115  cookiecutter/environment.py
+       Kalman=0.00  Wavelet=277.6  Crash=0%  Coupling=0.74
+       churn=1.8 freq=9 authors=4 bugfix=0 loc=71
+  0.102  tests/test_read_repo_password.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.20
+       churn=1.7 freq=2 authors=1 bugfix=1 loc=11
+  0.094  cookiecutter/generate.py
+       Kalman=0.00  Wavelet=611.6  Crash=2%  Coupling=0.53
+       churn=3.6 freq=90 authors=23 bugfix=18 loc=379
+  0.086  cookiecutter/utils.py
+       Kalman=0.00  Wavelet=141.9  Crash=0%  Coupling=0.55
+       churn=2.3 freq=24 authors=11 bugfix=2 loc=112
+  0.080  tests/test_cookiecutter_local_no_input.py
+       Kalman=0.00  Wavelet=756.7  Crash=0%  Coupling=0.00
+       churn=1.1 freq=12 authors=3 bugfix=3 loc=163
+  0.079  tests/test_read_user_dict.py
+       Kalman=0.00  Wavelet=2504.0  Crash=0%  Coupling=0.20
+       churn=2.4 freq=5 authors=3 bugfix=2 loc=129
+  0.077  cookiecutter/main.py
+       Kalman=0.00  Wavelet=379.6  Crash=3%  Coupling=0.40
+       churn=9.0 freq=94 authors=23 bugfix=17 loc=101
+============================================================
+
+
+--- STDERR ---
+<unknown>:90: SyntaxWarning: invalid escape sequence '\('

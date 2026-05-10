@@ -1,0 +1,55 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.250  lib/ansible/modules/cloud/google/gcp_pubsub_subscription_info.py
+       Kalman=0.00  Wavelet=274.2  Crash=0%  Coupling=0.00
+       churn=0.4 freq=7 authors=1 bugfix=7 loc=293
+  0.233  lib/ansible/modules/cloud/google/gcp_pubsub_subscription.py
+       Kalman=0.00  Wavelet=4789.7  Crash=0%  Coupling=0.00
+       churn=1.7 freq=23 authors=5 bugfix=20 loc=669
+  0.222  lib/ansible/modules/cloud/google/gcp_compute_forwarding_rule_info.py
+       Kalman=0.00  Wavelet=245.6  Crash=0%  Coupling=0.00
+       churn=0.2 freq=6 authors=1 bugfix=6 loc=355
+  0.200  test/units/module_utils/facts/other/test_ohai.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=6768
+  0.198  lib/ansible/modules/cloud/google/gcp_compute_forwarding_rule.py
+       Kalman=0.00  Wavelet=19063.0  Crash=0%  Coupling=0.00
+       churn=2.5 freq=22 authors=5 bugfix=19 loc=707
+  0.190  lib/ansible/modules/cloud/google/gcp_cloudbuild_trigger_info.py
+       Kalman=0.00  Wavelet=274.9  Crash=0%  Coupling=0.00
+       churn=0.2 freq=6 authors=1 bugfix=6 loc=411
+  0.182  lib/ansible/modules/cloud/google/gcp_compute_instance.py
+       Kalman=0.00  Wavelet=123161.0  Crash=0%  Coupling=0.00
+       churn=2.4 freq=28 authors=6 bugfix=23 loc=1850
+  0.181  lib/ansible/modules/cloud/opennebula/one_vm.py
+       Kalman=0.00  Wavelet=118639.8  Crash=0%  Coupling=0.00
+       churn=1.5 freq=16 authors=12 bugfix=6 loc=1574
+  0.171  lib/ansible/modules/cloud/google/gcp_compute_network_info.py
+       Kalman=0.00  Wavelet=255.4  Crash=0%  Coupling=0.00
+       churn=0.3 freq=5 authors=1 bugfix=5 loc=249
+  0.171  lib/ansible/modules/cloud/google/gcp_compute_subnetwork_info.py
+       Kalman=0.00  Wavelet=258.0  Crash=0%  Coupling=0.00
+       churn=0.3 freq=5 authors=1 bugfix=5 loc=280
+  0.162  lib/ansible/modules/cloud/google/gcp_cloudbuild_trigger.py
+       Kalman=0.00  Wavelet=24390.3  Crash=0%  Coupling=0.00
+       churn=1.1 freq=11 authors=1 bugfix=10 loc=961
+  0.160  lib/ansible/modules/cloud/google/gcp_compute_image.py
+       Kalman=0.00  Wavelet=29490.5  Crash=0%  Coupling=0.00
+       churn=2.4 freq=22 authors=5 bugfix=19 loc=818
+  0.158  lib/ansible/modules/cloud/google/gcp_compute_backend_service.py
+       Kalman=0.00  Wavelet=47820.7  Crash=0%  Coupling=0.00
+       churn=2.5 freq=28 authors=5 bugfix=24 loc=1143
+  0.156  lib/ansible/modules/cloud/google/gcp_compute_backend_service_info.py
+       Kalman=0.00  Wavelet=314.1  Crash=0%  Coupling=0.00
+       churn=0.2 freq=5 authors=1 bugfix=5 loc=476
+  0.151  lib/ansible/modules/cloud/google/gcp_compute_subnetwork.py
+       Kalman=0.00  Wavelet=9158.6  Crash=0%  Coupling=0.00
+       churn=2.2 freq=19 authors=7 bugfix=15 loc=569
+============================================================
+
+
+--- STDERR ---

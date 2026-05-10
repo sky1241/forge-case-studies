@@ -1,17 +1,21 @@
 # forge-case-studies — cycle 11
 
-> **⚠️ STATUS : v1 INVALID — cycle 11 v2 in progress (2026-05-11)**
+> **STATUS : v2 done (2026-05-11) — Verdict 1 / 3 OUI = signal_faible_non_concluant**
 >
-> The first run (commits `126ced7` → `ed0c950`, including FINAL_REPORT
-> verdict 0/3 OUI) was reverted by sky-master after audit. Reasons:
-> Phase A wall-clock too short for "forge full power" claim,
-> bucket small fallback not exhausted, luigi×3 bias accepted,
-> N=5 calibration overfit. Verdict not on forge — on the bâclage.
+> v1 (commits `126ced7` → `ed0c950`) was INVALIDATED by sky-master audit
+> for process bâclage (5 reasons documented in `0b55e2a` REVERT commit).
+> v2 is the proper test : 400 candidates examined, 6 small eligible found,
+> N=15 effective (8 train + 7 hold-out), full forge sub-cmds per case,
+> 1 bug per project per panel (no luigi×3 bias).
 >
-> Cycle 11 v2 with proper exhaustive sampling + all 6 forge sub-commands
-> per case is in progress. ETA 12-30h wall-clock.
+> **C2 = OUI** ✓ : precision@10 = 62.5%, Wilson lower 0.306 ≥ 0.30.
 >
-> **DO NOT cite the FINAL_REPORT v1 results.**
+> **C1 = NON** : Fisher p=0.31 (N=8 still small for power, forge 5-vs-2 random).
+>
+> **C3 = NON** : calibration delta AUC +0.0095 (below +0.05 threshold,
+> but NOT degrading like v1's -0.054 — signal coherent).
+>
+> See [FINAL_REPORT.md](FINAL_REPORT.md) for full methodology + 10 admitted frictions.
 
 Honest scientific test of `forge --carmack` (https://github.com/sky1241/forge) on real-world Python bugs.
 

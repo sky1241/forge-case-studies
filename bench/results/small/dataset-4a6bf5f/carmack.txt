@@ -1,0 +1,43 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.414  dataset/table.py
+       Kalman=0.00  Wavelet=809.7  Crash=0%  Coupling=0.82
+       churn=1.1 freq=57 authors=16 bugfix=20 loc=735
+  0.274  docs/conf.py
+       Kalman=0.00  Wavelet=5740.8  Crash=0%  Coupling=0.00
+       churn=6.5 freq=24 authors=2 bugfix=2 loc=103
+  0.271  test/test_dataset.py
+       Kalman=0.00  Wavelet=7256.9  Crash=0%  Coupling=0.32
+       churn=1.2 freq=26 authors=10 bugfix=8 loc=606
+  0.216  dataset/util.py
+       Kalman=0.00  Wavelet=541.3  Crash=0%  Coupling=1.00
+       churn=2.9 freq=26 authors=5 bugfix=11 loc=169
+  0.167  test/sample_data.py
+       Kalman=0.00  Wavelet=154.7  Crash=0%  Coupling=0.32
+       churn=6.4 freq=5 authors=2 bugfix=2 loc=17
+  0.151  setup.py
+       Kalman=0.00  Wavelet=48.6  Crash=0%  Coupling=0.00
+       churn=8.5 freq=111 authors=7 bugfix=14 loc=52
+  0.134  dataset/__init__.py
+       Kalman=0.00  Wavelet=81.8  Crash=0%  Coupling=0.27
+       churn=5.1 freq=58 authors=10 bugfix=9 loc=62
+  0.088  dataset/database.py
+       Kalman=0.00  Wavelet=211.5  Crash=0%  Coupling=0.45
+       churn=0.8 freq=28 authors=6 bugfix=15 loc=330
+  0.085  dataset/types.py
+       Kalman=0.00  Wavelet=107.9  Crash=0%  Coupling=0.36
+       churn=1.5 freq=9 authors=3 bugfix=0 loc=46
+  0.045  dataset/chunked.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.6 freq=4 authors=2 bugfix=0 loc=85
+  0.000  test/__init__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=1
+============================================================
+
+
+--- STDERR ---

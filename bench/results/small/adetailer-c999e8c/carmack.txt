@@ -1,0 +1,55 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.367  scripts/!adetailer.py
+       Kalman=0.00  Wavelet=10142.1  Crash=12%  Coupling=1.00
+       churn=5.0 freq=257 authors=13 bugfix=162 loc=1214
+  0.297  aaaaaa/ui.py
+       Kalman=0.00  Wavelet=176.6  Crash=0%  Coupling=0.29
+       churn=0.2 freq=13 authors=2 bugfix=7 loc=720
+  0.250  tests/test_mask.py
+       Kalman=0.00  Wavelet=11138.8  Crash=0%  Coupling=0.31
+       churn=1.9 freq=4 authors=1 bugfix=1 loc=236
+  0.214  adetailer/__version__.py
+       Kalman=0.00  Wavelet=2.9  Crash=9%  Coupling=0.28
+       churn=263.0 freq=132 authors=1 bugfix=33 loc=1
+  0.191  controlnet_ext/controlnet_ext_forge.py
+       Kalman=0.00  Wavelet=5721.0  Crash=0%  Coupling=0.30
+       churn=2.0 freq=5 authors=2 bugfix=4 loc=92
+  0.142  adetailer/ultralytics.py
+       Kalman=0.00  Wavelet=111.6  Crash=37%  Coupling=0.31
+       churn=3.1 freq=27 authors=2 bugfix=18 loc=71
+  0.133  adetailer/common.py
+       Kalman=0.00  Wavelet=1741.0  Crash=22%  Coupling=0.30
+       churn=4.6 freq=39 authors=2 bugfix=19 loc=179
+  0.117  adetailer/mask.py
+       Kalman=0.00  Wavelet=3927.0  Crash=0%  Coupling=0.31
+       churn=1.3 freq=14 authors=3 bugfix=9 loc=292
+  0.116  adetailer/mediapipe.py
+       Kalman=0.00  Wavelet=488.5  Crash=24%  Coupling=0.31
+       churn=1.8 freq=22 authors=3 bugfix=13 loc=180
+  0.116  aaaaaa/traceback.py
+       Kalman=0.00  Wavelet=140.8  Crash=0%  Coupling=0.45
+       churn=0.2 freq=3 authors=1 bugfix=2 loc=175
+  0.097  controlnet_ext/controlnet_ext.py
+       Kalman=0.00  Wavelet=851.2  Crash=16%  Coupling=0.27
+       churn=2.8 freq=27 authors=5 bugfix=16 loc=150
+  0.089  controlnet_ext/__init__.py
+       Kalman=0.00  Wavelet=19.7  Crash=0%  Coupling=0.58
+       churn=2.0 freq=7 authors=2 bugfix=4 loc=25
+  0.079  adetailer/opts.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.32
+       churn=1.1 freq=2 authors=1 bugfix=0 loc=101
+  0.078  aaaaaa/helper.py
+       Kalman=0.00  Wavelet=306.4  Crash=0%  Coupling=0.27
+       churn=1.1 freq=5 authors=1 bugfix=4 loc=65
+  0.071  tests/test_opts.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.32
+       churn=1.2 freq=2 authors=1 bugfix=0 loc=93
+============================================================
+
+
+--- STDERR ---

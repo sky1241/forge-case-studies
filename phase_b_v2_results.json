@@ -1,0 +1,20 @@
+{
+  "n_train": 8,
+  "n_holdout": 7,
+  "rows_dataset": 7784,
+  "positives": 8,
+  "auc_train_heuristic": 0.7080262558861445,
+  "auc_train_grid": 0.7659821947731016,
+  "weights_calibrated": {
+    "kalman": 0.34760630843076634,
+    "wavelet": 0.0038429267238872656,
+    "crash": 0.5009160604661168,
+    "coupling": 0.011413733658355634,
+    "churn": 0.13622097072087405
+  },
+  "auc_holdout_heuristic": 0.5713742136018778,
+  "auc_holdout_calibrated": 0.5808748337617249,
+  "delta_auc": 0.009500620159847095,
+  "threshold_c3": 0.05,
+  "verdict_c3": "NON"
+}

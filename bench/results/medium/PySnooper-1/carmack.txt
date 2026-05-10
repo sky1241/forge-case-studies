@@ -1,0 +1,39 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  WARNING: small repo or short history — Carmack signals may be noisy.
+           For a meaningful demo, run on a repo with >=6 files and >=4 weeks of history.
+  0.738  tests/test_pysnooper.py
+       Kalman=0.00  Wavelet=n/a   Crash=33%  Coupling=1.00
+       churn=2.7 freq=5 authors=1 bugfix=1 loc=171
+  0.616  pysnooper/pysnooper.py
+       Kalman=0.00  Wavelet=n/a   Crash=25%  Coupling=1.00
+       churn=7.5 freq=6 authors=1 bugfix=1 loc=49
+  0.508  tests/utils.py
+       Kalman=0.00  Wavelet=n/a   Crash=33%  Coupling=1.00
+       churn=1.2 freq=4 authors=1 bugfix=1 loc=145
+  0.508  pysnooper/tracer.py
+       Kalman=0.00  Wavelet=n/a   Crash=33%  Coupling=1.00
+       churn=1.2 freq=4 authors=1 bugfix=1 loc=187
+  0.040  setup.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=2.0 freq=8 authors=1 bugfix=0 loc=30
+  0.039  pysnooper/utils.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.1 freq=3 authors=1 bugfix=0 loc=32
+  0.025  pysnooper/pycompat.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.2 freq=2 authors=1 bugfix=0 loc=32
+  0.020  pysnooper/__init__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=2 authors=1 bugfix=0 loc=8
+  0.000  tests/__init__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=1
+============================================================
+
+
+--- STDERR ---
