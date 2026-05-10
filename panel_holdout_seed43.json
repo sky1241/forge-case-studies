@@ -1,0 +1,80 @@
+[
+  {
+    "project": "cookiecutter",
+    "bug_id": "cookiecutter-4",
+    "github_url": "https://github.com/cookiecutter/cookiecutter",
+    "bucket": "medium",
+    "py_bytes": 318259,
+    "loc_est": 9093,
+    "buggy_commit": "9568ab6ecd2d6836646006c59473c4a4ac0dee04",
+    "fixed_commit": "457a1a4e862aab4102b644ff1d2b2e2b5a766b3c",
+    "test_file": "tests/test_hooks.py",
+    "change_file": "cookiecutter/exceptions.py",
+    "python_version": "3.6.9"
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-9",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "bucket": "medium",
+    "py_bytes": 543910,
+    "loc_est": 15540,
+    "buggy_commit": "ce6b82c92d78ae283cb3db001766b76f6647bc47",
+    "fixed_commit": "feb36ede5c518fdc3b6eddf945b2d8b1e2294d15",
+    "test_file": "tests/rules/test_git_push.py",
+    "change_file": "thefuck/rules/git_push.py",
+    "python_version": "3.7.0"
+  },
+  {
+    "project": "PySnooper",
+    "bug_id": "PySnooper-3",
+    "github_url": "https://github.com/cool-RR/PySnooper",
+    "bucket": "medium",
+    "py_bytes": 208272,
+    "loc_est": 5950,
+    "buggy_commit": "6e3d797be3fa0a746fb5b1b7c7fea78eb926c208",
+    "fixed_commit": "15555ed760000b049aff8fecc79d29339c1224c3",
+    "test_file": "tests/test_pysnooper.py",
+    "change_file": "pysnooper/pysnooper.py",
+    "python_version": "3.8.1"
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-10",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "bucket": "large",
+    "py_bytes": 1633657,
+    "loc_est": 46676,
+    "buggy_commit": "ecd8968c5135b810cd607b5902dda2cd32122b39",
+    "fixed_commit": "5931d913b4ea250891a0b582f1f8b2901b868c79",
+    "test_file": "tornado/test/websocket_test.py",
+    "change_file": "tornado/web.py",
+    "python_version": "3.7.0"
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-26",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "bucket": "large",
+    "py_bytes": 2659831,
+    "loc_est": 75995,
+    "buggy_commit": "f249b309ab779b5ab518f54f309d7a4ac6661ec7",
+    "fixed_commit": "03f1720afb4a437314659a306286f440df664a0b",
+    "test_file": "tests/test_settings/__init__.py",
+    "change_file": "scrapy/settings/__init__.py",
+    "python_version": "3.8.3"
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-2",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "bucket": "large",
+    "py_bytes": 3788817,
+    "loc_est": 108252,
+    "buggy_commit": "210af1fd3dc0f612a08fa02a0cb3f5adb81e5bfb",
+    "fixed_commit": "02441ff0313d5b471b662293244c53e712f1243f",
+    "test_file": "tests/test_ws_router.py",
+    "change_file": "fastapi/routing.py",
+    "python_version": "3.8.3"
+  }
+]

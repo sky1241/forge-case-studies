@@ -1,0 +1,80 @@
+[
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-29",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "bucket": "medium",
+    "py_bytes": 543910,
+    "loc_est": 15540,
+    "buggy_commit": "4a2f869c6d6ef03d8d7ada1121cc6631d7ef979e",
+    "fixed_commit": "88831c424f569e6a55fc98883d3eeecc7d425b18",
+    "test_file": "tests/test_types.py;tests/test_utils.py",
+    "change_file": "thefuck/types.py",
+    "python_version": "3.7.0"
+  },
+  {
+    "project": "httpie",
+    "bug_id": "httpie-4",
+    "github_url": "https://github.com/jakubroztocil/httpie",
+    "bucket": "medium",
+    "py_bytes": 573376,
+    "loc_est": 16382,
+    "buggy_commit": "8c892edd4fe700a7ca5cc733dcb4817831d253e2",
+    "fixed_commit": "040d981f00c3f6830b2d0db3daf3c64c080e96e3",
+    "test_file": "tests/test_regressions.py",
+    "change_file": "httpie/models.py",
+    "python_version": "3.7.3"
+  },
+  {
+    "project": "cookiecutter",
+    "bug_id": "cookiecutter-2",
+    "github_url": "https://github.com/cookiecutter/cookiecutter",
+    "bucket": "medium",
+    "py_bytes": 318259,
+    "loc_est": 9093,
+    "buggy_commit": "d7e7b28811e474e14d1bed747115e47dcdd15ba3",
+    "fixed_commit": "90434ff4ea4477941444f1e83313beb414838535",
+    "test_file": "tests/test_hooks.py",
+    "change_file": "cookiecutter/hooks.py",
+    "python_version": "3.6.9"
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-32",
+    "github_url": "https://github.com/spotify/luigi",
+    "bucket": "large",
+    "py_bytes": 2181912,
+    "loc_est": 62340,
+    "buggy_commit": "7233a0cc3e34c7c14259b1fa046f66332914f410",
+    "fixed_commit": "027ac3fbcf66d5d21554c9ac6da26eee5c2e0f3d",
+    "test_file": "test/instance_test.py",
+    "change_file": "luigi/task_register.py",
+    "python_version": "3.8.3"
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-24",
+    "github_url": "https://github.com/spotify/luigi",
+    "bucket": "large",
+    "py_bytes": 2181912,
+    "loc_est": 62340,
+    "buggy_commit": "572fce617a3b8133983cdee2b2cc336a65af5abe",
+    "fixed_commit": "8a4f73296f237fcf8182c342e62c2cb201c717df",
+    "test_file": "test/contrib/spark_test.py",
+    "change_file": "luigi/contrib/spark.py",
+    "python_version": "3.8.3"
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-19",
+    "github_url": "https://github.com/spotify/luigi",
+    "bucket": "large",
+    "py_bytes": 2181912,
+    "loc_est": 62340,
+    "buggy_commit": "3d2f75224c7649402927a5ef57558d8c3717cd94",
+    "fixed_commit": "6cffbf438d023441f7f42c2019a51c62eecd9018",
+    "test_file": "test/central_planner_test.py",
+    "change_file": "luigi/scheduler.py",
+    "python_version": "3.8.3"
+  }
+]
