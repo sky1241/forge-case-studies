@@ -1,0 +1,10 @@
+clones/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+results_*.jsonl
+*.log
+.coverage

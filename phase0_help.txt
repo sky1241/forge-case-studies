@@ -1,0 +1,51 @@
+forge — pytest regression shield with predictive analytics
+
+USAGE
+  forge                            run tests vs baseline (default)
+  forge --baseline                 run tests AND save as new baseline
+  forge --init                     scaffold .forge/, BUGS.md, save first baseline
+  forge --fast [-v]                run only tests changed since last commit (1-hop direct impact)
+  forge --fast-deep [-v]           transitive impact via inverted import graph (Bazel-style)
+  forge --watch                    auto re-run on .py file change
+
+ANALYTICS
+  forge --predict [--weeks N]      rank files by churn-based defect risk
+  forge --carmack [--weeks N]      multi-signal defect score (Kalman + wavelet + coupling)
+  forge --anomaly [--weeks N]      flag commits with anomalous activity
+  forge --heatmap                  show per-file failure heatmap
+  forge --locate                   Ochiai SBFL fault localization (needs coverage.py)
+  forge --modularity               Newman-Girvan Q over the import graph
+  forge --shield                   orchestrate carmack→gen-props→fast-deep with feedback (cycle 9)
+  forge --install-hook             install git pre-commit hook (runs forge --fast-deep)
+  forge --uninstall-hook           remove forge-managed git pre-commit hook
+
+FLAKY / BISECT
+  forge --flaky [N]                re-run failing tests N times to classify flaky
+  forge --flaky-dtw [N]            DTW-based flaky pattern detection
+  forge --bisect TEST              git bisect a failing test back to its breaking commit
+
+TEST GENERATION / MUTATION
+  forge --gen-props PATH           Hypothesis property tests (skips destructive funcs by default)
+  forge --gen-props PATH --include-destructive    DANGEROUS: fuzz destructive funcs
+  forge --mutate [TARGET]          libcst (AST-aware) mutation testing
+  forge --mutate --paths-to-mutate PATH    same, but with explicit-validated single-file targeting
+  forge --minimize TEST INPUT      ddmin (Zeller 2002) on a failing input
+
+SNAPSHOT
+  forge --snapshot "CMD"           capture a CLI command's output as golden
+  forge --snapshot-check           re-run captured commands, diff against golden
+
+BUGS
+  forge --add "DESCRIPTION"        log a new entry in BUGS.md
+  forge --close BUG-ID             mark bug closed in BUGS.md
+
+OPTIONS
+  -v, --verbose                    verbose pytest output
+  -h, --help                       show this help
+  --version                        print forge-shield version and exit
+  --diff                           show diff vs baseline (with default run)
+  --full-cycle                     init + baseline + carmack + heatmap (everything)
+
+DOCS
+  https://github.com/sky1241/forge
+
