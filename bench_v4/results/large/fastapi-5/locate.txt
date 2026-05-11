@@ -1,0 +1,20 @@
+  Running tests with per-test coverage...
+
+  PYTEST RUNNER ERROR (during --locate):
+    ============================= test session starts ==============================
+    collecting ... collected 693 items / 4 errors
+    
+    =========================== short test summary info ============================
+    ERROR tests/test_default_response_class.py
+    ERROR tests/test_tutorial/test_async_sql_databases/test_tutorial001.py
+    ERROR tests/test_tutorial/test_response_model/test_tutorial003.py
+    ERROR tests/test_tutorial/test_security/test_tutorial005.py
+    !!!!!!!!!!!!!!!!!!! Interrupted: 4 errors during collection !!!!!!!!!!!!!!!!!!!!
+    ============================== 4 errors in 5.49s ===============================
+  exit code: 2
+  Hint: a test file in your repo crashed at collection
+  (missing dep, plugin conflict, mypy_test_cases/ not for normal pytest...).
+  Try FORGE_TEST_FILTER='specific_test' or fix the broken collector.
+
+
+--- STDERR ---

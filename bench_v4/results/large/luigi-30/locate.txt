@@ -1,0 +1,25 @@
+  Running tests with per-test coverage...
+
+  PYTEST RUNNER ERROR (during --locate):
+    ERROR test/range_test.py
+    ERROR test/redshift_test.py
+    ERROR test/remote_scheduler_test.py
+    ERROR test/rpc_test.py
+    ERROR test/s3_test.py
+    ERROR test/server_test.py
+    ERROR test/snakebite_test.py
+    ERROR test/spark_test.py
+    ERROR test/test_event_callbacks.py
+    ERROR test/worker_external_task_test.py
+    ERROR test/worker_multiprocess_test.py
+    ERROR test/worker_parallel_scheduling_test.py
+    ERROR test/worker_test.py
+    !!!!!!!!!!!!!!!!!!! Interrupted: 28 errors during collection !!!!!!!!!!!!!!!!!!!
+    ======================= 25 warnings, 28 errors in 2.88s ========================
+  exit code: 2
+  Hint: a test file in your repo crashed at collection
+  (missing dep, plugin conflict, mypy_test_cases/ not for normal pytest...).
+  Try FORGE_TEST_FILTER='specific_test' or fix the broken collector.
+
+
+--- STDERR ---

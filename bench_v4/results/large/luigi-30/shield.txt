@@ -1,0 +1,35 @@
+
+==================================================
+  SHIELD — orchestrated forge feedback chain
+==================================================
+  [STAGE 1] predict_carmack — identify top-3 risky files
+  [CARMACK] Louvain clustering on import graph...
+  No commits in the last 4 weeks.
+    (no carmack signal — empty/shallow git history?)
+==================================================
+
+
+--- STDERR ---
+<unknown>:34: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:46: SyntaxWarning: invalid escape sequence '\%'
+<unknown>:205: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:209: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:215: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:316: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:317: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:319: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:230: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:418: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:432: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:504: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:523: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:535: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:469: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:471: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:472: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:473: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:474: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:476: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:478: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:479: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:484: SyntaxWarning: invalid escape sequence '\d'
