@@ -1,0 +1,202 @@
+[
+  {
+    "project": "PySnooper",
+    "bug_id": "PySnooper-1",
+    "bucket": "medium",
+    "change_file": "pysnooper/pycompat.py",
+    "github_url": "https://github.com/cool-RR/PySnooper",
+    "fix_count": 0
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-40",
+    "bucket": "large",
+    "change_file": "youtube_dl/downloader/f4m.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-15",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_add.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 1
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-12",
+    "bucket": "large",
+    "change_file": "fastapi/security/http.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 2
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-8",
+    "bucket": "large",
+    "change_file": "scrapy/item.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 2
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-26",
+    "bucket": "large",
+    "change_file": "luigi/contrib/hadoop_jar.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 0
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-42",
+    "bucket": "large",
+    "change_file": "youtube_dl/extractor/clipsyndicate.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-16",
+    "bucket": "medium",
+    "change_file": "thefuck/shells/bash.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-40",
+    "bucket": "large",
+    "change_file": "scrapy/exporters.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-9",
+    "bucket": "large",
+    "change_file": "luigi/execution_summary.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 2
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-23",
+    "bucket": "large",
+    "change_file": "scrapy/downloadermiddlewares/httpproxy.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-6",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_branch_exists.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 1
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-17",
+    "bucket": "medium",
+    "change_file": "thefuck/shells/bash.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-5",
+    "bucket": "large",
+    "change_file": "scrapy/http/response/__init__.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 2
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-10",
+    "bucket": "large",
+    "change_file": "scrapy/downloadermiddlewares/redirect.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 1
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-28",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/fix_file.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-2",
+    "bucket": "large",
+    "change_file": "luigi/contrib/beam_dataflow.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 0
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-28",
+    "bucket": "large",
+    "change_file": "scrapy/dupefilters.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0
+  },
+  {
+    "project": "httpie",
+    "bug_id": "httpie-5",
+    "bucket": "medium",
+    "change_file": "httpie/cli.py",
+    "github_url": "https://github.com/jakubroztocil/httpie",
+    "fix_count": 0
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-1",
+    "bucket": "large",
+    "change_file": "scrapy/spidermiddlewares/offsite.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-32",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/ls_lah.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-26",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/vagrant_up.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-13",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_branch_exists.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 1
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-34",
+    "bucket": "large",
+    "change_file": "scrapy/item.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-12",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/no_command.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 2
+  }
+]

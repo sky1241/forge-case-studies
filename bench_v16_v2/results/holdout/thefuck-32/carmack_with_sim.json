@@ -1,0 +1,28 @@
+{
+  "bug_id": "thefuck-32",
+  "change_file": "thefuck/rules/ls_lah.py",
+  "rank_baseline": 21,
+  "rank_with_similarity": 23,
+  "top_bugfix_files_used": [
+    "thefuck/main.py",
+    "tests/test_main.py",
+    "setup.py",
+    "thefuck/shells.py",
+    "thefuck/rules/cd_correction.py",
+    "thefuck/rules/pacman.py",
+    "thefuck/rules/whois.py",
+    "tests/rules/test_fix_alt_space.py",
+    "tests/rules/test_sudo.py",
+    "thefuck/rules/brew_unknown_command.py",
+    "thefuck/conf.py",
+    "thefuck/rules/git_not_command.py",
+    "thefuck/utils.py",
+    "thefuck/rules/brew_install.py",
+    "tests/test_conf.py",
+    "thefuck/rules/no_command.py",
+    "thefuck/rules/composer_not_command.py",
+    "tests/rules/test_rm_dir.py",
+    "thefuck/rules/ssh_known_hosts.py"
+  ],
+  "total_files": 99
+}
