@@ -1,0 +1,30 @@
+
+==================================================
+  SHIELD — orchestrated forge feedback chain
+==================================================
+  [STAGE 1] predict_carmack — identify top-3 risky files
+  [CARMACK] Louvain clustering on import graph...
+  No commits in the last 4 weeks.
+    (no carmack signal — empty/shallow git history?)
+==================================================
+
+
+--- STDERR ---
+<unknown>:17: SyntaxWarning: invalid escape sequence '\%'
+<unknown>:187: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:191: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:197: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:297: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:298: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:300: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:185: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:199: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:399: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:401: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:402: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:403: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:404: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:406: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:408: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:409: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:414: SyntaxWarning: invalid escape sequence '\d'
