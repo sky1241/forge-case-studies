@@ -1,0 +1,82 @@
+[
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-28",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/fix_file.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-2",
+    "bucket": "large",
+    "change_file": "luigi/contrib/beam_dataflow.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 0
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-28",
+    "bucket": "large",
+    "change_file": "scrapy/dupefilters.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0
+  },
+  {
+    "project": "httpie",
+    "bug_id": "httpie-5",
+    "bucket": "medium",
+    "change_file": "httpie/cli.py",
+    "github_url": "https://github.com/jakubroztocil/httpie",
+    "fix_count": 0
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-1",
+    "bucket": "large",
+    "change_file": "scrapy/spidermiddlewares/offsite.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-32",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/ls_lah.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-26",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/vagrant_up.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-13",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_branch_exists.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 1
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-34",
+    "bucket": "large",
+    "change_file": "scrapy/item.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-12",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/no_command.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 2
+  }
+]
