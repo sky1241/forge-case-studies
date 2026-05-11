@@ -1,0 +1,63 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.370  tests/skipif_markers.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=1.00
+       churn=1.2 freq=3 authors=1 bugfix=1 loc=39
+  0.316  cookiecutter/exceptions.py
+       Kalman=0.00  Wavelet=41.2  Crash=0%  Coupling=0.87
+       churn=1.1 freq=13 authors=7 bugfix=2 loc=83
+  0.253  tests/__init__.py
+       Kalman=0.00  Wavelet=1564.2  Crash=0%  Coupling=0.00
+       churn=258.0 freq=13 authors=5 bugfix=1 loc=1
+  0.240  cookiecutter/compat.py
+       Kalman=0.00  Wavelet=545.4  Crash=0%  Coupling=0.57
+       churn=12.8 freq=17 authors=4 bugfix=2 loc=26
+  0.191  tests/test_cli.py
+       Kalman=0.00  Wavelet=384.2  Crash=0%  Coupling=0.36
+       churn=1.5 freq=13 authors=3 bugfix=2 loc=169
+  0.180  docs/conf.py
+       Kalman=0.00  Wavelet=10082.5  Crash=0%  Coupling=0.00
+       churn=1.0 freq=7 authors=5 bugfix=3 loc=348
+  0.156  cookiecutter/config.py
+       Kalman=0.00  Wavelet=799.9  Crash=0%  Coupling=0.32
+       churn=2.8 freq=15 authors=5 bugfix=0 loc=65
+  0.152  cookiecutter/cli.py
+       Kalman=0.00  Wavelet=563.0  Crash=0%  Coupling=0.34
+       churn=2.2 freq=13 authors=4 bugfix=0 loc=80
+  0.128  tests/test_generate_context.py
+       Kalman=0.00  Wavelet=1723.7  Crash=0%  Coupling=0.19
+       churn=1.9 freq=10 authors=3 bugfix=3 loc=99
+  0.126  cookiecutter/prompt.py
+       Kalman=0.00  Wavelet=515.0  Crash=0%  Coupling=0.59
+       churn=3.7 freq=44 authors=11 bugfix=8 loc=131
+  0.126  cookiecutter/generate.py
+       Kalman=0.00  Wavelet=575.3  Crash=4%  Coupling=0.39
+       churn=3.2 freq=59 authors=15 bugfix=14 loc=290
+  0.124  tests/test_vcs_prompt.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.20
+       churn=1.2 freq=7 authors=1 bugfix=1 loc=88
+  0.118  tests/test_more_cookiecutters.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.20
+       churn=1.0 freq=2 authors=1 bugfix=0 loc=67
+  0.116  tests/test_cookiecutter_repo_arg.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.20
+       churn=1.1 freq=3 authors=1 bugfix=2 loc=72
+  0.114  tests/test_get_user_config.py
+       Kalman=0.00  Wavelet=2306.2  Crash=0%  Coupling=0.19
+       churn=1.4 freq=9 authors=1 bugfix=1 loc=95
+============================================================
+
+
+--- STDERR ---
+<unknown>:35: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:89: SyntaxWarning: invalid escape sequence '\('
+<unknown>:35: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:35: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:35: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:89: SyntaxWarning: invalid escape sequence '\('
+<unknown>:89: SyntaxWarning: invalid escape sequence '\('
+<unknown>:89: SyntaxWarning: invalid escape sequence '\('
