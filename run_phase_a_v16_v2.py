@@ -26,7 +26,7 @@ import forge
 ROOT = Path('/home/sky/forge-case-studies')
 CLONES = ROOT / 'clones'
 BUGSINPY = CLONES / 'BugsInPy'
-BENCH = ROOT / 'bench_v16' / 'results'
+BENCH = ROOT / 'bench_v16_v2' / 'results'
 BENCH.mkdir(parents=True, exist_ok=True)
 CUTOFF_WEEKS = 4
 
