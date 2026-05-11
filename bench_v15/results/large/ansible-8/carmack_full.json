@@ -36020,6 +36020,22 @@
       "score": 0.1315365297271242
     },
     {
+      "file": "lib/ansible/modules/monitoring/pagerduty_alert.py",
+      "kalman": 9.450969567266606e-20,
+      "wavelet_hf": 386.234375,
+      "crash_prob": 0.0,
+      "coupling": 0.0013661202185792378,
+      "churn": 0.7607843137254902,
+      "freq": 10,
+      "authors": 8,
+      "bugfixes": 5,
+      "loc": 255,
+      "n_distinct_days": 10,
+      "complexity": 0.2063107240393685,
+      "cold_start_regime": "history",
+      "score": 0.13153018170112976
+    },
+    {
       "file": "lib/ansible/module_utils/network/ios/config/lacp/lacp.py",
       "kalman": 8.072957695864885e-21,
       "wavelet_hf": 8372.25,
@@ -66146,22 +66162,6 @@
       "complexity": 0.10574276385885344,
       "cold_start_regime": "B_isolated",
       "score": 0.06370310079980102
-    },
-    {
-      "file": "lib/ansible/modules/monitoring/pagerduty_alert.py",
-      "kalman": 3.271390967000691e-20,
-      "wavelet_hf": 394.02734375,
-      "crash_prob": 0.0,
-      "coupling": 0.0013661202185792378,
-      "churn": 0.7217741935483871,
-      "freq": 9,
-      "authors": 7,
-      "bugfixes": 4,
-      "loc": 248,
-      "n_distinct_days": 9,
-      "complexity": 0.19110718113780084,
-      "cold_start_regime": "history",
-      "score": 0.06363708329414172
     },
     {
       "file": "test/units/modules/network/f5/test_bigip_dns_zone.py",
