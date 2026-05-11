@@ -1,0 +1,34 @@
+[
+  {
+    "project": "cookiecutter",
+    "bug_id": "cookiecutter-4",
+    "bucket": "medium",
+    "change_file": "cookiecutter/exceptions.py",
+    "github_url": "https://github.com/cookiecutter/cookiecutter",
+    "fix_count": 3
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-15",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_add.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 1
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-15",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 151
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-20",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 151
+  }
+]
