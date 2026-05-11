@@ -1,0 +1,1298 @@
+[
+  {
+    "project": "luigi",
+    "bug_id": "luigi-9",
+    "bucket": "large",
+    "change_file": "luigi/execution_summary.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 2,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-24",
+    "bucket": "medium",
+    "change_file": "thefuck/types.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-10",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/man.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-42",
+    "bucket": "large",
+    "change_file": "youtube_dl/extractor/clipsyndicate.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-10",
+    "bucket": "large",
+    "change_file": "scrapy/downloadermiddlewares/redirect.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 1,
+    "cold_start": true
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-2",
+    "bucket": "large",
+    "change_file": "luigi/contrib/beam_dataflow.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-22",
+    "bucket": "medium",
+    "change_file": "thefuck/types.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-27",
+    "bucket": "large",
+    "change_file": "scrapy/downloadermiddlewares/redirect.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-7",
+    "bucket": "large",
+    "change_file": "fastapi/exception_handlers.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-14",
+    "bucket": "medium",
+    "change_file": "thefuck/shells/fish.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-31",
+    "bucket": "large",
+    "change_file": "youtube_dl/extractor/minhateca.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-22",
+    "bucket": "large",
+    "change_file": "scrapy/exporters.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-31",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_diff_staged.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-12",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/no_command.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 2,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-11",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_push.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-3",
+    "bucket": "large",
+    "change_file": "scrapy/downloadermiddlewares/redirect.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 2,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-8",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/dnf_no_such_command.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-5",
+    "bucket": "large",
+    "change_file": "lib/ansible/module_utils/common/validation.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-2",
+    "bucket": "large",
+    "change_file": "scrapy/utils/datatypes.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 2,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-16",
+    "bucket": "medium",
+    "change_file": "thefuck/shells/bash.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-15",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_add.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 1,
+    "cold_start": true
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-28",
+    "bucket": "large",
+    "change_file": "scrapy/dupefilters.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-32",
+    "bucket": "large",
+    "change_file": "youtube_dl/extractor/npo.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 1,
+    "cold_start": true
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-29",
+    "bucket": "large",
+    "change_file": "luigi/task_register.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-23",
+    "bucket": "large",
+    "change_file": "scrapy/downloadermiddlewares/httpproxy.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-4",
+    "bucket": "large",
+    "change_file": "lib/ansible/playbook/collectionsearch.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 2,
+    "cold_start": true
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-32",
+    "bucket": "large",
+    "change_file": "luigi/task_register.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "PySnooper",
+    "bug_id": "PySnooper-1",
+    "bucket": "medium",
+    "change_file": "pysnooper/pycompat.py",
+    "github_url": "https://github.com/cool-RR/PySnooper",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-6",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_branch_exists.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 1,
+    "cold_start": true
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-12",
+    "bucket": "large",
+    "change_file": "fastapi/security/http.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 2,
+    "cold_start": true
+  },
+  {
+    "project": "PySnooper",
+    "bug_id": "PySnooper-2",
+    "bucket": "medium",
+    "change_file": "pysnooper/tracer.py",
+    "github_url": "https://github.com/cool-RR/PySnooper",
+    "fix_count": 1,
+    "cold_start": true
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-8",
+    "bucket": "large",
+    "change_file": "scrapy/item.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 2,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-17",
+    "bucket": "medium",
+    "change_file": "thefuck/shells/bash.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-25",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/mkdir_p.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-7",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/php_s.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-32",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/ls_lah.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-12",
+    "bucket": "large",
+    "change_file": "luigi/contrib/hdfs/clients.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 2,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-26",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/vagrant_up.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-19",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_push_force.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-26",
+    "bucket": "large",
+    "change_file": "luigi/contrib/hadoop_jar.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-20",
+    "bucket": "large",
+    "change_file": "scrapy/spiders/sitemap.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-39",
+    "bucket": "large",
+    "change_file": "scrapy/spiders/__init__.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-1",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/pip_unknown_command.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-9",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_push.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-33",
+    "bucket": "large",
+    "change_file": "youtube_dl/extractor/drtv.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 1,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-28",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/fix_file.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-21",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_fix_stash.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 1,
+    "cold_start": true
+  },
+  {
+    "project": "httpie",
+    "bug_id": "httpie-5",
+    "bucket": "medium",
+    "change_file": "httpie/cli.py",
+    "github_url": "https://github.com/jakubroztocil/httpie",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-24",
+    "bucket": "large",
+    "change_file": "scrapy/core/downloader/handlers/http11.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 5,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-35",
+    "bucket": "large",
+    "change_file": "youtube_dl/extractor/arte.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 18,
+    "cold_start": false
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-3",
+    "bucket": "medium",
+    "change_file": "thefuck/shells/fish.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 3,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-43",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 25,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-33",
+    "bucket": "large",
+    "change_file": "luigi/task.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 20,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-13",
+    "bucket": "large",
+    "change_file": "luigi/file.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 14,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-8",
+    "bucket": "large",
+    "change_file": "luigi/contrib/redshift.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 17,
+    "cold_start": false
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-17",
+    "bucket": "large",
+    "change_file": "lib/ansible/module_utils/facts/hardware/linux.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 14,
+    "cold_start": false
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-1",
+    "bucket": "large",
+    "change_file": "fastapi/applications.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 8,
+    "cold_start": false
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-13",
+    "bucket": "large",
+    "change_file": "tornado/http1connection.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 6,
+    "cold_start": false
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-9",
+    "bucket": "large",
+    "change_file": "lib/ansible/modules/packaging/os/redhat_subscription.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 18,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-3",
+    "bucket": "large",
+    "change_file": "luigi/parameter.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 32,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-6",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 135,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-17",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 151,
+    "cold_start": false
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-9",
+    "bucket": "large",
+    "change_file": "fastapi/dependencies/utils.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 15,
+    "cold_start": false
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-29",
+    "bucket": "large",
+    "change_file": "scrapy/utils/request.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 3,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-22",
+    "bucket": "large",
+    "change_file": "luigi/scheduler.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 34,
+    "cold_start": false
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-25",
+    "bucket": "large",
+    "change_file": "scrapy/http/request/form.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 10,
+    "cold_start": false
+  },
+  {
+    "project": "cookiecutter",
+    "bug_id": "cookiecutter-4",
+    "bucket": "medium",
+    "change_file": "cookiecutter/exceptions.py",
+    "github_url": "https://github.com/cookiecutter/cookiecutter",
+    "fix_count": 3,
+    "cold_start": false
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-13",
+    "bucket": "large",
+    "change_file": "scrapy/pipelines/images.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 3,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-28",
+    "bucket": "large",
+    "change_file": "luigi/contrib/hive.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 3,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-17",
+    "bucket": "large",
+    "change_file": "luigi/interface.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 30,
+    "cold_start": false
+  },
+  {
+    "project": "httpie",
+    "bug_id": "httpie-4",
+    "bucket": "medium",
+    "change_file": "httpie/models.py",
+    "github_url": "https://github.com/jakubroztocil/httpie",
+    "fix_count": 9,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-5",
+    "bucket": "large",
+    "change_file": "luigi/util.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 18,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-16",
+    "bucket": "large",
+    "change_file": "youtube_dl/postprocessor/ffmpeg.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 29,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-25",
+    "bucket": "large",
+    "change_file": "luigi/contrib/redshift.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 9,
+    "cold_start": false
+  },
+  {
+    "project": "black",
+    "bug_id": "black-19",
+    "bucket": "large",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 26,
+    "cold_start": false
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-16",
+    "bucket": "large",
+    "change_file": "tornado/gen.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 15,
+    "cold_start": false
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-8",
+    "bucket": "large",
+    "change_file": "lib/ansible/plugins/shell/powershell.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 42,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-7",
+    "bucket": "large",
+    "change_file": "luigi/scheduler.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 63,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-1",
+    "bucket": "large",
+    "change_file": "luigi/server.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 20,
+    "cold_start": false
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-35",
+    "bucket": "large",
+    "change_file": "scrapy/crawler.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 9,
+    "cold_start": false
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-32",
+    "bucket": "large",
+    "change_file": "scrapy/crawler.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 10,
+    "cold_start": false
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-4",
+    "bucket": "large",
+    "change_file": "tornado/web.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 94,
+    "cold_start": false
+  },
+  {
+    "project": "black",
+    "bug_id": "black-4",
+    "bucket": "large",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 133,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-19",
+    "bucket": "large",
+    "change_file": "youtube_dl/YoutubeDL.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 110,
+    "cold_start": false
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-9",
+    "bucket": "large",
+    "change_file": "scrapy/mail.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 9,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-23",
+    "bucket": "large",
+    "change_file": "luigi/interface.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 26,
+    "cold_start": false
+  },
+  {
+    "project": "cookiecutter",
+    "bug_id": "cookiecutter-1",
+    "bucket": "medium",
+    "change_file": "cookiecutter/generate.py",
+    "github_url": "https://github.com/cookiecutter/cookiecutter",
+    "fix_count": 27,
+    "cold_start": false
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-30",
+    "bucket": "large",
+    "change_file": "scrapy/cmdline.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 6,
+    "cold_start": false
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-6",
+    "bucket": "large",
+    "change_file": "tornado/ioloop.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 41,
+    "cold_start": false
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-16",
+    "bucket": "large",
+    "change_file": "fastapi/encoders.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 3,
+    "cold_start": false
+  },
+  {
+    "project": "httpie",
+    "bug_id": "httpie-1",
+    "bucket": "medium",
+    "change_file": "httpie/downloads.py",
+    "github_url": "https://github.com/jakubroztocil/httpie",
+    "fix_count": 6,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-24",
+    "bucket": "large",
+    "change_file": "luigi/contrib/spark.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 7,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-13",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 151,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-30",
+    "bucket": "large",
+    "change_file": "luigi/worker.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 43,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-28",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 132,
+    "cold_start": false
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-2",
+    "bucket": "large",
+    "change_file": "tornado/http1connection.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 10,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-10",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 118,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-3",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 151,
+    "cold_start": false
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-15",
+    "bucket": "large",
+    "change_file": "fastapi/routing.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 10,
+    "cold_start": false
+  },
+  {
+    "project": "black",
+    "bug_id": "black-7",
+    "bucket": "large",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 122,
+    "cold_start": false
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-11",
+    "bucket": "large",
+    "change_file": "fastapi/dependencies/utils.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 15,
+    "cold_start": false
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-17",
+    "bucket": "large",
+    "change_file": "scrapy/utils/response.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 9,
+    "cold_start": false
+  },
+  {
+    "project": "black",
+    "bug_id": "black-2",
+    "bucket": "large",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 153,
+    "cold_start": false
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-3",
+    "bucket": "large",
+    "change_file": "fastapi/routing.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 28,
+    "cold_start": false
+  },
+  {
+    "project": "black",
+    "bug_id": "black-6",
+    "bucket": "large",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 122,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-21",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 151,
+    "cold_start": false
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-7",
+    "bucket": "large",
+    "change_file": "tornado/ioloop.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 41,
+    "cold_start": false
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-6",
+    "bucket": "large",
+    "change_file": "fastapi/dependencies/utils.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 22,
+    "cold_start": false
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-14",
+    "bucket": "large",
+    "change_file": "lib/ansible/galaxy/api.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 20,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-41",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 42,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-6",
+    "bucket": "large",
+    "change_file": "luigi/parameter.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 31,
+    "cold_start": false
+  },
+  {
+    "project": "black",
+    "bug_id": "black-8",
+    "bucket": "large",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 122,
+    "cold_start": false
+  },
+  {
+    "project": "black",
+    "bug_id": "black-13",
+    "bucket": "large",
+    "change_file": "blib2to3/pgen2/tokenize.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 6,
+    "cold_start": false
+  },
+  {
+    "project": "black",
+    "bug_id": "black-5",
+    "bucket": "large",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 126,
+    "cold_start": false
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-11",
+    "bucket": "large",
+    "change_file": "scrapy/utils/gz.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 4,
+    "cold_start": false
+  },
+  {
+    "project": "cookiecutter",
+    "bug_id": "cookiecutter-2",
+    "bucket": "medium",
+    "change_file": "cookiecutter/hooks.py",
+    "github_url": "https://github.com/cookiecutter/cookiecutter",
+    "fix_count": 14,
+    "cold_start": false
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-10",
+    "bucket": "large",
+    "change_file": "tornado/web.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 94,
+    "cold_start": false
+  },
+  {
+    "project": "httpie",
+    "bug_id": "httpie-3",
+    "bucket": "medium",
+    "change_file": "httpie/sessions.py",
+    "github_url": "https://github.com/jakubroztocil/httpie",
+    "fix_count": 6,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-5",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 151,
+    "cold_start": false
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-18",
+    "bucket": "large",
+    "change_file": "lib/ansible/cli/galaxy.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 44,
+    "cold_start": false
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-15",
+    "bucket": "large",
+    "change_file": "setup.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 5,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-11",
+    "bucket": "large",
+    "change_file": "luigi/scheduler.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 58,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-18",
+    "bucket": "large",
+    "change_file": "youtube_dl/YoutubeDL.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 110,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-20",
+    "bucket": "large",
+    "change_file": "luigi/task.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 32,
+    "cold_start": false
+  },
+  {
+    "project": "black",
+    "bug_id": "black-20",
+    "bucket": "large",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 26,
+    "cold_start": false
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-31",
+    "bucket": "large",
+    "change_file": "scrapy/http/cookies.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 6,
+    "cold_start": false
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-37",
+    "bucket": "large",
+    "change_file": "scrapy/http/request/__init__.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 3,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-26",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 151,
+    "cold_start": false
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-10",
+    "bucket": "large",
+    "change_file": "fastapi/routing.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 20,
+    "cold_start": false
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-3",
+    "bucket": "large",
+    "change_file": "tornado/httpclient.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 36,
+    "cold_start": false
+  },
+  {
+    "project": "black",
+    "bug_id": "black-11",
+    "bucket": "large",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 113,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-29",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 132,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-4",
+    "bucket": "large",
+    "change_file": "luigi/contrib/redshift.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 18,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-34",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 76,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-20",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 151,
+    "cold_start": false
+  },
+  {
+    "project": "black",
+    "bug_id": "black-14",
+    "bucket": "large",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 75,
+    "cold_start": false
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-18",
+    "bucket": "large",
+    "change_file": "scrapy/responsetypes.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 3,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-7",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 132,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-37",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 51,
+    "cold_start": false
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-14",
+    "bucket": "large",
+    "change_file": "fastapi/openapi/models.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 5,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-10",
+    "bucket": "large",
+    "change_file": "luigi/scheduler.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 58,
+    "cold_start": false
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-16",
+    "bucket": "large",
+    "change_file": "scrapy/utils/url.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 13,
+    "cold_start": false
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-13",
+    "bucket": "large",
+    "change_file": "fastapi/routing.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 10,
+    "cold_start": false
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-5",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_push.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 3,
+    "cold_start": false
+  }
+]
