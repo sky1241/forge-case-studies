@@ -1,0 +1,5 @@
+  Generated 1 property tests -> tests/test_props_fuzz.py
+  ⚠️  AST scan does NOT follow indirect calls. The autouse cwd
+      fixture chdirs each test into tmp_path so most file writes
+      land in pytest's sandbox. But run in a disposable clone or
+      `git stash` first if you've never run gen-props on this repo.

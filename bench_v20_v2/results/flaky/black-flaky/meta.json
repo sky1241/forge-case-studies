@@ -1,0 +1,9 @@
+{
+  "tool": "flaky",
+  "case": "black-flaky",
+  "exit": 0,
+  "elapsed_sec": 3.47,
+  "output_chars": 338,
+  "status_pattern": "PASS",
+  "matched": "\\d+ runs"
+}

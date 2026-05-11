@@ -1,0 +1,9 @@
+{
+  "tool": "minimize",
+  "case": "luigi-minimize",
+  "exit": 0,
+  "elapsed_sec": 0.91,
+  "output_chars": 119,
+  "status_pattern": "PARTIAL",
+  "matched": "Nothing to minimize"
+}

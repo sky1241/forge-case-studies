@@ -1,0 +1,9 @@
+{
+  "tool": "flaky",
+  "case": "ansible-flaky",
+  "exit": 0,
+  "elapsed_sec": 4.2,
+  "output_chars": 328,
+  "status_pattern": "PASS",
+  "matched": "\\d+ runs"
+}

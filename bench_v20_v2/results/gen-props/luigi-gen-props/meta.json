@@ -1,0 +1,10 @@
+{
+  "tool": "gen-props",
+  "case": "luigi-gen-props",
+  "exit": 0,
+  "elapsed_sec": 0.13,
+  "output_chars": 55,
+  "pyfile": "examples/ssh_remote_execution.py",
+  "status_pattern": "PARTIAL",
+  "matched": "no public function"
+}

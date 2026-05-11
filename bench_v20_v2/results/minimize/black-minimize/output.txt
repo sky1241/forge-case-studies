@@ -1,0 +1,14 @@
+  Verifying test_fail fails with full input (7 elements)...
+  Running ddmin on 7 elements...
+    Step 1: 4 elements (complement)
+    Step 2: 2 elements (complement)
+    Step 3: 1 elements (complement)
+
+==================================================
+  DDMIN RESULT — 7 -> 1 elements
+==================================================
+  Reduction: 86%
+  Iterations: 3
+  Minimal input saved to: _v20v2_min_input.minimal.txt
+==================================================
+

@@ -1,0 +1,9 @@
+{
+  "tool": "flaky",
+  "case": "fastapi-flaky",
+  "exit": 0,
+  "elapsed_sec": 40.36,
+  "output_chars": 339,
+  "status_pattern": "PASS",
+  "matched": "\\d+ runs"
+}

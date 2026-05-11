@@ -1,0 +1,9 @@
+{
+  "tool": "bisect",
+  "case": "fastapi-bisect",
+  "exit": 0,
+  "elapsed_sec": 7.07,
+  "output_chars": 539,
+  "status_pattern": "PASS",
+  "matched": "First bad commit"
+}

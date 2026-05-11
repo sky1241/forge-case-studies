@@ -1,0 +1,16 @@
+  Verifying test_trivial currently fails...
+  Bisecting across 20 commits...
+    Testing commit f074c20929... FAIL
+    Testing commit 2721c9d627... FAIL
+    Testing commit b401c9246e... FAIL
+    Testing commit 44aa5b8936... FAIL
+    Testing commit a1ba752ed3... FAIL
+
+==================================================
+  BISECT RESULT
+==================================================
+  First bad commit: a1ba752ed3 tests: do not use reserved 'tags' name (#86823)
+  Test: test_trivial
+  Checked 20 commits in 5 steps
+==================================================
+

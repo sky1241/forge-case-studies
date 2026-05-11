@@ -1,0 +1,9 @@
+{
+  "tool": "bisect",
+  "case": "luigi-bisect",
+  "exit": 0,
+  "elapsed_sec": 0.85,
+  "output_chars": 104,
+  "status_pattern": "PASS",
+  "matched": "Verifying"
+}
