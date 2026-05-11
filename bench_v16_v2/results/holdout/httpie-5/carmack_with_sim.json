@@ -1,0 +1,10 @@
+{
+  "bug_id": "httpie-5",
+  "change_file": "httpie/cli.py",
+  "rank_baseline": 3,
+  "rank_with_similarity": 3,
+  "top_bugfix_files_used": [
+    "setup.py"
+  ],
+  "total_files": 8
+}

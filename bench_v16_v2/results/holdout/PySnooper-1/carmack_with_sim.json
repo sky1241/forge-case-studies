@@ -1,0 +1,10 @@
+{
+  "bug_id": "PySnooper-1",
+  "change_file": "pysnooper/pycompat.py",
+  "rank_baseline": 7,
+  "rank_with_similarity": 7,
+  "top_bugfix_files_used": [
+    "pysnooper/pysnooper.py"
+  ],
+  "total_files": 9
+}
