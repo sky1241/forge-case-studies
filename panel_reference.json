@@ -1,64 +1,73 @@
 [
   {
     "project": "ansible",
-    "bug_id": "ansible-10",
+    "bug_id": "ansible-6",
     "bucket": "large",
-    "change_file": "lib/ansible/modules/system/pamd.py",
+    "change_file": "lib/ansible/galaxy/collection.py",
     "github_url": "https://github.com/ansible/ansible",
-    "fix_count": 17,
-    "reference_subset": "history-rich"
-  },
-  {
-    "project": "youtube-dl",
-    "bug_id": "youtube-dl-15",
-    "bucket": "large",
-    "change_file": "youtube_dl/utils.py",
-    "github_url": "https://github.com/ytdl-org/youtube-dl",
-    "fix_count": 151,
-    "reference_subset": "history-rich"
-  },
-  {
-    "project": "youtube-dl",
-    "bug_id": "youtube-dl-16",
-    "bucket": "large",
-    "change_file": "youtube_dl/postprocessor/ffmpeg.py",
-    "github_url": "https://github.com/ytdl-org/youtube-dl",
-    "fix_count": 29,
-    "reference_subset": "history-rich"
-  },
-  {
-    "project": "youtube-dl",
-    "bug_id": "youtube-dl-6",
-    "bucket": "large",
-    "change_file": "youtube_dl/utils.py",
-    "github_url": "https://github.com/ytdl-org/youtube-dl",
-    "fix_count": 135,
-    "reference_subset": "history-rich"
-  },
-  {
-    "project": "tornado",
-    "bug_id": "tornado-11",
-    "bucket": "large",
-    "change_file": "tornado/http1connection.py",
-    "github_url": "https://github.com/tornadoweb/tornado",
     "fix_count": 9,
     "reference_subset": "history-rich"
   },
   {
-    "project": "scrapy",
-    "bug_id": "scrapy-10",
+    "project": "black",
+    "bug_id": "black-2",
     "bucket": "large",
-    "change_file": "scrapy/downloadermiddlewares/redirect.py",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 153,
+    "reference_subset": "history-rich"
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-16",
+    "bucket": "large",
+    "change_file": "scrapy/utils/url.py",
     "github_url": "https://github.com/scrapy/scrapy",
-    "fix_count": 1,
+    "fix_count": 13,
+    "reference_subset": "history-rich"
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-7",
+    "bucket": "large",
+    "change_file": "luigi/scheduler.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 63,
+    "reference_subset": "history-rich"
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-29",
+    "bucket": "large",
+    "change_file": "scrapy/utils/request.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 3,
+    "reference_subset": "history-rich"
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-12",
+    "bucket": "large",
+    "change_file": "fastapi/security/http.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 2,
     "reference_subset": "medium-history"
   },
   {
     "project": "thefuck",
-    "bug_id": "thefuck-15",
+    "bug_id": "thefuck-21",
     "bucket": "medium",
-    "change_file": "thefuck/rules/git_add.py",
+    "change_file": "thefuck/rules/git_fix_stash.py",
     "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 1,
+    "reference_subset": "medium-history"
+  },
+  {
+    "project": "PySnooper",
+    "bug_id": "PySnooper-2",
+    "bucket": "medium",
+    "change_file": "pysnooper/tracer.py",
+    "github_url": "https://github.com/cool-RR/PySnooper",
     "fix_count": 1,
     "reference_subset": "medium-history"
   },
@@ -72,53 +81,17 @@
     "reference_subset": "medium-history"
   },
   {
-    "project": "youtube-dl",
-    "bug_id": "youtube-dl-33",
+    "project": "ansible",
+    "bug_id": "ansible-4",
     "bucket": "large",
-    "change_file": "youtube_dl/extractor/drtv.py",
-    "github_url": "https://github.com/ytdl-org/youtube-dl",
-    "fix_count": 1,
-    "reference_subset": "medium-history"
-  },
-  {
-    "project": "scrapy",
-    "bug_id": "scrapy-3",
-    "bucket": "large",
-    "change_file": "scrapy/downloadermiddlewares/redirect.py",
-    "github_url": "https://github.com/scrapy/scrapy",
+    "change_file": "lib/ansible/playbook/collectionsearch.py",
+    "github_url": "https://github.com/ansible/ansible",
     "fix_count": 2,
     "reference_subset": "medium-history"
   },
   {
-    "project": "youtube-dl",
-    "bug_id": "youtube-dl-42",
-    "bucket": "large",
-    "change_file": "youtube_dl/extractor/clipsyndicate.py",
-    "github_url": "https://github.com/ytdl-org/youtube-dl",
-    "fix_count": 0,
-    "reference_subset": "cold-start"
-  },
-  {
     "project": "thefuck",
-    "bug_id": "thefuck-10",
-    "bucket": "medium",
-    "change_file": "thefuck/rules/man.py",
-    "github_url": "https://github.com/nvbn/thefuck",
-    "fix_count": 0,
-    "reference_subset": "cold-start"
-  },
-  {
-    "project": "thefuck",
-    "bug_id": "thefuck-22",
-    "bucket": "medium",
-    "change_file": "thefuck/types.py",
-    "github_url": "https://github.com/nvbn/thefuck",
-    "fix_count": 0,
-    "reference_subset": "cold-start"
-  },
-  {
-    "project": "thefuck",
-    "bug_id": "thefuck-16",
+    "bug_id": "thefuck-17",
     "bucket": "medium",
     "change_file": "thefuck/shells/bash.py",
     "github_url": "https://github.com/nvbn/thefuck",
@@ -126,57 +99,84 @@
     "reference_subset": "cold-start"
   },
   {
-    "project": "thefuck",
-    "bug_id": "thefuck-27",
+    "project": "httpie",
+    "bug_id": "httpie-5",
     "bucket": "medium",
-    "change_file": "thefuck/rules/open.py",
-    "github_url": "https://github.com/nvbn/thefuck",
+    "change_file": "httpie/cli.py",
+    "github_url": "https://github.com/jakubroztocil/httpie",
     "fix_count": 0,
     "reference_subset": "cold-start"
   },
   {
-    "project": "scrapy",
-    "bug_id": "scrapy-26",
-    "bucket": "large",
-    "change_file": "scrapy/settings/__init__.py",
-    "github_url": "https://github.com/scrapy/scrapy",
-    "fix_count": 3,
-    "reference_subset": "mixed"
-  },
-  {
-    "project": "thefuck",
-    "bug_id": "thefuck-3",
+    "project": "PySnooper",
+    "bug_id": "PySnooper-1",
     "bucket": "medium",
-    "change_file": "thefuck/shells/fish.py",
-    "github_url": "https://github.com/nvbn/thefuck",
-    "fix_count": 3,
-    "reference_subset": "mixed"
+    "change_file": "pysnooper/pycompat.py",
+    "github_url": "https://github.com/cool-RR/PySnooper",
+    "fix_count": 0,
+    "reference_subset": "cold-start"
   },
   {
     "project": "youtube-dl",
-    "bug_id": "youtube-dl-4",
+    "bug_id": "youtube-dl-40",
     "bucket": "large",
-    "change_file": "youtube_dl/jsinterp.py",
+    "change_file": "youtube_dl/downloader/f4m.py",
     "github_url": "https://github.com/ytdl-org/youtube-dl",
-    "fix_count": 6,
+    "fix_count": 0,
+    "reference_subset": "cold-start"
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-7",
+    "bucket": "large",
+    "change_file": "fastapi/exception_handlers.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 0,
+    "reference_subset": "cold-start"
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-16",
+    "bucket": "large",
+    "change_file": "tornado/gen.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 15,
     "reference_subset": "mixed"
   },
   {
     "project": "youtube-dl",
-    "bug_id": "youtube-dl-27",
+    "bug_id": "youtube-dl-10",
     "bucket": "large",
     "change_file": "youtube_dl/utils.py",
     "github_url": "https://github.com/ytdl-org/youtube-dl",
-    "fix_count": 135,
+    "fix_count": 118,
     "reference_subset": "mixed"
   },
   {
-    "project": "black",
-    "bug_id": "black-10",
+    "project": "httpie",
+    "bug_id": "httpie-4",
+    "bucket": "medium",
+    "change_file": "httpie/models.py",
+    "github_url": "https://github.com/jakubroztocil/httpie",
+    "fix_count": 9,
+    "reference_subset": "mixed"
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-7",
     "bucket": "large",
-    "change_file": "blib2to3/pgen2/driver.py",
-    "github_url": "https://github.com/psf/black",
-    "fix_count": 6,
+    "change_file": "tornado/ioloop.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 41,
+    "reference_subset": "mixed"
+  },
+  {
+    "project": "cookiecutter",
+    "bug_id": "cookiecutter-4",
+    "bucket": "medium",
+    "change_file": "cookiecutter/exceptions.py",
+    "github_url": "https://github.com/cookiecutter/cookiecutter",
+    "fix_count": 3,
     "reference_subset": "mixed"
   }
 ]
