@@ -1,0 +1,135 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.472  luigi/six.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=843
+  0.434  luigi/hdfs.py
+       Kalman=0.00  Wavelet=1420.2  Crash=0%  Coupling=0.69
+       churn=2.4 freq=94 authors=30 bugfix=21 loc=971
+  0.417  luigi/hadoop.py
+       Kalman=0.00  Wavelet=2356.1  Crash=0%  Coupling=0.47
+       churn=2.4 freq=88 authors=33 bugfix=24 loc=924
+  0.417  luigi/scheduler.py
+       Kalman=0.00  Wavelet=2796.3  Crash=0%  Coupling=0.42
+       churn=3.6 freq=114 authors=25 bugfix=25 loc=903
+  0.375  test/helpers.py
+       Kalman=0.00  Wavelet=312.1  Crash=0%  Coupling=0.89
+       churn=1.9 freq=6 authors=5 bugfix=1 loc=63
+  0.332  luigi/mock.py
+       Kalman=0.00  Wavelet=332.6  Crash=0%  Coupling=1.00
+       churn=2.7 freq=36 authors=12 bugfix=8 loc=176
+  0.293  luigi/contrib/hive.py
+       Kalman=0.00  Wavelet=60.8  Crash=0%  Coupling=0.17
+       churn=0.1 freq=5 authors=3 bugfix=1 loc=453
+  0.279  luigi/s3.py
+       Kalman=0.00  Wavelet=1980.2  Crash=0%  Coupling=0.17
+       churn=1.7 freq=33 authors=16 bugfix=9 loc=560
+  0.269  luigi/contrib/spark.py
+       Kalman=0.00  Wavelet=36353.0  Crash=0%  Coupling=0.17
+       churn=2.0 freq=18 authors=8 bugfix=4 loc=585
+  0.268  luigi/worker.py
+       Kalman=0.00  Wavelet=1647.6  Crash=0%  Coupling=0.74
+       churn=3.9 freq=139 authors=32 bugfix=33 loc=765
+  0.257  luigi/format.py
+       Kalman=0.00  Wavelet=2224.5  Crash=0%  Coupling=0.24
+       churn=1.5 freq=33 authors=9 bugfix=9 loc=517
+  0.252  luigi/rpc.py
+       Kalman=0.00  Wavelet=278.3  Crash=0%  Coupling=0.17
+       churn=4.6 freq=56 authors=18 bugfix=15 loc=162
+  0.250  luigi/tools/range.py
+       Kalman=0.00  Wavelet=9027.6  Crash=0%  Coupling=0.17
+       churn=2.1 freq=24 authors=7 bugfix=5 loc=509
+  0.247  test/hdfs_test.py
+       Kalman=0.00  Wavelet=912.9  Crash=0%  Coupling=0.12
+       churn=0.8 freq=24 authors=9 bugfix=4 loc=778
+  0.244  test/contrib/sqla_test.py
+       Kalman=0.00  Wavelet=32104.9  Crash=0%  Coupling=0.08
+       churn=3.7 freq=16 authors=6 bugfix=6 loc=378
+============================================================
+
+
+--- STDERR ---
+<unknown>:34: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:46: SyntaxWarning: invalid escape sequence '\%'
+<unknown>:481: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:485: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:491: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:267: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:418: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:432: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:508: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:536: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:548: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:432: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:434: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:435: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:436: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:437: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:439: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:441: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:442: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:447: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:34: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:46: SyntaxWarning: invalid escape sequence '\%'
+<unknown>:34: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:46: SyntaxWarning: invalid escape sequence '\%'
+<unknown>:34: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:46: SyntaxWarning: invalid escape sequence '\%'
+<unknown>:481: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:485: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:491: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:481: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:485: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:491: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:481: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:485: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:491: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:267: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:267: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:267: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:418: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:432: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:508: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:418: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:432: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:508: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:418: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:432: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:508: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:536: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:548: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:536: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:548: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:536: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:548: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:432: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:434: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:435: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:436: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:437: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:439: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:441: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:442: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:447: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:432: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:434: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:435: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:436: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:437: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:439: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:441: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:442: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:447: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:432: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:434: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:435: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:436: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:437: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:439: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:441: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:442: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:447: SyntaxWarning: invalid escape sequence '\d'

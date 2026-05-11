@@ -1,0 +1,41 @@
+
+==================================================
+  MODULARITY — Newman-Girvan Q over import graph
+==================================================
+  Q = 0.419 (good — modules are well isolated (Q ≥ 0.30))
+  354 files in 152 communities
+
+  Top 3 communities by size:
+    cluster #  8    16 files  Q-contrib +0.033
+    cluster # 41    11 files  Q-contrib +0.027
+    cluster #  6     8 files  Q-contrib +0.014
+==================================================
+
+
+--- STDERR ---
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:18: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:12: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:351: SyntaxWarning: invalid escape sequence '\('
+<unknown>:598: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:90: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:91: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:93: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:94: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:96: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:97: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:99: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:100: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:234: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:237: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:244: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:542: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:563: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:564: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:575: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:576: SyntaxWarning: invalid escape sequence '\w'

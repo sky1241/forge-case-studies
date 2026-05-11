@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 145 files, last 999 weeks
+==================================================
+  0.73  luigi/worker.py
+       churn=3.6 freq=125 burst=7 authors=31 bugfix=33 loc=740 recent=0.00
+  0.69  luigi/interface.py
+       churn=5.7 freq=110 burst=12 authors=28 bugfix=18 loc=439 recent=0.00
+  0.65  luigi/scheduler.py
+       churn=3.5 freq=97 burst=9 authors=23 bugfix=24 loc=876 recent=0.00
+  0.59  luigi/task.py
+       churn=2.5 freq=99 burst=7 authors=20 bugfix=20 loc=718 recent=0.00
+  0.58  luigi/hive.py
+       churn=50.8 freq=44 burst=4 authors=18 bugfix=14 loc=23 recent=0.00
+  0.57  luigi/hadoop.py
+       churn=2.3 freq=81 burst=4 authors=32 bugfix=21 loc=929 recent=0.00
+  0.57  luigi/hdfs.py
+       churn=2.4 freq=86 burst=5 authors=29 bugfix=19 loc=865 recent=0.00
+  0.56  luigi/parameter.py
+       churn=2.4 freq=69 burst=12 authors=19 bugfix=11 loc=550 recent=0.00
+  0.46  luigi/server.py
+       churn=8.6 freq=62 burst=5 authors=20 bugfix=11 loc=190 recent=0.00
+  0.40  test/worker_test.py
+       churn=1.6 freq=43 burst=4 authors=15 bugfix=12 loc=832 recent=0.00
+  0.39  luigi/rpc.py
+       churn=3.8 freq=41 burst=4 authors=16 bugfix=13 loc=154 recent=0.00
+  0.37  luigi/file.py
+       churn=2.2 freq=38 burst=5 authors=14 bugfix=10 loc=199 recent=0.00
+  0.36  luigi/util.py
+       churn=3.4 freq=33 burst=4 authors=12 bugfix=13 loc=242 recent=0.00
+  0.36  luigi/contrib/redshift.py
+       churn=1.8 freq=18 burst=9 authors=7 bugfix=5 loc=419 recent=0.00
+  0.35  test/parameter_test.py
+       churn=1.7 freq=41 burst=4 authors=11 bugfix=5 loc=577 recent=0.00
+==================================================
+
+
+--- STDERR ---

@@ -1,0 +1,6 @@
+  Changed files: 1
+    _black_version.py
+  fast-deep: 0/1 tests selected (transitive depth ≤ 5, max hop observed = 0)
+  No transitively-impacted tests. Run full suite with: forge
+
+--- STDERR ---

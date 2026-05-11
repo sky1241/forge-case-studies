@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 105 files, last 999 weeks
+==================================================
+  0.84  tornado/web.py
+       churn=2.3 freq=375 burst=11 authors=60 bugfix=61 loc=3223 recent=0.00
+  0.67  tornado/httpserver.py
+       churn=11.1 freq=173 burst=9 authors=26 bugfix=27 loc=304 recent=0.00
+  0.55  tornado/iostream.py
+       churn=2.4 freq=193 burst=7 authors=33 bugfix=37 loc=1545 recent=0.00
+  0.52  tornado/httpclient.py
+       churn=5.8 freq=153 burst=8 authors=23 bugfix=20 loc=656 recent=0.00
+  0.51  tornado/test/web_test.py
+       churn=1.5 freq=163 burst=9 authors=17 bugfix=24 loc=2662 recent=0.00
+  0.50  tornado/ioloop.py
+       churn=3.3 freq=167 burst=7 authors=22 bugfix=27 loc=1034 recent=0.00
+  0.48  tornado/simple_httpclient.py
+       churn=4.4 freq=160 burst=7 authors=22 bugfix=14 loc=538 recent=0.00
+  0.45  tornado/websocket.py
+       churn=3.3 freq=141 burst=6 authors=20 bugfix=19 loc=1061 recent=0.00
+  0.43  tornado/auth.py
+       churn=3.7 freq=103 burst=6 authors=20 bugfix=15 loc=1134 recent=0.00
+  0.40  tornado/gen.py
+       churn=2.2 freq=96 burst=7 authors=11 bugfix=15 loc=1091 recent=0.00
+  0.39  tornado/test/httpserver_test.py
+       churn=2.0 freq=111 burst=7 authors=11 bugfix=12 loc=1091 recent=0.00
+  0.38  tornado/test/iostream_test.py
+       churn=1.5 freq=85 burst=7 authors=10 bugfix=17 loc=1096 recent=0.00
+  0.38  tornado/test/simple_httpclient_test.py
+       churn=2.7 freq=114 burst=4 authors=11 bugfix=20 loc=690 recent=0.00
+  0.38  tornado/curl_httpclient.py
+       churn=4.0 freq=72 burst=6 authors=11 bugfix=13 loc=488 recent=0.00
+  0.37  tornado/testing.py
+       churn=2.1 freq=107 burst=5 authors=15 bugfix=13 loc=725 recent=0.00
+==================================================
+
+
+--- STDERR ---
