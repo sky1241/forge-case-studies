@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 7105 files, last 999 weeks
+==================================================
+  0.70  lib/ansible/module_utils/basic.py
+       churn=4.0 freq=405 burst=13 authors=86 bugfix=105 loc=2705 recent=0.00
+  0.59  lib/ansible/playbook/play.py
+       churn=14.3 freq=355 burst=10 authors=73 bugfix=75 loc=343 recent=0.00
+  0.58  lib/ansible/inventory/__init__.py
+       churn=398.3 freq=229 burst=10 authors=58 bugfix=53 loc=1 recent=0.00
+  0.55  lib/ansible/constants.py
+       churn=16.0 freq=345 burst=5 authors=112 bugfix=58 loc=198 recent=0.00
+  0.54  lib/ansible/modules/cloud/docker/docker_container.py
+       churn=2.1 freq=204 burst=12 authors=66 bugfix=74 loc=3475 recent=0.00
+  0.52  lib/ansible/executor/task_executor.py
+       churn=2.8 freq=300 burst=7 authors=44 bugfix=83 loc=1134 recent=0.00
+  0.50  lib/ansible/utils/__init__.py
+       churn=282.2 freq=243 burst=10 authors=47 bugfix=69 loc=20 recent=0.00
+  0.48  lib/ansible/plugins/action/__init__.py
+       churn=3.1 freq=257 burst=5 authors=40 bugfix=86 loc=1174 recent=0.00
+  0.47  lib/ansible/modules/cloud/vmware/vmware_guest.py
+       churn=2.7 freq=202 burst=9 authors=72 bugfix=48 loc=2914 recent=0.00
+  0.43  lib/ansible/modules/packaging/os/apt.py
+       churn=1.7 freq=154 burst=10 authors=69 bugfix=44 loc=1232 recent=0.00
+  0.42  lib/ansible/playbook/task.py
+       churn=5.6 freq=247 burst=6 authors=43 bugfix=55 loc=524 recent=0.00
+  0.42  lib/ansible/playbook/__init__.py
+       churn=34.6 freq=229 burst=7 authors=49 bugfix=38 loc=113 recent=0.00
+  0.40  lib/ansible/modules/system/user.py
+       churn=1.7 freq=146 burst=5 authors=77 bugfix=39 loc=2988 recent=0.00
+  0.39  lib/ansible/modules/packaging/os/yum.py
+       churn=3.6 freq=166 burst=5 authors=63 bugfix=44 loc=1658 recent=0.00
+  0.38  lib/ansible/modules/cloud/amazon/ec2.py
+       churn=1.3 freq=146 burst=5 authors=85 bugfix=32 loc=1753 recent=0.00
+==================================================
+
+
+--- STDERR ---

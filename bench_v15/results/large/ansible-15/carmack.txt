@@ -1,0 +1,55 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.606  lib/ansible/modules/network/f5/bigip_device_info.py
+       Kalman=0.00  Wavelet=8665.0  Crash=0%  Coupling=0.00
+       churn=0.0 freq=3 authors=2 bugfix=2 loc=16266
+  0.600  lib/ansible/modules/network/f5/_bigip_device_facts.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=16266
+  0.600  lib/ansible/modules/network/f5/_bigiq_device_facts.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=2313
+  0.589  test/lib/ansible_test/_data/sanity/validate-modules/validate_modules/main.py
+       Kalman=0.00  Wavelet=575504.7  Crash=0%  Coupling=0.00
+       churn=1.2 freq=4 authors=4 bugfix=0 loc=1861
+  0.582  lib/ansible/modules/network/cloudengine/ce_netstream_global.py
+       Kalman=0.00  Wavelet=88700.5  Crash=0%  Coupling=0.00
+       churn=1.1 freq=7 authors=6 bugfix=2 loc=932
+  0.577  lib/ansible/module_utils/oracle/oci_utils.py
+       Kalman=0.00  Wavelet=744940.7  Crash=0%  Coupling=0.00
+       churn=3.0 freq=4 authors=2 bugfix=0 loc=1961
+  0.576  lib/ansible/modules/network/asa/asa_og.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=801
+  0.575  lib/ansible/modules/cloud/docker/docker_compose.py
+       Kalman=0.00  Wavelet=2518.1  Crash=0%  Coupling=0.00
+       churn=0.4 freq=13 authors=5 bugfix=2 loc=1151
+  0.572  lib/ansible/modules/cloud/azure/_azure_rm_virtualmachine_scaleset.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=1070
+  0.572  lib/ansible/modules/cloud/docker/_docker_service.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=1151
+  0.567  lib/ansible/modules/network/fortimanager/fmgr_device_provision_template.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=2 authors=1 bugfix=1 loc=1553
+  0.564  lib/ansible/modules/network/f5/bigip_log_destination.py
+       Kalman=0.00  Wavelet=196307.6  Crash=0%  Coupling=0.00
+       churn=1.2 freq=6 authors=4 bugfix=1 loc=1765
+  0.561  lib/ansible/modules/network/cnos/cnos_bgp.py
+       Kalman=0.00  Wavelet=53928.2  Crash=0%  Coupling=0.00
+       churn=1.0 freq=9 authors=6 bugfix=2 loc=1179
+  0.557  lib/ansible/modules/network/cloudengine/ce_vxlan_gateway.py
+       Kalman=0.00  Wavelet=96086.2  Crash=0%  Coupling=0.00
+       churn=1.1 freq=8 authors=7 bugfix=1 loc=936
+  0.556  lib/ansible/modules/network/cloudengine/ce_info_center_global.py
+       Kalman=0.00  Wavelet=187299.2  Crash=0%  Coupling=0.00
+       churn=1.1 freq=9 authors=8 bugfix=2 loc=1719
+============================================================
+
+
+--- STDERR ---

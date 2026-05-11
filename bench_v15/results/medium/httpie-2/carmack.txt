@@ -1,0 +1,92 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.488  httpie/output/streams.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.84
+       churn=1.2 freq=2 authors=1 bugfix=0 loc=293
+  0.468  httpie/compat.py
+       Kalman=0.00  Wavelet=1144.5  Crash=0%  Coupling=1.00
+       churn=1.4 freq=12 authors=2 bugfix=1 loc=173
+  0.458  tests/utils.py
+       Kalman=0.00  Wavelet=142.2  Crash=0%  Coupling=0.87
+       churn=0.1 freq=3 authors=2 bugfix=1 loc=241
+  0.337  tests/fixtures.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.90
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=40
+  0.255  httpie/downloads.py
+       Kalman=0.00  Wavelet=6645.0  Crash=0%  Coupling=0.97
+       churn=3.3 freq=38 authors=2 bugfix=6 loc=434
+  0.247  httpie/config.py
+       Kalman=0.00  Wavelet=552.7  Crash=0%  Coupling=0.45
+       churn=1.9 freq=17 authors=2 bugfix=2 loc=97
+  0.241  tests/test_cli.py
+       Kalman=0.00  Wavelet=38078.8  Crash=0%  Coupling=0.40
+       churn=2.5 freq=14 authors=1 bugfix=3 loc=332
+  0.235  httpie/context.py
+       Kalman=0.00  Wavelet=482.2  Crash=0%  Coupling=0.46
+       churn=1.3 freq=5 authors=1 bugfix=2 loc=84
+  0.214  httpie/input.py
+       Kalman=0.00  Wavelet=1098.4  Crash=0%  Coupling=0.59
+       churn=1.4 freq=64 authors=9 bugfix=7 loc=680
+  0.208  tests/test_downloads.py
+       Kalman=0.00  Wavelet=15090.7  Crash=0%  Coupling=0.41
+       churn=2.6 freq=9 authors=1 bugfix=0 loc=139
+  0.204  httpie/__main__.py
+       Kalman=0.00  Wavelet=3211.9  Crash=0%  Coupling=0.24
+       churn=84.3 freq=31 authors=6 bugfix=3 loc=10
+  0.203  tests/test_auth.py
+       Kalman=0.00  Wavelet=1726.9  Crash=0%  Coupling=0.44
+       churn=5.7 freq=16 authors=4 bugfix=1 loc=62
+  0.179  httpie/plugins/__init__.py
+       Kalman=0.00  Wavelet=45.2  Crash=0%  Coupling=0.49
+       churn=1.6 freq=3 authors=1 bugfix=0 loc=24
+  0.176  httpie/utils.py
+       Kalman=0.00  Wavelet=49.4  Crash=0%  Coupling=0.38
+       churn=0.9 freq=8 authors=3 bugfix=1 loc=56
+  0.172  httpie/output/formatters/colors.py
+       Kalman=0.00  Wavelet=3.2  Crash=0%  Coupling=0.24
+       churn=0.1 freq=6 authors=2 bugfix=0 loc=217
+============================================================
+
+
+--- STDERR ---
+<unknown>:56: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:57: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:463: SyntaxWarning: invalid escape sequence '\='
+<unknown>:8: SyntaxWarning: invalid escape sequence '\?'
+<unknown>:52: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:52: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:53: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:53: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:54: SyntaxWarning: invalid escape sequence '\='
+<unknown>:54: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:56: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:57: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:56: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:57: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:56: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:57: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:463: SyntaxWarning: invalid escape sequence '\='
+<unknown>:463: SyntaxWarning: invalid escape sequence '\='
+<unknown>:463: SyntaxWarning: invalid escape sequence '\='
+<unknown>:52: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:52: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:53: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:53: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:54: SyntaxWarning: invalid escape sequence '\='
+<unknown>:54: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:52: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:52: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:53: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:53: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:54: SyntaxWarning: invalid escape sequence '\='
+<unknown>:54: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:52: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:52: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:53: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:53: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:54: SyntaxWarning: invalid escape sequence '\='
+<unknown>:54: SyntaxWarning: invalid escape sequence '\w'

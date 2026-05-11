@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 41 files, last 999 weeks
+==================================================
+  0.93  black.py
+       churn=2.3 freq=224 burst=20 authors=27 bugfix=45 loc=3691 recent=0.00
+  0.45  tests/test_black.py
+       churn=1.4 freq=71 burst=7 authors=15 bugfix=9 loc=1508 recent=0.00
+  0.37  setup.py
+       churn=2.6 freq=15 burst=3 authors=7 bugfix=2 loc=66 recent=0.00
+  0.24  blackd.py
+       churn=1.0 freq=5 burst=1 authors=4 bugfix=2 loc=140 recent=0.00
+  0.23  tests/data/comments6.py
+       churn=1.0 freq=1 burst=1 authors=1 bugfix=0 loc=68 recent=0.00
+  0.22  docs/conf.py
+       churn=1.6 freq=11 burst=4 authors=3 bugfix=3 loc=280 recent=0.00
+  0.21  blib2to3/pgen2/tokenize.py
+       churn=1.3 freq=11 burst=2 authors=2 bugfix=5 loc=568 recent=0.00
+  0.20  tests/data/numeric_literals.py
+       churn=1.1 freq=5 burst=2 authors=2 bugfix=1 loc=44 recent=0.00
+  0.19  tests/data/numeric_literals_py2.py
+       churn=1.1 freq=3 burst=1 authors=2 bugfix=0 loc=16 recent=0.00
+  0.17  blib2to3/pygram.py
+       churn=1.7 freq=5 burst=2 authors=1 bugfix=0 loc=57 recent=0.00
+  0.17  tests/data/numeric_literals_skip_underscores.py
+       churn=1.0 freq=1 burst=1 authors=1 bugfix=0 loc=23 recent=0.00
+  0.17  profiling/dict_huge.py
+       churn=1.0 freq=1 burst=1 authors=1 bugfix=0 loc=41440 recent=0.00
+  0.16  tests/data/python37.py
+       churn=1.0 freq=2 burst=1 authors=1 bugfix=0 loc=41 recent=0.00
+  0.16  blib2to3/pgen2/driver.py
+       churn=1.2 freq=8 burst=2 authors=1 bugfix=4 loc=223 recent=0.00
+  0.16  tests/data/bracketmatch.py
+       churn=1.0 freq=1 burst=1 authors=1 bugfix=1 loc=15 recent=0.00
+==================================================
+
+
+--- STDERR ---

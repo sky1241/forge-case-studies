@@ -1,0 +1,123 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.368  scrapy/exceptions.py
+       Kalman=0.00  Wavelet=88.9  Crash=0%  Coupling=1.00
+       churn=1.6 freq=10 authors=3 bugfix=1 loc=56
+  0.338  scrapy/link.py
+       Kalman=0.00  Wavelet=32.1  Crash=0%  Coupling=0.83
+       churn=1.8 freq=10 authors=4 bugfix=0 loc=42
+  0.333  scrapy/utils/conf.py
+       Kalman=0.00  Wavelet=141.9  Crash=0%  Coupling=0.63
+       churn=1.9 freq=14 authors=7 bugfix=1 loc=110
+  0.291  scrapy/utils/datatypes.py
+       Kalman=0.00  Wavelet=438.9  Crash=0%  Coupling=0.34
+       churn=0.8 freq=14 authors=8 bugfix=2 loc=316
+  0.289  tests/test_crawler.py
+       Kalman=0.00  Wavelet=331.2  Crash=0%  Coupling=0.39
+       churn=1.4 freq=17 authors=5 bugfix=4 loc=247
+  0.280  tests/test_loader.py
+       Kalman=0.00  Wavelet=1239.9  Crash=0%  Coupling=0.11
+       churn=0.2 freq=8 authors=6 bugfix=2 loc=737
+  0.278  scrapy/selector/__init__.py
+       Kalman=0.00  Wavelet=2728.6  Crash=0%  Coupling=0.21
+       churn=88.6 freq=14 authors=3 bugfix=1 loc=5
+  0.277  scrapy/exporters.py
+       Kalman=0.00  Wavelet=314.1  Crash=0%  Coupling=0.11
+       churn=0.7 freq=20 authors=8 bugfix=6 loc=340
+  0.269  tests/test_feedexport.py
+       Kalman=0.00  Wavelet=1119.0  Crash=0%  Coupling=0.10
+       churn=1.1 freq=21 authors=8 bugfix=0 loc=600
+  0.263  tests/spiders.py
+       Kalman=0.00  Wavelet=24.9  Crash=0%  Coupling=0.52
+       churn=0.2 freq=8 authors=5 bugfix=2 loc=185
+  0.251  tests/test_linkextractors.py
+       Kalman=0.00  Wavelet=114817.5  Crash=0%  Coupling=0.32
+       churn=2.5 freq=8 authors=3 bugfix=3 loc=474
+  0.243  scrapy/utils/log.py
+       Kalman=0.00  Wavelet=1312.5  Crash=0%  Coupling=0.40
+       churn=2.1 freq=24 authors=7 bugfix=1 loc=206
+  0.243  scrapy/utils/deprecate.py
+       Kalman=0.00  Wavelet=810.3  Crash=0%  Coupling=0.42
+       churn=2.3 freq=25 authors=6 bugfix=2 loc=171
+  0.230  scrapy/core/downloader/__init__.py
+       Kalman=0.00  Wavelet=1924.6  Crash=0%  Coupling=0.31
+       churn=4.0 freq=32 authors=4 bugfix=2 loc=199
+  0.224  tests/test_settings/__init__.py
+       Kalman=0.00  Wavelet=2377.9  Crash=0%  Coupling=0.00
+       churn=0.9 freq=14 authors=4 bugfix=2 loc=454
+============================================================
+
+
+--- STDERR ---
+<unknown>:218: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:23: SyntaxWarning: invalid escape sequence '\:'
+<unknown>:62: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:103: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:21: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:153: SyntaxWarning: invalid escape sequence '\['
+<unknown>:178: SyntaxWarning: invalid escape sequence '\['
+<unknown>:186: SyntaxWarning: invalid escape sequence '\['
+<unknown>:194: SyntaxWarning: invalid escape sequence '\['
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:34: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:43: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:45: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:291: SyntaxWarning: invalid escape sequence '\('
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:237: SyntaxWarning: invalid escape sequence '\p'
+<unknown>:218: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:218: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:218: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:23: SyntaxWarning: invalid escape sequence '\:'
+<unknown>:23: SyntaxWarning: invalid escape sequence '\:'
+<unknown>:23: SyntaxWarning: invalid escape sequence '\:'
+<unknown>:62: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:62: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:62: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:103: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:103: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:103: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:21: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:21: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:21: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:153: SyntaxWarning: invalid escape sequence '\['
+<unknown>:178: SyntaxWarning: invalid escape sequence '\['
+<unknown>:186: SyntaxWarning: invalid escape sequence '\['
+<unknown>:194: SyntaxWarning: invalid escape sequence '\['
+<unknown>:153: SyntaxWarning: invalid escape sequence '\['
+<unknown>:178: SyntaxWarning: invalid escape sequence '\['
+<unknown>:186: SyntaxWarning: invalid escape sequence '\['
+<unknown>:194: SyntaxWarning: invalid escape sequence '\['
+<unknown>:153: SyntaxWarning: invalid escape sequence '\['
+<unknown>:178: SyntaxWarning: invalid escape sequence '\['
+<unknown>:186: SyntaxWarning: invalid escape sequence '\['
+<unknown>:194: SyntaxWarning: invalid escape sequence '\['
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:34: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:34: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:34: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:43: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:45: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:43: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:45: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:43: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:45: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:291: SyntaxWarning: invalid escape sequence '\('
+<unknown>:291: SyntaxWarning: invalid escape sequence '\('
+<unknown>:291: SyntaxWarning: invalid escape sequence '\('
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:237: SyntaxWarning: invalid escape sequence '\p'
+<unknown>:237: SyntaxWarning: invalid escape sequence '\p'
+<unknown>:237: SyntaxWarning: invalid escape sequence '\p'

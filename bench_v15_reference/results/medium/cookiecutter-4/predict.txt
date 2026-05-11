@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 58 files, last 999 weeks
+==================================================
+  0.83  tests/test_main.py
+       churn=65.2 freq=61 burst=14 authors=10 bugfix=14 loc=13 recent=0.00
+  0.77  cookiecutter/main.py
+       churn=5.3 freq=70 burst=17 authors=17 bugfix=14 loc=137 recent=0.00
+  0.66  cookiecutter/generate.py
+       churn=3.2 freq=59 burst=8 authors=15 bugfix=14 loc=290 recent=0.00
+  0.59  tests/test_vcs.py
+       churn=5.8 freq=53 burst=19 authors=10 bugfix=6 loc=132 recent=0.00
+  0.53  setup.py
+       churn=3.4 freq=55 burst=6 authors=10 bugfix=10 loc=89 recent=0.00
+  0.52  cookiecutter/prompt.py
+       churn=3.7 freq=44 burst=10 authors=11 bugfix=8 loc=131 recent=0.00
+  0.50  cookiecutter/vcs.py
+       churn=3.5 freq=35 burst=12 authors=11 bugfix=7 loc=123 recent=0.00
+  0.49  tests/test_prompt.py
+       churn=3.7 freq=39 burst=11 authors=8 bugfix=9 loc=248 recent=0.00
+  0.39  tests/test_generate_files.py
+       churn=1.6 freq=18 burst=16 authors=1 bugfix=3 loc=199 recent=0.00
+  0.32  tests/test_hooks.py
+       churn=2.3 freq=24 burst=8 authors=5 bugfix=5 loc=168 recent=0.00
+  0.31  cookiecutter/hooks.py
+       churn=2.8 freq=27 burst=8 authors=7 bugfix=6 loc=107 recent=0.00
+  0.29  cookiecutter/compat.py
+       churn=12.8 freq=17 burst=3 authors=4 bugfix=2 loc=26 recent=0.00
+  0.29  cookiecutter/config.py
+       churn=2.8 freq=15 burst=9 authors=5 bugfix=0 loc=65 recent=0.00
+  0.28  tests/conftest.py
+       churn=2.0 freq=12 burst=8 authors=1 bugfix=2 loc=141 recent=0.00
+  0.27  tests/test_utils.py
+       churn=7.3 freq=17 burst=5 authors=6 bugfix=4 loc=70 recent=0.00
+==================================================
+
+
+--- STDERR ---

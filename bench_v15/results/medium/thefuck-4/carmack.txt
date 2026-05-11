@@ -1,0 +1,91 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.494  thefuck/shells/__init__.py
+       Kalman=0.00  Wavelet=704.5  Crash=0%  Coupling=1.00
+       churn=4.1 freq=11 authors=3 bugfix=0 loc=51
+  0.468  thefuck/shells/generic.py
+       Kalman=0.00  Wavelet=454.2  Crash=0%  Coupling=0.99
+       churn=1.6 freq=14 authors=3 bugfix=0 loc=139
+  0.402  thefuck/conf.py
+       Kalman=0.00  Wavelet=4147.8  Crash=0%  Coupling=0.67
+       churn=6.4 freq=36 authors=7 bugfix=6 loc=129
+  0.323  thefuck/types.py
+       Kalman=0.00  Wavelet=3788.0  Crash=0%  Coupling=0.59
+       churn=3.3 freq=43 authors=5 bugfix=9 loc=258
+  0.270  thefuck/rules/brew_unknown_command.py
+       Kalman=0.00  Wavelet=449.1  Crash=0%  Coupling=0.34
+       churn=3.0 freq=13 authors=5 bugfix=2 loc=82
+  0.255  thefuck/corrector.py
+       Kalman=0.00  Wavelet=1405.6  Crash=0%  Coupling=0.17
+       churn=5.1 freq=21 authors=4 bugfix=2 loc=92
+  0.244  thefuck/utils.py
+       Kalman=0.00  Wavelet=645.2  Crash=0%  Coupling=0.59
+       churn=3.3 freq=76 authors=8 bugfix=16 loc=322
+  0.242  thefuck/specific/sudo.py
+       Kalman=0.00  Wavelet=136.0  Crash=0%  Coupling=0.33
+       churn=3.8 freq=5 authors=2 bugfix=1 loc=18
+  0.241  tests/rules/test_no_command.py
+       Kalman=0.00  Wavelet=512.9  Crash=0%  Coupling=0.17
+       churn=7.3 freq=13 authors=2 bugfix=0 loc=47
+  0.239  thefuck/shells/fish.py
+       Kalman=0.00  Wavelet=159.6  Crash=0%  Coupling=0.33
+       churn=1.8 freq=21 authors=4 bugfix=2 loc=113
+  0.236  thefuck/shells/tcsh.py
+       Kalman=0.00  Wavelet=109.1  Crash=0%  Coupling=0.50
+       churn=1.7 freq=7 authors=3 bugfix=2 loc=37
+  0.235  tests/utils.py
+       Kalman=0.00  Wavelet=81.7  Crash=0%  Coupling=0.34
+       churn=4.6 freq=13 authors=2 bugfix=0 loc=20
+  0.234  thefuck/rules/brew_install.py
+       Kalman=0.00  Wavelet=158.9  Crash=0%  Coupling=0.34
+       churn=2.8 freq=10 authors=4 bugfix=2 loc=42
+  0.224  thefuck/rules/no_command.py
+       Kalman=0.00  Wavelet=187.0  Crash=0%  Coupling=0.17
+       churn=5.5 freq=25 authors=3 bugfix=1 loc=42
+  0.221  tests/rules/test_fix_file.py
+       Kalman=0.00  Wavelet=4263.0  Crash=0%  Coupling=0.17
+       churn=1.7 freq=12 authors=4 bugfix=7 loc=245
+============================================================
+
+
+--- STDERR ---
+<unknown>:50: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:86: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:12: SyntaxWarning: invalid escape sequence '\('
+<unknown>:23: SyntaxWarning: invalid escape sequence '\('
+<unknown>:23: SyntaxWarning: invalid escape sequence '\('
+<unknown>:6: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:11: SyntaxWarning: invalid escape sequence '\('
+<unknown>:85: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:85: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:50: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:86: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:50: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:86: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:50: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:86: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:12: SyntaxWarning: invalid escape sequence '\('
+<unknown>:23: SyntaxWarning: invalid escape sequence '\('
+<unknown>:23: SyntaxWarning: invalid escape sequence '\('
+<unknown>:12: SyntaxWarning: invalid escape sequence '\('
+<unknown>:23: SyntaxWarning: invalid escape sequence '\('
+<unknown>:23: SyntaxWarning: invalid escape sequence '\('
+<unknown>:12: SyntaxWarning: invalid escape sequence '\('
+<unknown>:23: SyntaxWarning: invalid escape sequence '\('
+<unknown>:23: SyntaxWarning: invalid escape sequence '\('
+<unknown>:6: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:6: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:6: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:11: SyntaxWarning: invalid escape sequence '\('
+<unknown>:11: SyntaxWarning: invalid escape sequence '\('
+<unknown>:11: SyntaxWarning: invalid escape sequence '\('
+<unknown>:85: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:85: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:85: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:85: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:85: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:85: SyntaxWarning: invalid escape sequence '\ '

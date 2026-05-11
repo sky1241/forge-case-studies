@@ -1,0 +1,4 @@
+  No changes detected since last commit. Nothing to test.
+  Tip: forge --fast-deep looks at git diff HEAD.
+
+--- STDERR ---

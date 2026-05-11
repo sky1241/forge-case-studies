@@ -1,0 +1,7 @@
+
+==================================================
+  MODULARITY — Newman-Girvan Q over import graph
+==================================================
+  8 files but no inter-file imports — Q is undefined. Try after the codebase has some structure.
+
+--- STDERR ---

@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 1302 files, last 999 weeks
+==================================================
+  0.72  lib/ansible/module_utils/basic.py
+       churn=4.1 freq=416 burst=13 authors=87 bugfix=108 loc=2676 recent=0.00
+  0.58  lib/ansible/playbook/play.py
+       churn=14.3 freq=356 burst=10 authors=74 bugfix=76 loc=343 recent=0.00
+  0.57  lib/ansible/inventory/__init__.py
+       churn=398.3 freq=229 burst=10 authors=58 bugfix=53 loc=1 recent=0.00
+  0.55  lib/ansible/constants.py
+       churn=15.8 freq=350 burst=5 authors=113 bugfix=58 loc=201 recent=0.00
+  0.51  lib/ansible/executor/task_executor.py
+       churn=2.8 freq=302 burst=7 authors=44 bugfix=83 loc=1141 recent=0.00
+  0.50  lib/ansible/utils/__init__.py
+       churn=282.2 freq=243 burst=10 authors=47 bugfix=69 loc=20 recent=0.00
+  0.48  lib/ansible/plugins/action/__init__.py
+       churn=3.1 freq=262 burst=5 authors=40 bugfix=87 loc=1186 recent=0.00
+  0.44  lib/ansible/playbook/task.py
+       churn=5.6 freq=248 burst=6 authors=43 bugfix=55 loc=527 recent=0.00
+  0.44  lib/ansible/modules/packaging/os/apt.py
+       churn=1.7 freq=155 burst=10 authors=70 bugfix=44 loc=1232 recent=0.00
+  0.40  lib/ansible/modules/packaging/os/yum.py
+       churn=3.6 freq=169 burst=5 authors=65 bugfix=45 loc=1659 recent=0.00
+  0.40  lib/ansible/playbook/__init__.py
+       churn=34.6 freq=229 burst=7 authors=49 bugfix=38 loc=113 recent=0.00
+  0.40  lib/ansible/modules/system/user.py
+       churn=1.7 freq=149 burst=5 authors=80 bugfix=39 loc=3028 recent=0.00
+  0.39  lib/ansible/plugins/strategy/__init__.py
+       churn=3.1 freq=201 burst=4 authors=36 bugfix=50 loc=1328 recent=0.00
+  0.37  lib/ansible/template/__init__.py
+       churn=2.1 freq=152 burst=7 authors=28 bugfix=43 loc=944 recent=0.00
+  0.37  lib/ansible/cli/__init__.py
+       churn=5.5 freq=158 burst=5 authors=37 bugfix=53 loc=500 recent=0.00
+==================================================
+
+
+--- STDERR ---

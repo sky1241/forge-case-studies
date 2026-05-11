@@ -1,0 +1,55 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.603  lib/ansible/modules/network/f5/bigip_firewall_rule.py
+       Kalman=0.00  Wavelet=129927.7  Crash=0%  Coupling=0.00
+       churn=1.1 freq=7 authors=5 bugfix=2 loc=1319
+  0.600  lib/ansible/modules/network/cloudengine/ce_sflow.py
+       Kalman=0.00  Wavelet=195229.0  Crash=0%  Coupling=0.00
+       churn=1.1 freq=8 authors=7 bugfix=2 loc=1284
+  0.600  lib/ansible/modules/network/f5/_bigip_device_facts.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=16060
+  0.600  lib/ansible/modules/network/f5/_bigiq_device_facts.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=2313
+  0.592  lib/ansible/modules/network/cloudengine/ce_vxlan_vap.py
+       Kalman=0.00  Wavelet=97706.4  Crash=0%  Coupling=0.00
+       churn=1.1 freq=7 authors=6 bugfix=1 loc=931
+  0.588  lib/ansible/modules/network/cloudengine/ce_vrrp.py
+       Kalman=0.00  Wavelet=212074.6  Crash=0%  Coupling=0.00
+       churn=1.1 freq=7 authors=6 bugfix=1 loc=1369
+  0.577  lib/ansible/module_utils/oracle/oci_utils.py
+       Kalman=0.00  Wavelet=744940.7  Crash=0%  Coupling=0.00
+       churn=3.0 freq=4 authors=2 bugfix=0 loc=1961
+  0.576  lib/ansible/modules/network/cloudengine/ce_acl_advance.py
+       Kalman=0.00  Wavelet=188861.5  Crash=0%  Coupling=0.00
+       churn=1.2 freq=9 authors=8 bugfix=2 loc=1735
+  0.576  lib/ansible/modules/network/asa/asa_og.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=801
+  0.576  lib/ansible/modules/network/cloudengine/ce_netstream_global.py
+       Kalman=0.00  Wavelet=90047.4  Crash=0%  Coupling=0.00
+       churn=1.0 freq=6 authors=5 bugfix=1 loc=899
+  0.576  lib/ansible/modules/cloud/amazon/elb_classic_lb.py
+       Kalman=0.00  Wavelet=392.5  Crash=0%  Coupling=0.00
+       churn=0.2 freq=12 authors=6 bugfix=2 loc=1349
+  0.576  lib/ansible/modules/network/cloudengine/ce_acl.py
+       Kalman=0.00  Wavelet=60540.2  Crash=0%  Coupling=0.00
+       churn=1.2 freq=9 authors=8 bugfix=2 loc=997
+  0.574  lib/ansible/modules/network/cloudengine/ce_ospf.py
+       Kalman=0.00  Wavelet=105356.5  Crash=0%  Coupling=0.00
+       churn=1.1 freq=7 authors=6 bugfix=2 loc=968
+  0.571  lib/ansible/modules/network/cloudengine/ce_interface_ospf.py
+       Kalman=0.00  Wavelet=70806.1  Crash=0%  Coupling=0.00
+       churn=1.1 freq=8 authors=7 bugfix=2 loc=795
+  0.570  lib/ansible/modules/cloud/azure/_azure_rm_virtualmachine_scaleset.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=1070
+============================================================
+
+
+--- STDERR ---
