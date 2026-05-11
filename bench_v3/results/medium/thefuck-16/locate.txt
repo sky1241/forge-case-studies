@@ -1,0 +1,20 @@
+  Running tests with per-test coverage...
+
+  PYTEST RUNNER ERROR (during --locate):
+    ImportError while loading conftest '/home/sky/forge-case-studies/clones/thefuck/tests/conftest.py'.
+    tests/conftest.py:3: in <module>
+        from thefuck import shells
+    thefuck/shells/__init__.py:7: in <module>
+        from .bash import Bash
+    thefuck/shells/bash.py:3: in <module>
+        from ..utils import DEVNULL, memoize, cache
+    thefuck/utils.py:4: in <module>
+        import pkg_resources
+    E   ModuleNotFoundError: No module named 'pkg_resources'
+  exit code: 4
+  Hint: a test file in your repo crashed at collection
+  (missing dep, plugin conflict, mypy_test_cases/ not for normal pytest...).
+  Try FORGE_TEST_FILTER='specific_test' or fix the broken collector.
+
+
+--- STDERR ---

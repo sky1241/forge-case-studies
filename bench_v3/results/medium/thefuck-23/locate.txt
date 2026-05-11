@@ -1,0 +1,25 @@
+  Running tests with per-test coverage...
+
+  PYTEST RUNNER ERROR (during --locate):
+    ERROR tests/rules/test_systemctl.py
+    ERROR tests/rules/test_tmux.py
+    ERROR tests/rules/test_tsuru_login.py
+    ERROR tests/rules/test_tsuru_not_command.py
+    ERROR tests/rules/test_whois.py
+    ERROR tests/test_conf.py
+    ERROR tests/test_corrector.py
+    ERROR tests/test_logs.py
+    ERROR tests/test_main.py
+    ERROR tests/test_shells.py - pytest.PytestRemovedIn9Warning: Marks applied to...
+    ERROR tests/test_types.py
+    ERROR tests/test_ui.py
+    ERROR tests/test_utils.py
+    !!!!!!!!!!!!!!!!!!! Interrupted: 76 errors during collection !!!!!!!!!!!!!!!!!!!
+    ======================== 3 warnings, 76 errors in 3.81s ========================
+  exit code: 2
+  Hint: a test file in your repo crashed at collection
+  (missing dep, plugin conflict, mypy_test_cases/ not for normal pytest...).
+  Try FORGE_TEST_FILTER='specific_test' or fix the broken collector.
+
+
+--- STDERR ---
