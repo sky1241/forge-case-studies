@@ -1,0 +1,30 @@
+
+==================================================
+  MODULARITY — Newman-Girvan Q over import graph
+==================================================
+  Q = 0.436 (good — modules are well isolated (Q ≥ 0.30))
+  353 files in 138 communities
+
+  Top 3 communities by size:
+    cluster #  8    19 files  Q-contrib +0.036
+    cluster # 10    17 files  Q-contrib +0.045
+    cluster # 41    10 files  Q-contrib +0.024
+==================================================
+
+
+--- STDERR ---
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:97: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:21: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:114: SyntaxWarning: invalid escape sequence '\['
+<unknown>:139: SyntaxWarning: invalid escape sequence '\['
+<unknown>:147: SyntaxWarning: invalid escape sequence '\['
+<unknown>:155: SyntaxWarning: invalid escape sequence '\['
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:34: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:43: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:45: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:236: SyntaxWarning: invalid escape sequence '\p'
