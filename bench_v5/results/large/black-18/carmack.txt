@@ -1,0 +1,55 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.552  black.py
+       Kalman=0.00  Wavelet=40818.0  Crash=11%  Coupling=1.00
+       churn=1.8 freq=94 authors=9 bugfix=16 loc=2620
+  0.546  blib2to3/pytree.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=854
+  0.411  blib2to3/pgen2/tokenize.py
+       Kalman=0.00  Wavelet=26535.1  Crash=33%  Coupling=0.60
+       churn=1.3 freq=10 authors=2 bugfix=5 loc=567
+  0.387  blib2to3/pgen2/pgen.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=386
+  0.312  setup.py
+       Kalman=0.00  Wavelet=647.6  Crash=0%  Coupling=0.00
+       churn=2.6 freq=8 authors=4 bugfix=1 loc=59
+  0.294  blib2to3/pgen2/parse.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.50
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=201
+  0.273  tests/test_black.py
+       Kalman=0.00  Wavelet=3740.6  Crash=12%  Coupling=0.50
+       churn=1.4 freq=31 authors=5 bugfix=4 loc=651
+  0.258  tests/fstring.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=2.6 freq=2 authors=2 bugfix=0 loc=5
+  0.253  blib2to3/pgen2/token.py
+       Kalman=0.00  Wavelet=1214.7  Crash=0%  Coupling=0.60
+       churn=1.1 freq=3 authors=2 bugfix=0 loc=83
+  0.232  blib2to3/pgen2/conv.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=257
+  0.214  tests/debug_visitor.py
+       Kalman=0.00  Wavelet=n/a   Crash=100%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=1 loc=32
+  0.207  tests/comments2.py
+       Kalman=0.00  Wavelet=3968.2  Crash=0%  Coupling=0.00
+       churn=1.2 freq=8 authors=3 bugfix=1 loc=257
+  0.162  blib2to3/pgen2/driver.py
+       Kalman=0.00  Wavelet=3309.5  Crash=40%  Coupling=0.00
+       churn=1.0 freq=5 authors=1 bugfix=3 loc=223
+  0.141  tests/composition.py
+       Kalman=0.00  Wavelet=56.2  Crash=0%  Coupling=0.00
+       churn=1.4 freq=3 authors=2 bugfix=0 loc=34
+  0.137  tests/empty_lines.py
+       Kalman=0.00  Wavelet=3358.0  Crash=17%  Coupling=0.00
+       churn=1.3 freq=7 authors=2 bugfix=1 loc=196
+============================================================
+
+
+--- STDERR ---
