@@ -1,0 +1,30 @@
+  Running tests with per-test coverage...
+
+==================================================
+  FAULT LOCALIZATION — Ochiai SBFL
+  15 failing test(s), 100 passing
+==================================================
+  0.75  cookiecutter/vcs.py:95  clone_to_dir = os.path.expanduser(clone_to_dir)
+       10/15 fail, 2/100 pass — highly suspect
+  0.75  cookiecutter/vcs.py:96  make_sure_path_exists(clone_to_dir)
+       10/15 fail, 2/100 pass — highly suspect
+  0.75  cookiecutter/vcs.py:99  repo_type, repo_url = identify_repo(repo_url)
+       10/15 fail, 2/100 pass — highly suspect
+  0.75  cookiecutter/vcs.py:102  if not is_vcs_installed(repo_type):
+       10/15 fail, 2/100 pass — highly suspect
+  0.69  cookiecutter/vcs.py:80  return bool(which(repo_type))
+       10/15 fail, 4/100 pass — suspect
+  0.59  cookiecutter/vcs.py:66  if "git" in repo_url:
+       10/15 fail, 9/100 pass — suspect
+  0.59  cookiecutter/vcs.py:106  tail = os.path.split(repo_url)[1]
+       6/15 fail, 1/100 pass — suspect
+  0.59  cookiecutter/vcs.py:107  if repo_type == 'git':
+       6/15 fail, 1/100 pass — suspect
+  0.59  cookiecutter/vcs.py:108  repo_dir = os.path.normpath(os.path.join(clone_to_dir,
+       6/15 fail, 1/100 pass — suspect
+  0.59  cookiecutter/vcs.py:109  tail.rsplit('.git')[0]))
+       6/15 fail, 1/100 pass — suspect
+==================================================
+
+
+--- STDERR ---

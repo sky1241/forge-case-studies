@@ -1,0 +1,14 @@
+
+==================================================
+  SHIELD — orchestrated forge feedback chain
+==================================================
+  [STAGE 1] predict_carmack — identify top-3 risky files
+  [CARMACK] Louvain clustering on import graph...
+  No commits in the last 4 weeks.
+    (no carmack signal — empty/shallow git history?)
+==================================================
+
+
+--- STDERR ---
+<unknown>:35: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:89: SyntaxWarning: invalid escape sequence '\('

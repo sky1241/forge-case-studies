@@ -1,0 +1,30 @@
+  Running tests with per-test coverage...
+
+==================================================
+  FAULT LOCALIZATION — Ochiai SBFL
+  1 failing test(s), 17 passing
+==================================================
+  1.00  black.py:601  return False
+       1/1 fail, 0/17 pass — highly suspect
+  1.00  black.py:1001  return SPACE if prevp.type == token.COMMA else NO
+       1/1 fail, 0/17 pass — highly suspect
+  1.00  black.py:1034  and prevp.type in MATH_OPERATORS
+       1/1 fail, 0/17 pass — highly suspect
+  1.00  black.py:1036  return NO
+       1/1 fail, 0/17 pass — highly suspect
+  1.00  black.py:1062  if t == token.RPAR:
+       1/1 fail, 0/17 pass — highly suspect
+  1.00  black.py:1065  if prev and prev.type != token.COMMA:
+       1/1 fail, 0/17 pass — highly suspect
+  1.00  black.py:1066  return NO
+       1/1 fail, 0/17 pass — highly suspect
+  1.00  black.py:1144  assert p.parent is not None, "subscripts are always parented
+       1/1 fail, 0/17 pass — highly suspect
+  1.00  black.py:1145  if p.parent.type == syms.subscriptlist:
+       1/1 fail, 0/17 pass — highly suspect
+  1.00  black.py:1146  return SPACE
+       1/1 fail, 0/17 pass — highly suspect
+==================================================
+
+
+--- STDERR ---
