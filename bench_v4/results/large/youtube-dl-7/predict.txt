@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 601 files, last 999 weeks
+==================================================
+  0.61  youtube_dl/extractor/__init__.py
+       churn=1.8 freq=724 burst=10 authors=148 bugfix=96 loc=859 recent=0.00
+  0.59  youtube_dl/version.py
+       churn=124.7 freq=625 burst=12 authors=2 bugfix=2 loc=3 recent=0.00
+  0.59  youtube_dl/extractor/youtube.py
+       churn=4.8 freq=467 burst=16 authors=35 bugfix=163 loc=2028 recent=0.00
+  0.57  youtube_dl/utils.py
+       churn=2.2 freq=358 burst=27 authors=22 bugfix=116 loc=2489 recent=0.00
+  0.52  youtube_dl/__init__.py
+       churn=34.7 freq=444 burst=17 authors=45 bugfix=69 loc=418 recent=0.00
+  0.45  youtube_dl/YoutubeDL.py
+       churn=2.4 freq=370 burst=11 authors=29 bugfix=88 loc=2022 recent=0.00
+  0.40  youtube_dl/extractor/generic.py
+       churn=1.8 freq=279 burst=10 authors=17 bugfix=80 loc=1885 recent=0.00
+  0.34  youtube_dl/extractor/common.py
+       churn=1.7 freq=239 burst=7 authors=18 bugfix=54 loc=1357 recent=0.00
+  0.28  test/test_utils.py
+       churn=1.9 freq=108 burst=10 authors=8 bugfix=36 loc=727 recent=0.00
+  0.25  youtube_dl/extractor/vimeo.py
+       churn=2.2 freq=90 burst=6 authors=9 bugfix=38 loc=691 recent=0.00
+  0.25  test/test_download.py
+       churn=11.9 freq=117 burst=8 authors=7 bugfix=14 loc=234 recent=0.00
+  0.25  youtube_dl/options.py
+       churn=2.3 freq=85 burst=7 authors=10 bugfix=21 loc=801 recent=0.00
+  0.24  youtube_dl/postprocessor/ffmpeg.py
+       churn=2.9 freq=71 burst=7 authors=13 bugfix=16 loc=523 recent=0.00
+  0.24  youtube_dl/extractor/mtv.py
+       churn=2.7 freq=60 burst=10 authors=8 bugfix=13 loc=356 recent=0.00
+  0.24  youtube_dl/compat.py
+       churn=1.6 freq=41 burst=10 authors=7 bugfix=14 loc=492 recent=0.00
+==================================================
+
+
+--- STDERR ---

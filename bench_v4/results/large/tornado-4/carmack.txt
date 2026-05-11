@@ -1,0 +1,58 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.378  tornado/test/queues_test.py
+       Kalman=0.00  Wavelet=6351.9  Crash=0%  Coupling=0.08
+       churn=1.2 freq=13 authors=3 bugfix=2 loc=421
+  0.280  demos/blog/blog.py
+       Kalman=0.00  Wavelet=4518.0  Crash=0%  Coupling=0.23
+       churn=1.9 freq=17 authors=7 bugfix=4 loc=291
+  0.280  tornado/auth.py
+       Kalman=0.00  Wavelet=12046.2  Crash=0%  Coupling=0.23
+       churn=4.9 freq=134 authors=28 bugfix=19 loc=1065
+  0.257  tornado/http1connection.py
+       Kalman=0.00  Wavelet=6067.4  Crash=0%  Coupling=0.23
+       churn=3.0 freq=91 authors=15 bugfix=11 loc=764
+  0.245  tornado/curl_httpclient.py
+       Kalman=0.00  Wavelet=8676.2  Crash=0%  Coupling=0.17
+       churn=4.3 freq=95 authors=22 bugfix=19 loc=527
+  0.233  tornado/options.py
+       Kalman=0.00  Wavelet=4671.8  Crash=0%  Coupling=0.85
+       churn=3.2 freq=79 authors=18 bugfix=14 loc=664
+  0.229  tornado/ioloop.py
+       Kalman=0.00  Wavelet=2671.5  Crash=0%  Coupling=0.91
+       churn=5.6 freq=228 authors=33 bugfix=37 loc=879
+  0.220  tornado/platform/asyncio.py
+       Kalman=0.00  Wavelet=511.7  Crash=0%  Coupling=1.00
+       churn=2.4 freq=50 authors=6 bugfix=8 loc=309
+  0.214  tornado/routing.py
+       Kalman=0.00  Wavelet=10820.1  Crash=0%  Coupling=0.08
+       churn=1.5 freq=13 authors=5 bugfix=3 loc=671
+  0.213  tornado/platform/twisted.py
+       Kalman=0.00  Wavelet=2886.5  Crash=0%  Coupling=0.41
+       churn=11.6 freq=69 authors=8 bugfix=6 loc=126
+  0.210  tornado/test/gen_test.py
+       Kalman=0.00  Wavelet=6748.3  Crash=0%  Coupling=0.39
+       churn=3.4 freq=104 authors=13 bugfix=15 loc=1009
+  0.201  tornado/concurrent.py
+       Kalman=0.00  Wavelet=4021.4  Crash=0%  Coupling=0.42
+       churn=7.9 freq=77 authors=10 bugfix=3 loc=228
+  0.195  tornado/httpclient.py
+       Kalman=0.00  Wavelet=4950.1  Crash=0%  Coupling=0.41
+       churn=6.0 freq=186 authors=30 bugfix=20 loc=720
+  0.189  tornado/gen.py
+       Kalman=0.00  Wavelet=3836.1  Crash=0%  Coupling=0.48
+       churn=4.8 freq=154 authors=19 bugfix=23 loc=817
+  0.176  tornado/test/iostream_test.py
+       Kalman=0.00  Wavelet=6603.4  Crash=0%  Coupling=0.22
+       churn=3.1 freq=111 authors=14 bugfix=21 loc=1171
+============================================================
+
+
+--- STDERR ---
+<unknown>:389: SyntaxWarning: invalid escape sequence '\?'
+<unknown>:214: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:1891: SyntaxWarning: invalid escape sequence '\.'
