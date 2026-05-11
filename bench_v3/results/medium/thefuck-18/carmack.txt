@@ -1,0 +1,56 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.481  thefuck/types.py
+       Kalman=0.00  Wavelet=7035.6  Crash=0%  Coupling=0.13
+       churn=2.2 freq=21 authors=2 bugfix=4 loc=282
+  0.298  thefuck/conf.py
+       Kalman=0.00  Wavelet=7645.8  Crash=0%  Coupling=0.27
+       churn=4.7 freq=20 authors=4 bugfix=2 loc=139
+  0.256  tests/test_types.py
+       Kalman=0.00  Wavelet=2402.5  Crash=0%  Coupling=0.13
+       churn=2.0 freq=12 authors=2 bugfix=4 loc=125
+  0.254  tests/rules/test_fix_file.py
+       Kalman=0.00  Wavelet=6300.7  Crash=0%  Coupling=0.13
+       churn=1.4 freq=8 authors=2 bugfix=5 loc=233
+  0.246  thefuck/rules/dirty_untar.py
+       Kalman=0.00  Wavelet=147.9  Crash=0%  Coupling=0.13
+       churn=2.0 freq=8 authors=2 bugfix=4 loc=50
+  0.237  thefuck/main.py
+       Kalman=0.00  Wavelet=1124.9  Crash=7%  Coupling=0.26
+       churn=12.2 freq=61 authors=10 bugfix=13 loc=79
+  0.237  tests/rules/test_brew_install.py
+       Kalman=0.00  Wavelet=244.2  Crash=0%  Coupling=0.27
+       churn=1.9 freq=5 authors=4 bugfix=1 loc=46
+  0.233  thefuck/rules/dirty_unzip.py
+       Kalman=0.00  Wavelet=153.4  Crash=0%  Coupling=0.22
+       churn=1.5 freq=8 authors=2 bugfix=3 loc=46
+  0.230  thefuck/rules/cpp11.py
+       Kalman=0.00  Wavelet=17.2  Crash=0%  Coupling=0.12
+       churn=1.4 freq=3 authors=2 bugfix=1 loc=12
+  0.215  tests/rules/test_dirty_unzip.py
+       Kalman=0.00  Wavelet=310.2  Crash=0%  Coupling=0.10
+       churn=1.2 freq=5 authors=2 bugfix=3 loc=50
+  0.204  thefuck/rules/touch.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.13
+       churn=1.3 freq=2 authors=2 bugfix=1 loc=13
+  0.201  thefuck/utils.py
+       Kalman=0.00  Wavelet=702.7  Crash=0%  Coupling=1.00
+       churn=2.7 freq=44 authors=4 bugfix=8 loc=246
+  0.198  tests/rules/test_dirty_untar.py
+       Kalman=0.00  Wavelet=518.5  Crash=0%  Coupling=0.13
+       churn=1.7 freq=6 authors=2 bugfix=4 loc=72
+  0.197  thefuck/logs.py
+       Kalman=0.00  Wavelet=448.2  Crash=0%  Coupling=0.27
+       churn=2.6 freq=15 authors=2 bugfix=5 loc=95
+  0.181  tests/test_corrector.py
+       Kalman=0.00  Wavelet=1419.2  Crash=0%  Coupling=0.13
+       churn=6.2 freq=11 authors=1 bugfix=1 loc=59
+============================================================
+
+
+--- STDERR ---
+<unknown>:41: SyntaxWarning: invalid escape sequence '\ '

@@ -1,0 +1,17 @@
+  Running tests with per-test coverage...
+
+  PYTEST RUNNER ERROR (during --locate):
+    ============================= test session starts ==============================
+    collecting ... collected 0 items / 1 error
+    
+    =========================== short test summary info ============================
+    ERROR tests/test_pysnooper.py
+    !!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+    =============================== 1 error in 0.53s ===============================
+  exit code: 2
+  Hint: a test file in your repo crashed at collection
+  (missing dep, plugin conflict, mypy_test_cases/ not for normal pytest...).
+  Try FORGE_TEST_FILTER='specific_test' or fix the broken collector.
+
+
+--- STDERR ---

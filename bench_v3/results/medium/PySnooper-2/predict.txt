@@ -1,0 +1,26 @@
+
+==================================================
+  DEFECT PREDICTION — 9 files, last 999 weeks
+==================================================
+  0.76  pysnooper/pysnooper.py
+       churn=7.5 freq=6 burst=6 authors=1 bugfix=1 loc=49 recent=0.00
+  0.62  tests/test_pysnooper.py
+       churn=2.7 freq=5 burst=5 authors=1 bugfix=1 loc=171 recent=0.00
+  0.56  setup.py
+       churn=2.0 freq=8 burst=8 authors=1 bugfix=0 loc=30 recent=0.00
+  0.53  pysnooper/tracer.py
+       churn=1.2 freq=4 burst=4 authors=1 bugfix=1 loc=187 recent=0.00
+  0.52  tests/utils.py
+       churn=1.2 freq=4 burst=4 authors=1 bugfix=1 loc=145 recent=0.00
+  0.29  pysnooper/utils.py
+       churn=1.1 freq=3 burst=3 authors=1 bugfix=0 loc=32 recent=0.00
+  0.24  pysnooper/pycompat.py
+       churn=1.2 freq=2 burst=2 authors=1 bugfix=0 loc=32 recent=0.00
+  0.22  pysnooper/__init__.py
+       churn=0.8 freq=2 burst=2 authors=1 bugfix=0 loc=8 recent=0.00
+  0.00  tests/__init__.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=0 loc=1 recent=0.00
+==================================================
+
+
+--- STDERR ---
