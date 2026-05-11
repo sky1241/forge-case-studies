@@ -1,0 +1,55 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.335  tests/vcs/test_clone.py
+       Kalman=0.00  Wavelet=4262.6  Crash=0%  Coupling=0.00
+       churn=3.8 freq=20 authors=8 bugfix=2 loc=195
+  0.310  tests/test_generate_context.py
+       Kalman=0.00  Wavelet=3073.9  Crash=0%  Coupling=0.18
+       churn=4.4 freq=28 authors=8 bugfix=5 loc=167
+  0.307  tests/test_cli.py
+       Kalman=0.00  Wavelet=2483.6  Crash=0%  Coupling=0.21
+       churn=3.1 freq=50 authors=14 bugfix=7 loc=473
+  0.288  cookiecutter/config.py
+       Kalman=0.00  Wavelet=316.7  Crash=0%  Coupling=0.40
+       churn=3.5 freq=47 authors=13 bugfix=2 loc=131
+  0.229  tests/zipfile/test_unzip.py
+       Kalman=0.00  Wavelet=10164.0  Crash=0%  Coupling=0.18
+       churn=3.8 freq=11 authors=4 bugfix=3 loc=272
+  0.176  tests/test_cookiecutter_invocation.py
+       Kalman=0.00  Wavelet=202.2  Crash=0%  Coupling=0.00
+       churn=3.5 freq=14 authors=7 bugfix=2 loc=49
+  0.170  tests/__init__.py
+       Kalman=0.00  Wavelet=1032.5  Crash=0%  Coupling=0.00
+       churn=263.0 freq=16 authors=8 bugfix=1 loc=1
+  0.161  cookiecutter/prompt.py
+       Kalman=0.00  Wavelet=487.2  Crash=0%  Coupling=1.00
+       churn=4.2 freq=68 authors=21 bugfix=11 loc=228
+  0.156  tests/test_prompt.py
+       Kalman=0.00  Wavelet=7775.6  Crash=0%  Coupling=0.00
+       churn=6.3 freq=56 authors=16 bugfix=11 loc=371
+  0.142  cookiecutter/exceptions.py
+       Kalman=0.00  Wavelet=156.9  Crash=0%  Coupling=0.92
+       churn=1.6 freq=33 authors=16 bugfix=4 loc=165
+  0.117  tests/test_generate_hooks.py
+       Kalman=0.00  Wavelet=4467.3  Crash=0%  Coupling=0.18
+       churn=4.0 freq=19 authors=7 bugfix=3 loc=217
+  0.116  cookiecutter/environment.py
+       Kalman=0.00  Wavelet=204.8  Crash=0%  Coupling=0.74
+       churn=2.8 freq=15 authors=9 bugfix=0 loc=67
+  0.099  cookiecutter/generate.py
+       Kalman=0.00  Wavelet=613.9  Crash=2%  Coupling=0.53
+       churn=4.7 freq=96 authors=27 bugfix=18 loc=365
+  0.096  cookiecutter/repository.py
+       Kalman=0.00  Wavelet=269.7  Crash=0%  Coupling=0.59
+       churn=2.8 freq=27 authors=9 bugfix=3 loc=134
+  0.088  tests/test_generate_files.py
+       Kalman=0.00  Wavelet=4411.9  Crash=0%  Coupling=0.00
+       churn=3.3 freq=34 authors=7 bugfix=4 loc=371
+============================================================
+
+
+--- STDERR ---
