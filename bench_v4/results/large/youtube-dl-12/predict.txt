@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 861 files, last 999 weeks
+==================================================
+  0.62  youtube_dl/version.py
+       churn=188.1 freq=942 burst=12 authors=3 bugfix=2 loc=3 recent=0.00
+  0.60  youtube_dl/utils.py
+       churn=2.1 freq=580 burst=27 authors=44 bugfix=147 loc=3987 recent=0.00
+  0.59  youtube_dl/extractor/youtube.py
+       churn=4.4 freq=652 burst=16 authors=44 bugfix=210 loc=2975 recent=0.00
+  0.54  youtube_dl/extractor/__init__.py
+       churn=64.3 freq=887 burst=11 authors=174 bugfix=104 loc=46 recent=0.00
+  0.45  youtube_dl/extractor/generic.py
+       churn=1.9 freq=530 burst=10 authors=32 bugfix=103 loc=3400 recent=0.00
+  0.45  youtube_dl/YoutubeDL.py
+       churn=2.4 freq=499 burst=11 authors=46 bugfix=109 loc=2392 recent=0.00
+  0.44  youtube_dl/__init__.py
+       churn=30.5 freq=487 burst=17 authors=56 bugfix=73 loc=481 recent=0.00
+  0.41  youtube_dl/extractor/common.py
+       churn=2.1 freq=506 burst=8 authors=33 bugfix=89 loc=2874 recent=0.00
+  0.41  youtube_dl/extractor/extractors.py
+       churn=1.4 freq=480 burst=11 authors=94 bugfix=39 loc=1497 recent=0.00
+  0.30  youtube_dl/extractor/vimeo.py
+       churn=2.4 freq=177 burst=8 authors=16 bugfix=63 loc=1160 recent=0.00
+  0.29  test/test_utils.py
+       churn=1.5 freq=203 burst=10 authors=18 bugfix=48 loc=1361 recent=0.00
+  0.27  youtube_dl/extractor/brightcove.py
+       churn=2.3 freq=133 burst=11 authors=11 bugfix=38 loc=775 recent=0.00
+  0.27  youtube_dl/extractor/bbc.py
+       churn=1.5 freq=96 burst=15 authors=7 bugfix=16 loc=1318 recent=0.00
+  0.26  youtube_dl/extractor/vk.py
+       churn=2.2 freq=101 burst=12 authors=11 bugfix=21 loc=651 recent=0.00
+  0.26  youtube_dl/compat.py
+       churn=1.2 freq=85 burst=10 authors=9 bugfix=22 loc=3016 recent=0.00
+==================================================
+
+
+--- STDERR ---
