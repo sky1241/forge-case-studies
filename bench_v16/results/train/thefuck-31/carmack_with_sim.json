@@ -1,0 +1,31 @@
+{
+  "bug_id": "thefuck-31",
+  "change_file": "thefuck/rules/git_diff_staged.py",
+  "rank_baseline": 99,
+  "rank_with_similarity": 96,
+  "top_bugfix_files_used": [
+    "thefuck/main.py",
+    "thefuck/shells.py",
+    "tests/test_main.py",
+    "setup.py",
+    "thefuck/rules/cd_correction.py",
+    "tests/rules/test_sudo.py",
+    "thefuck/rules/pacman.py",
+    "thefuck/rules/whois.py",
+    "tests/rules/test_fix_alt_space.py",
+    "thefuck/rules/brew_unknown_command.py",
+    "thefuck/rules/git_not_command.py",
+    "thefuck/conf.py",
+    "thefuck/utils.py",
+    "thefuck/rules/brew_install.py",
+    "tests/test_conf.py",
+    "thefuck/rules/no_command.py",
+    "thefuck/rules/composer_not_command.py",
+    "thefuck/rules/ssh_known_hosts.py",
+    "tests/rules/test_rm_dir.py",
+    "tests/rules/test_ssh_known_host.py",
+    "tests/rules/test_whois.py",
+    "tests/rules/test_composer_not_command.py"
+  ],
+  "total_files": 114
+}
