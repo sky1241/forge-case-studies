@@ -1,0 +1,28 @@
+
+==================================================
+  SHIELD — orchestrated forge feedback chain
+==================================================
+  [STAGE 1] predict_carmack — identify top-3 risky files
+  [CARMACK] Louvain clustering on import graph...
+  No commits in the last 4 weeks.
+    (no carmack signal — empty/shallow git history?)
+==================================================
+
+
+--- STDERR ---
+<unknown>:42: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:160: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:75: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:57: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:40: SyntaxWarning: invalid escape sequence '\/'
+<unknown>:43: SyntaxWarning: invalid escape sequence '\/'
+<unknown>:114: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:171: SyntaxWarning: invalid escape sequence '\('
+<unknown>:322: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:46: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:67: SyntaxWarning: invalid escape sequence '\?'
+<unknown>:93: SyntaxWarning: invalid escape sequence '\?'
+<unknown>:177: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:37: SyntaxWarning: invalid escape sequence '\:'
+<unknown>:1738: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:802: SyntaxWarning: invalid escape sequence '\d'
