@@ -1,0 +1,182 @@
+[
+  {
+    "project": "ansible",
+    "bug_id": "ansible-10",
+    "bucket": "large",
+    "change_file": "lib/ansible/modules/system/pamd.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 17,
+    "reference_subset": "history-rich"
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-15",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 151,
+    "reference_subset": "history-rich"
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-16",
+    "bucket": "large",
+    "change_file": "youtube_dl/postprocessor/ffmpeg.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 29,
+    "reference_subset": "history-rich"
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-6",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 135,
+    "reference_subset": "history-rich"
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-11",
+    "bucket": "large",
+    "change_file": "tornado/http1connection.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 9,
+    "reference_subset": "history-rich"
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-10",
+    "bucket": "large",
+    "change_file": "scrapy/downloadermiddlewares/redirect.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 1,
+    "reference_subset": "medium-history"
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-15",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_add.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 1,
+    "reference_subset": "medium-history"
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-12",
+    "bucket": "large",
+    "change_file": "luigi/contrib/hdfs/clients.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 2,
+    "reference_subset": "medium-history"
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-33",
+    "bucket": "large",
+    "change_file": "youtube_dl/extractor/drtv.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 1,
+    "reference_subset": "medium-history"
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-3",
+    "bucket": "large",
+    "change_file": "scrapy/downloadermiddlewares/redirect.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 2,
+    "reference_subset": "medium-history"
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-42",
+    "bucket": "large",
+    "change_file": "youtube_dl/extractor/clipsyndicate.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 0,
+    "reference_subset": "cold-start"
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-10",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/man.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "reference_subset": "cold-start"
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-22",
+    "bucket": "medium",
+    "change_file": "thefuck/types.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "reference_subset": "cold-start"
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-16",
+    "bucket": "medium",
+    "change_file": "thefuck/shells/bash.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "reference_subset": "cold-start"
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-27",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/open.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "reference_subset": "cold-start"
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-26",
+    "bucket": "large",
+    "change_file": "scrapy/settings/__init__.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 3,
+    "reference_subset": "mixed"
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-3",
+    "bucket": "medium",
+    "change_file": "thefuck/shells/fish.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 3,
+    "reference_subset": "mixed"
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-4",
+    "bucket": "large",
+    "change_file": "youtube_dl/jsinterp.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 6,
+    "reference_subset": "mixed"
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-27",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 135,
+    "reference_subset": "mixed"
+  },
+  {
+    "project": "black",
+    "bug_id": "black-10",
+    "bucket": "large",
+    "change_file": "blib2to3/pgen2/driver.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 6,
+    "reference_subset": "mixed"
+  }
+]
