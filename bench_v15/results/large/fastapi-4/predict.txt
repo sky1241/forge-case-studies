@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 371 files, last 999 weeks
+==================================================
+  0.82  fastapi/routing.py
+       churn=4.1 freq=68 burst=9 authors=15 bugfix=22 loc=989 recent=0.00
+  0.80  fastapi/__init__.py
+       churn=9.9 freq=93 burst=9 authors=1 bugfix=15 loc=21 recent=0.00
+  0.54  fastapi/dependencies/utils.py
+       churn=2.0 freq=41 burst=4 authors=10 bugfix=16 loc=776 recent=0.00
+  0.51  fastapi/openapi/utils.py
+       churn=3.6 freq=34 burst=4 authors=13 bugfix=11 loc=311 recent=0.00
+  0.50  fastapi/applications.py
+       churn=3.9 freq=38 burst=4 authors=12 bugfix=4 loc=682 recent=0.00
+  0.36  fastapi/utils.py
+       churn=1.9 freq=22 burst=3 authors=7 bugfix=5 loc=161 recent=0.00
+  0.36  tests/test_tutorial/test_path_operation_advanced_configurations/test_tutorial003.py
+       churn=9.2 freq=3 burst=1 authors=3 bugfix=0 loc=23 recent=0.00
+  0.35  fastapi/openapi/models.py
+       churn=1.7 freq=20 burst=4 authors=4 bugfix=7 loc=356 recent=0.00
+  0.32  fastapi/encoders.py
+       churn=2.6 freq=15 burst=2 authors=6 bugfix=4 loc=156 recent=0.00
+  0.31  fastapi/security/oauth2.py
+       churn=2.1 freq=17 burst=4 authors=2 bugfix=2 loc=206 recent=0.00
+  0.28  tests/main.py
+       churn=6.5 freq=11 burst=6 authors=2 bugfix=2 loc=186 recent=0.00
+  0.28  tests/test_application.py
+       churn=1.2 freq=9 burst=2 authors=4 bugfix=0 loc=1151 recent=0.00
+  0.26  tests/test_tutorial/test_request_forms/test_tutorial001.py
+       churn=1.2 freq=7 burst=3 authors=1 bugfix=4 loc=149 recent=0.00
+  0.25  fastapi/exceptions.py
+       churn=1.5 freq=7 burst=2 authors=4 bugfix=3 loc=37 recent=0.00
+  0.25  docs/src/path_operation_advanced_configuration/tutorial003.py
+       churn=5.8 freq=2 burst=1 authors=2 bugfix=0 loc=8 recent=0.00
+==================================================
+
+
+--- STDERR ---
