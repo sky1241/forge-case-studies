@@ -1,0 +1,15 @@
+
+==================================================
+  MODULARITY — Newman-Girvan Q over import graph
+==================================================
+  Q = 0.582 (good — modules are well isolated (Q ≥ 0.30))
+  58 files in 53 communities
+
+  Top 3 communities by size:
+    cluster #  0     4 files  Q-contrib +0.327
+    cluster #  8     2 files  Q-contrib +0.122
+    cluster # 24     2 files  Q-contrib +0.133
+==================================================
+
+
+--- STDERR ---
