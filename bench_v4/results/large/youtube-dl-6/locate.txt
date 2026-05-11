@@ -1,0 +1,25 @@
+  Running tests with per-test coverage...
+
+  PYTEST RUNNER ERROR (during --locate):
+    ERROR test/test_download.py
+    ERROR test/test_execution.py
+    ERROR test/test_http.py
+    ERROR test/test_jsinterp.py
+    ERROR test/test_netrc.py
+    ERROR test/test_postprocessors.py
+    ERROR test/test_subtitles.py
+    ERROR test/test_swfinterp.py
+    ERROR test/test_unicode_literals.py
+    ERROR test/test_utils.py
+    ERROR test/test_write_annotations.py
+    ERROR test/test_youtube_lists.py
+    ERROR test/test_youtube_signature.py
+    !!!!!!!!!!!!!!!!!!! Interrupted: 20 errors during collection !!!!!!!!!!!!!!!!!!!
+    ======================== 5 warnings, 20 errors in 4.24s ========================
+  exit code: 2
+  Hint: a test file in your repo crashed at collection
+  (missing dep, plugin conflict, mypy_test_cases/ not for normal pytest...).
+  Try FORGE_TEST_FILTER='specific_test' or fix the broken collector.
+
+
+--- STDERR ---

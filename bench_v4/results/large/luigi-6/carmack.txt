@@ -1,0 +1,71 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.262  luigi/lock.py
+       Kalman=0.00  Wavelet=200.1  Crash=0%  Coupling=0.06
+       churn=2.4 freq=34 authors=19 bugfix=10 loc=161
+  0.249  luigi/scheduler.py
+       Kalman=0.00  Wavelet=1732.7  Crash=0%  Coupling=0.74
+       churn=3.2 freq=211 authors=44 bugfix=42 loc=1501
+  0.234  luigi/six.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.22
+       churn=1.1 freq=2 authors=2 bugfix=0 loc=868
+  0.181  luigi/s3.py
+       Kalman=0.00  Wavelet=10475.0  Crash=0%  Coupling=0.11
+       churn=95.0 freq=59 authors=27 bugfix=10 loc=26
+  0.167  luigi/contrib/s3.py
+       Kalman=0.00  Wavelet=113456.8  Crash=0%  Coupling=0.05
+       churn=1.0 freq=3 authors=3 bugfix=0 loc=812
+  0.157  test/scheduler_api_test.py
+       Kalman=0.00  Wavelet=5029.0  Crash=0%  Coupling=0.10
+       churn=0.5 freq=20 authors=6 bugfix=1 loc=2217
+  0.155  luigi/mock.py
+       Kalman=0.00  Wavelet=237.4  Crash=0%  Coupling=1.00
+       churn=3.1 freq=46 authors=17 bugfix=10 loc=196
+  0.144  luigi/contrib/spark.py
+       Kalman=0.00  Wavelet=20375.7  Crash=0%  Coupling=0.11
+       churn=4.8 freq=32 authors=18 bugfix=8 loc=323
+  0.133  test/contrib/spark_test.py
+       Kalman=0.00  Wavelet=16187.1  Crash=0%  Coupling=0.09
+       churn=3.1 freq=14 authors=11 bugfix=5 loc=251
+  0.127  luigi/contrib/hdfs/hadoopcli_clients.py
+       Kalman=0.00  Wavelet=9533.0  Crash=0%  Coupling=0.06
+       churn=1.3 freq=10 authors=3 bugfix=2 loc=268
+  0.121  test/helpers.py
+       Kalman=0.00  Wavelet=337.6  Crash=0%  Coupling=0.79
+       churn=1.5 freq=18 authors=8 bugfix=1 loc=211
+  0.121  luigi/contrib/hdfs/clients.py
+       Kalman=0.00  Wavelet=54759.4  Crash=0%  Coupling=0.11
+       churn=18.1 freq=11 authors=5 bugfix=0 loc=70
+  0.118  luigi/worker.py
+       Kalman=0.00  Wavelet=1069.1  Crash=0%  Coupling=0.66
+       churn=3.9 freq=229 authors=64 bugfix=43 loc=1130
+  0.110  luigi/postgres.py
+       Kalman=0.00  Wavelet=7988.0  Crash=0%  Coupling=0.11
+       churn=52.2 freq=32 authors=20 bugfix=7 loc=26
+  0.105  luigi/contrib/hdfs/__init__.py
+       Kalman=0.00  Wavelet=59227.0  Crash=0%  Coupling=0.00
+       churn=14.3 freq=18 authors=2 bugfix=0 loc=77
+============================================================
+
+
+--- STDERR ---
+<unknown>:34: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:46: SyntaxWarning: invalid escape sequence '\%'
+<unknown>:134: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:148: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:236: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:47: SyntaxWarning: invalid escape sequence '\('
+<unknown>:535: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:537: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:538: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:539: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:540: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:542: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:544: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:545: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:550: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:69: SyntaxWarning: invalid escape sequence '\d'
