@@ -1,0 +1,304 @@
+PRE_BUG=0620e7643351290654feea3bc8f45a4e77636c8f
+
+=== Run 1 ===
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:19: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:33: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:19: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:19: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:19: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:33: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:33: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:33: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.443  scrapy/xlib/tx/_newclient.py
+       Kalman=0.00  Wavelet=430166.0  Crash=0%  Coupling=0.35
+       churn=1.0 freq=3 authors=3 bugfix=2 loc=1516
+  0.416  scrapy/xlib/tx/client.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.35
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=1168
+  0.367  scrapy/exceptions.py
+       Kalman=0.00  Wavelet=88.9  Crash=0%  Coupling=1.00
+       churn=1.6 freq=10 authors=3 bugfix=1 loc=56
+  0.338  tests/test_downloadermiddleware_httpcache.py
+       Kalman=0.00  Wavelet=711.5  Crash=0%  Coupling=0.07
+       churn=0.2 freq=7 authors=4 bugfix=1 loc=509
+  0.301  scrapy/extensions/httpcache.py
+       Kalman=0.00  Wavelet=252.2  Crash=0%  Coupling=0.07
+       churn=0.1 freq=6 authors=2 bugfix=0 loc=426
+  0.300  scrapy/xlib/tx/endpoints.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.07
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=1269
+  0.267  tests/test_loader.py
+       Kalman=0.00  Wavelet=1958.2  Crash=0%  Coupling=0.07
+       churn=0.2 freq=5 authors=4 bugfix=1 loc=737
+  0.260  tests/test_http_request.py
+       Kalman=0.00  Wavelet=1214.5  Crash=0%  Coupling=0.00
+       churn=0.3 freq=6 authors=4 bugfix=1 loc=847
+  0.241  scrapy/item.py
+       Kalman=0.00  Wavelet=374.2  Crash=0%  Coupling=0.48
+       churn=2.3 freq=18 authors=6 bugfix=2 loc=99
+  0.228  scrapy/contrib/downloadermiddleware/httpcache.py
+       Kalman=0.00  Wavelet=5853.2  Crash=0%  Coupling=0.07
+       churn=184.6 freq=41 authors=10 bugfix=0 loc=7
+  0.218  scrapy/utils/datatypes.py
+       Kalman=0.00  Wavelet=461.6  Crash=0%  Coupling=0.14
+       churn=0.7 freq=10 authors=5 bugfix=2 loc=283
+  0.214  scrapy/link.py
+       Kalman=0.00  Wavelet=32.1  Crash=0%  Coupling=0.48
+       churn=1.8 freq=10 authors=4 bugfix=0 loc=42
+  0.203  scrapy/linkextractors/sgml.py
+       Kalman=0.00  Wavelet=1.0  Crash=0%  Coupling=0.28
+       churn=0.2 freq=8 authors=6 bugfix=1 loc=143
+  0.200  scrapy/utils/conf.py
+       Kalman=0.00  Wavelet=114.6  Crash=0%  Coupling=0.35
+       churn=1.6 freq=10 authors=5 bugfix=1 loc=87
+  0.199  scrapy/pipelines/files.py
+       Kalman=0.00  Wavelet=37.2  Crash=0%  Coupling=0.14
+       churn=0.2 freq=7 authors=3 bugfix=2 loc=342
+============================================================
+
+Run 1: rank=38/301 regime=A_coupled complexity=0.294 score=0.1437
+
+=== Run 2 ===
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:19: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:33: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:19: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:19: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:19: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:33: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:33: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:33: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.443  scrapy/xlib/tx/_newclient.py
+       Kalman=0.00  Wavelet=430166.0  Crash=0%  Coupling=0.35
+       churn=1.0 freq=3 authors=3 bugfix=2 loc=1516
+  0.416  scrapy/xlib/tx/client.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.35
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=1168
+  0.367  scrapy/exceptions.py
+       Kalman=0.00  Wavelet=88.9  Crash=0%  Coupling=1.00
+       churn=1.6 freq=10 authors=3 bugfix=1 loc=56
+  0.338  tests/test_downloadermiddleware_httpcache.py
+       Kalman=0.00  Wavelet=711.5  Crash=0%  Coupling=0.07
+       churn=0.2 freq=7 authors=4 bugfix=1 loc=509
+  0.301  scrapy/extensions/httpcache.py
+       Kalman=0.00  Wavelet=252.2  Crash=0%  Coupling=0.07
+       churn=0.1 freq=6 authors=2 bugfix=0 loc=426
+  0.300  scrapy/xlib/tx/endpoints.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.07
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=1269
+  0.267  tests/test_loader.py
+       Kalman=0.00  Wavelet=1958.2  Crash=0%  Coupling=0.07
+       churn=0.2 freq=5 authors=4 bugfix=1 loc=737
+  0.260  tests/test_http_request.py
+       Kalman=0.00  Wavelet=1214.5  Crash=0%  Coupling=0.00
+       churn=0.3 freq=6 authors=4 bugfix=1 loc=847
+  0.241  scrapy/item.py
+       Kalman=0.00  Wavelet=374.2  Crash=0%  Coupling=0.48
+       churn=2.3 freq=18 authors=6 bugfix=2 loc=99
+  0.228  scrapy/contrib/downloadermiddleware/httpcache.py
+       Kalman=0.00  Wavelet=5853.2  Crash=0%  Coupling=0.07
+       churn=184.6 freq=41 authors=10 bugfix=0 loc=7
+  0.218  scrapy/utils/datatypes.py
+       Kalman=0.00  Wavelet=461.6  Crash=0%  Coupling=0.14
+       churn=0.7 freq=10 authors=5 bugfix=2 loc=283
+  0.214  scrapy/link.py
+       Kalman=0.00  Wavelet=32.1  Crash=0%  Coupling=0.48
+       churn=1.8 freq=10 authors=4 bugfix=0 loc=42
+  0.203  scrapy/linkextractors/sgml.py
+       Kalman=0.00  Wavelet=1.0  Crash=0%  Coupling=0.28
+       churn=0.2 freq=8 authors=6 bugfix=1 loc=143
+  0.200  scrapy/utils/conf.py
+       Kalman=0.00  Wavelet=114.6  Crash=0%  Coupling=0.35
+       churn=1.6 freq=10 authors=5 bugfix=1 loc=87
+  0.199  scrapy/pipelines/files.py
+       Kalman=0.00  Wavelet=37.2  Crash=0%  Coupling=0.14
+       churn=0.2 freq=7 authors=3 bugfix=2 loc=342
+============================================================
+
+Run 2: rank=38/301 regime=A_coupled complexity=0.294 score=0.1437
+
+=== Run 3 ===
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:19: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:33: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:19: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:19: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:19: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:33: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:33: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:33: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.443  scrapy/xlib/tx/_newclient.py
+       Kalman=0.00  Wavelet=430166.0  Crash=0%  Coupling=0.35
+       churn=1.0 freq=3 authors=3 bugfix=2 loc=1516
+  0.416  scrapy/xlib/tx/client.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.35
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=1168
+  0.367  scrapy/exceptions.py
+       Kalman=0.00  Wavelet=88.9  Crash=0%  Coupling=1.00
+       churn=1.6 freq=10 authors=3 bugfix=1 loc=56
+  0.338  tests/test_downloadermiddleware_httpcache.py
+       Kalman=0.00  Wavelet=711.5  Crash=0%  Coupling=0.07
+       churn=0.2 freq=7 authors=4 bugfix=1 loc=509
+  0.301  scrapy/extensions/httpcache.py
+       Kalman=0.00  Wavelet=252.2  Crash=0%  Coupling=0.07
+       churn=0.1 freq=6 authors=2 bugfix=0 loc=426
+  0.300  scrapy/xlib/tx/endpoints.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.07
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=1269
+  0.267  tests/test_loader.py
+       Kalman=0.00  Wavelet=1958.2  Crash=0%  Coupling=0.07
+       churn=0.2 freq=5 authors=4 bugfix=1 loc=737
+  0.260  tests/test_http_request.py
+       Kalman=0.00  Wavelet=1214.5  Crash=0%  Coupling=0.00
+       churn=0.3 freq=6 authors=4 bugfix=1 loc=847
+  0.241  scrapy/item.py
+       Kalman=0.00  Wavelet=374.2  Crash=0%  Coupling=0.48
+       churn=2.3 freq=18 authors=6 bugfix=2 loc=99
+  0.228  scrapy/contrib/downloadermiddleware/httpcache.py
+       Kalman=0.00  Wavelet=5853.2  Crash=0%  Coupling=0.07
+       churn=184.6 freq=41 authors=10 bugfix=0 loc=7
+  0.218  scrapy/utils/datatypes.py
+       Kalman=0.00  Wavelet=461.6  Crash=0%  Coupling=0.14
+       churn=0.7 freq=10 authors=5 bugfix=2 loc=283
+  0.214  scrapy/link.py
+       Kalman=0.00  Wavelet=32.1  Crash=0%  Coupling=0.48
+       churn=1.8 freq=10 authors=4 bugfix=0 loc=42
+  0.203  scrapy/linkextractors/sgml.py
+       Kalman=0.00  Wavelet=1.0  Crash=0%  Coupling=0.28
+       churn=0.2 freq=8 authors=6 bugfix=1 loc=143
+  0.200  scrapy/utils/conf.py
+       Kalman=0.00  Wavelet=114.6  Crash=0%  Coupling=0.35
+       churn=1.6 freq=10 authors=5 bugfix=1 loc=87
+  0.199  scrapy/pipelines/files.py
+       Kalman=0.00  Wavelet=37.2  Crash=0%  Coupling=0.14
+       churn=0.2 freq=7 authors=3 bugfix=2 loc=342
+============================================================
+
+Run 3: rank=38/301 regime=A_coupled complexity=0.294 score=0.1437
+
+=== 3 runs result: ranks = [38, 38, 38] ===
+STABLE (determinist)
