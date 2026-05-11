@@ -1,0 +1,55 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.326  fastapi/routing.py
+       Kalman=0.00  Wavelet=46399.4  Crash=11%  Coupling=0.32
+       churn=4.3 freq=50 authors=8 bugfix=15 loc=847
+  0.323  tests/test_modules_same_name_body/app/main.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.82
+       churn=1.0 freq=1 authors=1 bugfix=1 loc=8
+  0.289  fastapi/exceptions.py
+       Kalman=0.00  Wavelet=14.2  Crash=0%  Coupling=0.70
+       churn=1.1 freq=3 authors=1 bugfix=1 loc=20
+  0.277  fastapi/security/base.py
+       Kalman=0.00  Wavelet=70.5  Crash=25%  Coupling=0.62
+       churn=7.3 freq=4 authors=1 bugfix=1 loc=6
+  0.276  tests/test_path.py
+       Kalman=0.00  Wavelet=4189.2  Crash=100%  Coupling=0.20
+       churn=1.6 freq=3 authors=2 bugfix=1 loc=243
+  0.243  fastapi/exception_handlers.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.56
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=23
+  0.240  fastapi/encoders.py
+       Kalman=0.00  Wavelet=2288.4  Crash=0%  Coupling=1.00
+       churn=2.7 freq=10 authors=3 bugfix=3 loc=111
+  0.239  fastapi/security/__init__.py
+       Kalman=0.00  Wavelet=13.5  Crash=0%  Coupling=0.54
+       churn=1.9 freq=6 authors=1 bugfix=0 loc=15
+  0.238  fastapi/openapi/utils.py
+       Kalman=0.00  Wavelet=9235.2  Crash=9%  Coupling=0.54
+       churn=3.5 freq=23 authors=6 bugfix=7 loc=272
+  0.231  fastapi/applications.py
+       Kalman=0.00  Wavelet=27368.1  Crash=3%  Coupling=0.32
+       churn=4.1 freq=30 authors=8 bugfix=4 loc=593
+  0.228  tests/main.py
+       Kalman=0.00  Wavelet=46659.4  Crash=22%  Coupling=0.00
+       churn=6.5 freq=11 authors=2 bugfix=2 loc=186
+  0.228  fastapi/__init__.py
+       Kalman=0.00  Wavelet=9.6  Crash=8%  Coupling=0.40
+       churn=8.2 freq=76 authors=1 bugfix=15 loc=21
+  0.228  fastapi/dependencies/utils.py
+       Kalman=0.00  Wavelet=4206.4  Crash=13%  Coupling=0.32
+       churn=2.0 freq=31 authors=3 bugfix=11 loc=561
+  0.224  tests/test_application.py
+       Kalman=0.00  Wavelet=142885.0  Crash=0%  Coupling=0.20
+       churn=1.1 freq=6 authors=2 bugfix=0 loc=1151
+  0.217  fastapi/security/http.py
+       Kalman=0.00  Wavelet=492.8  Crash=8%  Coupling=0.86
+       churn=1.8 freq=13 authors=1 bugfix=2 loc=150
+============================================================
+
+
+--- STDERR ---
