@@ -1,0 +1,57 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.411  youtube_dl/compat.py
+       Kalman=0.00  Wavelet=78126.6  Crash=0%  Coupling=1.00
+       churn=1.2 freq=79 authors=8 bugfix=20 loc=2952
+  0.256  youtube_dl/extractor/youku.py
+       Kalman=0.00  Wavelet=3534.5  Crash=0%  Coupling=0.00
+       churn=5.7 freq=62 authors=11 bugfix=13 loc=299
+  0.255  youtube_dl/extractor/common.py
+       Kalman=0.00  Wavelet=655.1  Crash=0%  Coupling=0.02
+       churn=2.0 freq=456 authors=25 bugfix=83 loc=2566
+  0.209  youtube_dl/__init__.py
+       Kalman=0.00  Wavelet=74736.7  Crash=0%  Coupling=0.01
+       churn=30.9 freq=482 authors=56 bugfix=73 loc=474
+  0.193  youtube_dl/extractor/adobepass.py
+       Kalman=0.00  Wavelet=49101.2  Crash=0%  Coupling=0.05
+       churn=1.3 freq=26 authors=7 bugfix=5 loc=1567
+  0.175  youtube_dl/extractor/ted.py
+       Kalman=0.00  Wavelet=456.3  Crash=0%  Coupling=0.01
+       churn=2.7 freq=53 authors=9 bugfix=18 loc=320
+  0.161  youtube_dl/extractor/googledrive.py
+       Kalman=0.00  Wavelet=1757.6  Crash=0%  Coupling=0.01
+       churn=3.9 freq=13 authors=3 bugfix=5 loc=106
+  0.159  youtube_dl/extractor/cbsnews.py
+       Kalman=0.00  Wavelet=387.5  Crash=0%  Coupling=0.01
+       churn=3.4 freq=28 authors=9 bugfix=11 loc=133
+  0.159  youtube_dl/extractor/youtube.py
+       Kalman=0.00  Wavelet=5409.2  Crash=0%  Coupling=0.02
+       churn=4.5 freq=610 authors=42 bugfix=196 loc=2771
+  0.158  youtube_dl/extractor/extractors.py
+       Kalman=0.00  Wavelet=3808.1  Crash=0%  Coupling=0.49
+       churn=1.3 freq=325 authors=62 bugfix=19 loc=1332
+  0.153  youtube_dl/utils.py
+       Kalman=0.00  Wavelet=2707.8  Crash=0%  Coupling=0.56
+       churn=2.0 freq=541 authors=39 bugfix=139 loc=3824
+  0.151  youtube_dl/version.py
+       Kalman=0.00  Wavelet=5.5  Crash=0%  Coupling=0.01
+       churn=570.3 freq=857 authors=3 bugfix=2 loc=3
+  0.144  youtube_dl/YoutubeDL.py
+       Kalman=0.00  Wavelet=1322.7  Crash=0%  Coupling=0.01
+       churn=2.4 freq=474 authors=43 bugfix=104 loc=2323
+  0.140  youtube_dl/extractor/youporn.py
+       Kalman=0.00  Wavelet=1877.8  Crash=0%  Coupling=0.01
+       churn=3.9 freq=38 authors=10 bugfix=16 loc=190
+  0.136  youtube_dl/extractor/generic.py
+       Kalman=0.00  Wavelet=426.6  Crash=0%  Coupling=0.23
+       churn=1.9 freq=468 authors=24 bugfix=95 loc=3000
+============================================================
+
+
+--- STDERR ---
+<unknown>:42: SyntaxWarning: invalid escape sequence '\D'
+<unknown>:17: SyntaxWarning: invalid escape sequence '\ '

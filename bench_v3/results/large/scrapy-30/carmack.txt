@@ -1,0 +1,81 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.211  scrapy/xlib/tx/interfaces.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.07
+       churn=1.0 freq=2 authors=2 bugfix=1 loc=2442
+  0.161  scrapy/contrib/downloadermiddleware/httpcache.py
+       Kalman=0.00  Wavelet=5853.2  Crash=0%  Coupling=0.07
+       churn=184.6 freq=41 authors=10 bugfix=0 loc=7
+  0.157  scrapy/contrib/pipeline/images.py
+       Kalman=0.00  Wavelet=2534.0  Crash=0%  Coupling=0.12
+       churn=169.1 freq=57 authors=12 bugfix=5 loc=7
+  0.151  scrapy/exceptions.py
+       Kalman=0.00  Wavelet=88.9  Crash=0%  Coupling=1.00
+       churn=1.6 freq=10 authors=3 bugfix=1 loc=56
+  0.112  scrapy/xlib/tx/_newclient.py
+       Kalman=0.00  Wavelet=430166.0  Crash=0%  Coupling=0.35
+       churn=1.0 freq=3 authors=3 bugfix=2 loc=1516
+  0.106  scrapy/contrib/httpcache.py
+       Kalman=0.00  Wavelet=2961.3  Crash=0%  Coupling=0.07
+       churn=117.0 freq=21 authors=9 bugfix=2 loc=7
+  0.093  scrapy/selector/__init__.py
+       Kalman=0.00  Wavelet=2728.6  Crash=0%  Coupling=0.14
+       churn=88.6 freq=14 authors=3 bugfix=1 loc=5
+  0.075  scrapy/contrib/exporter/__init__.py
+       Kalman=0.00  Wavelet=903.8  Crash=0%  Coupling=0.14
+       churn=65.5 freq=29 authors=7 bugfix=5 loc=8
+  0.074  scrapy/item.py
+       Kalman=0.00  Wavelet=374.2  Crash=0%  Coupling=0.48
+       churn=2.3 freq=18 authors=6 bugfix=2 loc=99
+  0.070  scrapy/contrib/pipeline/files.py
+       Kalman=0.00  Wavelet=4390.6  Crash=0%  Coupling=0.07
+       churn=72.4 freq=21 authors=8 bugfix=1 loc=7
+  0.069  scrapy/contrib/throttle.py
+       Kalman=0.00  Wavelet=1158.9  Crash=0%  Coupling=0.07
+       churn=72.0 freq=24 authors=5 bugfix=3 loc=7
+  0.065  scrapy/xlib/tx/endpoints.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.07
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=1269
+  0.064  scrapy/contrib/pipeline/media.py
+       Kalman=0.00  Wavelet=579.0  Crash=0%  Coupling=0.07
+       churn=65.3 freq=35 authors=7 bugfix=5 loc=7
+  0.064  scrapy/link.py
+       Kalman=0.00  Wavelet=28.8  Crash=0%  Coupling=0.42
+       churn=1.4 freq=8 authors=4 bugfix=0 loc=36
+  0.060  scrapy/contrib/feedexport.py
+       Kalman=0.00  Wavelet=1241.1  Crash=0%  Coupling=0.07
+       churn=61.3 freq=22 authors=6 bugfix=2 loc=7
+============================================================
+
+
+--- STDERR ---
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:18: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:12: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:351: SyntaxWarning: invalid escape sequence '\('
+<unknown>:598: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:90: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:91: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:93: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:94: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:96: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:97: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:99: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:100: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:234: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:237: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:244: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:542: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:563: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:564: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:575: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:576: SyntaxWarning: invalid escape sequence '\w'
