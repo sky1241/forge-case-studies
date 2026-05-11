@@ -52,6 +52,27 @@ Un repo entre dans la population de tirage **uniquement si** TOUS les critères 
 
 **Justification** : forks copient l'histoire mais peuvent diverger. Archived = state gelé non-représentatif.
 
+### E7 — change_file a une bugfix history exploitable (ajouté cycle 13)
+
+**Vérification** :
+```bash
+PRE_BUG_DATE=$(git -C clones/$proj show -s --format=%ci $PRE_BUG)
+FIX_COUNT=$(git -C clones/$proj log --until="$PRE_BUG_DATE" \
+  --grep="fix\|bug\|patch\|regression" -i --oneline -- $change_file | wc -l)
+[[ $FIX_COUNT -ge 3 ]] || SKIP="cold_start_blind_e7"
+```
+
+**Seuil** : ≥ 3 bugfix commits avant PRE_BUG sur le `change_file`.
+
+**Justification — faute eligibility cycle 12 admise** : E1-E6 filtraient au niveau PROJET. Le panel cycle 12 v3 incluait massivement des fichiers FRESH (e.g. `thefuck/rules/*` modules avec 0 bugfix antérieur). Forge --carmack est un prédicteur history-based (Kalman + Wavelet + Crash + Coupling + Churn — tous signaux histoire-based). Sur fichiers cold-start, tous les signaux sont 0 → score = random.
+
+Mesurer forge --carmack sur des fichiers cold-start = "mesurer l'électricité avec un voltmètre sur de l'eau". Tautologique. E7 corrige : un cas n'entre dans le panel que si forge a une chance d'évaluer (≥3 bugfix history exploitable).
+
+**Conséquence E7** :
+- ~50-70% des bugs BugsInPy probably excludent (cas fresh modules)
+- N=50 cible devient plus difficile à atteindre, mais le test scientifique est valide pour son scope
+- Le verdict cycle 13 sera comparable à cycle 12 v3 (N(filtered) vs N(unfiltered))
+
 ---
 
 ## Stratification (Phase 0.3)

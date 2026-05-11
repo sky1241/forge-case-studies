@@ -1,0 +1,55 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.250  lib/ansible/module_utils/network/checkpoint/checkpoint.py
+       Kalman=0.00  Wavelet=8030.9  Crash=0%  Coupling=0.00
+       churn=1.3 freq=11 authors=3 bugfix=6 loc=469
+  0.243  lib/ansible/modules/cloud/google/gcp_container_cluster.py
+       Kalman=0.00  Wavelet=61242.7  Crash=0%  Coupling=0.00
+       churn=1.8 freq=22 authors=6 bugfix=18 loc=2055
+  0.236  lib/ansible/modules/cloud/google/gcp_bigquery_dataset.py
+       Kalman=0.00  Wavelet=17859.3  Crash=0%  Coupling=0.00
+       churn=1.2 freq=9 authors=2 bugfix=8 loc=745
+  0.234  lib/ansible/modules/cloud/google/gcp_compute_instance.py
+       Kalman=0.00  Wavelet=123661.5  Crash=0%  Coupling=0.00
+       churn=2.4 freq=26 authors=6 bugfix=21 loc=1775
+  0.226  lib/ansible/modules/cloud/google/gcp_pubsub_topic.py
+       Kalman=0.00  Wavelet=1683.7  Crash=0%  Coupling=0.00
+       churn=1.5 freq=18 authors=4 bugfix=16 loc=377
+  0.220  lib/ansible/modules/cloud/google/gcp_bigquery_dataset_info.py
+       Kalman=0.00  Wavelet=447.5  Crash=0%  Coupling=0.00
+       churn=0.4 freq=4 authors=1 bugfix=4 loc=356
+  0.219  lib/ansible/modules/cloud/google/gcp_sql_database.py
+       Kalman=0.00  Wavelet=5998.3  Crash=0%  Coupling=0.00
+       churn=1.8 freq=16 authors=3 bugfix=15 loc=359
+  0.213  lib/ansible/modules/network/ios/ios_l3_interfaces.py
+       Kalman=0.00  Wavelet=34456.2  Crash=0%  Coupling=0.00
+       churn=1.0 freq=5 authors=4 bugfix=4 loc=442
+  0.213  lib/ansible/modules/network/iosxr/iosxr_l3_interfaces.py
+       Kalman=0.00  Wavelet=31623.5  Crash=0%  Coupling=0.00
+       churn=1.0 freq=5 authors=4 bugfix=4 loc=424
+  0.208  lib/ansible/modules/cloud/google/gcp_compute_backend_service.py
+       Kalman=0.00  Wavelet=47875.5  Crash=0%  Coupling=0.00
+       churn=2.5 freq=26 authors=5 bugfix=22 loc=1145
+  0.205  lib/ansible/modules/network/ios/ios_lldp_global.py
+       Kalman=0.00  Wavelet=11364.8  Crash=0%  Coupling=0.00
+       churn=1.1 freq=5 authors=3 bugfix=4 loc=256
+  0.201  lib/ansible/modules/cloud/google/gcp_compute_instance_template.py
+       Kalman=0.00  Wavelet=125497.8  Crash=0%  Coupling=0.00
+       churn=2.5 freq=21 authors=5 bugfix=18 loc=1590
+  0.200  test/units/module_utils/facts/other/test_ohai.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=6768
+  0.193  lib/ansible/modules/cloud/google/gcp_sql_instance.py
+       Kalman=0.00  Wavelet=53798.6  Crash=0%  Coupling=0.00
+       churn=2.2 freq=17 authors=3 bugfix=16 loc=1190
+  0.189  lib/ansible/modules/cloud/docker/docker_container.py
+       Kalman=0.00  Wavelet=12692.0  Crash=0%  Coupling=0.00
+       churn=2.1 freq=194 authors=65 bugfix=74 loc=3305
+============================================================
+
+
+--- STDERR ---

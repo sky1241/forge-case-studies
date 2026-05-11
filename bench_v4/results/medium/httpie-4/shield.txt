@@ -1,0 +1,16 @@
+
+==================================================
+  SHIELD — orchestrated forge feedback chain
+==================================================
+  [STAGE 1] predict_carmack — identify top-3 risky files
+  [CARMACK] Louvain clustering on import graph...
+  No commits in the last 4 weeks.
+    (no carmack signal — empty/shallow git history?)
+==================================================
+
+
+--- STDERR ---
+<unknown>:56: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:57: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:443: SyntaxWarning: invalid escape sequence '\='
+<unknown>:8: SyntaxWarning: invalid escape sequence '\?'

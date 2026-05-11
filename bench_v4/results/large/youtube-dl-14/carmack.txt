@@ -1,0 +1,55 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.379  youtube_dl/compat.py
+       Kalman=0.00  Wavelet=77978.7  Crash=0%  Coupling=1.00
+       churn=1.2 freq=91 authors=9 bugfix=24 loc=3050
+  0.273  youtube_dl/extractor/youtube.py
+       Kalman=0.00  Wavelet=5607.2  Crash=0%  Coupling=0.05
+       churn=4.4 freq=716 authors=51 bugfix=224 loc=3315
+  0.200  youtube_dl/__init__.py
+       Kalman=0.00  Wavelet=74733.4  Crash=0%  Coupling=0.01
+       churn=30.4 freq=491 authors=58 bugfix=74 loc=483
+  0.191  youtube_dl/extractor/xtube.py
+       Kalman=0.00  Wavelet=618.0  Crash=0%  Coupling=0.00
+       churn=3.2 freq=37 authors=9 bugfix=21 loc=200
+  0.173  youtube_dl/extractor/vimeo.py
+       Kalman=0.00  Wavelet=693.8  Crash=0%  Coupling=0.01
+       churn=3.0 freq=195 authors=17 bugfix=71 loc=1127
+  0.164  youtube_dl/extractor/yahoo.py
+       Kalman=0.00  Wavelet=7512.5  Crash=0%  Coupling=0.01
+       churn=3.8 freq=76 authors=10 bugfix=18 loc=569
+  0.156  youtube_dl/extractor/dailymotion.py
+       Kalman=0.00  Wavelet=2963.7  Crash=0%  Coupling=0.01
+       churn=5.6 freq=103 authors=17 bugfix=32 loc=393
+  0.156  youtube_dl/extractor/uol.py
+       Kalman=0.00  Wavelet=3089.5  Crash=0%  Coupling=0.01
+       churn=2.2 freq=5 authors=2 bugfix=3 loc=144
+  0.151  youtube_dl/version.py
+       Kalman=0.00  Wavelet=5.1  Crash=0%  Coupling=0.01
+       churn=663.0 freq=996 authors=3 bugfix=2 loc=3
+  0.136  youtube_dl/extractor/tvplay.py
+       Kalman=0.00  Wavelet=2045.8  Crash=0%  Coupling=0.01
+       churn=1.8 freq=30 authors=4 bugfix=5 loc=512
+  0.134  youtube_dl/extractor/crunchyroll.py
+       Kalman=0.00  Wavelet=1065.8  Crash=0%  Coupling=0.01
+       churn=2.8 freq=93 authors=17 bugfix=22 loc=686
+  0.133  youtube_dl/extractor/adobepass.py
+       Kalman=0.00  Wavelet=49066.9  Crash=0%  Coupling=0.05
+       churn=1.3 freq=28 authors=7 bugfix=5 loc=1572
+  0.117  youtube_dl/extractor/nova.py
+       Kalman=0.00  Wavelet=4269.7  Crash=0%  Coupling=0.00
+       churn=2.0 freq=23 authors=5 bugfix=11 loc=305
+  0.111  youtube_dl/utils.py
+       Kalman=0.00  Wavelet=7649.9  Crash=0%  Coupling=0.55
+       churn=1.8 freq=604 authors=46 bugfix=152 loc=5700
+  0.109  youtube_dl/extractor/openload.py
+       Kalman=0.00  Wavelet=39651.7  Crash=0%  Coupling=0.01
+       churn=21.4 freq=91 authors=22 bugfix=32 loc=238
+============================================================
+
+
+--- STDERR ---

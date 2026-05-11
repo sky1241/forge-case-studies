@@ -1,0 +1,25 @@
+  Running tests with per-test coverage...
+
+  PYTEST RUNNER ERROR (during --locate):
+    ERROR tests/test_tutorial/test_path_operation_configurations/test_tutorial005.py
+    ERROR tests/test_tutorial/test_path_operation_configurations/test_tutorial006.py
+    ERROR tests/test_tutorial/test_query_params/test_tutorial005.py
+    ERROR tests/test_tutorial/test_query_params/test_tutorial006.py
+    ERROR tests/test_tutorial/test_query_params_str_validations/test_tutorial001.py
+    ERROR tests/test_tutorial/test_request_files/test_tutorial001.py
+    ERROR tests/test_tutorial/test_request_forms/test_tutorial001.py
+    ERROR tests/test_tutorial/test_request_forms_and_files/test_tutorial001.py
+    ERROR tests/test_tutorial/test_response_model/test_tutorial003.py
+    ERROR tests/test_tutorial/test_security/test_tutorial001.py
+    ERROR tests/test_tutorial/test_security/test_tutorial003.py
+    ERROR tests/test_tutorial/test_sql_databases/test_tutorial001.py
+    ERROR tests/test_tutorial/test_sub_applications/test_tutorial001.py
+    !!!!!!!!!!!!!!!!!!! Interrupted: 30 errors during collection !!!!!!!!!!!!!!!!!!!
+    ======================= 196 warnings, 30 errors in 2.33s =======================
+  exit code: 2
+  Hint: a test file in your repo crashed at collection
+  (missing dep, plugin conflict, mypy_test_cases/ not for normal pytest...).
+  Try FORGE_TEST_FILTER='specific_test' or fix the broken collector.
+
+
+--- STDERR ---

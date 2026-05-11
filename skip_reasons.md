@@ -13,7 +13,7 @@ Si je trouve un nouveau motif non listé → je l'ajoute ici **AVANT d'avoir vu 
 
 ---
 
-## Liste fermée (8 SKIP_REASONS)
+## Liste fermée (9 SKIP_REASONS — E7 ajouté cycle 13)
 
 | Code | Description | Vérification |
 |---|---|---|
@@ -25,6 +25,7 @@ Si je trouve un nouveau motif non listé → je l'ajoute ici **AVANT d'avoir vu 
 | `file_missing_at_pre` | change_file n'existe pas au commit PRE_BUG | `git -C <proj> show $PRE_BUG:<file>` exit ≠ 0 |
 | `docker_required` | BugsInPy bug requiert Docker non disponible | `info.txt` du bug mentionne `docker` |
 | `future_commits_visible` | Après checkout PRE_BUG, des commits postérieurs au cutoff sont visibles | `git -C <proj> log --since=$CUTOFF --oneline \| wc -l` > 0 |
+| `cold_start_blind_e7` (cycle 13) | change_file a < 3 bugfix commits avant PRE_BUG → carmack signals all 0 par construction (mesurer eau sur voltmètre) | `git log --until=PRE_BUG_DATE --grep=fix\|bug\|patch\|regression -i -- $change_file \| wc -l` < 3 |
 
 ---
 

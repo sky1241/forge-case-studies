@@ -1,0 +1,70 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.269  luigi/contrib/hive.py
+       Kalman=0.00  Wavelet=31.9  Crash=0%  Coupling=0.13
+       churn=0.2 freq=17 authors=10 bugfix=5 loc=459
+  0.268  luigi/contrib/redshift.py
+       Kalman=0.00  Wavelet=2835.2  Crash=0%  Coupling=0.06
+       churn=1.8 freq=38 authors=18 bugfix=14 loc=649
+  0.263  luigi/scheduler.py
+       Kalman=0.00  Wavelet=2677.5  Crash=0%  Coupling=0.39
+       churn=3.4 freq=167 authors=37 bugfix=37 loc=1149
+  0.254  test/execution_summary_test.py
+       Kalman=0.00  Wavelet=49878.2  Crash=0%  Coupling=0.06
+       churn=1.7 freq=12 authors=6 bugfix=3 loc=844
+  0.224  luigi/contrib/hdfs/clients.py
+       Kalman=0.00  Wavelet=56073.8  Crash=0%  Coupling=0.06
+       churn=20.5 freq=9 authors=3 bugfix=0 loc=60
+  0.218  luigi/contrib/hdfs/__init__.py
+       Kalman=0.00  Wavelet=59227.0  Crash=0%  Coupling=0.00
+       churn=14.3 freq=18 authors=2 bugfix=0 loc=77
+  0.198  luigi/hdfs.py
+       Kalman=0.00  Wavelet=8029.6  Crash=0%  Coupling=0.13
+       churn=120.7 freq=98 authors=31 bugfix=21 loc=27
+  0.189  luigi/contrib/ftp.py
+       Kalman=0.00  Wavelet=2756.1  Crash=0%  Coupling=0.25
+       churn=1.9 freq=20 authors=10 bugfix=5 loc=398
+  0.188  luigi/hadoop.py
+       Kalman=0.00  Wavelet=8516.1  Crash=0%  Coupling=0.06
+       churn=119.1 freq=93 authors=36 bugfix=24 loc=26
+  0.188  luigi/contrib/hadoop.py
+       Kalman=0.00  Wavelet=51922.5  Crash=0%  Coupling=0.06
+       churn=1.1 freq=22 authors=12 bugfix=1 loc=997
+  0.181  luigi/notifications.py
+       Kalman=0.00  Wavelet=574.7  Crash=0%  Coupling=0.30
+       churn=2.0 freq=40 authors=25 bugfix=5 loc=379
+  0.175  test/contrib/redshift_test.py
+       Kalman=0.00  Wavelet=793.1  Crash=0%  Coupling=0.06
+       churn=1.5 freq=12 authors=8 bugfix=4 loc=238
+  0.156  doc/conf.py
+       Kalman=0.00  Wavelet=4030.1  Crash=0%  Coupling=0.06
+       churn=1.3 freq=13 authors=7 bugfix=2 loc=342
+  0.156  luigi/mock.py
+       Kalman=0.00  Wavelet=330.6  Crash=0%  Coupling=1.00
+       churn=2.9 freq=39 authors=13 bugfix=8 loc=178
+  0.144  luigi/lock.py
+       Kalman=0.00  Wavelet=74.8  Crash=0%  Coupling=0.06
+       churn=2.0 freq=24 authors=14 bugfix=5 loc=122
+============================================================
+
+
+--- STDERR ---
+<unknown>:34: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:46: SyntaxWarning: invalid escape sequence '\%'
+<unknown>:138: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:152: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:240: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:436: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:438: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:439: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:440: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:441: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:443: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:445: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:446: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:451: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:69: SyntaxWarning: invalid escape sequence '\d'
