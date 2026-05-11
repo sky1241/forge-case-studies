@@ -1,0 +1,24 @@
+
+==================================================
+  DEFECT PREDICTION — 8 files, last 999 weeks
+==================================================
+  0.86  setup.py
+       churn=2.3 freq=17 burst=6 authors=5 bugfix=4 loc=52 recent=0.00
+  0.74  httpie/pretty.py
+       churn=4.2 freq=15 burst=4 authors=4 bugfix=1 loc=68 recent=0.00
+  0.51  httpie/__main__.py
+       churn=1.8 freq=9 burst=6 authors=1 bugfix=0 loc=186 recent=0.00
+  0.37  httpie/__init__.py
+       churn=1.5 freq=6 burst=2 authors=1 bugfix=2 loc=7 recent=0.00
+  0.36  httpie/cli.py
+       churn=1.3 freq=5 burst=3 authors=1 bugfix=0 loc=276 recent=0.00
+  0.26  tests/tests.py
+       churn=0.3 freq=2 burst=2 authors=1 bugfix=1 loc=143 recent=0.00
+  0.19  httpie/pygson.py
+       churn=1.0 freq=1 burst=1 authors=1 bugfix=0 loc=77 recent=0.00
+  0.06  httpie/solarized.py
+       churn=1.0 freq=1 burst=1 authors=1 bugfix=0 loc=127 recent=0.00
+==================================================
+
+
+--- STDERR ---

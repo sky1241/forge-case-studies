@@ -1,0 +1,59 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.526  thefuck/conf.py
+       Kalman=0.00  Wavelet=4237.2  Crash=0%  Coupling=0.83
+       churn=6.7 freq=25 authors=5 bugfix=2 loc=109
+  0.450  thefuck/shells/generic.py
+       Kalman=0.00  Wavelet=1167.7  Crash=0%  Coupling=1.00
+       churn=1.5 freq=3 authors=1 bugfix=0 loc=83
+  0.417  thefuck/shells/__init__.py
+       Kalman=0.00  Wavelet=940.5  Crash=0%  Coupling=0.85
+       churn=5.7 freq=5 authors=1 bugfix=0 loc=28
+  0.303  thefuck/shells/zsh.py
+       Kalman=0.00  Wavelet=248.7  Crash=0%  Coupling=0.68
+       churn=1.6 freq=4 authors=1 bugfix=0 loc=47
+  0.279  thefuck/specific/sudo.py
+       Kalman=0.00  Wavelet=136.0  Crash=0%  Coupling=0.51
+       churn=3.8 freq=5 authors=2 bugfix=1 loc=18
+  0.274  thefuck/types.py
+       Kalman=0.00  Wavelet=3842.8  Crash=0%  Coupling=0.35
+       churn=2.3 freq=29 authors=4 bugfix=5 loc=286
+  0.259  thefuck/shells/bash.py
+       Kalman=0.00  Wavelet=257.2  Crash=0%  Coupling=0.51
+       churn=1.9 freq=4 authors=2 bugfix=0 loc=45
+  0.259  thefuck/main.py
+       Kalman=0.00  Wavelet=775.8  Crash=7%  Coupling=0.34
+       churn=12.5 freq=67 authors=11 bugfix=14 loc=82
+  0.252  thefuck/rules/brew_unknown_command.py
+       Kalman=0.00  Wavelet=468.1  Crash=0%  Coupling=0.35
+       churn=2.9 freq=10 authors=4 bugfix=1 loc=82
+  0.237  tests/rules/test_no_command.py
+       Kalman=0.00  Wavelet=551.0  Crash=0%  Coupling=0.18
+       churn=10.1 freq=10 authors=2 bugfix=0 loc=27
+  0.230  thefuck/utils.py
+       Kalman=0.00  Wavelet=463.2  Crash=0%  Coupling=0.77
+       churn=2.8 freq=51 authors=5 bugfix=11 loc=271
+  0.230  tests/utils.py
+       Kalman=0.00  Wavelet=83.6  Crash=0%  Coupling=0.46
+       churn=3.5 freq=12 authors=2 bugfix=0 loc=25
+  0.224  thefuck/corrector.py
+       Kalman=0.00  Wavelet=1492.0  Crash=0%  Coupling=0.18
+       churn=5.7 freq=17 authors=3 bugfix=1 loc=75
+  0.218  thefuck/shells/tcsh.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.52
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=34
+  0.216  thefuck/rules/apt_get.py
+       Kalman=0.00  Wavelet=235.8  Crash=0%  Coupling=0.35
+       churn=3.9 freq=8 authors=5 bugfix=1 loc=32
+============================================================
+
+
+--- STDERR ---
+<unknown>:41: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:41: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:41: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:41: SyntaxWarning: invalid escape sequence '\ '

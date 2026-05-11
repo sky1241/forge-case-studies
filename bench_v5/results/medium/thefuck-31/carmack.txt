@@ -1,0 +1,63 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.401  tests/utils.py
+       Kalman=0.00  Wavelet=15.5  Crash=0%  Coupling=1.00
+       churn=1.5 freq=3 authors=1 bugfix=0 loc=16
+  0.271  thefuck/rules/brew_unknown_command.py
+       Kalman=0.00  Wavelet=637.7  Crash=0%  Coupling=0.42
+       churn=1.4 freq=4 authors=3 bugfix=1 loc=103
+  0.262  thefuck/rules/git_not_command.py
+       Kalman=0.00  Wavelet=n/a   Crash=100%  Coupling=0.21
+       churn=1.2 freq=2 authors=1 bugfix=1 loc=16
+  0.258  thefuck/conf.py
+       Kalman=0.00  Wavelet=18739.2  Crash=0%  Coupling=0.17
+       churn=2.9 freq=8 authors=2 bugfix=1 loc=132
+  0.230  thefuck/utils.py
+       Kalman=0.00  Wavelet=234.2  Crash=0%  Coupling=0.39
+       churn=1.1 freq=8 authors=1 bugfix=1 loc=80
+  0.219  tests/rules/test_no_command.py
+       Kalman=0.00  Wavelet=775.5  Crash=0%  Coupling=0.21
+       churn=5.0 freq=6 authors=2 bugfix=0 loc=36
+  0.218  thefuck/rules/brew_install.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.42
+       churn=1.1 freq=3 authors=2 bugfix=1 loc=42
+  0.214  tests/rules/test_brew_unknown_command.py
+       Kalman=0.00  Wavelet=102.0  Crash=0%  Coupling=0.42
+       churn=1.7 freq=3 authors=2 bugfix=0 loc=28
+  0.208  tests/rules/test_brew_install.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.42
+       churn=1.4 freq=2 authors=2 bugfix=0 loc=49
+  0.191  tests/test_main.py
+       Kalman=0.00  Wavelet=4104.3  Crash=12%  Coupling=0.17
+       churn=4.8 freq=29 authors=1 bugfix=5 loc=173
+  0.187  thefuck/types.py
+       Kalman=0.00  Wavelet=107.2  Crash=0%  Coupling=0.41
+       churn=1.2 freq=3 authors=1 bugfix=0 loc=27
+  0.187  thefuck/rules/apt_get.py
+       Kalman=0.00  Wavelet=260.7  Crash=0%  Coupling=0.21
+       churn=3.0 freq=4 authors=4 bugfix=0 loc=27
+  0.176  setup.py
+       Kalman=0.00  Wavelet=118.0  Crash=12%  Coupling=0.00
+       churn=7.7 freq=53 authors=2 bugfix=5 loc=21
+  0.176  tests/test_conf.py
+       Kalman=0.00  Wavelet=2854.2  Crash=0%  Coupling=0.17
+       churn=3.0 freq=10 authors=2 bugfix=1 loc=102
+  0.169  thefuck/rules/pacman.py
+       Kalman=0.00  Wavelet=190.2  Crash=0%  Coupling=0.21
+       churn=2.1 freq=5 authors=3 bugfix=2 loc=34
+============================================================
+
+
+--- STDERR ---
+<unknown>:14: SyntaxWarning: invalid escape sequence '\('
+<unknown>:14: SyntaxWarning: invalid escape sequence '\('
+<unknown>:14: SyntaxWarning: invalid escape sequence '\('
+<unknown>:14: SyntaxWarning: invalid escape sequence '\('
+<unknown>:14: SyntaxWarning: invalid escape sequence '\('
+<unknown>:14: SyntaxWarning: invalid escape sequence '\('
+<unknown>:14: SyntaxWarning: invalid escape sequence '\('
+<unknown>:14: SyntaxWarning: invalid escape sequence '\('

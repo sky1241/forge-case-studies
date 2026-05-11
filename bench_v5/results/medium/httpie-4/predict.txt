@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 37 files, last 999 weeks
+==================================================
+  0.65  httpie/cli.py
+       churn=4.0 freq=77 burst=6 authors=8 bugfix=7 loc=570 recent=0.00
+  0.59  setup.py
+       churn=2.9 freq=49 burst=6 authors=8 bugfix=11 loc=91 recent=0.00
+  0.51  httpie/downloads.py
+       churn=3.3 freq=36 burst=16 authors=1 bugfix=6 loc=434 recent=0.00
+  0.47  httpie/models.py
+       churn=6.5 freq=42 burst=6 authors=2 bugfix=9 loc=130 recent=0.00
+  0.44  httpie/__main__.py
+       churn=84.3 freq=31 burst=6 authors=6 bugfix=3 loc=10 recent=0.00
+  0.44  httpie/input.py
+       churn=1.3 freq=48 burst=4 authors=3 bugfix=4 loc=627 recent=0.00
+  0.43  httpie/core.py
+       churn=6.6 freq=48 burst=5 authors=1 bugfix=7 loc=186 recent=0.00
+  0.42  httpie/__init__.py
+       churn=5.7 freq=45 burst=7 authors=1 bugfix=6 loc=19 recent=0.00
+  0.39  httpie/sessions.py
+       churn=8.0 freq=34 burst=4 authors=3 bugfix=5 loc=151 recent=0.00
+  0.31  tests/test_httpie.py
+       churn=3.6 freq=13 burst=9 authors=1 bugfix=3 loc=65 recent=0.00
+  0.30  httpie/client.py
+       churn=2.7 freq=28 burst=3 authors=2 bugfix=2 loc=123 recent=0.00
+  0.30  tests/test_sessions.py
+       churn=3.5 freq=14 burst=9 authors=1 bugfix=1 loc=150 recent=0.00
+  0.29  tests/test_unicode.py
+       churn=1.8 freq=9 burst=8 authors=1 bugfix=3 loc=86 recent=0.00
+  0.27  tests/test_cli.py
+       churn=2.3 freq=9 burst=6 authors=1 bugfix=2 loc=285 recent=0.00
+  0.27  tests/test_output.py
+       churn=3.2 freq=13 burst=7 authors=1 bugfix=1 loc=133 recent=0.00
+==================================================
+
+
+--- STDERR ---

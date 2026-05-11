@@ -1,0 +1,19 @@
+{
+  "n_train": 101,
+  "n_holdout": 29,
+  "auc_train_heuristic": 0.7950748061537103,
+  "auc_train_grid": 0.8293234395625235,
+  "weights_calibrated": {
+    "kalman": 0.03275269403537945,
+    "wavelet": 0.01865093587902692,
+    "crash": 0.08508347804535547,
+    "coupling": 0.39937672513747413,
+    "churn": 0.07770887744982169,
+    "complexity": 0.38642728945294236
+  },
+  "auc_holdout_heuristic": 0.847592639381382,
+  "auc_holdout_calibrated": 0.8683252976060307,
+  "delta_auc": 0.02073265822464876,
+  "threshold_c3": 0.05,
+  "verdict_c3": "NON"
+}

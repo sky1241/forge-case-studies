@@ -1,0 +1,63 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.310  tests/utils.py
+       Kalman=0.00  Wavelet=4.2  Crash=0%  Coupling=0.72
+       churn=2.1 freq=5 authors=1 bugfix=0 loc=16
+  0.262  tests/rules/test_no_command.py
+       Kalman=0.00  Wavelet=645.4  Crash=0%  Coupling=0.14
+       churn=8.8 freq=8 authors=2 bugfix=0 loc=29
+  0.247  tests/functional/utils.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.43
+       churn=2.4 freq=4 authors=1 bugfix=1 loc=41
+  0.233  thefuck/conf.py
+       Kalman=0.00  Wavelet=11498.5  Crash=0%  Coupling=0.12
+       churn=2.9 freq=12 authors=4 bugfix=2 loc=135
+  0.225  thefuck/rules/brew_unknown_command.py
+       Kalman=0.00  Wavelet=584.9  Crash=0%  Coupling=0.29
+       churn=1.5 freq=6 authors=3 bugfix=1 loc=102
+  0.220  thefuck/rules/history.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.38
+       churn=1.5 freq=4 authors=1 bugfix=1 loc=36
+  0.217  tests/functional/test_zsh.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.29
+       churn=3.3 freq=4 authors=1 bugfix=1 loc=36
+  0.216  tests/functional/test_bash.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.29
+       churn=3.2 freq=4 authors=1 bugfix=1 loc=36
+  0.211  thefuck/utils.py
+       Kalman=0.00  Wavelet=134.8  Crash=0%  Coupling=1.00
+       churn=1.2 freq=18 authors=2 bugfix=3 loc=161
+  0.194  thefuck/rules/no_command.py
+       Kalman=0.00  Wavelet=314.6  Crash=7%  Coupling=0.14
+       churn=8.8 freq=17 authors=2 bugfix=1 loc=19
+  0.190  tests/test_main.py
+       Kalman=0.00  Wavelet=4018.4  Crash=10%  Coupling=0.12
+       churn=4.9 freq=32 authors=2 bugfix=6 loc=173
+  0.186  thefuck/shells.py
+       Kalman=0.00  Wavelet=482.6  Crash=0%  Coupling=0.62
+       churn=1.9 freq=31 authors=6 bugfix=9 loc=266
+  0.185  tests/functional/plots.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.43
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=20
+  0.181  thefuck/rules/git_push_pull.py
+       Kalman=0.00  Wavelet=43.7  Crash=0%  Coupling=0.38
+       churn=1.4 freq=3 authors=2 bugfix=0 loc=17
+  0.176  thefuck/rules/brew_install.py
+       Kalman=0.00  Wavelet=254.7  Crash=0%  Coupling=0.29
+       churn=1.5 freq=5 authors=3 bugfix=1 loc=43
+============================================================
+
+
+--- STDERR ---
+<unknown>:15: SyntaxWarning: invalid escape sequence '\('
+<unknown>:30: SyntaxWarning: invalid escape sequence '\('
+<unknown>:15: SyntaxWarning: invalid escape sequence '\('
+<unknown>:15: SyntaxWarning: invalid escape sequence '\('
+<unknown>:15: SyntaxWarning: invalid escape sequence '\('
+<unknown>:30: SyntaxWarning: invalid escape sequence '\('
+<unknown>:30: SyntaxWarning: invalid escape sequence '\('
+<unknown>:30: SyntaxWarning: invalid escape sequence '\('

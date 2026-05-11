@@ -1,0 +1,326 @@
+[
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-13",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_branch_exists.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 1,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-18",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/sudo.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 2,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-27",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/open.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-29",
+    "bucket": "medium",
+    "change_file": "thefuck/types.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-30",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/fix_file.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-2",
+    "bucket": "large",
+    "change_file": "lib/ansible/utils/version.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-1",
+    "bucket": "large",
+    "change_file": "scrapy/spidermiddlewares/offsite.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-5",
+    "bucket": "large",
+    "change_file": "scrapy/http/response/__init__.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 2,
+    "cold_start": true
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-21",
+    "bucket": "large",
+    "change_file": "scrapy/downloadermiddlewares/robotstxt.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-34",
+    "bucket": "large",
+    "change_file": "scrapy/item.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-40",
+    "bucket": "large",
+    "change_file": "scrapy/exporters.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-40",
+    "bucket": "large",
+    "change_file": "youtube_dl/downloader/f4m.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 0,
+    "cold_start": true
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-7",
+    "bucket": "large",
+    "change_file": "lib/ansible/module_utils/network/eos/config/vlans/vlans.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 3,
+    "cold_start": false
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-12",
+    "bucket": "large",
+    "change_file": "lib/ansible/plugins/lookup/env.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 3,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-18",
+    "bucket": "large",
+    "change_file": "luigi/scheduler.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 44,
+    "cold_start": false
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-1",
+    "bucket": "large",
+    "change_file": "tornado/websocket.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 32,
+    "cold_start": false
+  },
+  {
+    "project": "black",
+    "bug_id": "black-3",
+    "bucket": "large",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 152,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-27",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 135,
+    "cold_start": false
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-3",
+    "bucket": "large",
+    "change_file": "lib/ansible/module_utils/facts/system/distribution.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 21,
+    "cold_start": false
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-2",
+    "bucket": "medium",
+    "change_file": "thefuck/utils.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 18,
+    "cold_start": false
+  },
+  {
+    "project": "black",
+    "bug_id": "black-16",
+    "bucket": "large",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 59,
+    "cold_start": false
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-23",
+    "bucket": "medium",
+    "change_file": "thefuck/utils.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 3,
+    "cold_start": false
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-2",
+    "bucket": "large",
+    "change_file": "fastapi/routing.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 28,
+    "cold_start": false
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-4",
+    "bucket": "medium",
+    "change_file": "thefuck/shells/fish.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 3,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-12",
+    "bucket": "large",
+    "change_file": "youtube_dl/YoutubeDL.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 110,
+    "cold_start": false
+  },
+  {
+    "project": "black",
+    "bug_id": "black-10",
+    "bucket": "large",
+    "change_file": "blib2to3/pgen2/driver.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 6,
+    "cold_start": false
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-9",
+    "bucket": "large",
+    "change_file": "tornado/httputil.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 15,
+    "cold_start": false
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-1",
+    "bucket": "large",
+    "change_file": "lib/ansible/galaxy/collection.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 9,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-38",
+    "bucket": "large",
+    "change_file": "youtube_dl/extractor/facebook.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 3,
+    "cold_start": false
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-16",
+    "bucket": "large",
+    "change_file": "luigi/scheduler.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 46,
+    "cold_start": false
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-6",
+    "bucket": "large",
+    "change_file": "lib/ansible/galaxy/collection.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 9,
+    "cold_start": false
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-20",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/dirty_unzip.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 3,
+    "cold_start": false
+  },
+  {
+    "project": "black",
+    "bug_id": "black-18",
+    "bucket": "large",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 50,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-15",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 151,
+    "cold_start": false
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-10",
+    "bucket": "large",
+    "change_file": "lib/ansible/modules/system/pamd.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 17,
+    "cold_start": false
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-23",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 151,
+    "cold_start": false
+  }
+]

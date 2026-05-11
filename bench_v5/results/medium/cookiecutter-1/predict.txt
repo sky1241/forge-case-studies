@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 83 files, last 999 weeks
+==================================================
+  0.83  cookiecutter/main.py
+       churn=9.2 freq=102 burst=17 authors=29 bugfix=18 loc=113 recent=0.00
+  0.78  tests/test_main.py
+       churn=23.2 freq=79 burst=14 authors=14 bugfix=15 loc=57 recent=0.00
+  0.72  cookiecutter/generate.py
+       churn=4.7 freq=96 burst=8 authors=27 bugfix=18 loc=365 recent=0.00
+  0.66  setup.py
+       churn=7.9 freq=99 burst=6 authors=24 bugfix=15 loc=89 recent=0.00
+  0.58  cookiecutter/prompt.py
+       churn=4.2 freq=68 burst=10 authors=21 bugfix=11 loc=228 recent=0.00
+  0.58  tests/test_prompt.py
+       churn=6.3 freq=56 burst=11 authors=16 bugfix=11 loc=371 recent=0.00
+  0.57  cookiecutter/vcs.py
+       churn=6.1 freq=57 burst=12 authors=21 bugfix=10 loc=128 recent=0.00
+  0.49  cookiecutter/hooks.py
+       churn=4.9 freq=52 burst=8 authors=18 bugfix=8 loc=131 recent=0.00
+  0.47  tests/test_generate_files.py
+       churn=3.3 freq=34 burst=16 authors=7 bugfix=4 loc=371 recent=0.00
+  0.46  tests/test_hooks.py
+       churn=3.9 freq=46 burst=8 authors=12 bugfix=8 loc=226 recent=0.00
+  0.45  tests/test_cli.py
+       churn=3.1 freq=50 burst=4 authors=14 bugfix=7 loc=473 recent=0.00
+  0.43  tests/__init__.py
+       churn=26.3 freq=16 burst=5 authors=8 bugfix=1 loc=1 recent=0.00
+  0.41  cookiecutter/config.py
+       churn=3.5 freq=47 burst=9 authors=13 bugfix=2 loc=131 recent=0.00
+  0.39  tests/test_generate_context.py
+       churn=4.4 freq=28 burst=9 authors=8 bugfix=5 loc=167 recent=0.00
+  0.39  cookiecutter/__init__.py
+       churn=12.3 freq=45 burst=3 authors=11 bugfix=1 loc=5 recent=0.00
+==================================================
+
+
+--- STDERR ---

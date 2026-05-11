@@ -1,0 +1,115 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.367  scrapy/exceptions.py
+       Kalman=0.00  Wavelet=88.9  Crash=0%  Coupling=1.00
+       churn=1.6 freq=10 authors=3 bugfix=1 loc=56
+  0.357  tests/test_http_request.py
+       Kalman=0.00  Wavelet=4863.0  Crash=0%  Coupling=0.00
+       churn=0.5 freq=12 authors=8 bugfix=2 loc=1076
+  0.270  tests/test_feedexport.py
+       Kalman=0.00  Wavelet=451.9  Crash=0%  Coupling=0.18
+       churn=0.7 freq=15 authors=6 bugfix=0 loc=443
+  0.265  tests/test_loader.py
+       Kalman=0.00  Wavelet=1958.2  Crash=0%  Coupling=0.06
+       churn=0.2 freq=5 authors=4 bugfix=1 loc=737
+  0.239  scrapy/utils/datatypes.py
+       Kalman=0.00  Wavelet=445.5  Crash=0%  Coupling=0.19
+       churn=0.8 freq=13 authors=7 bugfix=2 loc=316
+  0.235  scrapy/utils/conf.py
+       Kalman=0.00  Wavelet=151.5  Crash=0%  Coupling=0.38
+       churn=2.0 freq=13 authors=6 bugfix=1 loc=101
+  0.226  scrapy/contrib/downloadermiddleware/httpcache.py
+       Kalman=0.00  Wavelet=5853.2  Crash=0%  Coupling=0.06
+       churn=184.6 freq=41 authors=10 bugfix=0 loc=7
+  0.225  scrapy/item.py
+       Kalman=0.00  Wavelet=374.2  Crash=0%  Coupling=0.43
+       churn=2.3 freq=18 authors=6 bugfix=2 loc=99
+  0.220  tests/test_settings/__init__.py
+       Kalman=0.00  Wavelet=2405.0  Crash=0%  Coupling=0.00
+       churn=0.9 freq=13 authors=4 bugfix=2 loc=442
+  0.194  scrapy/linkextractors/sgml.py
+       Kalman=0.00  Wavelet=3.1  Crash=0%  Coupling=0.25
+       churn=0.2 freq=10 authors=8 bugfix=2 loc=141
+  0.180  tests/test_linkextractors.py
+       Kalman=0.00  Wavelet=193268.5  Crash=0%  Coupling=0.13
+       churn=2.6 freq=5 authors=3 bugfix=0 loc=433
+  0.176  scrapy/link.py
+       Kalman=0.00  Wavelet=32.1  Crash=0%  Coupling=0.38
+       churn=1.8 freq=10 authors=4 bugfix=0 loc=42
+  0.170  scrapy/utils/boto.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.36
+       churn=1.0 freq=2 authors=1 bugfix=0 loc=21
+  0.162  scrapy/loader/__init__.py
+       Kalman=0.00  Wavelet=318.7  Crash=0%  Coupling=0.13
+       churn=0.4 freq=6 authors=4 bugfix=0 loc=203
+  0.159  scrapy/core/downloader/__init__.py
+       Kalman=0.00  Wavelet=1924.6  Crash=0%  Coupling=0.12
+       churn=4.0 freq=32 authors=4 bugfix=2 loc=199
+============================================================
+
+
+--- STDERR ---
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:97: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:21: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:114: SyntaxWarning: invalid escape sequence '\['
+<unknown>:139: SyntaxWarning: invalid escape sequence '\['
+<unknown>:147: SyntaxWarning: invalid escape sequence '\['
+<unknown>:155: SyntaxWarning: invalid escape sequence '\['
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:34: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:43: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:45: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:236: SyntaxWarning: invalid escape sequence '\p'
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:97: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:97: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:97: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:21: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:21: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:21: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:114: SyntaxWarning: invalid escape sequence '\['
+<unknown>:139: SyntaxWarning: invalid escape sequence '\['
+<unknown>:147: SyntaxWarning: invalid escape sequence '\['
+<unknown>:155: SyntaxWarning: invalid escape sequence '\['
+<unknown>:114: SyntaxWarning: invalid escape sequence '\['
+<unknown>:139: SyntaxWarning: invalid escape sequence '\['
+<unknown>:147: SyntaxWarning: invalid escape sequence '\['
+<unknown>:155: SyntaxWarning: invalid escape sequence '\['
+<unknown>:114: SyntaxWarning: invalid escape sequence '\['
+<unknown>:139: SyntaxWarning: invalid escape sequence '\['
+<unknown>:147: SyntaxWarning: invalid escape sequence '\['
+<unknown>:155: SyntaxWarning: invalid escape sequence '\['
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:34: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:34: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:34: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:43: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:45: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:43: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:45: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:43: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:45: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:236: SyntaxWarning: invalid escape sequence '\p'
+<unknown>:236: SyntaxWarning: invalid escape sequence '\p'
+<unknown>:236: SyntaxWarning: invalid escape sequence '\p'

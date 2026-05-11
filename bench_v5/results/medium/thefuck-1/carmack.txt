@@ -1,0 +1,55 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.493  thefuck/shells/__init__.py
+       Kalman=0.00  Wavelet=521.7  Crash=0%  Coupling=1.00
+       churn=4.1 freq=12 authors=4 bugfix=0 loc=52
+  0.471  thefuck/shells/generic.py
+       Kalman=0.00  Wavelet=424.5  Crash=0%  Coupling=0.99
+       churn=1.6 freq=18 authors=5 bugfix=1 loc=154
+  0.402  thefuck/conf.py
+       Kalman=0.00  Wavelet=4143.2  Crash=0%  Coupling=0.67
+       churn=6.4 freq=37 authors=7 bugfix=6 loc=130
+  0.345  thefuck/types.py
+       Kalman=0.00  Wavelet=3788.0  Crash=0%  Coupling=0.74
+       churn=3.3 freq=43 authors=5 bugfix=9 loc=258
+  0.270  thefuck/rules/brew_unknown_command.py
+       Kalman=0.00  Wavelet=449.1  Crash=0%  Coupling=0.34
+       churn=3.0 freq=13 authors=5 bugfix=2 loc=82
+  0.265  thefuck/utils.py
+       Kalman=0.00  Wavelet=636.4  Crash=0%  Coupling=0.74
+       churn=3.2 freq=79 authors=8 bugfix=16 loc=337
+  0.256  thefuck/corrector.py
+       Kalman=0.00  Wavelet=1405.6  Crash=0%  Coupling=0.17
+       churn=5.1 freq=21 authors=4 bugfix=2 loc=92
+  0.251  thefuck/shells/fish.py
+       Kalman=0.00  Wavelet=153.4  Crash=0%  Coupling=0.33
+       churn=2.0 freq=27 authors=4 bugfix=2 loc=129
+  0.242  thefuck/specific/sudo.py
+       Kalman=0.00  Wavelet=136.0  Crash=0%  Coupling=0.33
+       churn=3.8 freq=5 authors=2 bugfix=1 loc=18
+  0.239  tests/rules/test_no_command.py
+       Kalman=0.00  Wavelet=505.3  Crash=0%  Coupling=0.17
+       churn=7.2 freq=14 authors=2 bugfix=0 loc=48
+  0.235  tests/utils.py
+       Kalman=0.00  Wavelet=81.7  Crash=0%  Coupling=0.34
+       churn=4.6 freq=13 authors=2 bugfix=0 loc=20
+  0.235  thefuck/rules/brew_install.py
+       Kalman=0.00  Wavelet=157.2  Crash=0%  Coupling=0.34
+       churn=2.9 freq=11 authors=4 bugfix=2 loc=42
+  0.234  thefuck/shells/tcsh.py
+       Kalman=0.00  Wavelet=100.7  Crash=0%  Coupling=0.50
+       churn=1.6 freq=8 authors=3 bugfix=2 loc=44
+  0.229  thefuck/rules/no_command.py
+       Kalman=0.00  Wavelet=184.9  Crash=0%  Coupling=0.17
+       churn=5.6 freq=27 authors=3 bugfix=1 loc=42
+  0.224  thefuck/rules/history.py
+       Kalman=0.00  Wavelet=139.7  Crash=0%  Coupling=0.17
+       churn=6.7 freq=10 authors=3 bugfix=2 loc=15
+============================================================
+
+
+--- STDERR ---
