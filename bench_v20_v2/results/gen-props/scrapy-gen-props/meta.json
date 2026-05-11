@@ -1,0 +1,10 @@
+{
+  "tool": "gen-props",
+  "case": "scrapy-gen-props",
+  "exit": 0,
+  "elapsed_sec": 0.13,
+  "output_chars": 51,
+  "pyfile": "extras/qps-bench-server.py",
+  "status_pattern": "PARTIAL",
+  "matched": "no public function"
+}

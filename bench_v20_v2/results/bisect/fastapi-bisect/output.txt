@@ -1,0 +1,16 @@
+  Verifying test_trivial currently fails...
+  Bisecting across 20 commits...
+    Testing commit 810fd2a88... FAIL
+    Testing commit 205bd85a4... FAIL
+    Testing commit e0a2c75b1... FAIL
+    Testing commit 33ed5aecd... FAIL
+    Testing commit d8a2c1eda... FAIL
+
+==================================================
+  BISECT RESULT
+==================================================
+  First bad commit: d8a2c1eda 📝 Update release notes
+  Test: test_trivial
+  Checked 20 commits in 5 steps
+==================================================
+

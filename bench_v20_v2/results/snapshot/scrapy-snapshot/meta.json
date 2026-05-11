@@ -1,0 +1,8 @@
+{
+  "tool": "snapshot",
+  "case": "scrapy-snapshot",
+  "exit": 0,
+  "elapsed_sec": 0.16,
+  "output_chars": 117,
+  "status_pattern": "PASS"
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "minimize",
+  "case": "ansible-minimize",
+  "exit": 0,
+  "elapsed_sec": 4.62,
+  "output_chars": 477,
+  "status_pattern": "PASS",
+  "matched": "DDMIN RESULT"
+}

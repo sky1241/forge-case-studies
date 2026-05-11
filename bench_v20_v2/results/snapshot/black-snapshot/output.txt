@@ -1,0 +1,2 @@
+  Capturing: python3 -c 'print("hello-cycle20-v2")'
+  Saved: python3_-c__print__hello-cycle20-v2___.golden (1 lines)

@@ -1,0 +1,10 @@
+{
+  "tool": "gen-props",
+  "case": "ansible-gen-props",
+  "exit": 0,
+  "elapsed_sec": 0.33,
+  "output_chars": 339,
+  "pyfile": "hacking/return_skeleton_generator.py",
+  "status_pattern": "PASS",
+  "matched": "Generated \\d+ property tests"
+}

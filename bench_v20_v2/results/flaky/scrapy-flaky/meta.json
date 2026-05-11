@@ -1,0 +1,9 @@
+{
+  "tool": "flaky",
+  "case": "scrapy-flaky",
+  "exit": 0,
+  "elapsed_sec": 2.17,
+  "output_chars": 337,
+  "status_pattern": "PASS",
+  "matched": "\\d+ runs"
+}

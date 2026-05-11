@@ -1,0 +1,10 @@
+{
+  "tool": "gen-props",
+  "case": "black-gen-props",
+  "exit": 0,
+  "elapsed_sec": 0.34,
+  "output_chars": 318,
+  "pyfile": "scripts/fuzz.py",
+  "status_pattern": "PASS",
+  "matched": "Generated \\d+ property tests"
+}

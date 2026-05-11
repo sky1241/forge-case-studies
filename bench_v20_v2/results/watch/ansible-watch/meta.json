@@ -1,0 +1,8 @@
+{
+  "tool": "watch",
+  "case": "ansible-watch",
+  "exit": 124,
+  "elapsed_sec": 5.01,
+  "output_chars": 10,
+  "status_pattern": "PASS"
+}

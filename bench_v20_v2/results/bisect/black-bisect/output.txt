@@ -1,0 +1,16 @@
+  Verifying test_trivial currently fails...
+  Bisecting across 20 commits...
+    Testing commit 35921ac... FAIL
+    Testing commit bdf96a4... FAIL
+    Testing commit 3179c37... FAIL
+    Testing commit fc33c25... FAIL
+    Testing commit 825c249... FAIL
+
+==================================================
+  BISECT RESULT
+==================================================
+  First bad commit: 825c249 Prevent string merger from creating unsplittable long lines (#5096)
+  Test: test_trivial
+  Checked 20 commits in 5 steps
+==================================================
+

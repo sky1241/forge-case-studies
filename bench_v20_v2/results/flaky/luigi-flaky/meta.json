@@ -1,0 +1,9 @@
+{
+  "tool": "flaky",
+  "case": "luigi-flaky",
+  "exit": 0,
+  "elapsed_sec": 6.44,
+  "output_chars": 337,
+  "status_pattern": "PASS",
+  "matched": "\\d+ runs"
+}

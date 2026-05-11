@@ -1,0 +1,10 @@
+{
+  "tool": "gen-props",
+  "case": "fastapi-gen-props",
+  "exit": 0,
+  "elapsed_sec": 0.14,
+  "output_chars": 45,
+  "pyfile": "fastapi/background.py",
+  "status_pattern": "PARTIAL",
+  "matched": "no public function"
+}

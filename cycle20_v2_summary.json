@@ -1,0 +1,320 @@
+{
+  "cycle": "20_v2",
+  "tools_tested": [
+    "gen-props",
+    "snapshot",
+    "watch",
+    "minimize",
+    "bisect",
+    "flaky"
+  ],
+  "projects_per_tool": [
+    "ansible",
+    "scrapy",
+    "luigi",
+    "fastapi",
+    "black"
+  ],
+  "per_tool": {
+    "gen-props": {
+      "n": 5,
+      "pass": 2,
+      "partial": 3,
+      "fail": 0,
+      "ratio_ok": 100.0,
+      "tool_ok": true
+    },
+    "snapshot": {
+      "n": 5,
+      "pass": 5,
+      "partial": 0,
+      "fail": 0,
+      "ratio_ok": 100.0,
+      "tool_ok": true
+    },
+    "watch": {
+      "n": 5,
+      "pass": 5,
+      "partial": 0,
+      "fail": 0,
+      "ratio_ok": 100.0,
+      "tool_ok": true
+    },
+    "minimize": {
+      "n": 5,
+      "pass": 3,
+      "partial": 2,
+      "fail": 0,
+      "ratio_ok": 100.0,
+      "tool_ok": true
+    },
+    "bisect": {
+      "n": 5,
+      "pass": 5,
+      "partial": 0,
+      "fail": 0,
+      "ratio_ok": 100.0,
+      "tool_ok": true
+    },
+    "flaky": {
+      "n": 5,
+      "pass": 5,
+      "partial": 0,
+      "fail": 0,
+      "ratio_ok": 100.0,
+      "tool_ok": true
+    }
+  },
+  "tools_pass_count": 6,
+  "tools_pass_threshold": 5,
+  "verdict_c_sanity_scale": "OUI",
+  "all_results": {
+    "gen-props": [
+      {
+        "project": "ansible",
+        "case": "ansible-gen-props",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "Generated \\d+ property tests",
+        "elapsed": 0.33
+      },
+      {
+        "project": "scrapy",
+        "case": "scrapy-gen-props",
+        "exit": 0,
+        "status": "PARTIAL",
+        "pattern": "no public function",
+        "elapsed": 0.13
+      },
+      {
+        "project": "luigi",
+        "case": "luigi-gen-props",
+        "exit": 0,
+        "status": "PARTIAL",
+        "pattern": "no public function",
+        "elapsed": 0.13
+      },
+      {
+        "project": "fastapi",
+        "case": "fastapi-gen-props",
+        "exit": 0,
+        "status": "PARTIAL",
+        "pattern": "no public function",
+        "elapsed": 0.14
+      },
+      {
+        "project": "black",
+        "case": "black-gen-props",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "Generated \\d+ property tests",
+        "elapsed": 0.34
+      }
+    ],
+    "snapshot": [
+      {
+        "project": "ansible",
+        "case": "ansible-snapshot",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "Saved.*\\.golden",
+        "elapsed": 0.16
+      },
+      {
+        "project": "scrapy",
+        "case": "scrapy-snapshot",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "Saved.*\\.golden",
+        "elapsed": 0.16
+      },
+      {
+        "project": "luigi",
+        "case": "luigi-snapshot",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "Saved.*\\.golden",
+        "elapsed": 0.16
+      },
+      {
+        "project": "fastapi",
+        "case": "fastapi-snapshot",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "Saved.*\\.golden",
+        "elapsed": 0.16
+      },
+      {
+        "project": "black",
+        "case": "black-snapshot",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "Saved.*\\.golden",
+        "elapsed": 0.15
+      }
+    ],
+    "watch": [
+      {
+        "project": "ansible",
+        "case": "ansible-watch",
+        "exit": 124,
+        "status": "PASS",
+        "elapsed": 5.01
+      },
+      {
+        "project": "scrapy",
+        "case": "scrapy-watch",
+        "exit": 124,
+        "status": "PASS",
+        "elapsed": 5.0
+      },
+      {
+        "project": "luigi",
+        "case": "luigi-watch",
+        "exit": 124,
+        "status": "PASS",
+        "elapsed": 5.01
+      },
+      {
+        "project": "fastapi",
+        "case": "fastapi-watch",
+        "exit": 124,
+        "status": "PASS",
+        "elapsed": 5.0
+      },
+      {
+        "project": "black",
+        "case": "black-watch",
+        "exit": 124,
+        "status": "PASS",
+        "elapsed": 5.0
+      }
+    ],
+    "minimize": [
+      {
+        "project": "ansible",
+        "case": "ansible-minimize",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "DDMIN RESULT",
+        "elapsed": 4.62
+      },
+      {
+        "project": "scrapy",
+        "case": "scrapy-minimize",
+        "exit": 0,
+        "status": "PARTIAL",
+        "pattern": "Nothing to minimize",
+        "elapsed": 0.78
+      },
+      {
+        "project": "luigi",
+        "case": "luigi-minimize",
+        "exit": 0,
+        "status": "PARTIAL",
+        "pattern": "Nothing to minimize",
+        "elapsed": 0.91
+      },
+      {
+        "project": "fastapi",
+        "case": "fastapi-minimize",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "DDMIN RESULT",
+        "elapsed": 4.64
+      },
+      {
+        "project": "black",
+        "case": "black-minimize",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "DDMIN RESULT",
+        "elapsed": 3.87
+      }
+    ],
+    "bisect": [
+      {
+        "project": "ansible",
+        "case": "ansible-bisect",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "First bad commit",
+        "elapsed": 7.22
+      },
+      {
+        "project": "scrapy",
+        "case": "scrapy-bisect",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "Verifying",
+        "elapsed": 0.78
+      },
+      {
+        "project": "luigi",
+        "case": "luigi-bisect",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "Verifying",
+        "elapsed": 0.85
+      },
+      {
+        "project": "fastapi",
+        "case": "fastapi-bisect",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "First bad commit",
+        "elapsed": 7.07
+      },
+      {
+        "project": "black",
+        "case": "black-bisect",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "First bad commit",
+        "elapsed": 6.08
+      }
+    ],
+    "flaky": [
+      {
+        "project": "ansible",
+        "case": "ansible-flaky",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "\\d+ runs",
+        "elapsed": 4.2
+      },
+      {
+        "project": "scrapy",
+        "case": "scrapy-flaky",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "\\d+ runs",
+        "elapsed": 2.17
+      },
+      {
+        "project": "luigi",
+        "case": "luigi-flaky",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "\\d+ runs",
+        "elapsed": 6.44
+      },
+      {
+        "project": "fastapi",
+        "case": "fastapi-flaky",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "\\d+ runs",
+        "elapsed": 40.36
+      },
+      {
+        "project": "black",
+        "case": "black-flaky",
+        "exit": 0,
+        "status": "PASS",
+        "pattern": "\\d+ runs",
+        "elapsed": 3.47
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "bisect",
+  "case": "ansible-bisect",
+  "exit": 0,
+  "elapsed_sec": 7.22,
+  "output_chars": 570,
+  "status_pattern": "PASS",
+  "matched": "First bad commit"
+}
