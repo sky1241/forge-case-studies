@@ -1,0 +1,57 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.306  thefuck/rules/git_not_command.py
+       Kalman=0.00  Wavelet=n/a   Crash=100%  Coupling=0.21
+       churn=1.2 freq=2 authors=1 bugfix=1 loc=16
+  0.301  tests/rules/test_whois.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.21
+       churn=1.0 freq=2 authors=2 bugfix=1 loc=23
+  0.288  tests/test_shells.py
+       Kalman=0.00  Wavelet=580.4  Crash=0%  Coupling=0.00
+       churn=1.6 freq=10 authors=2 bugfix=1 loc=189
+  0.282  thefuck/conf.py
+       Kalman=0.00  Wavelet=18739.2  Crash=0%  Coupling=0.17
+       churn=2.9 freq=8 authors=2 bugfix=1 loc=132
+  0.192  tests/test_main.py
+       Kalman=0.00  Wavelet=4104.3  Crash=12%  Coupling=0.17
+       churn=4.8 freq=29 authors=1 bugfix=5 loc=173
+  0.181  setup.py
+       Kalman=0.00  Wavelet=118.0  Crash=12%  Coupling=0.00
+       churn=7.7 freq=53 authors=2 bugfix=5 loc=21
+  0.180  tests/utils.py
+       Kalman=0.00  Wavelet=15.5  Crash=0%  Coupling=1.00
+       churn=1.5 freq=3 authors=1 bugfix=0 loc=16
+  0.152  thefuck/rules/no_command.py
+       Kalman=0.00  Wavelet=496.0  Crash=8%  Coupling=0.41
+       churn=3.3 freq=14 authors=2 bugfix=1 loc=39
+  0.145  thefuck/rules/ssh_known_hosts.py
+       Kalman=0.00  Wavelet=n/a   Crash=33%  Coupling=0.21
+       churn=1.4 freq=3 authors=2 bugfix=1 loc=36
+  0.138  tests/rules/test_no_command.py
+       Kalman=0.00  Wavelet=775.5  Crash=0%  Coupling=0.21
+       churn=5.0 freq=6 authors=2 bugfix=0 loc=36
+  0.129  tests/rules/test_ssh_known_host.py
+       Kalman=0.00  Wavelet=1120.2  Crash=20%  Coupling=0.21
+       churn=1.8 freq=5 authors=2 bugfix=1 loc=66
+  0.124  tests/rules/test_git_not_command.py
+       Kalman=0.00  Wavelet=88.8  Crash=25%  Coupling=0.21
+       churn=1.5 freq=4 authors=1 bugfix=1 loc=44
+  0.121  tests/rules/test_sudo.py
+       Kalman=0.00  Wavelet=94.9  Crash=12%  Coupling=0.21
+       churn=2.9 freq=9 authors=3 bugfix=3 loc=24
+  0.117  thefuck/main.py
+       Kalman=0.00  Wavelet=1200.5  Crash=14%  Coupling=0.00
+       churn=3.6 freq=37 authors=7 bugfix=7 loc=137
+  0.115  tests/test_conf.py
+       Kalman=0.00  Wavelet=2854.2  Crash=0%  Coupling=0.17
+       churn=3.0 freq=10 authors=2 bugfix=1 loc=102
+============================================================
+
+
+--- STDERR ---
+<unknown>:14: SyntaxWarning: invalid escape sequence '\('
+<unknown>:14: SyntaxWarning: invalid escape sequence '\('

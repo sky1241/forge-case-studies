@@ -1,0 +1,17 @@
+
+==================================================
+  MODULARITY — Newman-Girvan Q over import graph
+==================================================
+  Q = 0.458 (good — modules are well isolated (Q ≥ 0.30))
+  147 files in 74 communities
+
+  Top 3 communities by size:
+    cluster # 33    11 files  Q-contrib +0.076
+    cluster # 52     7 files  Q-contrib +0.030
+    cluster #  5     3 files  Q-contrib +0.012
+==================================================
+
+
+--- STDERR ---
+<unknown>:15: SyntaxWarning: invalid escape sequence '\('
+<unknown>:30: SyntaxWarning: invalid escape sequence '\('

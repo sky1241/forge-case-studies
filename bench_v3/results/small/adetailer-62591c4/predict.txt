@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 28 files, last 999 weeks
+==================================================
+  0.83  scripts/!adetailer.py
+       churn=5.2 freq=235 burst=16 authors=10 bugfix=147 loc=1061 recent=0.00
+  0.56  adetailer/__version__.py
+       churn=25.3 freq=127 burst=8 authors=1 bugfix=33 loc=1 recent=0.00
+  0.38  adetailer/args.py
+       churn=2.6 freq=65 burst=6 authors=7 bugfix=36 loc=278 recent=0.00
+  0.29  controlnet_ext/controlnet_ext.py
+       churn=2.7 freq=24 burst=5 authors=5 bugfix=14 loc=149 recent=0.00
+  0.28  adetailer/common.py
+       churn=4.6 freq=37 burst=6 authors=1 bugfix=18 loc=178 recent=0.00
+  0.26  adetailer/ultralytics.py
+       churn=3.2 freq=26 burst=7 authors=1 bugfix=18 loc=66 recent=0.00
+  0.26  install.py
+       churn=3.4 freq=40 burst=4 authors=1 bugfix=19 loc=77 recent=0.00
+  0.24  adetailer/mediapipe.py
+       churn=1.8 freq=20 burst=5 authors=2 bugfix=12 loc=174 recent=0.00
+  0.23  adetailer/mask.py
+       churn=1.3 freq=13 burst=5 authors=2 bugfix=9 loc=269 recent=0.00
+  0.20  aaaaaa/ui.py
+       churn=0.1 freq=5 burst=3 authors=1 bugfix=2 loc=701 recent=0.00
+  0.20  adetailer/__init__.py
+       churn=2.9 freq=13 burst=3 authors=1 bugfix=4 loc=18 recent=0.00
+  0.16  aaaaaa/conditional.py
+       churn=2.0 freq=4 burst=1 authors=1 bugfix=3 loc=21 recent=0.00
+  0.16  controlnet_ext/controlnet_ext_forge.py
+       churn=1.9 freq=4 burst=4 authors=2 bugfix=3 loc=92 recent=0.00
+  0.15  tests/test_args.py
+       churn=1.1 freq=4 burst=1 authors=1 bugfix=1 loc=48 recent=0.00
+  0.15  aaaaaa/traceback.py
+       churn=0.2 freq=2 burst=1 authors=1 bugfix=1 loc=175 recent=0.00
+==================================================
+
+
+--- STDERR ---
