@@ -1,0 +1,308 @@
+[
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-3",
+    "bucket": "large",
+    "change_file": "fastapi/routing.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 28,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-17",
+    "bucket": "large",
+    "change_file": "lib/ansible/module_utils/facts/hardware/linux.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 14,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-35",
+    "bucket": "large",
+    "change_file": "scrapy/crawler.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 9,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-41",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 42,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-28",
+    "bucket": "large",
+    "change_file": "luigi/contrib/hive.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 3,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-11",
+    "bucket": "large",
+    "change_file": "fastapi/dependencies/utils.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 15,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "cookiecutter",
+    "bug_id": "cookiecutter-2",
+    "bucket": "medium",
+    "change_file": "cookiecutter/hooks.py",
+    "github_url": "https://github.com/cookiecutter/cookiecutter",
+    "fix_count": 14,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-33",
+    "bucket": "large",
+    "change_file": "scrapy/core/engine.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 24,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-27",
+    "bucket": "large",
+    "change_file": "luigi/parameter.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 17,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-6",
+    "bucket": "large",
+    "change_file": "lib/ansible/galaxy/collection.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 9,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-12",
+    "bucket": "large",
+    "change_file": "lib/ansible/plugins/lookup/env.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 3,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-32",
+    "bucket": "large",
+    "change_file": "scrapy/crawler.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 10,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-35",
+    "bucket": "large",
+    "change_file": "youtube_dl/extractor/arte.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 18,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-7",
+    "bucket": "large",
+    "change_file": "lib/ansible/module_utils/network/eos/config/vlans/vlans.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 3,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "black",
+    "bug_id": "black-20",
+    "bucket": "large",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 26,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-9",
+    "bucket": "large",
+    "change_file": "fastapi/dependencies/utils.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 15,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-29",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 132,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-24",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 151,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-15",
+    "bucket": "large",
+    "change_file": "lib/ansible/modules/network/eos/eos_eapi.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 18,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-31",
+    "bucket": "large",
+    "change_file": "luigi/scheduler.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 29,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "black",
+    "bug_id": "black-11",
+    "bucket": "large",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 113,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-34",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 76,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-12",
+    "bucket": "large",
+    "change_file": "youtube_dl/YoutubeDL.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 110,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-10",
+    "bucket": "large",
+    "change_file": "fastapi/routing.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 20,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-22",
+    "bucket": "large",
+    "change_file": "luigi/scheduler.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 34,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-7",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 132,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-11",
+    "bucket": "large",
+    "change_file": "lib/ansible/modules/network/ios/ios_banner.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 8,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-25",
+    "bucket": "large",
+    "change_file": "luigi/contrib/redshift.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 9,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-7",
+    "bucket": "large",
+    "change_file": "tornado/ioloop.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 41,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-16",
+    "bucket": "large",
+    "change_file": "fastapi/encoders.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 3,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-36",
+    "bucket": "large",
+    "change_file": "youtube_dl/extractor/facebook.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 6,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-9",
+    "bucket": "large",
+    "change_file": "scrapy/mail.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 9,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-7",
+    "bucket": "large",
+    "change_file": "luigi/scheduler.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 63,
+    "source": "BugsInPy_E7"
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-13",
+    "bucket": "large",
+    "change_file": "tornado/http1connection.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 6,
+    "source": "BugsInPy_E7"
+  }
+]
