@@ -1,0 +1,15 @@
+{
+  "bug_id": "luigi-7",
+  "project": "luigi",
+  "bucket": "large",
+  "change_file": "luigi/scheduler.py",
+  "checkout": "master @ b53a77fe",
+  "init_exit": 0,
+  "shield_exit": 0,
+  "stages_carmack": true,
+  "stages_gen_props": true,
+  "stages_fast_deep": true,
+  "stages_complete": true,
+  "output_chars": 2789,
+  "status": "ok"
+}

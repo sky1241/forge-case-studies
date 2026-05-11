@@ -1,0 +1,15 @@
+{
+  "bug_id": "PySnooper-1",
+  "project": "PySnooper",
+  "bucket": "medium",
+  "change_file": "pysnooper/pycompat.py",
+  "checkout": "master @ f82c460",
+  "init_exit": 0,
+  "shield_exit": 0,
+  "stages_carmack": true,
+  "stages_gen_props": false,
+  "stages_fast_deep": false,
+  "stages_complete": false,
+  "output_chars": 395,
+  "status": "ok"
+}

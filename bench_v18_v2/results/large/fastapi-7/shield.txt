@@ -1,0 +1,84 @@
+
+==================================================
+  SHIELD — orchestrated forge feedback chain
+==================================================
+  [STAGE 1] predict_carmack — identify top-3 risky files
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  WARNING: small repo or short history — Carmack signals may be noisy.
+           For a meaningful demo, run on a repo with >=6 files and >=4 weeks of history.
+  0.703  scripts/docs.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=743
+  0.687  scripts/doc_parsing_utils.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=733
+  0.610  fastapi/routing.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.05
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=4956
+  0.606  tests/test_include_router_defaults_overrides.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=7304
+  0.586  scripts/translate.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.1 freq=2 authors=2 bugfix=0 loc=484
+  0.565  fastapi/dependencies/utils.py
+       Kalman=0.00  Wavelet=208169.7  Crash=0%  Coupling=0.04
+       churn=1.0 freq=3 authors=3 bugfix=0 loc=1057
+  0.556  tests/test_generate_unique_id_function.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=1699
+  0.536  scripts/people.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=483
+  0.526  fastapi/testclient.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=1.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=1
+  0.495  fastapi/applications.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.02
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=4691
+  0.493  scripts/notify_translations.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=432
+  0.483  fastapi/openapi/utils.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.02
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=606
+  0.476  tests/test_response_model_as_return_annotation.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=1121
+  0.470  fastapi/_compat/v2.py
+       Kalman=0.00  Wavelet=41515.7  Crash=0%  Coupling=0.12
+       churn=1.0 freq=3 authors=3 bugfix=0 loc=493
+  0.439  scripts/mkdocs_hooks.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=182
+============================================================
+
+    scripts/docs.py                                     score=0.703
+    scripts/doc_parsing_utils.py                        score=0.687
+    fastapi/routing.py                                  score=0.610
+
+  [STAGE 2] gen-props on risky files lacking matching tests
+    [skip] scripts/docs.py (test exists)
+    [skip] scripts/doc_parsing_utils.py (test exists)
+    [skip] fastapi/routing.py (test exists)
+
+  [STAGE 3] fast-deep impact selection + run
+  Changed files: 1
+    tests/test_props_doc_parsing_utils.py
+  fast-deep: 30/498 tests selected (transitive depth ≤ 5, max hop observed = 0)
+
+==================================================
+  FAST-DEEP MODE — 0 tests in 1.9s
+  Passed: 0  Failed: 0
+==================================================
+
+==================================================
+  SHIELD complete — 0 tests generated, 3 skipped (already covered), 0 skipped (test files)
+==================================================
+
+

@@ -1,0 +1,15 @@
+{
+  "bug_id": "scrapy-29",
+  "project": "scrapy",
+  "bucket": "large",
+  "change_file": "scrapy/utils/request.py",
+  "checkout": "master @ 5223dbe3f",
+  "init_exit": 0,
+  "shield_exit": 0,
+  "stages_carmack": true,
+  "stages_gen_props": true,
+  "stages_fast_deep": true,
+  "stages_complete": true,
+  "output_chars": 3522,
+  "status": "ok"
+}

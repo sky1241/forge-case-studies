@@ -1,0 +1,15 @@
+{
+  "bug_id": "youtube-dl-10",
+  "project": "youtube-dl",
+  "bucket": "large",
+  "change_file": "youtube_dl/utils.py",
+  "checkout": "master @ 956b8c585",
+  "init_exit": 0,
+  "shield_exit": 0,
+  "stages_carmack": true,
+  "stages_gen_props": false,
+  "stages_fast_deep": false,
+  "stages_complete": false,
+  "output_chars": 395,
+  "status": "ok"
+}

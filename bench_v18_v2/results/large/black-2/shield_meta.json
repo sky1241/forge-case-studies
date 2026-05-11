@@ -1,0 +1,15 @@
+{
+  "bug_id": "black-2",
+  "project": "black",
+  "bucket": "large",
+  "change_file": "black.py",
+  "checkout": "main @ 9e87495",
+  "init_exit": 0,
+  "shield_exit": 0,
+  "stages_carmack": true,
+  "stages_gen_props": true,
+  "stages_fast_deep": true,
+  "stages_complete": true,
+  "output_chars": 6388,
+  "status": "ok"
+}
