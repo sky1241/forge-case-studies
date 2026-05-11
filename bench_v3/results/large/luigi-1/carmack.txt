@@ -1,0 +1,55 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.325  luigi/six.py
+       Kalman=0.00  Wavelet=123769.5  Crash=0%  Coupling=0.21
+       churn=1.1 freq=3 authors=3 bugfix=1 loc=886
+  0.318  luigi/contrib/s3.py
+       Kalman=0.00  Wavelet=27233.5  Crash=0%  Coupling=0.10
+       churn=2.2 freq=22 authors=16 bugfix=7 loc=777
+  0.266  luigi/contrib/hdfs/format.py
+       Kalman=0.00  Wavelet=1681.0  Crash=0%  Coupling=0.16
+       churn=1.1 freq=6 authors=6 bugfix=3 loc=187
+  0.232  test/contrib/s3_test.py
+       Kalman=0.00  Wavelet=3851.5  Crash=0%  Coupling=0.05
+       churn=0.8 freq=14 authors=9 bugfix=6 loc=646
+  0.226  luigi/scheduler.py
+       Kalman=0.00  Wavelet=1720.6  Crash=0%  Coupling=0.66
+       churn=3.0 freq=229 authors=55 bugfix=48 loc=1654
+  0.222  test/parameter_test.py
+       Kalman=0.00  Wavelet=799.8  Crash=0%  Coupling=0.13
+       churn=2.0 freq=93 authors=32 bugfix=16 loc=1209
+  0.219  luigi/contrib/postgres.py
+       Kalman=0.00  Wavelet=8778.6  Crash=0%  Coupling=0.05
+       churn=1.1 freq=11 authors=10 bugfix=2 loc=396
+  0.215  luigi/parameter.py
+       Kalman=0.00  Wavelet=1113.7  Crash=0%  Coupling=0.20
+       churn=2.5 freq=146 authors=47 bugfix=22 loc=1256
+  0.207  luigi/contrib/rdbms.py
+       Kalman=0.00  Wavelet=1294.6  Crash=0%  Coupling=0.05
+       churn=1.1 freq=15 authors=13 bugfix=4 loc=345
+  0.203  test/contrib/postgres_test.py
+       Kalman=0.00  Wavelet=386.8  Crash=0%  Coupling=0.05
+       churn=0.4 freq=4 authors=4 bugfix=1 loc=191
+  0.196  luigi/contrib/bigquery.py
+       Kalman=0.00  Wavelet=5059.9  Crash=0%  Coupling=0.05
+       churn=1.5 freq=34 authors=18 bugfix=4 loc=788
+  0.179  luigi/contrib/hdfs/clients.py
+       Kalman=0.00  Wavelet=54759.4  Crash=0%  Coupling=0.10
+       churn=18.1 freq=11 authors=5 bugfix=0 loc=70
+  0.175  luigi/db_task_history.py
+       Kalman=0.00  Wavelet=983.0  Crash=0%  Coupling=0.10
+       churn=1.9 freq=31 authors=17 bugfix=8 loc=283
+  0.167  luigi/file.py
+       Kalman=0.00  Wavelet=696.1  Crash=0%  Coupling=0.10
+       churn=36.2 freq=63 authors=23 bugfix=13 loc=26
+  0.163  luigi/mock.py
+       Kalman=0.00  Wavelet=236.0  Crash=0%  Coupling=1.00
+       churn=3.1 freq=47 authors=18 bugfix=10 loc=196
+============================================================
+
+
+--- STDERR ---

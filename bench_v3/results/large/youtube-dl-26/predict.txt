@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 671 files, last 999 weeks
+==================================================
+  0.68  youtube_dl/extractor/__init__.py
+       churn=64.3 freq=887 burst=11 authors=174 bugfix=104 loc=46 recent=0.00
+  0.58  youtube_dl/utils.py
+       churn=2.2 freq=456 burst=27 authors=27 bugfix=129 loc=2829 recent=0.00
+  0.58  youtube_dl/extractor/youtube.py
+       churn=4.8 freq=553 burst=16 authors=38 bugfix=178 loc=2349 recent=0.00
+  0.57  youtube_dl/version.py
+       churn=138.3 freq=693 burst=12 authors=2 bugfix=2 loc=3 recent=0.00
+  0.49  youtube_dl/__init__.py
+       churn=33.8 freq=453 burst=17 authors=48 bugfix=70 loc=429 recent=0.00
+  0.45  youtube_dl/YoutubeDL.py
+       churn=2.4 freq=430 burst=11 authors=37 bugfix=97 loc=2118 recent=0.00
+  0.40  youtube_dl/extractor/generic.py
+       churn=1.9 freq=346 burst=10 authors=20 bugfix=88 loc=2134 recent=0.00
+  0.37  youtube_dl/extractor/common.py
+       churn=1.9 freq=339 burst=8 authors=20 bugfix=65 loc=1740 recent=0.00
+  0.29  test/test_utils.py
+       churn=1.7 freq=143 burst=10 authors=12 bugfix=41 loc=946 recent=0.00
+  0.28  youtube_dl/extractor/vimeo.py
+       churn=2.4 freq=136 burst=8 authors=11 bugfix=52 loc=808 recent=0.00
+  0.28  youtube_dl/extractor/brightcove.py
+       churn=2.1 freq=102 burst=11 authors=8 bugfix=36 loc=603 recent=0.00
+  0.27  youtube_dl/extractor/bbc.py
+       churn=1.3 freq=61 burst=15 authors=5 bugfix=11 loc=977 recent=0.00
+  0.26  youtube_dl/swfinterp.py
+       churn=1.4 freq=32 burst=16 authors=4 bugfix=6 loc=831 recent=0.00
+  0.26  youtube_dl/extractor/vevo.py
+       churn=3.1 freq=64 burst=12 authors=7 bugfix=15 loc=441 recent=0.00
+  0.25  youtube_dl/extractor/arte.py
+       churn=4.2 freq=90 burst=8 authors=10 bugfix=30 loc=398 recent=0.00
+==================================================
+
+
+--- STDERR ---
