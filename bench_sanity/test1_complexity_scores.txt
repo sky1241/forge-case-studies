@@ -1,0 +1,12 @@
+file                                                mccabe  halstead_v  depth    loc  score
+-----------------------------------------------------------------------------------------------
+forge.py                                               976      174872     12   5082  1.000
+test_forge_real_algos.py                               203      122078      4   4204  0.880
+simple.py (1 function return 42)                         1           2      1      2  0.026
+empty.py                                                 1           0      0      0  0.000
+forge.py                                               976      174872     12   5082  1.000
+test_typing.py                                           1         256      1     53  0.037
+test_forge_destructive_skip.py                           5        3460      3    290  0.171
+conftest.py                                              2          98      1     17  0.035
+test_forge_real_algos.py                               203      122078      4   4204  0.880
+test_cli_entry_point.py                                  9        4574      2    284  0.184
