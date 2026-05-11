@@ -1,0 +1,18 @@
+  Running tests with per-test coverage...
+
+  PYTEST RUNNER ERROR (during --locate):
+    ============================= test session starts ==============================
+    collecting ... collected 21 items / 2 errors
+    
+    =========================== short test summary info ============================
+    ERROR tests/test_manifest.py
+    ERROR tests/test_validate_targets.py
+    !!!!!!!!!!!!!!!!!!! Interrupted: 2 errors during collection !!!!!!!!!!!!!!!!!!!!
+    ============================== 2 errors in 1.38s ===============================
+  exit code: 2
+  Hint: a test file in your repo crashed at collection
+  (missing dep, plugin conflict, mypy_test_cases/ not for normal pytest...).
+  Try FORGE_TEST_FILTER='specific_test' or fix the broken collector.
+
+
+--- STDERR ---
