@@ -1,0 +1,16 @@
+  Running tests with per-test coverage...
+
+  PYTEST RUNNER ERROR (during --locate):
+    ImportError while loading conftest '/home/sky/forge-case-studies/clones/thefuck/tests/conftest.py'.
+    tests/conftest.py:3: in <module>
+        from thefuck import conf
+    thefuck/conf.py:1: in <module>
+        from imp import load_source
+    E   ModuleNotFoundError: No module named 'imp'
+  exit code: 4
+  Hint: a test file in your repo crashed at collection
+  (missing dep, plugin conflict, mypy_test_cases/ not for normal pytest...).
+  Try FORGE_TEST_FILTER='specific_test' or fix the broken collector.
+
+
+--- STDERR ---

@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 126 files, last 999 weeks
+==================================================
+  0.88  setup.py
+       churn=6.5 freq=65 burst=16 authors=4 bugfix=9 loc=34 recent=0.00
+  0.71  thefuck/main.py
+       churn=3.3 freq=40 burst=13 authors=8 bugfix=8 loc=153 recent=0.00
+  0.63  tests/test_main.py
+       churn=4.9 freq=32 burst=11 authors=2 bugfix=6 loc=173 recent=0.00
+  0.55  thefuck/shells.py
+       churn=1.7 freq=28 burst=5 authors=5 bugfix=8 loc=265 recent=0.00
+  0.44  thefuck/rules/sudo.py
+       churn=2.7 freq=23 burst=4 authors=12 bugfix=1 loc=29 recent=0.00
+  0.40  thefuck/conf.py
+       churn=2.9 freq=11 burst=6 authors=3 bugfix=2 loc=135 recent=0.00
+  0.38  thefuck/rules/no_command.py
+       churn=3.4 freq=15 burst=7 authors=2 bugfix=1 loc=40 recent=0.00
+  0.35  tests/rules/test_no_command.py
+       churn=5.5 freq=7 burst=2 authors=2 bugfix=0 loc=42 recent=0.00
+  0.32  tests/test_shells.py
+       churn=1.5 freq=12 burst=3 authors=2 bugfix=2 loc=231 recent=0.00
+  0.31  thefuck/utils.py
+       churn=1.2 freq=14 burst=3 authors=2 bugfix=2 loc=122 recent=0.00
+  0.31  thefuck/rules/cd_correction.py
+       churn=3.0 freq=7 burst=5 authors=3 bugfix=4 loc=53 recent=0.00
+  0.30  tests/rules/test_sudo.py
+       churn=2.9 freq=9 burst=3 authors=3 bugfix=3 loc=24 recent=0.00
+  0.30  tests/test_utils.py
+       churn=2.2 freq=12 burst=4 authors=2 bugfix=0 loc=61 recent=0.00
+  0.28  thefuck/rules/pacman.py
+       churn=1.9 freq=6 burst=2 authors=3 bugfix=3 loc=43 recent=0.00
+  0.25  tests/test_conf.py
+       churn=3.0 freq=10 burst=6 authors=2 bugfix=1 loc=102 recent=0.00
+==================================================
+
+
+--- STDERR ---

@@ -1,0 +1,55 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.417  thefuck/types.py
+       Kalman=0.00  Wavelet=7193.3  Crash=0%  Coupling=0.14
+       churn=2.0 freq=18 authors=2 bugfix=3 loc=271
+  0.358  tests/test_types.py
+       Kalman=0.00  Wavelet=2402.5  Crash=0%  Coupling=0.14
+       churn=2.0 freq=12 authors=2 bugfix=4 loc=125
+  0.303  thefuck/conf.py
+       Kalman=0.00  Wavelet=7754.4  Crash=0%  Coupling=0.28
+       churn=5.0 freq=18 authors=4 bugfix=2 loc=127
+  0.289  tests/rules/test_fix_file.py
+       Kalman=0.00  Wavelet=6300.7  Crash=0%  Coupling=0.14
+       churn=1.4 freq=8 authors=2 bugfix=5 loc=233
+  0.239  thefuck/main.py
+       Kalman=0.00  Wavelet=1124.9  Crash=7%  Coupling=0.28
+       churn=12.2 freq=61 authors=10 bugfix=13 loc=79
+  0.215  tests/test_corrector.py
+       Kalman=0.00  Wavelet=1419.2  Crash=0%  Coupling=0.14
+       churn=6.2 freq=11 authors=1 bugfix=1 loc=59
+  0.211  thefuck/corrector.py
+       Kalman=0.00  Wavelet=1498.5  Crash=0%  Coupling=0.14
+       churn=5.7 freq=16 authors=2 bugfix=1 loc=75
+  0.201  thefuck/utils.py
+       Kalman=0.00  Wavelet=746.8  Crash=0%  Coupling=1.00
+       churn=2.6 freq=37 authors=3 bugfix=7 loc=228
+  0.185  thefuck/rules/fix_file.py
+       Kalman=0.00  Wavelet=672.5  Crash=0%  Coupling=0.14
+       churn=1.7 freq=8 authors=2 bugfix=6 loc=78
+  0.179  thefuck/rules/dirty_untar.py
+       Kalman=0.00  Wavelet=169.5  Crash=0%  Coupling=0.14
+       churn=1.6 freq=6 authors=2 bugfix=3 loc=47
+  0.159  tests/rules/test_no_command.py
+       Kalman=0.00  Wavelet=551.0  Crash=0%  Coupling=0.14
+       churn=10.1 freq=10 authors=2 bugfix=0 loc=27
+  0.157  thefuck/rules/pacman.py
+       Kalman=0.00  Wavelet=182.0  Crash=0%  Coupling=0.28
+       churn=9.0 freq=12 authors=3 bugfix=3 loc=16
+  0.156  tests/rules/test_mercurial.py
+       Kalman=0.00  Wavelet=3174.8  Crash=0%  Coupling=0.14
+       churn=1.1 freq=3 authors=3 bugfix=1 loc=134
+  0.151  tests/rules/test_dirty_untar.py
+       Kalman=0.00  Wavelet=621.2  Crash=0%  Coupling=0.14
+       churn=1.2 freq=5 authors=2 bugfix=3 loc=65
+  0.149  thefuck/rules/no_command.py
+       Kalman=0.00  Wavelet=300.1  Crash=6%  Coupling=0.14
+       churn=8.7 freq=20 authors=2 bugfix=1 loc=21
+============================================================
+
+
+--- STDERR ---
