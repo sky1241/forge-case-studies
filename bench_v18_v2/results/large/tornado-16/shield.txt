@@ -1,0 +1,33 @@
+
+==================================================
+  SHIELD — orchestrated forge feedback chain
+==================================================
+  [STAGE 1] predict_carmack — identify top-3 risky files
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  WARNING: small repo or short history — Carmack signals may be noisy.
+           For a meaningful demo, run on a repo with >=6 files and >=4 weeks of history.
+  0.426  tornado/curl_httpclient.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.12
+       churn=0.1 freq=2 authors=1 bugfix=0 loc=569
+============================================================
+
+    tornado/curl_httpclient.py                          score=0.426
+
+  [STAGE 2] gen-props on risky files lacking matching tests
+    [skip] tornado/curl_httpclient.py (test exists)
+
+  [STAGE 3] fast-deep impact selection + run
+  Changed files: 1
+    tests/__init__.py
+  fast-deep: 0/36 tests selected (transitive depth ≤ 5, max hop observed = 0)
+  No transitively-impacted tests. Run full suite with: forge
+==================================================
+  SHIELD complete — 0 tests generated, 1 skipped (already covered), 0 skipped (test files)
+==================================================
+
+

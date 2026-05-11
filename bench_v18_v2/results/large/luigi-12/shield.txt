@@ -1,0 +1,61 @@
+
+==================================================
+  SHIELD — orchestrated forge feedback chain
+==================================================
+  [STAGE 1] predict_carmack — identify top-3 risky files
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  WARNING: small repo or short history — Carmack signals may be noisy.
+           For a meaningful demo, run on a repo with >=6 files and >=4 weeks of history.
+  0.691  luigi/scheduler.py
+       Kalman=0.56  Wavelet=n/a   Crash=100%  Coupling=0.65
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=1673
+  0.567  test/scheduler_api_test.py
+       Kalman=0.56  Wavelet=n/a   Crash=100%  Coupling=0.20
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=2201
+  0.548  luigi/task.py
+       Kalman=0.56  Wavelet=n/a   Crash=100%  Coupling=0.20
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=1024
+  0.529  luigi/interface.py
+       Kalman=0.56  Wavelet=n/a   Crash=100%  Coupling=0.40
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=210
+  0.475  test/interface_test.py
+       Kalman=0.56  Wavelet=n/a   Crash=100%  Coupling=0.15
+       churn=0.1 freq=1 authors=1 bugfix=1 loc=222
+  0.471  test/scheduler_test.py
+       Kalman=0.56  Wavelet=n/a   Crash=100%  Coupling=0.10
+       churn=0.1 freq=1 authors=1 bugfix=1 loc=395
+  0.455  luigi/target.py
+       Kalman=0.56  Wavelet=n/a   Crash=100%  Coupling=0.15
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=351
+  0.424  luigi/__init__.py
+       Kalman=0.56  Wavelet=n/a   Crash=100%  Coupling=0.10
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=155
+  0.254  luigi/__version__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.05
+       churn=0.7 freq=1 authors=1 bugfix=0 loc=3
+============================================================
+
+    luigi/scheduler.py                                  score=0.691
+    test/scheduler_api_test.py                          score=0.567
+    luigi/task.py                                       score=0.548
+
+  [STAGE 2] gen-props on risky files lacking matching tests
+    [skip] luigi/scheduler.py (test exists)
+    [skip] test/scheduler_api_test.py (is a test file)
+    [skip] luigi/task.py (test exists)
+
+  [STAGE 3] fast-deep impact selection + run
+  Changed files: 1
+    tests/__init__.py
+  fast-deep: 0/123 tests selected (transitive depth ≤ 5, max hop observed = 0)
+  No transitively-impacted tests. Run full suite with: forge
+==================================================
+  SHIELD complete — 0 tests generated, 2 skipped (already covered), 1 skipped (test files)
+==================================================
+
+

@@ -1,0 +1,77 @@
+
+==================================================
+  SHIELD — orchestrated forge feedback chain
+==================================================
+  [STAGE 1] predict_carmack — identify top-3 risky files
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.689  lib/ansible/plugins/action/copy.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.16
+       churn=0.1 freq=1 authors=1 bugfix=0 loc=612
+  0.570  lib/ansible/module_utils/common/collections.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.15
+       churn=0.6 freq=1 authors=1 bugfix=0 loc=221
+  0.554  lib/ansible/modules/git.py
+       Kalman=0.31  Wavelet=n/a   Crash=100%  Coupling=0.01
+       churn=0.0 freq=2 authors=2 bugfix=2 loc=1476
+  0.516  test/lib/ansible_test/_internal/host_configs.py
+       Kalman=0.19  Wavelet=n/a   Crash=100%  Coupling=0.11
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=597
+  0.496  lib/ansible/module_utils/urls.py
+       Kalman=0.24  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=0.3 freq=3 authors=2 bugfix=1 loc=1639
+  0.450  test/units/module_utils/common/test_collections.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.7 freq=1 authors=1 bugfix=0 loc=468
+  0.448  test/lib/ansible_test/_util/controller/sanity/validate-modules/validate_modules/main.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.03
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=2653
+  0.440  lib/ansible/cli/doc.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.02
+       churn=0.0 freq=2 authors=1 bugfix=0 loc=1681
+  0.435  lib/ansible/module_utils/basic.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.02
+       churn=0.0 freq=2 authors=2 bugfix=0 loc=2219
+  0.412  lib/ansible/plugins/action/__init__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.02
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=1551
+  0.405  lib/ansible/modules/user.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=3564
+  0.404  lib/ansible/module_utils/common/parameters.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=0.0 freq=2 authors=2 bugfix=0 loc=936
+  0.403  lib/ansible/config/manager.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=788
+  0.394  lib/ansible/modules/apt_key.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=543
+  0.388  lib/ansible/plugins/connection/winrm.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=0.0 freq=2 authors=2 bugfix=0 loc=886
+============================================================
+
+    lib/ansible/plugins/action/copy.py                  score=0.689
+    lib/ansible/module_utils/common/collections.py      score=0.570
+    lib/ansible/modules/git.py                          score=0.554
+
+  [STAGE 2] gen-props on risky files lacking matching tests
+    [skip] lib/ansible/plugins/action/copy.py (test exists)
+    [skip] lib/ansible/module_utils/common/collections.py (test exists)
+    [skip] lib/ansible/modules/git.py (test exists)
+
+  [STAGE 3] fast-deep impact selection + run
+  Changed files: 1
+    tests/__init__.py
+  fast-deep: 0/364 tests selected (transitive depth ≤ 5, max hop observed = 0)
+  No transitively-impacted tests. Run full suite with: forge
+==================================================
+  SHIELD complete — 0 tests generated, 3 skipped (already covered), 0 skipped (test files)
+==================================================
+
+

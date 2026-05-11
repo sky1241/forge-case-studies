@@ -1,0 +1,15 @@
+{
+  "bug_id": "httpie-5",
+  "project": "httpie",
+  "bucket": "medium",
+  "change_file": "httpie/cli.py",
+  "checkout": "master @ 5b604c3",
+  "init_exit": 0,
+  "shield_exit": 0,
+  "stages_carmack": true,
+  "stages_gen_props": false,
+  "stages_fast_deep": false,
+  "stages_complete": false,
+  "output_chars": 685,
+  "status": "ok"
+}

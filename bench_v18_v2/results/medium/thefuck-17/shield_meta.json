@@ -1,0 +1,15 @@
+{
+  "bug_id": "thefuck-17",
+  "project": "thefuck",
+  "bucket": "medium",
+  "change_file": "thefuck/shells/bash.py",
+  "checkout": "master @ c7e7e1d",
+  "init_exit": 0,
+  "shield_exit": 0,
+  "stages_carmack": true,
+  "stages_gen_props": false,
+  "stages_fast_deep": false,
+  "stages_complete": false,
+  "output_chars": 395,
+  "status": "ok"
+}

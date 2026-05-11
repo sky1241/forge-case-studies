@@ -1,0 +1,16 @@
+
+==================================================
+  SHIELD — orchestrated forge feedback chain
+==================================================
+  [STAGE 1] predict_carmack — identify top-3 risky files
+  [CARMACK] Louvain clustering on import graph...
+  No commits in the last 4 weeks.
+    (no carmack signal — empty/shallow git history?)
+==================================================
+
+
+<unknown>:24: SyntaxWarning: invalid escape sequence '\['
+<unknown>:25: SyntaxWarning: invalid escape sequence '\['
+<unknown>:26: SyntaxWarning: invalid escape sequence '\('
+<unknown>:27: SyntaxWarning: invalid escape sequence '\('
+<unknown>:28: SyntaxWarning: invalid escape sequence '\e'
