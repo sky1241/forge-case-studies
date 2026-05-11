@@ -1,0 +1,412 @@
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:19: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:33: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:80: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:19: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:19: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:19: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:16: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:33: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:33: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:33: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:259: SyntaxWarning: invalid escape sequence '\('
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:612: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:41: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:41: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:41: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:41: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:41: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:41: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:41: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:41: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:23: SyntaxWarning: invalid escape sequence '\('
+<unknown>:15: SyntaxWarning: invalid escape sequence '\('
+<unknown>:30: SyntaxWarning: invalid escape sequence '\('
+<unknown>:23: SyntaxWarning: invalid escape sequence '\('
+<unknown>:23: SyntaxWarning: invalid escape sequence '\('
+<unknown>:23: SyntaxWarning: invalid escape sequence '\('
+<unknown>:15: SyntaxWarning: invalid escape sequence '\('
+<unknown>:15: SyntaxWarning: invalid escape sequence '\('
+<unknown>:15: SyntaxWarning: invalid escape sequence '\('
+<unknown>:30: SyntaxWarning: invalid escape sequence '\('
+<unknown>:30: SyntaxWarning: invalid escape sequence '\('
+<unknown>:30: SyntaxWarning: invalid escape sequence '\('
+=== Test 2 — re-run catastrophes with cold-start re-weighting ===
+
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.416  scrapy/xlib/tx/client.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.35
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=1168
+  0.301  scrapy/extensions/httpcache.py
+       Kalman=0.00  Wavelet=252.2  Crash=0%  Coupling=0.07
+       churn=0.1 freq=6 authors=2 bugfix=0 loc=426
+  0.300  scrapy/xlib/tx/endpoints.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.07
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=1269
+  0.228  scrapy/contrib/downloadermiddleware/httpcache.py
+       Kalman=0.00  Wavelet=5853.2  Crash=0%  Coupling=0.07
+       churn=184.6 freq=41 authors=10 bugfix=0 loc=7
+  0.215  scrapy/xlib/tx/_newclient.py
+       Kalman=0.00  Wavelet=430166.0  Crash=0%  Coupling=0.35
+       churn=1.0 freq=3 authors=3 bugfix=2 loc=1516
+  0.214  scrapy/link.py
+       Kalman=0.00  Wavelet=32.1  Crash=0%  Coupling=0.48
+       churn=1.8 freq=10 authors=4 bugfix=0 loc=42
+  0.196  scrapy/xlib/tx/interfaces.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.07
+       churn=1.0 freq=2 authors=2 bugfix=1 loc=2442
+  0.195  tests/test_linkextractors.py
+       Kalman=0.00  Wavelet=193268.5  Crash=0%  Coupling=0.21
+       churn=2.6 freq=5 authors=3 bugfix=0 loc=433
+  0.167  scrapy/loader/__init__.py
+       Kalman=0.00  Wavelet=318.7  Crash=0%  Coupling=0.14
+       churn=0.4 freq=6 authors=4 bugfix=0 loc=203
+  0.158  tests/test_linkextractors_deprecated.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.35
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=192
+  0.158  scrapy/contrib/pipeline/images.py
+       Kalman=0.00  Wavelet=2534.0  Crash=0%  Coupling=0.12
+       churn=169.1 freq=57 authors=12 bugfix=5 loc=7
+  0.157  scrapy/exceptions.py
+       Kalman=0.00  Wavelet=88.9  Crash=0%  Coupling=1.00
+       churn=1.6 freq=10 authors=3 bugfix=1 loc=56
+  0.151  scrapy/linkextractors/htmlparser.py
+       Kalman=0.00  Wavelet=17.2  Crash=0%  Coupling=0.21
+       churn=0.2 freq=4 authors=3 bugfix=0 loc=87
+  0.150  scrapy/spiders/sitemap.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.07
+       churn=0.2 freq=2 authors=2 bugfix=0 loc=83
+  0.150  scrapy/pipelines/media.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.21
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=134
+============================================================
+
+scrapy-26            cf=scrapy/settings/__init__.py
+  v3 (5sig): 179/301  rc1 (6sig): 64/301  RE-FIX: 112/301  regime=history  complexity=0.294
+
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.449  thefuck/shells/generic.py
+       Kalman=0.00  Wavelet=1030.2  Crash=0%  Coupling=1.00
+       churn=1.5 freq=5 authors=1 bugfix=0 loc=91
+  0.419  thefuck/shells/__init__.py
+       Kalman=0.00  Wavelet=788.9  Crash=0%  Coupling=0.88
+       churn=4.4 freq=9 authors=3 bugfix=0 loc=44
+  0.387  thefuck/conf.py
+       Kalman=0.00  Wavelet=4171.1  Crash=0%  Coupling=0.85
+       churn=7.1 freq=32 authors=7 bugfix=5 loc=113
+  0.270  thefuck/shells/zsh.py
+       Kalman=0.00  Wavelet=190.5  Crash=0%  Coupling=0.58
+       churn=1.8 freq=5 authors=2 bugfix=0 loc=48
+  0.249  thefuck/types.py
+       Kalman=0.00  Wavelet=3814.7  Crash=0%  Coupling=0.30
+       churn=2.4 freq=34 authors=4 bugfix=5 loc=291
+  0.243  thefuck/shells/fish.py
+       Kalman=0.00  Wavelet=403.7  Crash=0%  Coupling=0.43
+       churn=1.5 freq=9 authors=2 bugfix=0 loc=87
+  0.237  thefuck/main.py
+       Kalman=0.00  Wavelet=770.8  Crash=0%  Coupling=0.30
+       churn=13.1 freq=69 authors=11 bugfix=15 loc=80
+  0.234  thefuck/shells/bash.py
+       Kalman=0.00  Wavelet=182.2  Crash=0%  Coupling=0.43
+       churn=2.0 freq=5 authors=3 bugfix=0 loc=47
+  0.206  tests/rules/test_fix_file.py
+       Kalman=0.00  Wavelet=4641.4  Crash=0%  Coupling=0.15
+       churn=1.4 freq=9 authors=3 bugfix=5 loc=249
+  0.204  tests/utils.py
+       Kalman=0.00  Wavelet=83.6  Crash=0%  Coupling=0.39
+       churn=3.5 freq=12 authors=2 bugfix=0 loc=25
+  0.200  thefuck/utils.py
+       Kalman=0.00  Wavelet=465.5  Crash=0%  Coupling=0.52
+       churn=3.1 freq=58 authors=6 bugfix=12 loc=270
+  0.191  thefuck/shells/tcsh.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.44
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=34
+  0.180  thefuck/exceptions.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.45
+       churn=1.3 freq=2 authors=1 bugfix=0 loc=6
+  0.176  tests/rules/test_no_command.py
+       Kalman=0.00  Wavelet=538.9  Crash=0%  Coupling=0.15
+       churn=7.0 freq=12 authors=2 bugfix=0 loc=47
+  0.163  thefuck/rules/pacman.py
+       Kalman=0.00  Wavelet=178.4  Crash=0%  Coupling=0.30
+       churn=9.2 freq=13 authors=3 bugfix=3 loc=16
+============================================================
+
+thefuck-9            cf=thefuck/rules/git_push.py
+  v3 (5sig): 103/249  rc1 (6sig): 112/249  RE-FIX: 63/249  regime=A_coupled  complexity=0.035
+
+=== Test 3 — 5 cold-start cases with re-weighting fix ===
+
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.449  thefuck/shells/generic.py
+       Kalman=0.00  Wavelet=1030.2  Crash=0%  Coupling=1.00
+       churn=1.5 freq=5 authors=1 bugfix=0 loc=91
+  0.419  thefuck/shells/__init__.py
+       Kalman=0.00  Wavelet=788.9  Crash=0%  Coupling=0.88
+       churn=4.4 freq=9 authors=3 bugfix=0 loc=44
+  0.387  thefuck/conf.py
+       Kalman=0.00  Wavelet=4171.1  Crash=0%  Coupling=0.85
+       churn=7.1 freq=32 authors=7 bugfix=5 loc=113
+  0.270  thefuck/shells/zsh.py
+       Kalman=0.00  Wavelet=190.5  Crash=0%  Coupling=0.58
+       churn=1.8 freq=5 authors=2 bugfix=0 loc=48
+  0.249  thefuck/types.py
+       Kalman=0.00  Wavelet=3814.7  Crash=0%  Coupling=0.30
+       churn=2.4 freq=34 authors=4 bugfix=5 loc=291
+  0.243  thefuck/shells/fish.py
+       Kalman=0.00  Wavelet=403.7  Crash=0%  Coupling=0.43
+       churn=1.5 freq=9 authors=2 bugfix=0 loc=87
+  0.237  thefuck/main.py
+       Kalman=0.00  Wavelet=770.8  Crash=0%  Coupling=0.30
+       churn=13.1 freq=69 authors=11 bugfix=15 loc=80
+  0.234  thefuck/shells/bash.py
+       Kalman=0.00  Wavelet=182.2  Crash=0%  Coupling=0.43
+       churn=2.0 freq=5 authors=3 bugfix=0 loc=47
+  0.206  tests/rules/test_fix_file.py
+       Kalman=0.00  Wavelet=4641.4  Crash=0%  Coupling=0.15
+       churn=1.4 freq=9 authors=3 bugfix=5 loc=249
+  0.204  tests/utils.py
+       Kalman=0.00  Wavelet=83.6  Crash=0%  Coupling=0.39
+       churn=3.5 freq=12 authors=2 bugfix=0 loc=25
+  0.200  thefuck/utils.py
+       Kalman=0.00  Wavelet=465.5  Crash=0%  Coupling=0.52
+       churn=3.1 freq=58 authors=6 bugfix=12 loc=270
+  0.191  thefuck/shells/tcsh.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.44
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=34
+  0.180  thefuck/exceptions.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.45
+       churn=1.3 freq=2 authors=1 bugfix=0 loc=6
+  0.176  tests/rules/test_no_command.py
+       Kalman=0.00  Wavelet=538.9  Crash=0%  Coupling=0.15
+       churn=7.0 freq=12 authors=2 bugfix=0 loc=47
+  0.163  thefuck/rules/pacman.py
+       Kalman=0.00  Wavelet=178.4  Crash=0%  Coupling=0.30
+       churn=9.2 freq=13 authors=3 bugfix=3 loc=16
+============================================================
+
+thefuck-9              cf=thefuck/rules/git_push.py                     rank=63/249 top10=False regime=A_coupled complexity=0.035
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction<unknown>:222: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:23: SyntaxWarning: invalid escape sequence '\:'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:222: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:222: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:222: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:23: SyntaxWarning: invalid escape sequence '\:'
+<unknown>:23: SyntaxWarning: invalid escape sequence '\:'
+<unknown>:23: SyntaxWarning: invalid escape sequence '\:'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.300  tests/utils.py
+       Kalman=0.00  Wavelet=14.5  Crash=0%  Coupling=0.77
+       churn=2.0 freq=7 authors=2 bugfix=0 loc=21
+  0.278  tests/functional/test_zsh.py
+       Kalman=0.00  Wavelet=1613.6  Crash=0%  Coupling=0.15
+       churn=4.2 freq=12 authors=1 bugfix=4 loc=57
+  0.248  tests/functional/test_fish.py
+       Kalman=0.00  Wavelet=870.4  Crash=0%  Coupling=0.15
+       churn=3.2 freq=14 authors=1 bugfix=6 loc=59
+  0.242  tests/functional/utils.py
+       Kalman=0.00  Wavelet=1923.7  Crash=0%  Coupling=0.31
+       churn=3.3 freq=15 authors=1 bugfix=4 loc=53
+  0.237  tests/test_main.py
+       Kalman=0.00  Wavelet=3024.6  Crash=9%  Coupling=0.13
+       churn=22.4 freq=35 authors=2 bugfix=6 loc=44
+  0.229  thefuck/conf.py
+       Kalman=0.00  Wavelet=11498.5  Crash=0%  Coupling=0.13
+       churn=2.9 freq=12 authors=4 bugfix=2 loc=135
+  0.212  tests/functional/test_bash.py
+       Kalman=0.00  Wavelet=1589.2  Crash=0%  Coupling=0.15
+       churn=4.4 freq=12 authors=1 bugfix=4 loc=53
+  0.206  thefuck/utils.py
+       Kalman=0.00  Wavelet=115.3  Crash=0%  Coupling=1.00
+       churn=1.2 freq=21 authors=3 bugfix=3 loc=187
+  0.185  thefuck/types.py
+       Kalman=0.00  Wavelet=65.6  Crash=0%  Coupling=0.46
+       churn=1.3 freq=6 authors=2 bugfix=0 loc=29
+  0.185  tests/functional/plots.py
+       Kalman=0.00  Wavelet=556.5  Crash=0%  Coupling=0.31
+       churn=2.1 freq=11 authors=1 bugfix=3 loc=82
+  0.158  thefuck/rules/switch_lang.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.27
+       churn=1.4 freq=5 authors=3 bugfix=0 loc=41
+  0.158  thefuck/corrector.py
+       Kalman=0.00  Wavelet=958.7  Crash=0%  Coupling=0.15
+       churn=1.1 freq=3 authors=1 bugfix=0 loc=87
+  0.154  thefuck/shells.py
+       Kalman=0.00  Wavelet=479.8  Crash=0%  Coupling=0.55
+       churn=1.9 freq=33 authors=6 bugfix=10 loc=267
+  0.148  tests/rules/test_brew_unknown_command.py
+       Kalman=0.00  Wavelet=81.0  Crash=0%  Coupling=0.31
+       churn=1.9 freq=4 authors=2 bugfix=0 loc=28
+  0.147  tests/rules/test_no_command.py
+       Kalman=0.00  Wavelet=615.4  Crash=0%  Coupling=0.15
+       churn=8.9 freq=9 authors=2 bugfix=0 loc=29
+============================================================
+
+thefuck-24             cf=thefuck/types.py                              rank=9/161 top10=True regime=A_coupled complexity=0.032
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.337  fastapi/routing.py
+       Kalman=0.00  Wavelet=26206.7  Crash=9%  Coupling=0.60
+       churn=4.4 freq=61 authors=12 bugfix=19 loc=862
+  0.279  fastapi/openapi/utils.py
+       Kalman=0.00  Wavelet=9150.7  Crash=7%  Coupling=0.84
+       churn=3.5 freq=30 authors=10 bugfix=10 loc=290
+  0.275  fastapi/openapi/docs.py
+       Kalman=0.00  Wavelet=993.1  Crash=0%  Coupling=0.21
+       churn=1.7 freq=11 authors=7 bugfix=2 loc=175
+  0.273  tests/test_path.py
+       Kalman=0.00  Wavelet=4189.2  Crash=100%  Coupling=0.21
+       churn=1.6 freq=3 authors=2 bugfix=1 loc=243
+  0.268  fastapi/security/base.py
+       Kalman=0.00  Wavelet=70.5  Crash=25%  Coupling=0.65
+       churn=7.3 freq=4 authors=1 bugfix=1 loc=6
+  0.253  docs/src/sql_databases/sql_app/database.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.62
+       churn=1.5 freq=2 authors=2 bugfix=0 loc=13
+  0.250  fastapi/dependencies/utils.py
+       Kalman=0.00  Wavelet=4058.1  Crash=11%  Coupling=0.46
+       churn=1.9 freq=37 authors=7 bugfix=14 loc=660
+  0.246  docs/src/dependencies/tutorial007.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=8.0 freq=2 authors=1 bugfix=0 loc=6
+  0.239  fastapi/security/__init__.py
+       Kalman=0.00  Wavelet=13.5  Crash=0%  Coupling=0.55
+       churn=1.9 freq=6 authors=1 bugfix=0 loc=15
+  0.235  fastapi/encoders.py
+       Kalman=0.00  Wavelet=1468.1  Crash=0%  Coupling=1.00
+       churn=2.7 freq=11 authors=4 bugfix=3 loc=114
+  0.232  tests/test_custom_route_class.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.20
+       churn=1.0 freq=1 authors=1 bugfix=1 loc=114
+  0.226  fastapi/__init__.py
+       Kalman=0.00  Wavelet=6.6  Crash=7%  Coupling=0.40
+       churn=9.2 freq=86 authors=1 bugfix=15 loc=21
+  0.222  tests/test_application.py
+       Kalman=0.00  Wavelet=142885.0  Crash=0%  Coupling=0.21
+       churn=1.1 freq=6 authors=2 bugfix=0 loc=1151
+  0.218  fastapi/security/http.py
+       Kalman=0.00  Wavelet=492.8  Crash=8%  Coupling=0.89
+       churn=1.8 freq=13 authors=1 bugfix=2 loc=150
+  0.217  fastapi/applications.py
+       Kalman=0.00  Wavelet=26988.9  Crash=3%  Coupling=0.18
+       churn=4.2 freq=35 authors=11 bugfix=4 loc=614
+============================================================
+
+fastapi-7              cf=fastapi/exception_handlers.py                 rank=43/337 top10=False regime=A_coupled complexity=0.057
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.381  scrapy/link.py
+       Kalman=0.00  Wavelet=32.1  Crash=0%  Coupling=0.96
+       churn=1.8 freq=10 authors=4 bugfix=0 loc=42
+  0.299  scrapy/utils/request.py
+       Kalman=0.00  Wavelet=59.9  Crash=0%  Coupling=0.58
+       churn=1.6 freq=18 authors=8 bugfix=5 loc=94
+  0.282  tests/test_http_request.py
+       Kalman=0.00  Wavelet=2800.9  Crash=0%  Coupling=0.00
+       churn=0.8 freq=35 authors=17 bugfix=7 loc=1414
+  0.262  tests/test_linkextractors.py
+       Kalman=0.00  Wavelet=62457.1  Crash=0%  Coupling=0.36
+       churn=2.4 freq=11 authors=6 bugfix=3 loc=508
+  0.245  scrapy/utils/serialize.py
+       Kalman=0.00  Wavelet=1095.2  Crash=0%  Coupling=0.36
+       churn=6.3 freq=12 authors=4 bugfix=0 loc=40
+  0.238  scrapy/commands/__init__.py
+       Kalman=0.00  Wavelet=1.0  Crash=0%  Coupling=0.12
+       churn=0.0 freq=3 authors=3 bugfix=2 loc=105
+  0.235  tests/mockserver.py
+       Kalman=0.00  Wavelet=145.4  Crash=0%  Coupling=0.94
+       churn=1.0 freq=22 authors=9 bugfix=9 loc=248
+  0.228  tests/test_stats.py
+       Kalman=0.00  Wavelet=247.0  Crash=0%  Coupling=0.12
+       churn=0.6 freq=5 authors=3 bugfix=2 loc=102
+  0.228  scrapy/robotstxt.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.49
+       churn=1.3 freq=2 authors=1 bugfix=0 loc=126
+  0.225  tests/test_robotstxt_interface.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.49
+       churn=1.0 freq=2 authors=1 bugfix=0 loc=161
+  0.225  scrapy/extensions/corestats.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.12
+       churn=0.4 freq=2 authors=2 bugfix=1 loc=46
+  0.223  scrapy/utils/conf.py
+       Kalman=0.00  Wavelet=110.7  Crash=0%  Coupling=0.48
+       churn=2.0 freq=17 authors=8 bugfix=3 loc=113
+  0.206  tests/test_downloader_handlers.py
+       Kalman=0.00  Wavelet=800.0  Crash=0%  Coupling=0.24
+       churn=1.2 freq=69 authors=18 bugfix=20 loc=1119
+  0.200  scrapy/downloadermiddlewares/httpcompression.py
+       Kalman=0.00  Wavelet=61.0  Crash=0%  Coupling=0.36
+       churn=0.6 freq=9 authors=4 bugfix=0 loc=69
+  0.195  scrapy/http/__init__.py
+       Kalman=0.00  Wavelet=1.2  Crash=0%  Coupling=0.49
+       churn=0.3 freq=3 authors=3 bugfix=1 loc=18
+============================================================
+
+scrapy-2               cf=scrapy/utils/datatypes.py                     rank=74/271 top10=False regime=history complexity=0.449
+youtube-dl-31: SKIP bug.info missing
+
+=== Re-sanity Test 3 verdict: 1/4 top10 hits ===
+Threshold >= 2/5: FAIL
