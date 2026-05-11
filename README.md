@@ -1,21 +1,21 @@
-# forge-case-studies — cycle 11
+# forge-case-studies — cycle 11 (v1+v2) & cycle 12 (v3)
 
-> **STATUS : v2 done (2026-05-11) — Verdict 1 / 3 OUI = signal_faible_non_concluant**
+> **CYCLE 12 v3 STATUS (2026-05-11) : 0 / 3 OUI = forge_au_niveau_hasard**
 >
-> v1 (commits `126ced7` → `ed0c950`) was INVALIDATED by sky-master audit
-> for process bâclage (5 reasons documented in `0b55e2a` REVERT commit).
-> v2 is the proper test : 400 candidates examined, 6 small eligible found,
-> N=15 effective (8 train + 7 hold-out), full forge sub-cmds per case,
-> 1 bug per project per panel (no luigi×3 bias).
+> N=20 train + N=17 hold-out effective, panel 24+24 sampled (4+7 SKIP file_missing_at_pre).
+> All 6 forge sub-cmds run per case INCLUDING `forge --locate` with active coverage setup.
 >
-> **C2 = OUI** ✓ : precision@10 = 62.5%, Wilson lower 0.306 ≥ 0.30.
+> - **C1 NON** : Fisher p=0.7164 (forge 6/20 vs random 4/20, ratio similar)
+> - **C2 NON** : precision@10 = 0.30 < 0.50, Wilson lower 0.146 < 0.30
+> - **C3 NON** : delta AUC holdout +0.0393, sous +0.05 (mais positif vs v1's -0.054 et v2's +0.0095)
 >
-> **C1 = NON** : Fisher p=0.31 (N=8 still small for power, forge 5-vs-2 random).
+> **Drop massif vs cycle 11 v2** (C2 était OUI à N=8, precision@10=0.625) : v2 était signal favorable par chance,
+> v3 panel multi-bug par projet inclut thefuck rules (cold-start blind spot 0 bugfix antérieur).
 >
-> **C3 = NON** : calibration delta AUC +0.0095 (below +0.05 threshold,
-> but NOT degrading like v1's -0.054 — signal coherent).
+> **Finding scientifique v3** : forge --locate setup infaisible at scale sur legacy Python codebases (15/37 = 41% skip pip_install_failed).
 >
-> See [FINAL_REPORT.md](FINAL_REPORT.md) for full methodology + 10 admitted frictions.
+> See [FINAL_REPORT_v3.md](FINAL_REPORT_v3.md) for full methodology + 12 admitted frictions.
+> Cycle 11 v2 verdict (1/3 OUI) reste préservé dans [FINAL_REPORT.md](FINAL_REPORT.md) — historique scientifique.
 
 Honest scientific test of `forge --carmack` (https://github.com/sky1241/forge) on real-world Python bugs.
 
