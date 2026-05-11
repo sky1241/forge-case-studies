@@ -1,0 +1,30 @@
+  Running tests with per-test coverage...
+
+==================================================
+  FAULT LOCALIZATION — Ochiai SBFL
+  4 failing test(s), 46 passing
+==================================================
+  0.71  black.py:276  cache = read_cache(line_length)
+       2/4 fail, 0/46 pass — highly suspect
+  0.71  black.py:277  sources, cached = filter_cached(cache, sources)
+       2/4 fail, 0/46 pass — highly suspect
+  0.71  black.py:278  for src in cached:
+       2/4 fail, 0/46 pass — highly suspect
+  0.71  black.py:316  write_cache(cache, formatted, line_length)
+       2/4 fail, 0/46 pass — highly suspect
+  0.71  black.py:2697  yield child
+       2/4 fail, 0/46 pass — highly suspect
+  0.71  black.py:2812  except Exception as exc:
+       2/4 fail, 0/46 pass — highly suspect
+  0.71  black.py:2813  major, minor = sys.version_info[:2]
+       2/4 fail, 0/46 pass — highly suspect
+  0.71  black.py:2814  raise AssertionError(
+       2/4 fail, 0/46 pass — highly suspect
+  0.71  black.py:2815  f"cannot use --safe with this file; failed to parse source f
+       2/4 fail, 0/46 pass — highly suspect
+  0.71  black.py:2816  f"with Python {major}.{minor}'s builtin AST. Re-run with --f
+       2/4 fail, 0/46 pass — highly suspect
+==================================================
+
+
+--- STDERR ---
