@@ -1,0 +1,22 @@
+  Running tests with per-test coverage...
+
+  PYTEST RUNNER ERROR (during --locate):
+    ImportError while loading conftest '/home/sky/forge-case-studies/clones/scrapy/conftest.py'.
+    conftest.py:5: in <module>
+        from scrapy import optional_features
+    scrapy/__init__.py:55: in <module>
+        from scrapy.spider import Spider
+    scrapy/spider.py:8: in <module>
+        from scrapy import log
+    scrapy/log.py:14: in <module>
+        from scrapy.settings import overridden_settings
+    scrapy/settings/__init__.py:5: in <module>
+        from collections import MutableMapping
+    E   ImportError: cannot import name 'MutableMapping' from 'collections' (/usr/lib/python3.13/collections/__init__.py)
+  exit code: 4
+  Hint: a test file in your repo crashed at collection
+  (missing dep, plugin conflict, mypy_test_cases/ not for normal pytest...).
+  Try FORGE_TEST_FILTER='specific_test' or fix the broken collector.
+
+
+--- STDERR ---

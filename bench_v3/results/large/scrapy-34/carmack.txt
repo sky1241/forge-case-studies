@@ -1,0 +1,81 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.211  scrapy/xlib/tx/interfaces.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.06
+       churn=1.0 freq=2 authors=2 bugfix=1 loc=2442
+  0.169  scrapy/selector/__init__.py
+       Kalman=0.00  Wavelet=2728.6  Crash=0%  Coupling=0.12
+       churn=88.6 freq=14 authors=3 bugfix=1 loc=5
+  0.153  scrapy/exceptions.py
+       Kalman=0.00  Wavelet=88.9  Crash=0%  Coupling=1.00
+       churn=1.6 freq=10 authors=3 bugfix=1 loc=56
+  0.105  scrapy/xlib/tx/_newclient.py
+       Kalman=0.00  Wavelet=430166.0  Crash=0%  Coupling=0.30
+       churn=1.0 freq=3 authors=3 bugfix=2 loc=1516
+  0.083  scrapy/item.py
+       Kalman=0.00  Wavelet=389.4  Crash=0%  Coupling=0.53
+       churn=2.2 freq=16 authors=6 bugfix=0 loc=95
+  0.076  scrapy/spider.py
+       Kalman=0.00  Wavelet=58.2  Crash=0%  Coupling=0.49
+       churn=1.1 freq=15 authors=5 bugfix=0 loc=103
+  0.073  scrapy/utils/misc.py
+       Kalman=0.00  Wavelet=671.8  Crash=0%  Coupling=0.46
+       churn=2.6 freq=26 authors=9 bugfix=3 loc=113
+  0.068  scrapy/utils/markup.py
+       Kalman=0.00  Wavelet=2639.8  Crash=0%  Coupling=0.00
+       churn=40.0 freq=11 authors=3 bugfix=1 loc=7
+  0.065  scrapy/xlib/tx/endpoints.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.06
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=1269
+  0.064  scrapy/contrib_exp/downloadermiddleware/decompression.py
+       Kalman=0.00  Wavelet=943.0  Crash=0%  Coupling=0.06
+       churn=32.4 freq=12 authors=5 bugfix=0 loc=7
+  0.063  scrapy/contrib/downloadermiddleware/httpcache.py
+       Kalman=0.00  Wavelet=5869.3  Crash=0%  Coupling=0.27
+       churn=12.2 freq=40 authors=9 bugfix=0 loc=105
+  0.060  scrapy/utils/test.py
+       Kalman=0.00  Wavelet=66.4  Crash=0%  Coupling=0.37
+       churn=2.5 freq=17 authors=6 bugfix=4 loc=66
+  0.056  scrapy/link.py
+       Kalman=0.00  Wavelet=31.4  Crash=0%  Coupling=0.36
+       churn=1.4 freq=7 authors=3 bugfix=0 loc=36
+  0.054  scrapy/crawler.py
+       Kalman=0.00  Wavelet=1087.5  Crash=0%  Coupling=0.28
+       churn=6.8 freq=50 authors=7 bugfix=7 loc=168
+  0.054  scrapy/cmdline.py
+       Kalman=0.00  Wavelet=1084.5  Crash=0%  Coupling=0.32
+       churn=3.5 freq=34 authors=6 bugfix=7 loc=168
+============================================================
+
+
+--- STDERR ---
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:78: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:18: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:351: SyntaxWarning: invalid escape sequence '\('
+<unknown>:577: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:12: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:82: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:83: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:85: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:86: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:88: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:89: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:91: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:92: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:226: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:229: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:236: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:531: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:552: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:553: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:564: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:565: SyntaxWarning: invalid escape sequence '\w'

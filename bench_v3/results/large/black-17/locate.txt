@@ -1,0 +1,30 @@
+  Running tests with per-test coverage...
+
+==================================================
+  FAULT LOCALIZATION — Ochiai SBFL
+  4 failing test(s), 38 passing
+==================================================
+  0.71  black.py:178  sources.extend(gen_python_files_in_dir(p))
+       2/4 fail, 0/38 pass — highly suspect
+  0.71  black.py:271  cache = read_cache(line_length)
+       2/4 fail, 0/38 pass — highly suspect
+  0.71  black.py:272  sources, cached = filter_cached(cache, sources)
+       2/4 fail, 0/38 pass — highly suspect
+  0.71  black.py:273  for src in cached:
+       2/4 fail, 0/38 pass — highly suspect
+  0.71  black.py:314  write_cache(cache, formatted, line_length)
+       2/4 fail, 0/38 pass — highly suspect
+  0.71  black.py:2325  for child in path.iterdir():
+       2/4 fail, 0/38 pass — highly suspect
+  0.71  black.py:2326  if child.is_dir():
+       2/4 fail, 0/38 pass — highly suspect
+  0.71  black.py:2332  elif child.suffix in PYTHON_EXTENSIONS:
+       2/4 fail, 0/38 pass — highly suspect
+  0.71  black.py:2333  yield child
+       2/4 fail, 0/38 pass — highly suspect
+  0.71  black.py:2448  except Exception as exc:
+       2/4 fail, 0/38 pass — highly suspect
+==================================================
+
+
+--- STDERR ---
