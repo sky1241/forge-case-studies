@@ -1,0 +1,194 @@
+[
+  {
+    "project": "httpie",
+    "bug_id": "httpie-5",
+    "bucket": "medium",
+    "change_file": "httpie/cli.py",
+    "github_url": "https://github.com/jakubroztocil/httpie",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-18",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/sudo.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 2
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-25",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/mkdir_p.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-9",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_push.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-20",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/dirty_unzip.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 3
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-21",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_fix_stash.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 1
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-14",
+    "bucket": "medium",
+    "change_file": "thefuck/shells/fish.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-4",
+    "bucket": "medium",
+    "change_file": "thefuck/shells/fish.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 3
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-31",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_diff_staged.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-11",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/git_push.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-26",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/vagrant_up.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-3",
+    "bucket": "medium",
+    "change_file": "thefuck/shells/fish.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 3
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-43",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 25
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-14",
+    "bucket": "large",
+    "change_file": "fastapi/openapi/models.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 5
+  },
+  {
+    "project": "ansible",
+    "bug_id": "ansible-15",
+    "bucket": "large",
+    "change_file": "lib/ansible/modules/network/eos/eos_eapi.py",
+    "github_url": "https://github.com/ansible/ansible",
+    "fix_count": 18
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-40",
+    "bucket": "large",
+    "change_file": "scrapy/exporters.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-14",
+    "bucket": "large",
+    "change_file": "tornado/ioloop.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 35
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-29",
+    "bucket": "large",
+    "change_file": "scrapy/utils/request.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 3
+  },
+  {
+    "project": "youtube-dl",
+    "bug_id": "youtube-dl-11",
+    "bucket": "large",
+    "change_file": "youtube_dl/utils.py",
+    "github_url": "https://github.com/ytdl-org/youtube-dl",
+    "fix_count": 151
+  },
+  {
+    "project": "black",
+    "bug_id": "black-6",
+    "bucket": "large",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 122
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-12",
+    "bucket": "large",
+    "change_file": "tornado/auth.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 19
+  },
+  {
+    "project": "scrapy",
+    "bug_id": "scrapy-1",
+    "bucket": "large",
+    "change_file": "scrapy/spidermiddlewares/offsite.py",
+    "github_url": "https://github.com/scrapy/scrapy",
+    "fix_count": 0
+  },
+  {
+    "project": "tornado",
+    "bug_id": "tornado-6",
+    "bucket": "large",
+    "change_file": "tornado/ioloop.py",
+    "github_url": "https://github.com/tornadoweb/tornado",
+    "fix_count": 41
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-22",
+    "bucket": "large",
+    "change_file": "luigi/scheduler.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 34
+  }
+]

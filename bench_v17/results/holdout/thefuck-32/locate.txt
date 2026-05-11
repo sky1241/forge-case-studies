@@ -1,0 +1,25 @@
+  Running tests with per-test coverage...
+
+  PYTEST RUNNER ERROR (during --locate):
+    ERROR tests/rules/test_python_command.py
+    ERROR tests/rules/test_rm_dir.py
+    ERROR tests/rules/test_rm_root.py
+    ERROR tests/rules/test_sl_ls.py
+    ERROR tests/rules/test_ssh_known_host.py
+    ERROR tests/rules/test_sudo.py
+    ERROR tests/rules/test_switch_lang.py
+    ERROR tests/rules/test_whois.py
+    ERROR tests/test_conf.py
+    ERROR tests/test_logs.py
+    ERROR tests/test_main.py
+    ERROR tests/test_types.py
+    ERROR tests/test_utils.py
+    !!!!!!!!!!!!!!!!!!! Interrupted: 44 errors during collection !!!!!!!!!!!!!!!!!!!
+    ======================== 2 warnings, 44 errors in 1.77s ========================
+  exit code: 2
+  Hint: a test file in your repo crashed at collection
+  (missing dep, plugin conflict, mypy_test_cases/ not for normal pytest...).
+  Try FORGE_TEST_FILTER='specific_test' or fix the broken collector.
+
+
+--- STDERR ---

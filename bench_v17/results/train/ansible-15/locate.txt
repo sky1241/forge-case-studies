@@ -1,0 +1,16 @@
+  Running tests with per-test coverage...
+
+  PYTEST RUNNER ERROR (during --locate):
+    ImportError while loading conftest '/home/sky/forge-case-studies/clones/ansible/test/units/module_utils/conftest.py'.
+    test/units/module_utils/conftest.py:10: in <module>
+        import ansible.module_utils.basic
+    lib/ansible/module_utils/basic.py:171: in <module>
+        from ansible.module_utils.six.moves import map, reduce, shlex_quote
+    E   ModuleNotFoundError: No module named 'ansible.module_utils.six.moves'
+  exit code: 4
+  Hint: a test file in your repo crashed at collection
+  (missing dep, plugin conflict, mypy_test_cases/ not for normal pytest...).
+  Try FORGE_TEST_FILTER='specific_test' or fix the broken collector.
+
+
+--- STDERR ---

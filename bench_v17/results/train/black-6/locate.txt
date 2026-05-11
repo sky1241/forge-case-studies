@@ -1,0 +1,30 @@
+  Running tests with per-test coverage...
+
+==================================================
+  FAULT LOCALIZATION — Ochiai SBFL
+  4 failing test(s), 77 passing
+==================================================
+  0.87  black.py:3375  except Exception as exc:
+       3/4 fail, 0/77 pass — highly suspect
+  0.87  black.py:3376  major, minor = sys.version_info[:2]
+       3/4 fail, 0/77 pass — highly suspect
+  0.87  black.py:3377  raise AssertionError(
+       3/4 fail, 0/77 pass — highly suspect
+  0.87  black.py:3378  f"cannot use --safe with this file; failed to parse source f
+       3/4 fail, 0/77 pass — highly suspect
+  0.87  black.py:3379  f"with Python {major}.{minor}'s builtin AST. Re-run with --f
+       3/4 fail, 0/77 pass — highly suspect
+  0.87  black.py:3380  f"or stop using deprecated Python 2 syntax. AST error messag
+       3/4 fail, 0/77 pass — highly suspect
+  0.75  black.py:2729  lpar = Leaf(token.LPAR, "(")
+       3/4 fail, 1/77 pass — highly suspect
+  0.75  black.py:2730  rpar = Leaf(token.RPAR, ")")
+       3/4 fail, 1/77 pass — highly suspect
+  0.75  black.py:2731  child.remove()
+       3/4 fail, 1/77 pass — highly suspect
+  0.75  black.py:2732  node.insert_child(index, Node(syms.atom, [lpar, child, rpar]
+       3/4 fail, 1/77 pass — highly suspect
+==================================================
+
+
+--- STDERR ---

@@ -1,0 +1,25 @@
+  Running tests with per-test coverage...
+
+  PYTEST RUNNER ERROR (during --locate):
+    ERROR tornado/test/locks_test.py - AttributeError: 'NoneType' object has no a...
+    ERROR tornado/test/netutil_test.py
+    ERROR tornado/test/process_test.py
+    ERROR tornado/test/queues_test.py - AttributeError: 'NoneType' object has no ...
+    ERROR tornado/test/simple_httpclient_test.py
+    ERROR tornado/test/stack_context_test.py
+    ERROR tornado/test/tcpclient_test.py
+    ERROR tornado/test/tcpserver_test.py
+    ERROR tornado/test/testing_test.py - AttributeError: 'NoneType' object has no...
+    ERROR tornado/test/twisted_test.py
+    ERROR tornado/test/web_test.py
+    ERROR tornado/test/websocket_test.py
+    ERROR tornado/test/wsgi_test.py
+    !!!!!!!!!!!!!!!!!!! Interrupted: 28 errors during collection !!!!!!!!!!!!!!!!!!!
+    ======================== 5 warnings, 28 errors in 3.27s ========================
+  exit code: 2
+  Hint: a test file in your repo crashed at collection
+  (missing dep, plugin conflict, mypy_test_cases/ not for normal pytest...).
+  Try FORGE_TEST_FILTER='specific_test' or fix the broken collector.
+
+
+--- STDERR ---
