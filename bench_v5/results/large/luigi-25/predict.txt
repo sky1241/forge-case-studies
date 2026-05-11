@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 161 files, last 999 weeks
+==================================================
+  0.72  luigi/hadoop.py
+       churn=114.6 freq=91 burst=5 authors=34 bugfix=24 loc=27 recent=0.00
+  0.72  luigi/hdfs.py
+       churn=120.6 freq=97 burst=5 authors=30 bugfix=21 loc=27 recent=0.00
+  0.71  luigi/worker.py
+       churn=4.5 freq=145 burst=7 authors=32 bugfix=34 loc=707 recent=0.00
+  0.67  luigi/scheduler.py
+       churn=3.5 freq=121 burst=9 authors=26 bugfix=27 loc=948 recent=0.00
+  0.67  luigi/interface.py
+       churn=5.7 freq=124 burst=12 authors=30 bugfix=20 loc=452 recent=0.00
+  0.56  luigi/task.py
+       churn=3.5 freq=112 burst=7 authors=21 bugfix=22 loc=588 recent=0.00
+  0.52  luigi/parameter.py
+       churn=2.4 freq=73 burst=12 authors=19 bugfix=12 loc=563 recent=0.00
+  0.45  luigi/server.py
+       churn=6.1 freq=72 burst=5 authors=24 bugfix=12 loc=292 recent=0.00
+  0.42  luigi/hive.py
+       churn=43.7 freq=47 burst=4 authors=19 bugfix=14 loc=27 recent=0.00
+  0.41  test/worker_test.py
+       churn=1.6 freq=53 burst=4 authors=17 bugfix=14 loc=948 recent=0.00
+  0.41  luigi/rpc.py
+       churn=4.6 freq=57 burst=5 authors=18 bugfix=15 loc=166 recent=0.00
+  0.38  test/central_planner_test.py
+       churn=1.8 freq=47 burst=4 authors=14 bugfix=10 loc=746 recent=0.00
+  0.36  test/parameter_test.py
+       churn=1.7 freq=50 burst=4 authors=13 bugfix=7 loc=681 recent=0.00
+  0.36  luigi/file.py
+       churn=4.5 freq=47 burst=5 authors=14 bugfix=10 loc=144 recent=0.00
+  0.35  luigi/format.py
+       churn=1.5 freq=33 burst=7 authors=9 bugfix=9 loc=517 recent=0.00
+==================================================
+
+
+--- STDERR ---
