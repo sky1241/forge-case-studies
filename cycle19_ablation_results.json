@@ -1,0 +1,26 @@
+{
+  "baseline_weights": {
+    "kalman": 0.2,
+    "wavelet": 0.15,
+    "crash": 0.2,
+    "coupling": 0.15,
+    "churn": 0.15,
+    "complexity": 0.15
+  },
+  "ablation_weights": {
+    "kalman": 0.0,
+    "wavelet": 0.0,
+    "crash": 0.2875,
+    "coupling": 0.2375,
+    "churn": 0.2375,
+    "complexity": 0.2375
+  },
+  "cycle15_baseline_top10": 45.80152671755725,
+  "cycle15_ablation_top10": 48.091603053435115,
+  "cycle15_delta": 2.2900763358778633,
+  "panel_ref_baseline_top10": 61.111111111111114,
+  "panel_ref_ablation_top10": 44.44444444444444,
+  "panel_ref_delta": -16.66666666666667,
+  "verdict_c_ablation": "NON",
+  "verdict_panel_ref": "R\u00c9GRESSION"
+}

@@ -1,0 +1,41 @@
+
+==================================================
+  MODULARITY — Newman-Girvan Q over import graph
+==================================================
+  Q = 0.430 (good — modules are well isolated (Q ≥ 0.30))
+  298 files in 127 communities
+
+  Top 3 communities by size:
+    cluster #  9    15 files  Q-contrib +0.047
+    cluster #  7    11 files  Q-contrib +0.022
+    cluster # 45    11 files  Q-contrib +0.036
+==================================================
+
+
+--- STDERR ---
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:59: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:78: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:18: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:793: SyntaxWarning: invalid escape sequence '\='
+<unknown>:351: SyntaxWarning: invalid escape sequence '\('
+<unknown>:598: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:12: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:42: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:44: SyntaxWarning: invalid escape sequence '\$'
+<unknown>:82: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:83: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:85: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:86: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:88: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:89: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:91: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:92: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:226: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:229: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:236: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:531: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:552: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:553: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:564: SyntaxWarning: invalid escape sequence '\.'
+<unknown>:565: SyntaxWarning: invalid escape sequence '\w'

@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 265 files, last 999 weeks
+==================================================
+  0.70  scrapy/core/engine.py
+       churn=6.7 freq=145 burst=17 authors=18 bugfix=19 loc=346 recent=0.00
+  0.57  scrapy/settings/default_settings.py
+       churn=1.9 freq=134 burst=5 authors=39 bugfix=11 loc=286 recent=0.00
+  0.51  tests/test_downloader_handlers.py
+       churn=1.1 freq=60 burst=8 authors=14 bugfix=17 loc=1046 recent=0.00
+  0.49  scrapy/crawler.py
+       churn=4.3 freq=86 burst=4 authors=16 bugfix=16 loc=338 recent=0.00
+  0.48  scrapy/http/request/form.py
+       churn=4.3 freq=63 burst=9 authors=21 bugfix=13 loc=208 recent=0.00
+  0.45  scrapy/core/downloader/handlers/http11.py
+       churn=3.3 freq=83 burst=5 authors=18 bugfix=11 loc=487 recent=0.00
+  0.44  scrapy/core/scraper.py
+       churn=4.0 freq=78 burst=4 authors=14 bugfix=12 loc=244 recent=0.00
+  0.42  scrapy/shell.py
+       churn=4.4 freq=65 burst=5 authors=14 bugfix=14 loc=207 recent=0.00
+  0.40  scrapy/utils/url.py
+       churn=7.8 freq=58 burst=3 authors=17 bugfix=12 loc=136 recent=0.00
+  0.37  setup.py
+       churn=6.1 freq=74 burst=3 authors=16 bugfix=5 loc=79 recent=0.00
+  0.33  scrapy/utils/python.py
+       churn=1.7 freq=37 burst=4 authors=15 bugfix=9 loc=389 recent=0.00
+  0.33  scrapy/cmdline.py
+       churn=3.7 freq=42 burst=4 authors=10 bugfix=11 loc=174 recent=0.00
+  0.32  scrapy/commands/parse.py
+       churn=2.5 freq=32 burst=4 authors=11 bugfix=9 loc=254 recent=0.00
+  0.32  tests/test_webclient.py
+       churn=0.8 freq=18 burst=10 authors=4 bugfix=8 loc=365 recent=0.00
+  0.31  scrapy/exporters.py
+       churn=0.7 freq=20 burst=6 authors=8 bugfix=6 loc=340 recent=0.00
+==================================================
+
+
+--- STDERR ---

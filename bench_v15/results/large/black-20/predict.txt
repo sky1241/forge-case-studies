@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 28 files, last 999 weeks
+==================================================
+  0.99  black.py
+       churn=1.5 freq=40 burst=20 authors=3 bugfix=10 loc=1770 recent=0.00
+  0.52  tests/expression.py
+       churn=1.1 freq=15 burst=10 authors=2 bugfix=5 loc=333 recent=0.00
+  0.44  tests/test_black.py
+       churn=1.2 freq=12 burst=4 authors=2 bugfix=2 loc=319 recent=0.00
+  0.43  docs/conf.py
+       churn=1.1 freq=5 burst=4 authors=2 bugfix=2 loc=232 recent=0.00
+  0.38  setup.py
+       churn=1.5 freq=5 burst=3 authors=2 bugfix=0 loc=58 recent=0.00
+  0.32  blib2to3/pgen2/tokenize.py
+       churn=1.0 freq=4 burst=2 authors=1 bugfix=2 loc=591 recent=0.00
+  0.32  tests/function.py
+       churn=1.1 freq=7 burst=4 authors=1 bugfix=1 loc=184 recent=0.00
+  0.32  tests/import_spacing.py
+       churn=1.5 freq=4 burst=2 authors=1 bugfix=1 loc=73 recent=0.00
+  0.30  blib2to3/pgen2/driver.py
+       churn=1.0 freq=3 burst=1 authors=1 bugfix=2 loc=183 recent=0.00
+  0.30  tests/comments2.py
+       churn=1.0 freq=4 burst=2 authors=2 bugfix=0 loc=243 recent=0.00
+  0.29  tests/empty_lines.py
+       churn=1.0 freq=3 burst=2 authors=1 bugfix=1 loc=173 recent=0.00
+  0.28  tests/comments.py
+       churn=1.0 freq=4 burst=2 authors=1 bugfix=0 loc=86 recent=0.00
+  0.27  blib2to3/pygram.py
+       churn=1.1 freq=3 burst=2 authors=1 bugfix=0 loc=47 recent=0.00
+  0.27  tests/debug_visitor.py
+       churn=1.0 freq=1 burst=1 authors=1 bugfix=1 loc=32 recent=0.00
+  0.25  tests/fmtonoff.py
+       churn=1.0 freq=1 burst=1 authors=1 bugfix=0 loc=177 recent=0.00
+==================================================
+
+
+--- STDERR ---

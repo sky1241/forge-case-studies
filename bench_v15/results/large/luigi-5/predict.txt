@@ -1,0 +1,38 @@
+
+==================================================
+  DEFECT PREDICTION — 214 files, last 999 weeks
+==================================================
+  0.73  luigi/worker.py
+       churn=3.9 freq=232 burst=7 authors=67 bugfix=44 loc=1135 recent=0.00
+  0.71  luigi/scheduler.py
+       churn=3.2 freq=215 burst=9 authors=47 bugfix=43 loc=1532 recent=0.00
+  0.63  luigi/interface.py
+       churn=11.9 freq=153 burst=12 authors=42 bugfix=23 loc=274 recent=0.00
+  0.58  luigi/parameter.py
+       churn=2.6 freq=137 burst=12 authors=39 bugfix=21 loc=1133 recent=0.00
+  0.54  luigi/task.py
+       churn=3.1 freq=155 burst=7 authors=41 bugfix=28 loc=888 recent=0.00
+  0.48  luigi/file.py
+       churn=36.2 freq=63 burst=5 authors=23 bugfix=13 loc=26 recent=0.00
+  0.45  test/worker_test.py
+       churn=1.6 freq=108 burst=4 authors=35 bugfix=22 loc=2137 recent=0.00
+  0.43  luigi/contrib/redshift.py
+       churn=2.1 freq=51 burst=9 authors=27 bugfix=17 loc=714 recent=0.00
+  0.40  test/parameter_test.py
+       churn=2.0 freq=89 burst=4 authors=29 bugfix=15 loc=1128 recent=0.00
+  0.39  luigi/server.py
+       churn=7.3 freq=88 burst=5 authors=34 bugfix=13 loc=269 recent=0.00
+  0.37  luigi/rpc.py
+       churn=6.9 freq=75 burst=5 authors=28 bugfix=20 loc=156 recent=0.00
+  0.34  setup.py
+       churn=4.6 freq=86 burst=3 authors=30 bugfix=5 loc=91 recent=0.00
+  0.32  luigi/notifications.py
+       churn=2.5 freq=51 burst=4 authors=31 bugfix=8 loc=434 recent=0.00
+  0.30  luigi/contrib/sqla.py
+       churn=3.9 freq=31 burst=4 authors=14 bugfix=9 loc=410 recent=0.00
+  0.30  test/cmdline_test.py
+       churn=1.7 freq=50 burst=3 authors=21 bugfix=11 loc=345 recent=0.00
+==================================================
+
+
+--- STDERR ---

@@ -1,0 +1,35 @@
+
+==================================================
+  MODULARITY — Newman-Girvan Q over import graph
+==================================================
+  Q = 0.375 (good — modules are well isolated (Q ≥ 0.30))
+  166 files in 68 communities
+
+  Top 3 communities by size:
+    cluster # 41    10 files  Q-contrib +0.043
+    cluster # 45    10 files  Q-contrib +0.053
+    cluster # 54    10 files  Q-contrib +0.033
+==================================================
+
+
+--- STDERR ---
+<unknown>:34: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:46: SyntaxWarning: invalid escape sequence '\%'
+<unknown>:136: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:150: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:238: SyntaxWarning: invalid escape sequence '\*'
+<unknown>:479: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:483: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:489: SyntaxWarning: invalid escape sequence '\w'
+<unknown>:267: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:536: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:548: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:437: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:439: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:440: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:441: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:442: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:444: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:446: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:447: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:452: SyntaxWarning: invalid escape sequence '\d'
