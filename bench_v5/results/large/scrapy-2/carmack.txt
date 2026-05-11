@@ -1,0 +1,67 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.414  tests/spiders.py
+       Kalman=0.00  Wavelet=279.2  Crash=0%  Coupling=0.95
+       churn=1.0 freq=13 authors=6 bugfix=2 loc=185
+  0.395  tests/test_feedexport.py
+       Kalman=0.00  Wavelet=947.7  Crash=0%  Coupling=0.23
+       churn=1.2 freq=39 authors=15 bugfix=1 loc=845
+  0.381  scrapy/link.py
+       Kalman=0.00  Wavelet=32.1  Crash=0%  Coupling=0.96
+       churn=1.8 freq=10 authors=4 bugfix=0 loc=42
+  0.368  scrapy/exceptions.py
+       Kalman=0.00  Wavelet=84.8  Crash=0%  Coupling=1.00
+       churn=1.6 freq=12 authors=4 bugfix=1 loc=63
+  0.338  scrapy/utils/log.py
+       Kalman=0.00  Wavelet=843.7  Crash=0%  Coupling=0.67
+       churn=2.1 freq=25 authors=8 bugfix=1 loc=206
+  0.299  scrapy/utils/request.py
+       Kalman=0.00  Wavelet=59.9  Crash=0%  Coupling=0.58
+       churn=1.6 freq=18 authors=8 bugfix=5 loc=94
+  0.294  tests/test_loader.py
+       Kalman=0.00  Wavelet=1488.3  Crash=0%  Coupling=0.12
+       churn=0.4 freq=16 authors=10 bugfix=2 loc=819
+  0.282  tests/test_http_request.py
+       Kalman=0.00  Wavelet=2800.9  Crash=0%  Coupling=0.00
+       churn=0.8 freq=35 authors=17 bugfix=7 loc=1414
+  0.266  scrapy/utils/datatypes.py
+       Kalman=0.00  Wavelet=409.5  Crash=0%  Coupling=0.24
+       churn=0.8 freq=18 authors=9 bugfix=2 loc=330
+  0.262  tests/test_linkextractors.py
+       Kalman=0.00  Wavelet=62457.1  Crash=0%  Coupling=0.36
+       churn=2.4 freq=11 authors=6 bugfix=3 loc=508
+  0.256  scrapy/loader/__init__.py
+       Kalman=0.00  Wavelet=246.9  Crash=0%  Coupling=0.35
+       churn=0.8 freq=18 authors=8 bugfix=1 loc=212
+  0.247  scrapy/selector/__init__.py
+       Kalman=0.00  Wavelet=2725.2  Crash=0%  Coupling=0.12
+       churn=111.0 freq=15 authors=4 bugfix=1 loc=4
+  0.245  scrapy/utils/serialize.py
+       Kalman=0.00  Wavelet=1095.2  Crash=0%  Coupling=0.36
+       churn=6.3 freq=12 authors=4 bugfix=0 loc=40
+  0.235  tests/mockserver.py
+       Kalman=0.00  Wavelet=145.4  Crash=0%  Coupling=0.94
+       churn=1.0 freq=22 authors=9 bugfix=9 loc=248
+  0.233  scrapy/utils/signal.py
+       Kalman=0.00  Wavelet=170.7  Crash=0%  Coupling=0.47
+       churn=2.0 freq=14 authors=3 bugfix=2 loc=79
+============================================================
+
+
+--- STDERR ---
+<unknown>:222: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:23: SyntaxWarning: invalid escape sequence '\:'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:222: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:222: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:222: SyntaxWarning: invalid escape sequence '\d'
+<unknown>:23: SyntaxWarning: invalid escape sequence '\:'
+<unknown>:23: SyntaxWarning: invalid escape sequence '\:'
+<unknown>:23: SyntaxWarning: invalid escape sequence '\:'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
+<unknown>:10: SyntaxWarning: invalid escape sequence '\s'
