@@ -1,0 +1,50 @@
+[
+  {
+    "project": "cookiecutter",
+    "bug_id": "cookiecutter-3",
+    "bucket": "medium",
+    "change_file": "cookiecutter/prompt.py",
+    "github_url": "https://github.com/cookiecutter/cookiecutter",
+    "fix_count": 14
+  },
+  {
+    "project": "thefuck",
+    "bug_id": "thefuck-32",
+    "bucket": "medium",
+    "change_file": "thefuck/rules/ls_lah.py",
+    "github_url": "https://github.com/nvbn/thefuck",
+    "fix_count": 0
+  },
+  {
+    "project": "httpie",
+    "bug_id": "httpie-3",
+    "bucket": "medium",
+    "change_file": "httpie/sessions.py",
+    "github_url": "https://github.com/jakubroztocil/httpie",
+    "fix_count": 6
+  },
+  {
+    "project": "fastapi",
+    "bug_id": "fastapi-3",
+    "bucket": "large",
+    "change_file": "fastapi/routing.py",
+    "github_url": "https://github.com/tiangolo/fastapi",
+    "fix_count": 28
+  },
+  {
+    "project": "luigi",
+    "bug_id": "luigi-28",
+    "bucket": "large",
+    "change_file": "luigi/contrib/hive.py",
+    "github_url": "https://github.com/spotify/luigi",
+    "fix_count": 3
+  },
+  {
+    "project": "black",
+    "bug_id": "black-4",
+    "bucket": "large",
+    "change_file": "black.py",
+    "github_url": "https://github.com/psf/black",
+    "fix_count": 133
+  }
+]
