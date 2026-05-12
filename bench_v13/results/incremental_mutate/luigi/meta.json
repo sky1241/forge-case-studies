@@ -1,9 +1,9 @@
 {
-  "tool": "incremental_mutate",
-  "case": "luigi",
-  "exit": 2,
-  "elapsed_sec": 0.13,
-  "output_chars": 123,
-  "pattern": "mutate|incremental|since|mutant",
-  "status": "PASS"
+  "project": "luigi",
+  "cmd": "forge --mutate --incremental-mutate --since HEAD~1 --paths-to-mutate examples/foo_complex.py",
+  "target_file": "examples/foo_complex.py",
+  "exit": 0,
+  "elapsed_sec": 0.38,
+  "output_chars": 347,
+  "cycle": "22A_REAL_TEST"
 }

@@ -1,9 +1,9 @@
 {
-  "tool": "incremental_mutate",
-  "case": "fastapi",
-  "exit": 2,
-  "elapsed_sec": 0.13,
-  "output_chars": 123,
-  "pattern": "mutate|incremental|since|mutant",
-  "status": "PASS"
+  "project": "fastapi",
+  "cmd": "forge --mutate --incremental-mutate --since HEAD~1 --paths-to-mutate fastapi/background.py",
+  "target_file": "fastapi/background.py",
+  "exit": 0,
+  "elapsed_sec": 0.47,
+  "output_chars": 346,
+  "cycle": "22A_REAL_TEST"
 }

@@ -1,0 +1,569 @@
+{
+  "cycle": "22B",
+  "methodology": "pure stdlib analysis on cycle 15 data",
+  "h1_distribution": {
+    "train_holdout_kalman": {
+      "signal": "kalman",
+      "all": {
+        "n": 110463,
+        "n_zero": 61985,
+        "pct_zero": 56.11,
+        "n_micro_below_1e10": 110463,
+        "pct_micro": 100.0,
+        "min": 0.0,
+        "max": 1.2065948626725527e-18,
+        "median": 0.0,
+        "mean": 3.1574674150347915e-21,
+        "p75": 1.098677018125586e-22,
+        "p90": 7.109619635427094e-21,
+        "p95": 1.5265199620868568e-20,
+        "p99": 5.1276319791016164e-20
+      },
+      "buggy_files": {
+        "n": 131,
+        "n_zero": 99,
+        "pct_zero": 75.57,
+        "n_micro_below_1e10": 131,
+        "pct_micro": 100.0,
+        "min": 0.0,
+        "max": 4.630905757668714e-19,
+        "median": 1.0424511423883132e-36,
+        "mean": 6.82885824997327e-21,
+        "p75": 6.2810312077694265e-31,
+        "p90": 3.145693634693916e-23,
+        "p95": 6.2802023517321184e-21,
+        "p99": 3.1268233405096955e-19
+      },
+      "non_buggy_files": {
+        "n": 110332,
+        "n_zero": 61886,
+        "pct_zero": 56.09,
+        "n_micro_below_1e10": 110332,
+        "pct_micro": 100.0,
+        "min": 0.0,
+        "max": 1.2065948626725527e-18,
+        "median": 0.0,
+        "mean": 3.153108278978371e-21,
+        "p75": 1.099530219968001e-22,
+        "p90": 7.109619635427094e-21,
+        "p95": 1.5265199620868568e-20,
+        "p99": 5.1276319791016164e-20
+      }
+    },
+    "train_holdout_wavelet": {
+      "signal": "wavelet_hf",
+      "all": {
+        "n": 110463,
+        "n_zero": 35641,
+        "pct_zero": 32.27,
+        "n_micro_below_1e10": 35641,
+        "pct_micro": 32.27,
+        "min": 0.0,
+        "max": 11444689.0,
+        "median": 355.421875,
+        "mean": 10146.226221891355,
+        "p75": 4097.1875,
+        "p90": 18396.125,
+        "p95": 34782.25,
+        "p99": 118034.0
+      },
+      "buggy_files": {
+        "n": 131,
+        "n_zero": 0,
+        "pct_zero": 0.0,
+        "n_micro_below_1e10": 0,
+        "pct_micro": 0.0,
+        "min": 30.234375,
+        "max": 123746.484375,
+        "median": 2483.972412109375,
+        "mean": 10891.07584107377,
+        "p75": 13313.3125,
+        "p90": 31027.1552734375,
+        "p95": 41125.74609375,
+        "p99": 123668.109375
+      },
+      "non_buggy_files": {
+        "n": 110332,
+        "n_zero": 35641,
+        "pct_zero": 32.3,
+        "n_micro_below_1e10": 35641,
+        "pct_micro": 32.3,
+        "min": 0.0,
+        "max": 11444689.0,
+        "median": 355.1875,
+        "mean": 10145.341842925027,
+        "p75": 4097.1875,
+        "p90": 18389.0,
+        "p95": 34782.25,
+        "p99": 118034.0
+      }
+    },
+    "panel_ref_kalman": {
+      "signal": "kalman",
+      "all": {
+        "n": 16949,
+        "n_zero": 9401,
+        "pct_zero": 55.47,
+        "n_micro_below_1e10": 16949,
+        "pct_micro": 100.0,
+        "min": 0.0,
+        "max": 4.134326835178962e-19,
+        "median": 0.0,
+        "mean": 6.252767957330177e-21,
+        "p75": 5.256254103371106e-22,
+        "p90": 1.433249026848794e-20,
+        "p95": 3.517745591212409e-20,
+        "p99": 1.2130017057784027e-19
+      },
+      "buggy_files": {
+        "n": 18,
+        "n_zero": 16,
+        "pct_zero": 88.89,
+        "n_micro_below_1e10": 18,
+        "pct_micro": 100.0,
+        "min": 0.0,
+        "max": 4.6141959703183895e-20,
+        "median": 9.777961741600113e-62,
+        "mean": 2.563442205935725e-21,
+        "p75": 3.754004080294108e-34,
+        "p90": 3.655899889062431e-30,
+        "p95": 4.6141959703183895e-20,
+        "p99": 4.6141959703183895e-20
+      },
+      "non_buggy_files": {
+        "n": 16931,
+        "n_zero": 9385,
+        "pct_zero": 55.43,
+        "n_micro_below_1e10": 16931,
+        "pct_micro": 100.0,
+        "min": 0.0,
+        "max": 4.134326835178962e-19,
+        "median": 0.0,
+        "mean": 6.256690222023645e-21,
+        "p75": 5.2672152407843155e-22,
+        "p90": 1.433249026848794e-20,
+        "p95": 3.517745591212409e-20,
+        "p99": 1.2130017057784027e-19
+      }
+    },
+    "panel_ref_wavelet": {
+      "signal": "wavelet_hf",
+      "all": {
+        "n": 16949,
+        "n_zero": 5942,
+        "pct_zero": 35.06,
+        "n_micro_below_1e10": 5942,
+        "pct_micro": 35.06,
+        "min": 0.0,
+        "max": 11444689.0,
+        "median": 347.1875,
+        "mean": 10548.891432948109,
+        "p75": 4849.734375,
+        "p90": 20736.0,
+        "p95": 37037.68359375,
+        "p99": 127806.25
+      },
+      "buggy_files": {
+        "n": 18,
+        "n_zero": 4,
+        "pct_zero": 22.22,
+        "n_micro_below_1e10": 4,
+        "pct_micro": 22.22,
+        "min": 0.0,
+        "max": 56073.75,
+        "median": 515.71484375,
+        "mean": 6084.455894470215,
+        "p75": 1849.0,
+        "p90": 29691.7490234375,
+        "p95": 56073.75,
+        "p99": 56073.75
+      },
+      "non_buggy_files": {
+        "n": 16931,
+        "n_zero": 5938,
+        "pct_zero": 35.07,
+        "n_micro_below_1e10": 5938,
+        "pct_micro": 35.07,
+        "min": 0.0,
+        "max": 11444689.0,
+        "median": 347.1875,
+        "mean": 10553.6377467921,
+        "p75": 4860.984375,
+        "p90": 20736.0,
+        "p95": 37037.68359375,
+        "p99": 127806.25
+      }
+    }
+  },
+  "h2_borderline_panel_ref": {
+    "cases": [
+      {
+        "bug_id": "ansible-4",
+        "project": "ansible",
+        "bucket": "large",
+        "rank_baseline": 4734,
+        "rank_ablation": 4584,
+        "in_top10_baseline": false,
+        "in_top10_ablation": false,
+        "flip": "NONE",
+        "target_kalman": 0.0,
+        "target_wavelet_hf": 25.0
+      },
+      {
+        "bug_id": "ansible-6",
+        "project": "ansible",
+        "bucket": "large",
+        "rank_baseline": 37,
+        "rank_ablation": 129,
+        "in_top10_baseline": false,
+        "in_top10_ablation": false,
+        "flip": "NONE",
+        "target_kalman": 4.6141959703183895e-20,
+        "target_wavelet_hf": 29691.7490234375
+      },
+      {
+        "bug_id": "scrapy-29",
+        "project": "scrapy",
+        "bucket": "large",
+        "rank_baseline": 44,
+        "rank_ablation": 43,
+        "in_top10_baseline": false,
+        "in_top10_ablation": false,
+        "flip": "NONE",
+        "target_kalman": 0.0,
+        "target_wavelet_hf": 84.359375
+      },
+      {
+        "bug_id": "fastapi-12",
+        "project": "fastapi",
+        "bucket": "large",
+        "rank_baseline": 8,
+        "rank_ablation": 6,
+        "in_top10_baseline": true,
+        "in_top10_ablation": true,
+        "flip": "NONE",
+        "target_kalman": 7.1301071666838406e-65,
+        "target_wavelet_hf": 515.71484375
+      },
+      {
+        "bug_id": "luigi-12",
+        "project": "luigi",
+        "bucket": "large",
+        "rank_baseline": 9,
+        "rank_ablation": 68,
+        "in_top10_baseline": true,
+        "in_top10_ablation": false,
+        "flip": "LOST_baseline_top10_to_outside",
+        "target_kalman": 0.0,
+        "target_wavelet_hf": 56073.75
+      },
+      {
+        "bug_id": "tornado-7",
+        "project": "tornado",
+        "bucket": "large",
+        "rank_baseline": 5,
+        "rank_ablation": 1,
+        "in_top10_baseline": true,
+        "in_top10_ablation": true,
+        "flip": "NONE",
+        "target_kalman": 1.4412517760863658e-33,
+        "target_wavelet_hf": 1681.0321655273438
+      },
+      {
+        "bug_id": "black-2",
+        "project": "black",
+        "bucket": "large",
+        "rank_baseline": 2,
+        "rank_ablation": 2,
+        "in_top10_baseline": true,
+        "in_top10_ablation": true,
+        "flip": "NONE",
+        "target_kalman": 3.5235076745501784e-41,
+        "target_wavelet_hf": 13497.767333984375
+      },
+      {
+        "bug_id": "fastapi-7",
+        "project": "fastapi",
+        "bucket": "large",
+        "rank_baseline": 57,
+        "rank_ablation": 44,
+        "in_top10_baseline": false,
+        "in_top10_ablation": false,
+        "flip": "NONE",
+        "target_kalman": 0.0,
+        "target_wavelet_hf": 0.0
+      },
+      {
+        "bug_id": "luigi-7",
+        "project": "luigi",
+        "bucket": "large",
+        "rank_baseline": 4,
+        "rank_ablation": 1,
+        "in_top10_baseline": true,
+        "in_top10_ablation": true,
+        "flip": "NONE",
+        "target_kalman": 3.655899889062431e-30,
+        "target_wavelet_hf": 1733.7557220458984
+      },
+      {
+        "bug_id": "scrapy-16",
+        "project": "scrapy",
+        "bucket": "large",
+        "rank_baseline": 94,
+        "rank_ablation": 92,
+        "in_top10_baseline": false,
+        "in_top10_ablation": false,
+        "flip": "NONE",
+        "target_kalman": 0.0,
+        "target_wavelet_hf": 337.734130859375
+      },
+      {
+        "bug_id": "tornado-16",
+        "project": "tornado",
+        "bucket": "large",
+        "rank_baseline": 4,
+        "rank_ablation": 16,
+        "in_top10_baseline": true,
+        "in_top10_ablation": false,
+        "flip": "LOST_baseline_top10_to_outside",
+        "target_kalman": 1.1187714297735191e-33,
+        "target_wavelet_hf": 2483.972412109375
+      },
+      {
+        "bug_id": "httpie-5",
+        "project": "httpie",
+        "bucket": "medium",
+        "rank_baseline": 5,
+        "rank_ablation": 5,
+        "in_top10_baseline": true,
+        "in_top10_ablation": true,
+        "flip": "NONE",
+        "target_kalman": 0.0,
+        "target_wavelet_hf": 1849.0
+      },
+      {
+        "bug_id": "httpie-4",
+        "project": "httpie",
+        "bucket": "medium",
+        "rank_baseline": 4,
+        "rank_ablation": 11,
+        "in_top10_baseline": true,
+        "in_top10_ablation": false,
+        "flip": "LOST_baseline_top10_to_outside",
+        "target_kalman": 6.101749827847541e-36,
+        "target_wavelet_hf": 1469.125
+      },
+      {
+        "bug_id": "PySnooper-1",
+        "project": "PySnooper",
+        "bucket": "medium",
+        "rank_baseline": 7,
+        "rank_ablation": 7,
+        "in_top10_baseline": true,
+        "in_top10_ablation": true,
+        "flip": "NONE",
+        "target_kalman": 0.0,
+        "target_wavelet_hf": 0.0
+      },
+      {
+        "bug_id": "cookiecutter-4",
+        "project": "cookiecutter",
+        "bucket": "medium",
+        "rank_baseline": 6,
+        "rank_ablation": 3,
+        "in_top10_baseline": true,
+        "in_top10_ablation": true,
+        "flip": "NONE",
+        "target_kalman": 3.754004080294108e-34,
+        "target_wavelet_hf": 41.24609375
+      },
+      {
+        "bug_id": "thefuck-17",
+        "project": "thefuck",
+        "bucket": "medium",
+        "rank_baseline": 59,
+        "rank_ablation": 32,
+        "in_top10_baseline": false,
+        "in_top10_ablation": false,
+        "flip": "NONE",
+        "target_kalman": 0.0,
+        "target_wavelet_hf": 0.0
+      },
+      {
+        "bug_id": "thefuck-21",
+        "project": "thefuck",
+        "bucket": "medium",
+        "rank_baseline": 34,
+        "rank_ablation": 49,
+        "in_top10_baseline": false,
+        "in_top10_ablation": false,
+        "flip": "NONE",
+        "target_kalman": 3.1535345034787357e-34,
+        "target_wavelet_hf": 36.0
+      },
+      {
+        "bug_id": "PySnooper-2",
+        "project": "PySnooper",
+        "bucket": "medium",
+        "rank_baseline": 3,
+        "rank_ablation": 3,
+        "in_top10_baseline": true,
+        "in_top10_ablation": true,
+        "flip": "NONE",
+        "target_kalman": 9.777961741600113e-62,
+        "target_wavelet_hf": 0.0
+      }
+    ],
+    "n_lost": 3,
+    "n_gained": 0,
+    "n_stable": 15
+  },
+  "h3_per_project_train_holdout": {
+    "luigi": {
+      "kalman": {
+        "n": 4997,
+        "pct_zero": 91.2,
+        "mean": 4.68049890407236e-25,
+        "max": 1.3897428677275543e-22
+      },
+      "wavelet": {
+        "n": 4997,
+        "pct_zero": 11.0,
+        "mean": 3427.517364071397,
+        "max": 198470.25
+      }
+    },
+    "tornado": {
+      "kalman": {
+        "n": 1770,
+        "pct_zero": 63.6,
+        "mean": 4.3313926041429725e-25,
+        "max": 1.2049199763694667e-22
+      },
+      "wavelet": {
+        "n": 1770,
+        "pct_zero": 6.6,
+        "mean": 1631.4374673013633,
+        "max": 22052.25
+      }
+    },
+    "black": {
+      "kalman": {
+        "n": 817,
+        "pct_zero": 74.5,
+        "mean": 1.4536023019153635e-21,
+        "max": 1.499043397844791e-19
+      },
+      "wavelet": {
+        "n": 817,
+        "pct_zero": 49.2,
+        "mean": 4623.660135855143,
+        "max": 163216.0
+      }
+    },
+    "scrapy": {
+      "kalman": {
+        "n": 7447,
+        "pct_zero": 95.7,
+        "mean": 2.179920098471422e-21,
+        "max": 6.017186532981579e-19
+      },
+      "wavelet": {
+        "n": 7447,
+        "pct_zero": 16.2,
+        "mean": 6925.6876989810025,
+        "max": 1488400.0
+      }
+    },
+    "ansible": {
+      "kalman": {
+        "n": 89231,
+        "pct_zero": 48.2,
+        "mean": 3.593080395958325e-21,
+        "max": 1.2065948626725527e-18
+      },
+      "wavelet": {
+        "n": 89231,
+        "pct_zero": 34.6,
+        "mean": 11611.693674789556,
+        "max": 11444689.0
+      }
+    },
+    "fastapi": {
+      "kalman": {
+        "n": 3981,
+        "pct_zero": 85.8,
+        "mean": 1.8019362253600942e-21,
+        "max": 2.1336646002176562e-19
+      },
+      "wavelet": {
+        "n": 3981,
+        "pct_zero": 55.3,
+        "mean": 1986.9311737773467,
+        "max": 247181.0
+      }
+    },
+    "httpie": {
+      "kalman": {
+        "n": 163,
+        "pct_zero": 100.0,
+        "mean": 8.549896444399308e-33,
+        "max": 2.265498905858381e-31
+      },
+      "wavelet": {
+        "n": 163,
+        "pct_zero": 12.3,
+        "mean": 3979.0938203963765,
+        "max": 67948.6875
+      }
+    },
+    "thefuck": {
+      "kalman": {
+        "n": 1752,
+        "pct_zero": 100.0,
+        "mean": 1.8467791678153698e-34,
+        "max": 3.201202052081328e-32
+      },
+      "wavelet": {
+        "n": 1752,
+        "pct_zero": 13.3,
+        "mean": 268.0021440340504,
+        "max": 11498.484375
+      }
+    },
+    "cookiecutter": {
+      "kalman": {
+        "n": 305,
+        "pct_zero": 75.7,
+        "mean": 1.1708506840314232e-20,
+        "max": 4.0884875271033697e-19
+      },
+      "wavelet": {
+        "n": 305,
+        "pct_zero": 8.5,
+        "mean": 863.5035772605021,
+        "max": 17731.6875
+      }
+    }
+  },
+  "h4_calibration_variation": {
+    "cycle_14_v5_N141": {
+      "kalman": 0.033,
+      "wavelet": 0.019,
+      "crash": 0.09,
+      "coupling": 0.4,
+      "churn": 0.08,
+      "complexity": 0.39
+    },
+    "cycle_15_v6_N131": {
+      "kalman": 0.16,
+      "wavelet": 0.004,
+      "crash": 0.21,
+      "coupling": 0.13,
+      "churn": 0.06,
+      "complexity": 0.45
+    },
+    "kalman_variation_factor": 4.85,
+    "wavelet_variation_factor": 4.75
+  }
+}

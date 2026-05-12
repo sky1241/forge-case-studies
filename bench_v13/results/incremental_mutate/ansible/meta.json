@@ -1,9 +1,9 @@
 {
-  "tool": "incremental_mutate",
-  "case": "ansible",
-  "exit": 2,
-  "elapsed_sec": 0.13,
-  "output_chars": 123,
-  "pattern": "mutate|incremental|since|mutant",
-  "status": "PASS"
+  "project": "ansible",
+  "cmd": "forge --mutate --incremental-mutate --since HEAD~1 --paths-to-mutate hacking/azp/run.py",
+  "target_file": "hacking/azp/run.py",
+  "exit": 0,
+  "elapsed_sec": 0.59,
+  "output_chars": 339,
+  "cycle": "22A_REAL_TEST"
 }

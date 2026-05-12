@@ -1,9 +1,9 @@
 {
-  "tool": "incremental_mutate",
-  "case": "scrapy",
-  "exit": 2,
-  "elapsed_sec": 0.13,
-  "output_chars": 123,
-  "pattern": "mutate|incremental|since|mutant",
-  "status": "PASS"
+  "project": "scrapy",
+  "cmd": "forge --mutate --incremental-mutate --since HEAD~1 --paths-to-mutate extras/qpsclient.py",
+  "target_file": "extras/qpsclient.py",
+  "exit": 0,
+  "elapsed_sec": 0.4,
+  "output_chars": 345,
+  "cycle": "22A_REAL_TEST"
 }

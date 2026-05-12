@@ -1,2 +1,5 @@
-  ERROR: --incremental-mutate must be combined with --mutate
-  Usage: forge --mutate --incremental-mutate [--since COMMIT]
+  incremental mode: --since HEAD~1
+  per-mutant timeout: 60s (auto-derived from baseline; override via FORGE_MUTATE_TIMEOUT=N or mutation_per_target_timeout_seconds in .forge/config.json)
+  mutation backend: libcst (AST-aware)
+  check_version_in_basics_example.py: 0 mutants on diff (full would be 5)
+  No mutants generated (file too small or only imports/comments).
