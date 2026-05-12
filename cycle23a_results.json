@@ -1,0 +1,115 @@
+{
+  "cycle": "23A",
+  "random_baseline_th_pct": 8.85,
+  "random_baseline_ref_pct": 23.04,
+  "train_holdout": {
+    "kalman": {
+      "precision_at_10_pct": 22.9,
+      "hit_count": 30,
+      "n_total": 131,
+      "mrr": 0.0847,
+      "auc_rank": 0.6976,
+      "spearman": 0.3952
+    },
+    "wavelet_hf": {
+      "precision_at_10_pct": 27.48,
+      "hit_count": 36,
+      "n_total": 131,
+      "mrr": 0.1396,
+      "auc_rank": 0.7913,
+      "spearman": 0.5826
+    },
+    "crash_prob": {
+      "precision_at_10_pct": 38.17,
+      "hit_count": 50,
+      "n_total": 131,
+      "mrr": 0.1077,
+      "auc_rank": 0.7917,
+      "spearman": 0.5835
+    },
+    "coupling": {
+      "precision_at_10_pct": 35.11,
+      "hit_count": 46,
+      "n_total": 131,
+      "mrr": 0.2238,
+      "auc_rank": 0.8096,
+      "spearman": 0.6192
+    },
+    "churn": {
+      "precision_at_10_pct": 29.01,
+      "hit_count": 38,
+      "n_total": 131,
+      "mrr": 0.1023,
+      "auc_rank": 0.8113,
+      "spearman": 0.6226
+    },
+    "complexity": {
+      "precision_at_10_pct": 54.96,
+      "hit_count": 72,
+      "n_total": 131,
+      "mrr": 0.3287,
+      "auc_rank": 0.9057,
+      "spearman": 0.8114
+    }
+  },
+  "panel_ref": {
+    "kalman": {
+      "precision_at_10_pct": 27.78,
+      "hit_count": 5,
+      "n_total": 18,
+      "mrr": 0.0804,
+      "auc_rank": 0.627,
+      "spearman": 0.254
+    },
+    "wavelet_hf": {
+      "precision_at_10_pct": 27.78,
+      "hit_count": 5,
+      "n_total": 18,
+      "mrr": 0.0929,
+      "auc_rank": 0.6203,
+      "spearman": 0.2406
+    },
+    "crash_prob": {
+      "precision_at_10_pct": 44.44,
+      "hit_count": 8,
+      "n_total": 18,
+      "mrr": 0.096,
+      "auc_rank": 0.7615,
+      "spearman": 0.5231
+    },
+    "coupling": {
+      "precision_at_10_pct": 44.44,
+      "hit_count": 8,
+      "n_total": 18,
+      "mrr": 0.1735,
+      "auc_rank": 0.7307,
+      "spearman": 0.4615
+    },
+    "churn": {
+      "precision_at_10_pct": 38.89,
+      "hit_count": 7,
+      "n_total": 18,
+      "mrr": 0.0914,
+      "auc_rank": 0.6859,
+      "spearman": 0.3719
+    },
+    "complexity": {
+      "precision_at_10_pct": 44.44,
+      "hit_count": 8,
+      "n_total": 18,
+      "mrr": 0.2092,
+      "auc_rank": 0.7485,
+      "spearman": 0.4969
+    }
+  },
+  "verdicts_th": {
+    "kalman": "USEFUL_SOLO",
+    "wavelet_hf": "USEFUL_SOLO",
+    "crash_prob": "USEFUL_SOLO",
+    "coupling": "USEFUL_SOLO",
+    "churn": "USEFUL_SOLO",
+    "complexity": "USEFUL_SOLO"
+  },
+  "n_train_holdout": 131,
+  "n_panel_ref": 18
+}
