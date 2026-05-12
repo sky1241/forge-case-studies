@@ -1,0 +1,53 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.799  tornado/platform/asyncio.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=1.00
+       churn=1.1 freq=5 authors=1 bugfix=0 loc=748
+  0.683  tornado/options.py
+       Kalman=0.00  Wavelet=95903.2  Crash=0%  Coupling=0.59
+       churn=1.2 freq=7 authors=2 bugfix=0 loc=733
+  0.641  tornado/iostream.py
+       Kalman=0.00  Wavelet=450932.2  Crash=0%  Coupling=0.26
+       churn=1.1 freq=9 authors=3 bugfix=0 loc=1608
+  0.635  tornado/web.py
+       Kalman=0.06  Wavelet=1528199.5  Crash=0%  Coupling=0.45
+       churn=1.1 freq=13 authors=3 bugfix=1 loc=3803
+  0.626  tornado/simple_httpclient.py
+       Kalman=0.00  Wavelet=81230.2  Crash=0%  Coupling=0.30
+       churn=1.2 freq=9 authors=3 bugfix=0 loc=696
+  0.613  tornado/test/httpserver_test.py
+       Kalman=0.00  Wavelet=248206.1  Crash=0%  Coupling=0.25
+       churn=1.1 freq=7 authors=2 bugfix=0 loc=1507
+  0.606  tornado/template.py
+       Kalman=0.00  Wavelet=192354.5  Crash=0%  Coupling=0.11
+       churn=1.1 freq=8 authors=2 bugfix=0 loc=1042
+  0.598  tornado/test/gen_test.py
+       Kalman=0.00  Wavelet=226186.2  Crash=0%  Coupling=0.19
+       churn=1.1 freq=7 authors=2 bugfix=0 loc=1111
+  0.585  tornado/http1connection.py
+       Kalman=0.00  Wavelet=135892.2  Crash=0%  Coupling=0.16
+       churn=1.1 freq=8 authors=2 bugfix=0 loc=886
+  0.585  tornado/test/httpclient_test.py
+       Kalman=0.00  Wavelet=98614.5  Crash=0%  Coupling=0.20
+       churn=1.1 freq=8 authors=3 bugfix=0 loc=950
+  0.580  tornado/test/web_test.py
+       Kalman=0.00  Wavelet=1198072.4  Crash=0%  Coupling=0.15
+       churn=1.0 freq=12 authors=4 bugfix=0 loc=3440
+  0.579  tornado/gen.py
+       Kalman=0.00  Wavelet=133616.2  Crash=0%  Coupling=0.31
+       churn=1.2 freq=10 authors=3 bugfix=0 loc=887
+  0.568  tornado/auth.py
+       Kalman=0.00  Wavelet=263728.2  Crash=0%  Coupling=0.12
+       churn=1.1 freq=6 authors=2 bugfix=0 loc=1232
+  0.564  tornado/test/simple_httpclient_test.py
+       Kalman=0.00  Wavelet=80344.7  Crash=0%  Coupling=0.22
+       churn=1.1 freq=7 authors=4 bugfix=0 loc=885
+  0.561  tornado/test/websocket_test.py
+       Kalman=0.00  Wavelet=166537.7  Crash=0%  Coupling=0.17
+       churn=1.0 freq=4 authors=2 bugfix=0 loc=989
+============================================================
+

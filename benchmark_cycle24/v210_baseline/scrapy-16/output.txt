@@ -1,0 +1,53 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.704  scrapy/crawler.py
+       Kalman=0.00  Wavelet=71764.9  Crash=0%  Coupling=1.00
+       churn=1.1 freq=8 authors=4 bugfix=0 loc=1050
+  0.570  tests/test_feedexport.py
+       Kalman=0.17  Wavelet=1622483.5  Crash=25%  Coupling=0.11
+       churn=3.4 freq=7 authors=2 bugfix=2 loc=1404
+  0.412  scrapy/utils/asyncio.py
+       Kalman=0.00  Wavelet=8207.7  Crash=0%  Coupling=0.75
+       churn=1.1 freq=5 authors=3 bugfix=0 loc=313
+  0.406  scrapy/utils/defer.py
+       Kalman=0.00  Wavelet=60995.2  Crash=0%  Coupling=0.52
+       churn=1.0 freq=3 authors=2 bugfix=0 loc=575
+  0.380  tests/test_crawl.py
+       Kalman=0.00  Wavelet=161241.2  Crash=0%  Coupling=0.07
+       churn=1.0 freq=3 authors=2 bugfix=0 loc=930
+  0.368  tests/test_downloadermiddleware_httpcache.py
+       Kalman=0.02  Wavelet=n/a   Crash=100%  Coupling=0.02
+       churn=1.0 freq=2 authors=2 bugfix=1 loc=598
+  0.367  tests/test_settings/__init__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.02
+       churn=1.0 freq=2 authors=1 bugfix=0 loc=1253
+  0.362  scrapy/core/engine.py
+       Kalman=0.00  Wavelet=82248.0  Crash=0%  Coupling=0.12
+       churn=1.0 freq=3 authors=3 bugfix=0 loc=686
+  0.344  scrapy/utils/test.py
+       Kalman=0.00  Wavelet=8291.2  Crash=0%  Coupling=0.63
+       churn=2.7 freq=3 authors=2 bugfix=0 loc=119
+  0.339  tests/test_crawler.py
+       Kalman=0.00  Wavelet=281688.5  Crash=0%  Coupling=0.02
+       churn=2.3 freq=5 authors=2 bugfix=0 loc=790
+  0.336  tests/test_spidermiddleware_referer.py
+       Kalman=0.03  Wavelet=n/a   Crash=100%  Coupling=0.04
+       churn=1.0 freq=2 authors=1 bugfix=1 loc=1125
+  0.335  tests/test_pipeline_files.py
+       Kalman=0.23  Wavelet=108916.7  Crash=0%  Coupling=0.06
+       churn=1.1 freq=6 authors=3 bugfix=2 loc=825
+  0.331  tests/spiders.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.36
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=573
+  0.326  scrapy/core/downloader/handlers/http11.py
+       Kalman=0.00  Wavelet=29252.1  Crash=0%  Coupling=0.04
+       churn=1.1 freq=10 authors=4 bugfix=0 loc=734
+  0.325  scrapy/settings/__init__.py
+       Kalman=0.00  Wavelet=54722.8  Crash=0%  Coupling=0.02
+       churn=1.0 freq=5 authors=3 bugfix=0 loc=744
+============================================================
+

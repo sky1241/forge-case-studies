@@ -1,0 +1,25 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  WARNING: small repo or short history — Carmack signals may be noisy.
+           For a meaningful demo, run on a repo with >=6 files and >=4 weeks of history.
+  0.656  pysnooper/utils.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=1.00
+       churn=0.1 freq=1 authors=1 bugfix=0 loc=114
+  0.548  pysnooper/tracer.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.73
+       churn=0.0 freq=2 authors=1 bugfix=0 loc=579
+  0.509  tests/test_pysnooper.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.36
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=2126
+  0.264  pysnooper/__init__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.48
+       churn=0.1 freq=1 authors=1 bugfix=0 loc=30
+  0.169  setup.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.1 freq=1 authors=1 bugfix=0 loc=52
+============================================================
+

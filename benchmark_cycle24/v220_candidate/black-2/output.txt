@@ -1,0 +1,151 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.770  src/black/nodes.py
+       Kalman=0.00  Wavelet=229787.2  Crash=0%  Coupling=0.00
+       churn=1.0 freq=3 authors=2 bugfix=0 loc=1111
+  0.731  src/black/comments.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=827
+  0.728  src/blib2to3/pytree.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=970
+  0.660  tests/util.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=1.00
+       churn=1.0 freq=2 authors=1 bugfix=0 loc=356
+  0.625  tests/test_black.py
+       Kalman=0.37  Wavelet=1146564.7  Crash=20%  Coupling=0.20
+       churn=1.0 freq=6 authors=4 bugfix=2 loc=3313
+  0.612  tests/data/cases/expression.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=630
+  0.592  tests/data/cases/preview_long_strings__regression.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=1270
+  0.572  src/blib2to3/pgen2/pgen.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.1 freq=2 authors=2 bugfix=0 loc=388
+  0.553  src/black/ranges.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=534
+  0.549  src/black/__init__.py
+       Kalman=0.33  Wavelet=522179.2  Crash=0%  Coupling=0.23
+       churn=1.0 freq=4 authors=3 bugfix=2 loc=1706
+  0.537  src/black/handle_ipynb_magics.py
+       Kalman=0.07  Wavelet=n/a   Crash=100%  Coupling=0.20
+       churn=1.0 freq=2 authors=1 bugfix=1 loc=515
+  0.525  src/black/trans.py
+       Kalman=0.08  Wavelet=1222457.0  Crash=0%  Coupling=0.22
+       churn=1.0 freq=3 authors=3 bugfix=1 loc=2578
+  0.524  src/black/files.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=426
+  0.517  src/black/strings.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=391
+  0.516  src/black/linegen.py
+       Kalman=0.18  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=2 authors=2 bugfix=1 loc=2059
+============================================================
+
+
+--STDERR--
+<unknown>:163: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:169: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:174: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:179: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:226: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:391: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:397: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:402: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:408: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:455: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:108: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:114: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:119: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:234: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:240: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:245: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:134: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:135: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:135: SyntaxWarning: invalid escape sequence '\}'
+<unknown>:136: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:273: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:274: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:274: SyntaxWarning: invalid escape sequence '\}'
+<unknown>:275: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:163: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:169: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:174: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:179: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:226: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:391: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:397: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:402: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:408: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:455: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:163: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:169: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:174: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:179: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:226: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:391: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:397: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:402: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:408: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:455: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:163: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:169: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:174: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:179: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:226: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:391: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:397: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:402: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:408: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:455: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:108: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:114: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:119: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:234: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:240: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:245: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:108: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:114: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:119: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:234: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:240: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:245: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:108: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:114: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:119: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:234: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:240: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:245: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:134: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:135: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:135: SyntaxWarning: invalid escape sequence '\}'
+<unknown>:136: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:273: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:274: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:274: SyntaxWarning: invalid escape sequence '\}'
+<unknown>:275: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:134: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:135: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:135: SyntaxWarning: invalid escape sequence '\}'
+<unknown>:136: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:273: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:274: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:274: SyntaxWarning: invalid escape sequence '\}'
+<unknown>:275: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:134: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:135: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:135: SyntaxWarning: invalid escape sequence '\}'
+<unknown>:136: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:273: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:274: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:274: SyntaxWarning: invalid escape sequence '\}'
+<unknown>:275: SyntaxWarning: invalid escape sequence '\{'
