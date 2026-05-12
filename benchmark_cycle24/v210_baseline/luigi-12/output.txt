@@ -1,0 +1,53 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.676  luigi/worker.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.80
+       churn=0.3 freq=1 authors=1 bugfix=0 loc=1283
+  0.514  test/scheduler_api_test.py
+       Kalman=0.12  Wavelet=n/a   Crash=0%  Coupling=0.20
+       churn=1.0 freq=2 authors=2 bugfix=1 loc=2201
+  0.460  luigi/mock.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=1.00
+       churn=0.2 freq=2 authors=1 bugfix=0 loc=182
+  0.425  luigi/contrib/hadoop.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.10
+       churn=0.3 freq=1 authors=1 bugfix=0 loc=1035
+  0.425  luigi/scheduler.py
+       Kalman=0.12  Wavelet=n/a   Crash=0%  Coupling=0.65
+       churn=0.3 freq=2 authors=2 bugfix=1 loc=1673
+  0.417  test/worker_test.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.16
+       churn=0.2 freq=1 authors=1 bugfix=0 loc=2288
+  0.387  test/execution_summary_test.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.05
+       churn=0.6 freq=1 authors=1 bugfix=0 loc=1140
+  0.369  luigi/execution_summary.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.15
+       churn=0.4 freq=1 authors=1 bugfix=0 loc=506
+  0.359  luigi/parameter.py
+       Kalman=0.12  Wavelet=4318.2  Crash=8%  Coupling=0.15
+       churn=0.4 freq=14 authors=3 bugfix=3 loc=1848
+  0.349  luigi/contrib/s3.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.10
+       churn=0.3 freq=1 authors=1 bugfix=0 loc=735
+  0.344  luigi/task.py
+       Kalman=0.14  Wavelet=2205.2  Crash=0%  Coupling=0.20
+       churn=0.1 freq=4 authors=2 bugfix=1 loc=1024
+  0.343  luigi/format.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.25
+       churn=0.2 freq=1 authors=1 bugfix=0 loc=495
+  0.343  test/range_test.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.09
+       churn=0.8 freq=1 authors=1 bugfix=0 loc=1656
+  0.325  luigi/contrib/bigquery.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.05
+       churn=0.5 freq=2 authors=1 bugfix=0 loc=831
+  0.324  luigi/contrib/salesforce.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.05
+       churn=0.3 freq=1 authors=1 bugfix=0 loc=683
+============================================================
+

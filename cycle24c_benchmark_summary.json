@@ -1,0 +1,389 @@
+{
+  "cycle": "24C_v2_inproc",
+  "baseline": {
+    "n_total": 20,
+    "n_ranked": 12,
+    "n_top10": 4,
+    "p_at_10_pct": 20.0,
+    "mrr": 0.1309
+  },
+  "candidate": {
+    "n_total": 20,
+    "n_ranked": 12,
+    "n_top10": 4,
+    "p_at_10_pct": 20.0,
+    "mrr": 0.1355
+  },
+  "delta_p10_pts": 0.0,
+  "delta_mrr": 0.0046,
+  "verdict": "NEUTRAL",
+  "thresholds": {
+    "validated": "\u2265+5",
+    "rejected": "\u2264-2",
+    "neutral": "else"
+  },
+  "results_baseline": [
+    {
+      "bug_id": "ansible-6",
+      "project": "ansible",
+      "target": "lib/ansible/galaxy/collection.py",
+      "n_files": 1812,
+      "rank": null,
+      "in_top10": false,
+      "elapsed": 13.34
+    },
+    {
+      "bug_id": "black-2",
+      "project": "black",
+      "target": "black.py",
+      "n_files": 320,
+      "rank": 5,
+      "in_top10": true,
+      "elapsed": 5.99
+    },
+    {
+      "bug_id": "scrapy-16",
+      "project": "scrapy",
+      "target": "scrapy/utils/url.py",
+      "n_files": 436,
+      "rank": 109,
+      "in_top10": false,
+      "elapsed": 4.31
+    },
+    {
+      "bug_id": "luigi-7",
+      "project": "luigi",
+      "target": "luigi/scheduler.py",
+      "n_files": 243,
+      "rank": 5,
+      "in_top10": true,
+      "elapsed": 3.55
+    },
+    {
+      "bug_id": "scrapy-29",
+      "project": "scrapy",
+      "target": "scrapy/utils/request.py",
+      "n_files": 436,
+      "rank": 72,
+      "in_top10": false,
+      "elapsed": 4.28
+    },
+    {
+      "bug_id": "fastapi-12",
+      "project": "fastapi",
+      "target": "fastapi/security/http.py",
+      "n_files": 1118,
+      "rank": 37,
+      "in_top10": false,
+      "elapsed": 4.4
+    },
+    {
+      "bug_id": "thefuck-21",
+      "project": "thefuck",
+      "target": "thefuck/rules/git_fix_stash.py",
+      "n_files": 0,
+      "rank": null,
+      "in_top10": false,
+      "elapsed": 0.21
+    },
+    {
+      "bug_id": "PySnooper-2",
+      "project": "PySnooper",
+      "target": "pysnooper/tracer.py",
+      "n_files": 5,
+      "rank": 2,
+      "in_top10": true,
+      "elapsed": 0.21
+    },
+    {
+      "bug_id": "luigi-12",
+      "project": "luigi",
+      "target": "luigi/contrib/hdfs/clients.py",
+      "n_files": 243,
+      "rank": 172,
+      "in_top10": false,
+      "elapsed": 3.64
+    },
+    {
+      "bug_id": "ansible-4",
+      "project": "ansible",
+      "target": "lib/ansible/playbook/collectionsearch.py",
+      "n_files": 1812,
+      "rank": 671,
+      "in_top10": false,
+      "elapsed": 13.45
+    },
+    {
+      "bug_id": "thefuck-17",
+      "project": "thefuck",
+      "target": "thefuck/shells/bash.py",
+      "n_files": 0,
+      "rank": null,
+      "in_top10": false,
+      "elapsed": 0.22
+    },
+    {
+      "bug_id": "httpie-5",
+      "project": "httpie",
+      "target": "httpie/cli.py",
+      "n_files": 0,
+      "rank": null,
+      "in_top10": false,
+      "elapsed": 0.2
+    },
+    {
+      "bug_id": "PySnooper-1",
+      "project": "PySnooper",
+      "target": "pysnooper/pycompat.py",
+      "n_files": 5,
+      "rank": null,
+      "in_top10": false,
+      "elapsed": 0.21
+    },
+    {
+      "bug_id": "youtube-dl-40",
+      "project": "youtube-dl",
+      "target": "youtube_dl/downloader/f4m.py",
+      "n_files": 12,
+      "rank": null,
+      "in_top10": false,
+      "elapsed": 3.13
+    },
+    {
+      "bug_id": "fastapi-7",
+      "project": "fastapi",
+      "target": "fastapi/exception_handlers.py",
+      "n_files": 1118,
+      "rank": 924,
+      "in_top10": false,
+      "elapsed": 4.38
+    },
+    {
+      "bug_id": "tornado-16",
+      "project": "tornado",
+      "target": "tornado/gen.py",
+      "n_files": 107,
+      "rank": 13,
+      "in_top10": false,
+      "elapsed": 2.44
+    },
+    {
+      "bug_id": "youtube-dl-10",
+      "project": "youtube-dl",
+      "target": "youtube_dl/utils.py",
+      "n_files": 12,
+      "rank": 2,
+      "in_top10": true,
+      "elapsed": 3.11
+    },
+    {
+      "bug_id": "httpie-4",
+      "project": "httpie",
+      "target": "httpie/models.py",
+      "n_files": 0,
+      "rank": null,
+      "in_top10": false,
+      "elapsed": 0.2
+    },
+    {
+      "bug_id": "tornado-7",
+      "project": "tornado",
+      "target": "tornado/ioloop.py",
+      "n_files": 107,
+      "rank": 28,
+      "in_top10": false,
+      "elapsed": 2.45
+    },
+    {
+      "bug_id": "cookiecutter-4",
+      "project": "cookiecutter",
+      "target": "cookiecutter/exceptions.py",
+      "n_files": 15,
+      "rank": null,
+      "in_top10": false,
+      "elapsed": 0.26
+    }
+  ],
+  "results_candidate": [
+    {
+      "bug_id": "ansible-6",
+      "project": "ansible",
+      "target": "lib/ansible/galaxy/collection.py",
+      "n_files": 1812,
+      "rank": null,
+      "in_top10": false,
+      "elapsed": 13.38
+    },
+    {
+      "bug_id": "black-2",
+      "project": "black",
+      "target": "black.py",
+      "n_files": 320,
+      "rank": 5,
+      "in_top10": true,
+      "elapsed": 5.96
+    },
+    {
+      "bug_id": "scrapy-16",
+      "project": "scrapy",
+      "target": "scrapy/utils/url.py",
+      "n_files": 436,
+      "rank": 104,
+      "in_top10": false,
+      "elapsed": 4.34
+    },
+    {
+      "bug_id": "luigi-7",
+      "project": "luigi",
+      "target": "luigi/scheduler.py",
+      "n_files": 243,
+      "rank": 4,
+      "in_top10": true,
+      "elapsed": 3.54
+    },
+    {
+      "bug_id": "scrapy-29",
+      "project": "scrapy",
+      "target": "scrapy/utils/request.py",
+      "n_files": 436,
+      "rank": 74,
+      "in_top10": false,
+      "elapsed": 4.3
+    },
+    {
+      "bug_id": "fastapi-12",
+      "project": "fastapi",
+      "target": "fastapi/security/http.py",
+      "n_files": 1118,
+      "rank": 37,
+      "in_top10": false,
+      "elapsed": 4.42
+    },
+    {
+      "bug_id": "thefuck-21",
+      "project": "thefuck",
+      "target": "thefuck/rules/git_fix_stash.py",
+      "n_files": 0,
+      "rank": null,
+      "in_top10": false,
+      "elapsed": 0.21
+    },
+    {
+      "bug_id": "PySnooper-2",
+      "project": "PySnooper",
+      "target": "pysnooper/tracer.py",
+      "n_files": 5,
+      "rank": 2,
+      "in_top10": true,
+      "elapsed": 0.21
+    },
+    {
+      "bug_id": "luigi-12",
+      "project": "luigi",
+      "target": "luigi/contrib/hdfs/clients.py",
+      "n_files": 243,
+      "rank": 173,
+      "in_top10": false,
+      "elapsed": 3.57
+    },
+    {
+      "bug_id": "ansible-4",
+      "project": "ansible",
+      "target": "lib/ansible/playbook/collectionsearch.py",
+      "n_files": 1812,
+      "rank": 669,
+      "in_top10": false,
+      "elapsed": 13.6
+    },
+    {
+      "bug_id": "thefuck-17",
+      "project": "thefuck",
+      "target": "thefuck/shells/bash.py",
+      "n_files": 0,
+      "rank": null,
+      "in_top10": false,
+      "elapsed": 0.22
+    },
+    {
+      "bug_id": "httpie-5",
+      "project": "httpie",
+      "target": "httpie/cli.py",
+      "n_files": 0,
+      "rank": null,
+      "in_top10": false,
+      "elapsed": 0.21
+    },
+    {
+      "bug_id": "PySnooper-1",
+      "project": "PySnooper",
+      "target": "pysnooper/pycompat.py",
+      "n_files": 5,
+      "rank": null,
+      "in_top10": false,
+      "elapsed": 0.2
+    },
+    {
+      "bug_id": "youtube-dl-40",
+      "project": "youtube-dl",
+      "target": "youtube_dl/downloader/f4m.py",
+      "n_files": 12,
+      "rank": null,
+      "in_top10": false,
+      "elapsed": 3.11
+    },
+    {
+      "bug_id": "fastapi-7",
+      "project": "fastapi",
+      "target": "fastapi/exception_handlers.py",
+      "n_files": 1118,
+      "rank": 924,
+      "in_top10": false,
+      "elapsed": 4.41
+    },
+    {
+      "bug_id": "tornado-16",
+      "project": "tornado",
+      "target": "tornado/gen.py",
+      "n_files": 107,
+      "rank": 12,
+      "in_top10": false,
+      "elapsed": 2.47
+    },
+    {
+      "bug_id": "youtube-dl-10",
+      "project": "youtube-dl",
+      "target": "youtube_dl/utils.py",
+      "n_files": 12,
+      "rank": 2,
+      "in_top10": true,
+      "elapsed": 3.14
+    },
+    {
+      "bug_id": "httpie-4",
+      "project": "httpie",
+      "target": "httpie/models.py",
+      "n_files": 0,
+      "rank": null,
+      "in_top10": false,
+      "elapsed": 0.2
+    },
+    {
+      "bug_id": "tornado-7",
+      "project": "tornado",
+      "target": "tornado/ioloop.py",
+      "n_files": 107,
+      "rank": 29,
+      "in_top10": false,
+      "elapsed": 2.46
+    },
+    {
+      "bug_id": "cookiecutter-4",
+      "project": "cookiecutter",
+      "target": "cookiecutter/exceptions.py",
+      "n_files": 15,
+      "rank": null,
+      "in_top10": false,
+      "elapsed": 0.26
+    }
+  ]
+}

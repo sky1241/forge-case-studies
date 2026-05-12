@@ -1,0 +1,44 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.769  youtube_dl/compat.py
+       Kalman=0.00  Wavelet=4014.8  Crash=0%  Coupling=1.00
+       churn=0.0 freq=4 authors=1 bugfix=0 loc=3901
+  0.618  youtube_dl/utils.py
+       Kalman=0.00  Wavelet=350.0  Crash=0%  Coupling=0.56
+       churn=0.0 freq=8 authors=1 bugfix=0 loc=6863
+  0.582  youtube_dl/extractor/youtube.py
+       Kalman=0.00  Wavelet=14246.4  Crash=6%  Coupling=0.06
+       churn=0.2 freq=24 authors=1 bugfix=4 loc=4497
+  0.469  test/test_utils.py
+       Kalman=0.00  Wavelet=96.8  Crash=0%  Coupling=0.01
+       churn=0.0 freq=4 authors=1 bugfix=0 loc=1774
+  0.420  youtube_dl/downloader/common.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=0.1 freq=1 authors=1 bugfix=0 loc=419
+  0.381  youtube_dl/options.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=0.0 freq=3 authors=1 bugfix=0 loc=943
+  0.366  youtube_dl/__init__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=488
+  0.365  test/test_traversal.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=0.3 freq=5 authors=1 bugfix=1 loc=645
+  0.360  youtube_dl/YoutubeDL.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=0.0 freq=2 authors=1 bugfix=1 loc=2714
+  0.333  youtube_dl/extractor/common.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.03
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=3406
+  0.293  test/helper.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.05
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=285
+  0.251  youtube_dl/traversal.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=0.3 freq=2 authors=1 bugfix=0 loc=14
+============================================================
+

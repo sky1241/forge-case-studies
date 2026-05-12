@@ -1,0 +1,53 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.602  lib/ansible/module_utils/facts/hardware/linux.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=943
+  0.602  lib/ansible/modules/user.py
+       Kalman=0.00  Wavelet=2347039.2  Crash=0%  Coupling=0.01
+       churn=1.0 freq=3 authors=3 bugfix=0 loc=3564
+  0.601  lib/ansible/modules/service.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=1612
+  0.599  lib/ansible/modules/file.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=3 authors=3 bugfix=0 loc=1038
+  0.588  lib/ansible/plugins/connection/ssh.py
+       Kalman=0.00  Wavelet=479079.2  Crash=0%  Coupling=0.01
+       churn=1.0 freq=4 authors=3 bugfix=0 loc=1625
+  0.588  lib/ansible/modules/apt.py
+       Kalman=0.00  Wavelet=459365.2  Crash=0%  Coupling=0.01
+       churn=1.0 freq=3 authors=2 bugfix=0 loc=1625
+  0.587  test/integration/targets/ansible-test-container/runme.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=1147
+  0.585  lib/ansible/modules/unarchive.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=1178
+  0.585  lib/ansible/utils/display.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=1148
+  0.579  lib/ansible/module_utils/common/parameters.py
+       Kalman=0.00  Wavelet=161280.2  Crash=0%  Coupling=0.01
+       churn=1.0 freq=3 authors=2 bugfix=0 loc=936
+  0.578  lib/ansible/module_utils/facts/system/distribution.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=742
+  0.578  lib/ansible/galaxy/collection/__init__.py
+       Kalman=0.00  Wavelet=665037.2  Crash=0%  Coupling=0.01
+       churn=1.0 freq=3 authors=3 bugfix=0 loc=1933
+  0.576  lib/ansible/module_utils/_embed/dnf.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=829
+  0.571  lib/ansible/config/manager.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=2 authors=1 bugfix=0 loc=788
+  0.568  lib/ansible/executor/task_executor.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=2.0 freq=2 authors=1 bugfix=0 loc=1074
+============================================================
+

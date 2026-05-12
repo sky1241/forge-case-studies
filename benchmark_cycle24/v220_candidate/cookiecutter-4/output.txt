@@ -1,0 +1,55 @@
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  WARNING: small repo or short history — Carmack signals may be noisy.
+           For a meaningful demo, run on a repo with >=6 files and >=4 weeks of history.
+  0.438  cookiecutter/prompt.py
+       Kalman=0.03  Wavelet=4.2  Crash=0%  Coupling=0.95
+       churn=0.0 freq=3 authors=3 bugfix=2 loc=438
+  0.351  cookiecutter/generate.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.33
+       churn=0.0 freq=2 authors=2 bugfix=0 loc=466
+  0.254  cookiecutter/__init__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=2.4 freq=1 authors=1 bugfix=0 loc=5
+  0.242  cookiecutter/zipfile.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.14
+       churn=0.7 freq=1 authors=1 bugfix=0 loc=125
+  0.228  tests/test_prompt.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=2 authors=2 bugfix=1 loc=786
+  0.200  tests/test_cli.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.15
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=724
+  0.191  cookiecutter/utils.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.39
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=106
+  0.172  cookiecutter/cli.py
+       Kalman=0.02  Wavelet=n/a   Crash=0%  Coupling=0.31
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=258
+  0.167  tests/conftest.py
+       Kalman=0.05  Wavelet=n/a   Crash=0%  Coupling=0.17
+       churn=0.0 freq=2 authors=1 bugfix=2 loc=213
+  0.145  tests/zipfile/test_unzip.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.15
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=314
+  0.138  cookiecutter/vcs.py
+       Kalman=0.02  Wavelet=n/a   Crash=0%  Coupling=0.14
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=139
+  0.132  tests/test_generate_context.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.15
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=390
+  0.099  cookiecutter/extensions.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=175
+  0.052  docs/conf.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=373
+  0.049  tests/test_output_folder.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=58
+============================================================
+
