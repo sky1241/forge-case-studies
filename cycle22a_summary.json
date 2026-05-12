@@ -1,0 +1,67 @@
+{
+  "cycle": "22A_incremental_mutate_REAL",
+  "n_total": 5,
+  "n_pass": 5,
+  "n_partial": 0,
+  "n_fail": 0,
+  "ratio_ok": 100.0,
+  "verdict": "OUI",
+  "methodology": "real diff via test commit + restore. Cycle 21B was bogus (ran --incremental-mutate without --mutate, pattern matched ERROR usage word).",
+  "results": [
+    {
+      "project": "ansible",
+      "cmd": "forge --mutate --incremental-mutate --since HEAD~1 --paths-to-mutate hacking/azp/run.py",
+      "target_file": "hacking/azp/run.py",
+      "exit": 0,
+      "status": "PASS",
+      "elapsed": 0.59,
+      "output_chars": 339,
+      "is_usage_err": false,
+      "is_libcst_missing": false
+    },
+    {
+      "project": "scrapy",
+      "cmd": "forge --mutate --incremental-mutate --since HEAD~1 --paths-to-mutate extras/qpsclient.py",
+      "target_file": "extras/qpsclient.py",
+      "exit": 0,
+      "status": "PASS",
+      "elapsed": 0.4,
+      "output_chars": 345,
+      "is_usage_err": false,
+      "is_libcst_missing": false
+    },
+    {
+      "project": "luigi",
+      "cmd": "forge --mutate --incremental-mutate --since HEAD~1 --paths-to-mutate examples/foo_complex.py",
+      "target_file": "examples/foo_complex.py",
+      "exit": 0,
+      "status": "PASS",
+      "elapsed": 0.38,
+      "output_chars": 347,
+      "is_usage_err": false,
+      "is_libcst_missing": false
+    },
+    {
+      "project": "fastapi",
+      "cmd": "forge --mutate --incremental-mutate --since HEAD~1 --paths-to-mutate fastapi/background.py",
+      "target_file": "fastapi/background.py",
+      "exit": 0,
+      "status": "PASS",
+      "elapsed": 0.47,
+      "output_chars": 346,
+      "is_usage_err": false,
+      "is_libcst_missing": false
+    },
+    {
+      "project": "black",
+      "cmd": "forge --mutate --incremental-mutate --since HEAD~1 --paths-to-mutate scripts/check_version_in_basics_example.py",
+      "target_file": "scripts/check_version_in_basics_example.py",
+      "exit": 0,
+      "status": "PASS",
+      "elapsed": 0.4,
+      "output_chars": 367,
+      "is_usage_err": false,
+      "is_libcst_missing": false
+    }
+  ]
+}
