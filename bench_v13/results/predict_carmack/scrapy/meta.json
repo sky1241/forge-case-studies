@@ -1,0 +1,9 @@
+{
+  "tool": "predict_carmack",
+  "case": "scrapy",
+  "exit": 0,
+  "elapsed_sec": 2.26,
+  "output_chars": 4496,
+  "pattern": "predict|carmack.*score|kalman",
+  "status": "PASS"
+}

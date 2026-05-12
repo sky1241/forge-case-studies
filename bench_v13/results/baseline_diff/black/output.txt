@@ -1,0 +1,65 @@
+=== BASELINE ===
+
+==================================================
+  FORGE REPORT — FAIL
+==================================================
+  Tests:    12
+  Passed:   0
+  Failed:   0
+  Errors:   12
+  Skipped:  0
+  Duration: 1.2s
+
+  FAILURES:
+    [ERROR] tests/test_black.py
+    [ERROR] tests/test_blackd.py
+    [ERROR] tests/test_concurrency_manager_shutdown.py
+    [ERROR] tests/test_docs.py
+    [ERROR] tests/test_format.py
+    [ERROR] tests/test_ipynb.py
+    [ERROR] tests/test_no_ipynb.py
+    [ERROR] tests/test_props___init__.py
+    [ERROR] tests/test_props_fuzz.py
+    [ERROR] tests/test_ranges.py
+    [ERROR] tests/test_tokenize.py
+    [ERROR] tests/test_trans.py
+==================================================
+
+  Baseline saved: 0 passed, 0 failed
+
+--STDERR--
+
+=== DIFF ===
+
+==================================================
+  FORGE REPORT — FAIL
+==================================================
+  Tests:    12
+  Passed:   0
+  Failed:   0
+  Errors:   12
+  Skipped:  0
+  Duration: 1.0s
+
+  vs baseline:
+    Passed: 0 -> 0 (+0)
+    Failed: 0 -> 0 (+0)
+
+  FAILURES:
+    [ERROR] tests/test_black.py
+    [ERROR] tests/test_blackd.py
+    [ERROR] tests/test_concurrency_manager_shutdown.py
+    [ERROR] tests/test_docs.py
+    [ERROR] tests/test_format.py
+    [ERROR] tests/test_ipynb.py
+    [ERROR] tests/test_no_ipynb.py
+    [ERROR] tests/test_props___init__.py
+    [ERROR] tests/test_props_fuzz.py
+    [ERROR] tests/test_ranges.py
+    [ERROR] tests/test_tokenize.py
+    [ERROR] tests/test_trans.py
+==================================================
+
+  (Diff shown above in report)
+
+--STDERR--

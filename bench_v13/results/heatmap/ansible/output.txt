@@ -1,0 +1,9 @@
+
+==================================================
+  FAILURE HEAT MAP — 1 runs logged
+==================================================
+  No failures recorded yet.
+  Tip: forge logs every test run to .forge/forge_log.txt. Run a few cycles
+  (or run with a known-broken test) to populate the heat map.
+==================================================
+

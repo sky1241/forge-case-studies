@@ -1,0 +1,215 @@
+
+==================================================
+  FORGE FULL CYCLE
+==================================================
+
+  [1/8] PREDICT — scanning git history for risky files...
+
+==================================================
+  DEFECT PREDICTION — 29 files, last 8 weeks
+==================================================
+  0.68  src/black/__init__.py
+       churn=0.0 freq=3 burst=2 authors=3 bugfix=2 loc=1706 recent=0.07
+  0.58  tests/test_black.py
+       churn=0.0 freq=4 burst=1 authors=4 bugfix=1 loc=3313 recent=0.07
+  0.37  src/black/lines.py
+       churn=0.3 freq=3 burst=1 authors=2 bugfix=1 loc=1548 recent=0.04
+  0.35  src/black/parsing.py
+       churn=0.1 freq=2 burst=1 authors=2 bugfix=1 loc=266 recent=0.07
+  0.29  tests/data/cases/fmtonoff6.py
+       churn=0.9 freq=1 burst=1 authors=1 bugfix=1 loc=89 recent=0.03
+  0.26  src/black/trans.py
+       churn=0.0 freq=2 burst=1 authors=2 bugfix=1 loc=2578 recent=0.03
+  0.25  tests/data/cases/pyi_decorated_class_blank_line.py
+       churn=1.0 freq=1 burst=1 authors=1 bugfix=0 loc=115 recent=0.04
+  0.24  tests/data/cases/pyi_overload_groups.py
+       churn=1.0 freq=1 burst=1 authors=1 bugfix=0 loc=945 recent=0.03
+  0.24  src/black/mode.py
+       churn=0.1 freq=3 burst=1 authors=2 bugfix=0 loc=350 recent=0.04
+  0.23  src/blackd/__init__.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=336 recent=0.07
+  0.20  tests/data/cases/python315.py
+       churn=1.0 freq=1 burst=1 authors=1 bugfix=0 loc=52 recent=0.02
+  0.19  scripts/release.py
+       churn=0.0 freq=2 burst=1 authors=2 bugfix=1 loc=248 recent=0.02
+  0.19  src/blib2to3/pgen2/token.py
+       churn=0.4 freq=2 burst=1 authors=2 bugfix=0 loc=84 recent=0.02
+  0.15  src/black/linegen.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=2059 recent=0.03
+  0.12  src/black/strings.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=0 loc=391 recent=0.06
+==================================================
+
+  [1b/8] CARMACK PREDICT — Kalman + Wavelet + Kaplan-Meier + Modularity...
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.602  src/black/nodes.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=1111
+  0.601  tests/data/cases/pyi_overload_groups.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=945
+  0.560  src/blib2to3/pytree.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=970
+  0.528  tests/util.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=1.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=356
+  0.455  src/black/__init__.py
+       Kalman=0.20  Wavelet=n/a   Crash=33%  Coupling=0.23
+       churn=0.0 freq=3 authors=3 bugfix=2 loc=1706
+  0.433  src/black/lines.py
+       Kalman=0.04  Wavelet=32019.7  Crash=25%  Coupling=0.00
+       churn=0.3 freq=3 authors=2 bugfix=1 loc=1548
+  0.425  tests/data/cases/preview_long_strings__regression.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=1270
+  0.403  src/blib2to3/pgen2/pgen.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.1 freq=1 authors=1 bugfix=0 loc=388
+  0.353  src/black/strings.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=391
+  0.326  src/blib2to3/pgen2/parse.py
+       Kalman=0.04  Wavelet=n/a   Crash=100%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=395
+  0.318  tests/test_black.py
+       Kalman=0.14  Wavelet=365.0  Crash=0%  Coupling=0.20
+       churn=0.0 freq=4 authors=4 bugfix=1 loc=3313
+  0.297  src/blib2to3/pgen2/tokenize.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.23
+       churn=0.2 freq=1 authors=1 bugfix=0 loc=277
+  0.280  src/black/trans.py
+       Kalman=0.04  Wavelet=n/a   Crash=33%  Coupling=0.22
+       churn=0.0 freq=2 authors=2 bugfix=1 loc=2578
+  0.279  tests/data/cases/pyi_decorated_class_blank_line.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=115
+  0.268  scripts/fuzz.py
+       Kalman=0.04  Wavelet=n/a   Crash=100%  Coupling=0.00
+       churn=0.1 freq=1 authors=1 bugfix=1 loc=73
+============================================================
+
+  [2/8] MUTATE — testing 1 changed file(s)...
+
+  --- _black_version.py ---
+  ERROR: --mutate requires libcst (AST-aware mutation backend).
+  Install with: pip install 'forge-shield[mutate]'
+
+  [3/8] GEN-PROPS — run `forge.py --gen-props <file>` to generate property tests for:
+         _black_version.py
+
+  [4/8] RUN TESTS...
+
+==================================================
+  FORGE REPORT — FAIL
+==================================================
+  Tests:    12
+  Passed:   0
+  Failed:   0
+  Errors:   12
+  Skipped:  0
+  Duration: 1.3s
+
+  FAILURES:
+    [ERROR] tests/test_black.py
+    [ERROR] tests/test_blackd.py
+    [ERROR] tests/test_concurrency_manager_shutdown.py
+    [ERROR] tests/test_docs.py
+    [ERROR] tests/test_format.py
+    [ERROR] tests/test_ipynb.py
+    [ERROR] tests/test_no_ipynb.py
+    [ERROR] tests/test_props___init__.py
+    [ERROR] tests/test_props_fuzz.py
+    [ERROR] tests/test_ranges.py
+    [ERROR] tests/test_tokenize.py
+    [ERROR] tests/test_trans.py
+==================================================
+
+  [5/8] FLAKY — checking if failures are stable (3 runs)...
+  Running tests 3 times to detect flaky tests...
+    Run 1/3... 0P/0F
+    Run 2/3... 0P/0F
+    Run 3/3... 0P/0F
+
+==================================================
+  FLAKY DETECTION — 3 runs
+==================================================
+  No flaky tests. 12 consistent failure(s).
+==================================================
+
+  [6/8] LOCATE — running Ochiai SBFL on failing tests...
+  Running tests with per-test coverage...
+
+  PYTEST RUNNER ERROR (during --locate):
+    ERROR scripts/release_tests.py
+    ERROR tests/test_black.py
+    ERROR tests/test_blackd.py
+    ERROR tests/test_concurrency_manager_shutdown.py
+    ERROR tests/test_docs.py
+    ERROR tests/test_format.py
+    ERROR tests/test_ipynb.py
+    ERROR tests/test_no_ipynb.py
+    ERROR tests/test_props___init__.py
+    ERROR tests/test_props_fuzz.py
+    ERROR tests/test_ranges.py
+    ERROR tests/test_tokenize.py
+    ERROR tests/test_trans.py
+    !!!!!!!!!!!!!!!!!!! Interrupted: 13 errors during collection !!!!!!!!!!!!!!!!!!!
+    ============================== 13 errors in 4.50s ==============================
+  exit code: 2
+  Hint: a test file in your repo crashed at collection
+  (missing dep, plugin conflict, mypy_test_cases/ not for normal pytest...).
+  Try FORGE_TEST_FILTER='specific_test' or fix the broken collector.
+
+  [7/8] ANOMALY — scanning for statistical outliers...
+
+============================================================
+  ANOMALY DETECTION — z-score outliers (29 active files)
+============================================================
+  ANOMALY  tests/test_black.py
+           3 flags: freq=+3.1 authors=+3.7 loc=+3.2
+           churn=0.0 freq=4 authors=4 bugfix=25% loc=3313
+============================================================
+
+  [8/8] CARMACK MOVES ACTIVE: Kalman, Wavelet, Kaplan-Meier, Newman, Hamming, DTW
+
+==================================================
+  FULL CYCLE COMPLETE
+==================================================
+  Tests:   COLLECTION ERROR — pytest could not run (12 errors)
+  Status:  pytest never reached your test bodies.
+           Check `forge` output for `PYTEST RUNNER ERROR`
+           or run pytest directly to see the import / collection failure.
+==================================================
+
+
+--STDERR--
+<unknown>:163: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:169: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:174: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:179: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:226: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:391: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:397: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:402: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:408: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:455: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:108: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:114: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:119: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:234: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:240: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:245: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:134: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:135: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:135: SyntaxWarning: invalid escape sequence '\}'
+<unknown>:136: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:273: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:274: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:274: SyntaxWarning: invalid escape sequence '\}'
+<unknown>:275: SyntaxWarning: invalid escape sequence '\{'

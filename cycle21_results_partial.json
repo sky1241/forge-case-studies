@@ -1,0 +1,372 @@
+{
+  "anomaly": [
+    {
+      "project": "ansible",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "anomal|outlier|z-score|commits.*flagged",
+      "elapsed": 0.29
+    },
+    {
+      "project": "scrapy",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "anomal|outlier|z-score|commits.*flagged",
+      "elapsed": 0.18
+    },
+    {
+      "project": "luigi",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "anomal|outlier|z-score|commits.*flagged",
+      "elapsed": 0.16
+    },
+    {
+      "project": "fastapi",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "anomal|outlier|z-score|commits.*flagged",
+      "elapsed": 0.25
+    },
+    {
+      "project": "black",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "anomal|outlier|z-score|commits.*flagged",
+      "elapsed": 0.17
+    }
+  ],
+  "heatmap": [
+    {
+      "project": "ansible",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "failures|test.*fail|heatmap",
+      "elapsed": 0.14
+    },
+    {
+      "project": "scrapy",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "failures|test.*fail|heatmap",
+      "elapsed": 0.14
+    },
+    {
+      "project": "luigi",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "failures|test.*fail|heatmap",
+      "elapsed": 0.13
+    },
+    {
+      "project": "fastapi",
+      "exit": 0,
+      "status": "PARTIAL",
+      "pattern": "No forge log|No failures",
+      "elapsed": 0.13
+    },
+    {
+      "project": "black",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "failures|test.*fail|heatmap",
+      "elapsed": 0.14
+    }
+  ],
+  "baseline_diff": [
+    {
+      "project": "ansible",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "Baseline saved|snapshot|Diff vs baseline|no diff",
+      "elapsed": 3.02
+    },
+    {
+      "project": "scrapy",
+      "exit": 1,
+      "status": "FAIL",
+      "pattern": null,
+      "elapsed": 1.61
+    },
+    {
+      "project": "luigi",
+      "exit": 1,
+      "status": "PARTIAL",
+      "pattern": "no baseline yet|no tests",
+      "elapsed": 4.46
+    },
+    {
+      "project": "fastapi",
+      "exit": 1,
+      "status": "PASS",
+      "pattern": "Baseline saved|snapshot|Diff vs baseline|no diff",
+      "elapsed": 28.58
+    },
+    {
+      "project": "black",
+      "exit": 1,
+      "status": "PASS",
+      "pattern": "Baseline saved|snapshot|Diff vs baseline|no diff",
+      "elapsed": 2.57
+    }
+  ],
+  "init_add_close": [
+    {
+      "project": "ansible",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "Forge initialized|Created|Added BUG-|marked FIXED|marked CLOSED",
+      "elapsed": 0.4
+    },
+    {
+      "project": "scrapy",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "Forge initialized|Created|Added BUG-|marked FIXED|marked CLOSED",
+      "elapsed": 0.39
+    },
+    {
+      "project": "luigi",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "Forge initialized|Created|Added BUG-|marked FIXED|marked CLOSED",
+      "elapsed": 0.39
+    },
+    {
+      "project": "fastapi",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "Forge initialized|Created|Added BUG-|marked FIXED|marked CLOSED",
+      "elapsed": 0.39
+    },
+    {
+      "project": "black",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "Forge initialized|Created|Added BUG-|marked FIXED|marked CLOSED",
+      "elapsed": 0.4
+    }
+  ],
+  "hooks": [
+    {
+      "project": "ansible",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "Installed.*pre-commit|Removed.*hook",
+      "elapsed": 0.27
+    },
+    {
+      "project": "scrapy",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "Installed.*pre-commit|Removed.*hook",
+      "elapsed": 0.27
+    },
+    {
+      "project": "luigi",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "Installed.*pre-commit|Removed.*hook",
+      "elapsed": 0.26
+    },
+    {
+      "project": "fastapi",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "Installed.*pre-commit|Removed.*hook",
+      "elapsed": 0.26
+    },
+    {
+      "project": "black",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "Installed.*pre-commit|Removed.*hook",
+      "elapsed": 0.26
+    }
+  ],
+  "watch": [
+    {
+      "project": "ansible",
+      "exit": 124,
+      "status": "PASS",
+      "pattern": "",
+      "elapsed": 5.0
+    },
+    {
+      "project": "scrapy",
+      "exit": 124,
+      "status": "PASS",
+      "pattern": "",
+      "elapsed": 5.0
+    },
+    {
+      "project": "luigi",
+      "exit": 124,
+      "status": "PASS",
+      "pattern": "",
+      "elapsed": 5.01
+    },
+    {
+      "project": "fastapi",
+      "exit": 124,
+      "status": "PASS",
+      "pattern": "",
+      "elapsed": 5.0
+    },
+    {
+      "project": "black",
+      "exit": 124,
+      "status": "PASS",
+      "pattern": "",
+      "elapsed": 5.0
+    }
+  ],
+  "full_cycle": [
+    {
+      "project": "ansible",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "carmack|heatmap|full.?cycle|init|complete",
+      "elapsed": 8.38
+    },
+    {
+      "project": "scrapy",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "carmack|heatmap|full.?cycle|init|complete",
+      "elapsed": 6.96
+    },
+    {
+      "project": "luigi",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "carmack|heatmap|full.?cycle|init|complete",
+      "elapsed": 10.73
+    },
+    {
+      "project": "fastapi",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "carmack|heatmap|full.?cycle|init|complete",
+      "elapsed": 59.44
+    },
+    {
+      "project": "black",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "carmack|heatmap|full.?cycle|init|complete",
+      "elapsed": 13.17
+    }
+  ],
+  "predict_carmack": [
+    {
+      "project": "ansible",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "predict|carmack.*score|kalman",
+      "elapsed": 4.5
+    },
+    {
+      "project": "scrapy",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "predict|carmack.*score|kalman",
+      "elapsed": 2.26
+    },
+    {
+      "project": "luigi",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "predict|carmack.*score|kalman",
+      "elapsed": 1.35
+    },
+    {
+      "project": "fastapi",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "predict|carmack.*score|kalman",
+      "elapsed": 4.66
+    },
+    {
+      "project": "black",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "predict|carmack.*score|kalman",
+      "elapsed": 1.88
+    }
+  ],
+  "incremental_mutate": [
+    {
+      "project": "ansible",
+      "exit": 2,
+      "status": "PASS",
+      "pattern": "mutate|incremental|since|mutant",
+      "elapsed": 0.13
+    },
+    {
+      "project": "scrapy",
+      "exit": 2,
+      "status": "PASS",
+      "pattern": "mutate|incremental|since|mutant",
+      "elapsed": 0.13
+    },
+    {
+      "project": "luigi",
+      "exit": 2,
+      "status": "PASS",
+      "pattern": "mutate|incremental|since|mutant",
+      "elapsed": 0.13
+    },
+    {
+      "project": "fastapi",
+      "exit": 2,
+      "status": "PASS",
+      "pattern": "mutate|incremental|since|mutant",
+      "elapsed": 0.13
+    },
+    {
+      "project": "black",
+      "exit": 2,
+      "status": "PASS",
+      "pattern": "mutate|incremental|since|mutant",
+      "elapsed": 0.13
+    }
+  ],
+  "flaky_dtw": [
+    {
+      "project": "ansible",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "\\d+ runs|stable|flaky|No flaky",
+      "elapsed": 3.91
+    },
+    {
+      "project": "scrapy",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "\\d+ runs|stable|flaky|No flaky",
+      "elapsed": 2.09
+    },
+    {
+      "project": "luigi",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "\\d+ runs|stable|flaky|No flaky",
+      "elapsed": 6.22
+    },
+    {
+      "project": "fastapi",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "\\d+ runs|stable|flaky|No flaky",
+      "elapsed": 40.24
+    },
+    {
+      "project": "black",
+      "exit": 0,
+      "status": "PASS",
+      "pattern": "\\d+ runs|stable|flaky|No flaky",
+      "elapsed": 3.5
+    }
+  ]
+}

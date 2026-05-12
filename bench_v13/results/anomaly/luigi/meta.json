@@ -1,0 +1,9 @@
+{
+  "tool": "anomaly",
+  "case": "luigi",
+  "exit": 0,
+  "elapsed_sec": 0.16,
+  "output_chars": 376,
+  "pattern": "anomal|outlier|z-score|commits.*flagged",
+  "status": "PASS"
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "baseline_diff",
+  "case": "luigi",
+  "exit": 1,
+  "elapsed_sec": 4.46,
+  "output_chars": 1739,
+  "pattern": "no baseline yet|no tests",
+  "status": "PARTIAL"
+}

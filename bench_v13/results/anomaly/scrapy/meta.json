@@ -1,0 +1,9 @@
+{
+  "tool": "anomaly",
+  "case": "scrapy",
+  "exit": 0,
+  "elapsed_sec": 0.18,
+  "output_chars": 807,
+  "pattern": "anomal|outlier|z-score|commits.*flagged",
+  "status": "PASS"
+}

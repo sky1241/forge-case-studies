@@ -1,0 +1,9 @@
+{
+  "tool": "anomaly",
+  "case": "ansible",
+  "exit": 0,
+  "elapsed_sec": 0.29,
+  "output_chars": 535,
+  "pattern": "anomal|outlier|z-score|commits.*flagged",
+  "status": "PASS"
+}

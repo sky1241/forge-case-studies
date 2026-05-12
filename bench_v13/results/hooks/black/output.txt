@@ -1,0 +1,6 @@
+=== INSTALL ===
+  Installed forge pre-commit hook at .git/hooks/pre-commit
+  Hook will run: forge --fast-deep
+
+=== UNINSTALL ===
+  Removed forge pre-commit hook from .git/hooks/pre-commit

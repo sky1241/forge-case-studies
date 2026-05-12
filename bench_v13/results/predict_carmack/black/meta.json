@@ -1,0 +1,9 @@
+{
+  "tool": "predict_carmack",
+  "case": "black",
+  "exit": 0,
+  "elapsed_sec": 1.88,
+  "output_chars": 4613,
+  "pattern": "predict|carmack.*score|kalman",
+  "status": "PASS"
+}

@@ -1,0 +1,10 @@
+{
+  "tool": "init_add_close",
+  "case": "ansible",
+  "exit": 0,
+  "elapsed_sec": 0.4,
+  "output_chars": 157,
+  "pattern": "Forge initialized|Created|Added BUG-|marked FIXED|marked CLOSED",
+  "status": "PASS",
+  "bug_id": "BUG-001"
+}

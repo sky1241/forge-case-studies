@@ -1,0 +1,96 @@
+=== PREDICT ===
+
+==================================================
+  DEFECT PREDICTION — 38 files, last 4 weeks
+==================================================
+  0.63  lib/ansible/module_utils/urls.py
+       churn=0.3 freq=3 burst=2 authors=2 bugfix=1 loc=1639 recent=0.08
+  0.54  lib/ansible/modules/git.py
+       churn=0.0 freq=2 burst=2 authors=2 bugfix=2 loc=1476 recent=0.06
+  0.35  lib/ansible/cli/doc.py
+       churn=0.0 freq=2 burst=2 authors=1 bugfix=0 loc=1681 recent=0.14
+  0.33  lib/ansible/module_utils/common/parameters.py
+       churn=0.0 freq=2 burst=1 authors=2 bugfix=0 loc=936 recent=0.20
+  0.28  test/units/module_utils/urls/test_fetch_url.py
+       churn=0.3 freq=2 burst=1 authors=2 bugfix=0 loc=221 recent=0.07
+  0.27  lib/ansible/module_utils/basic.py
+       churn=0.0 freq=2 burst=1 authors=2 bugfix=0 loc=2219 recent=0.08
+  0.25  lib/ansible/plugins/connection/psrp.py
+       churn=0.0 freq=2 burst=1 authors=2 bugfix=0 loc=787 recent=0.09
+  0.25  lib/ansible/plugins/connection/winrm.py
+       churn=0.0 freq=2 burst=1 authors=2 bugfix=0 loc=886 recent=0.09
+  0.20  test/integration/targets/connection_winrm/action_plugins/test_stdin_failure.py
+       churn=1.0 freq=1 burst=1 authors=1 bugfix=0 loc=36 recent=0.04
+  0.18  test/units/module_utils/common/test_collections.py
+       churn=0.7 freq=1 burst=1 authors=1 bugfix=0 loc=468 recent=0.08
+  0.17  lib/ansible/plugins/filter/core.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=0 loc=834 recent=0.25
+  0.17  test/integration/targets/module_utils/library/direct_invocation.py
+       churn=0.8 freq=1 burst=1 authors=1 bugfix=0 loc=8 recent=0.05
+  0.16  lib/ansible/module_utils/common/collections.py
+       churn=0.6 freq=1 burst=1 authors=1 bugfix=0 loc=221 recent=0.08
+  0.13  test/units/module_utils/urls/test_prepare_multipart.py
+       churn=0.1 freq=1 burst=1 authors=1 bugfix=1 loc=116 recent=0.08
+  0.12  test/integration/targets/no_log/library/module.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=0 loc=44 recent=0.20
+==================================================
+
+
+--STDERR--
+
+=== CARMACK ===
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.689  lib/ansible/plugins/action/copy.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.16
+       churn=0.1 freq=1 authors=1 bugfix=0 loc=612
+  0.570  lib/ansible/module_utils/common/collections.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.15
+       churn=0.6 freq=1 authors=1 bugfix=0 loc=221
+  0.554  lib/ansible/modules/git.py
+       Kalman=0.31  Wavelet=n/a   Crash=100%  Coupling=0.01
+       churn=0.0 freq=2 authors=2 bugfix=2 loc=1476
+  0.516  test/lib/ansible_test/_internal/host_configs.py
+       Kalman=0.19  Wavelet=n/a   Crash=100%  Coupling=0.11
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=597
+  0.496  lib/ansible/module_utils/urls.py
+       Kalman=0.24  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=0.3 freq=3 authors=2 bugfix=1 loc=1639
+  0.450  test/units/module_utils/common/test_collections.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.7 freq=1 authors=1 bugfix=0 loc=468
+  0.448  test/lib/ansible_test/_util/controller/sanity/validate-modules/validate_modules/main.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.03
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=2653
+  0.440  lib/ansible/cli/doc.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.02
+       churn=0.0 freq=2 authors=1 bugfix=0 loc=1681
+  0.435  lib/ansible/module_utils/basic.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.02
+       churn=0.0 freq=2 authors=2 bugfix=0 loc=2219
+  0.412  lib/ansible/plugins/action/__init__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.02
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=1551
+  0.405  lib/ansible/modules/user.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=3564
+  0.404  lib/ansible/module_utils/common/parameters.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=0.0 freq=2 authors=2 bugfix=0 loc=936
+  0.403  lib/ansible/config/manager.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=788
+  0.394  lib/ansible/modules/apt_key.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=543
+  0.388  lib/ansible/plugins/connection/winrm.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=0.0 freq=2 authors=2 bugfix=0 loc=886
+============================================================
+
+
+--STDERR--

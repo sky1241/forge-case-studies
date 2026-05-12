@@ -1,0 +1,9 @@
+{
+  "tool": "baseline_diff",
+  "case": "fastapi",
+  "exit": 1,
+  "elapsed_sec": 28.58,
+  "output_chars": 60977,
+  "pattern": "Baseline saved|snapshot|Diff vs baseline|no diff",
+  "status": "PASS"
+}

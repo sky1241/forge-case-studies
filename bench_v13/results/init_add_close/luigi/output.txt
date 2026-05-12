@@ -1,0 +1,8 @@
+=== INIT ===
+  Forge initialized in forge_v13_luigi
+
+=== ADD ===
+  Added BUG-001: test bug cycle21 luigi
+
+=== CLOSE (BUG-001) ===
+  BUG-001 marked FIXED

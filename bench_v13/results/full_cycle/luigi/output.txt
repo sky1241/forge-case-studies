@@ -1,0 +1,172 @@
+
+==================================================
+  FORGE FULL CYCLE
+==================================================
+
+  [1/8] PREDICT — scanning git history for risky files...
+
+==================================================
+  DEFECT PREDICTION — 14 files, last 8 weeks
+==================================================
+  0.53  luigi/parameter.py
+       churn=0.0 freq=4 burst=1 authors=3 bugfix=2 loc=1848 recent=0.03
+  0.25  luigi/task.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=1024 recent=1.00
+  0.25  test/parameter_test.py
+       churn=0.0 freq=2 burst=1 authors=2 bugfix=1 loc=1384 recent=0.03
+  0.23  luigi/__init__.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=155 recent=1.00
+  0.23  test/interface_test.py
+       churn=0.1 freq=1 burst=1 authors=1 bugfix=1 loc=222 recent=0.20
+  0.23  luigi/__version__.py
+       churn=0.2 freq=1 burst=1 authors=1 bugfix=0 loc=3 recent=0.20
+  0.17  luigi/target.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=351 recent=0.50
+  0.17  test/scheduler_test.py
+       churn=0.1 freq=1 burst=1 authors=1 bugfix=1 loc=395 recent=0.20
+  0.15  test/scheduler_api_test.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=2201 recent=0.20
+  0.14  luigi/scheduler.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=1673 recent=0.20
+  0.13  luigi/interface.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=210 recent=0.20
+  0.11  test/server_test.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=523 recent=0.03
+  0.10  luigi/tools/range.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=789 recent=0.03
+  0.09  luigi/server.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=379 recent=0.03
+==================================================
+
+  [1b/8] CARMACK PREDICT — Kalman + Wavelet + Kaplan-Meier + Modularity...
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  WARNING: small repo or short history — Carmack signals may be noisy.
+           For a meaningful demo, run on a repo with >=6 files and >=4 weeks of history.
+  0.491  luigi/scheduler.py
+       Kalman=0.21  Wavelet=n/a   Crash=0%  Coupling=0.65
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=1673
+  0.443  luigi/parameter.py
+       Kalman=0.13  Wavelet=729.2  Crash=0%  Coupling=0.15
+       churn=0.0 freq=4 authors=3 bugfix=2 loc=1848
+  0.367  test/scheduler_api_test.py
+       Kalman=0.21  Wavelet=n/a   Crash=0%  Coupling=0.20
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=2201
+  0.348  luigi/task.py
+       Kalman=0.21  Wavelet=n/a   Crash=0%  Coupling=0.20
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=1024
+  0.329  luigi/interface.py
+       Kalman=0.21  Wavelet=n/a   Crash=0%  Coupling=0.40
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=210
+  0.275  test/interface_test.py
+       Kalman=0.21  Wavelet=n/a   Crash=0%  Coupling=0.15
+       churn=0.1 freq=1 authors=1 bugfix=1 loc=222
+  0.271  test/scheduler_test.py
+       Kalman=0.21  Wavelet=n/a   Crash=0%  Coupling=0.10
+       churn=0.1 freq=1 authors=1 bugfix=1 loc=395
+  0.255  luigi/target.py
+       Kalman=0.21  Wavelet=n/a   Crash=0%  Coupling=0.15
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=351
+  0.254  luigi/__version__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.05
+       churn=0.7 freq=1 authors=1 bugfix=0 loc=3
+  0.224  luigi/__init__.py
+       Kalman=0.21  Wavelet=n/a   Crash=0%  Coupling=0.10
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=155
+  0.222  test/parameter_test.py
+       Kalman=0.08  Wavelet=n/a   Crash=0%  Coupling=0.12
+       churn=0.0 freq=2 authors=2 bugfix=1 loc=1384
+  0.184  luigi/tools/range.py
+       Kalman=0.05  Wavelet=n/a   Crash=0%  Coupling=0.10
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=789
+  0.164  test/server_test.py
+       Kalman=0.08  Wavelet=n/a   Crash=0%  Coupling=0.15
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=523
+  0.157  luigi/server.py
+       Kalman=0.08  Wavelet=n/a   Crash=0%  Coupling=0.10
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=379
+============================================================
+
+  [2/8] MUTATE — no changed source files, skipping.
+  [3/8] GEN-PROPS — no changed source files.
+
+  [4/8] RUN TESTS...
+
+  PYTEST RUNNER ERROR:
+
+    [ERROR] PYTEST_RUNNER
+      rootdir: /tmp/forge_v13_luigi
+      configfile: tox.ini
+      plugins: timeout-2.4.0, anyio-4.12.1, typeguard-4.4.4, cov-5.0.0, hypothesis-6.151.9
+      timeout: 30.0s
+      timeout method: signal
+      timeout func_only: False
+      collecting ... collected 0 items
+      
+      
+      ---------- coverage: platform linux, python 3.13.12-final-0 ----------
+      Coverage XML written to file coverage.xml
+      
+      ============================ no tests ran in 1.32s =============================
+      /usr/lib/python3/dist-packages/coverage/control.py:915: CoverageWarning: No data was collected. (no-data-collected)
+        self._warn("No data was collected.", slug="no-data-collected")
+
+  [5/8] FLAKY — checking if failures are stable (3 runs)...
+  Running tests 3 times to detect flaky tests...
+    Run 1/3... 0P/0F
+    Run 2/3... 0P/0F
+    Run 3/3... 0P/0F
+
+==================================================
+  FLAKY DETECTION — 3 runs
+==================================================
+  No flaky tests. 1 consistent failure(s).
+==================================================
+
+  [6/8] LOCATE — running Ochiai SBFL on failing tests...
+  Running tests with per-test coverage...
+
+  PYTEST RUNNER ERROR (during --locate):
+    ImportError while loading conftest '/tmp/forge_v13_luigi/test/conftest.py'.
+    test/conftest.py:5: in <module>
+        import luigi.task_register
+    luigi/__init__.py:21: in <module>
+        from luigi import configuration, event, interface, local_target, parameter, rpc, target, task
+    luigi/interface.py:31: in <module>
+        from luigi import lock, parameter, rpc, scheduler, task, worker
+    luigi/rpc.py:33: in <module>
+        from tenacity import Retrying, stop_after_attempt, wait_fixed
+    E   ModuleNotFoundError: No module named 'tenacity'
+  exit code: 4
+  Hint: a test file in your repo crashed at collection
+  (missing dep, plugin conflict, mypy_test_cases/ not for normal pytest...).
+  Try FORGE_TEST_FILTER='specific_test' or fix the broken collector.
+
+  [7/8] ANOMALY — scanning for statistical outliers...
+
+============================================================
+  ANOMALY DETECTION — z-score outliers (14 active files)
+============================================================
+  ANOMALY  luigi/__version__.py
+           2 flags: churn=+3.5 bugfix_ratio=-2.9
+           churn=0.7 freq=1 authors=1 bugfix=0% loc=3
+  ANOMALY  luigi/parameter.py
+           2 flags: freq=+3.4 authors=+3.2
+           churn=0.0 freq=4 authors=3 bugfix=50% loc=1848
+============================================================
+
+  [8/8] CARMACK MOVES ACTIVE: Kalman, Wavelet, Kaplan-Meier, Newman, Hamming, DTW
+
+==================================================
+  FULL CYCLE COMPLETE
+==================================================
+  Tests:   COLLECTION ERROR — pytest could not run (1 error)
+  Status:  pytest never reached your test bodies.
+           Check `forge` output for `PYTEST RUNNER ERROR`
+           or run pytest directly to see the import / collection failure.
+==================================================
+

@@ -1,0 +1,185 @@
+
+==================================================
+  FORGE FULL CYCLE
+==================================================
+
+  [1/8] PREDICT — scanning git history for risky files...
+
+==================================================
+  DEFECT PREDICTION — 208 files, last 8 weeks
+==================================================
+  0.59  scrapy/core/downloader/contextfactory.py
+       churn=1.3 freq=9 burst=3 authors=1 bugfix=0 loc=263 recent=0.12
+  0.59  scrapy/core/downloader/handlers/http11.py
+       churn=0.1 freq=9 burst=3 authors=3 bugfix=0 loc=734 recent=0.12
+  0.59  tests/test_downloader_handler_httpx.py
+       churn=0.6 freq=6 burst=2 authors=2 bugfix=2 loc=138 recent=0.12
+  0.57  scrapy/crawler.py
+       churn=0.3 freq=7 burst=3 authors=3 bugfix=0 loc=1050 recent=0.12
+  0.56  scrapy/pipelines/files.py
+       churn=0.4 freq=6 burst=2 authors=3 bugfix=1 loc=757 recent=0.12
+  0.53  tests/test_spidermiddleware_process_start.py
+       churn=2.0 freq=3 burst=2 authors=1 bugfix=1 loc=123 recent=0.12
+  0.52  scrapy/core/downloader/handlers/_httpx.py
+       churn=0.2 freq=8 burst=3 authors=3 bugfix=1 loc=307 recent=0.05
+  0.52  tests/test_feedexport.py
+       churn=0.0 freq=5 burst=4 authors=1 bugfix=2 loc=1404 recent=0.07
+  0.51  tests/test_pipeline_files.py
+       churn=0.1 freq=5 burst=3 authors=2 bugfix=2 loc=825 recent=0.07
+  0.45  tests/test_downloader_handler_twisted_http2.py
+       churn=0.4 freq=6 burst=2 authors=1 bugfix=1 loc=215 recent=0.12
+  0.45  scrapy/settings/default_settings.py
+       churn=0.0 freq=6 burst=2 authors=3 bugfix=0 loc=548 recent=0.12
+  0.45  scrapy/core/spidermw.py
+       churn=0.6 freq=4 burst=2 authors=3 bugfix=0 loc=438 recent=0.12
+  0.44  tests/test_downloader_handlers_http_base.py
+       churn=0.2 freq=5 burst=1 authors=2 bugfix=1 loc=1145 recent=0.12
+  0.38  scrapy/extensions/feedexport.py
+       churn=0.1 freq=4 burst=1 authors=2 bugfix=1 loc=728 recent=0.12
+  0.38  tests/test_core_downloader.py
+       churn=0.5 freq=6 burst=3 authors=2 bugfix=0 loc=209 recent=0.05
+==================================================
+
+  [1b/8] CARMACK PREDICT — Kalman + Wavelet + Kaplan-Meier + Modularity...
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.693  scrapy/crawler.py
+       Kalman=0.00  Wavelet=2673.0  Crash=0%  Coupling=1.00
+       churn=0.3 freq=7 authors=3 bugfix=0 loc=1050
+  0.393  scrapy/utils/asyncio.py
+       Kalman=0.00  Wavelet=76.7  Crash=0%  Coupling=0.75
+       churn=0.2 freq=4 authors=2 bugfix=0 loc=313
+  0.380  scrapy/utils/defer.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.52
+       churn=0.0 freq=2 authors=1 bugfix=0 loc=575
+  0.375  tests/test_feedexport.py
+       Kalman=0.20  Wavelet=n/a   Crash=25%  Coupling=0.11
+       churn=0.0 freq=5 authors=1 bugfix=2 loc=1404
+  0.359  tests/test_downloadermiddleware_httpcache.py
+       Kalman=0.04  Wavelet=n/a   Crash=100%  Coupling=0.02
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=598
+  0.352  tests/test_crawl.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.07
+       churn=0.0 freq=2 authors=1 bugfix=0 loc=930
+  0.340  tests/test_settings/__init__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.02
+       churn=0.1 freq=1 authors=1 bugfix=0 loc=1253
+  0.337  scrapy/core/engine.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.12
+       churn=0.1 freq=2 authors=2 bugfix=0 loc=686
+  0.322  scrapy/utils/test.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.63
+       churn=0.9 freq=2 authors=1 bugfix=0 loc=119
+  0.319  tests/test_scheduler.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.09
+       churn=0.8 freq=2 authors=1 bugfix=0 loc=403
+  0.315  tests/test_pipeline_files.py
+       Kalman=0.23  Wavelet=1131.2  Crash=0%  Coupling=0.06
+       churn=0.1 freq=5 authors=2 bugfix=2 loc=825
+  0.305  tests/spiders.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.36
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=573
+  0.303  scrapy/core/downloader/handlers/http11.py
+       Kalman=0.00  Wavelet=32.9  Crash=0%  Coupling=0.04
+       churn=0.1 freq=9 authors=3 bugfix=0 loc=734
+  0.301  scrapy/settings/__init__.py
+       Kalman=0.00  Wavelet=80.8  Crash=0%  Coupling=0.02
+       churn=0.1 freq=4 authors=3 bugfix=0 loc=744
+  0.296  scrapy/core/spidermw.py
+       Kalman=0.00  Wavelet=11441.2  Crash=0%  Coupling=0.04
+       churn=0.6 freq=4 authors=3 bugfix=0 loc=438
+============================================================
+
+  [2/8] MUTATE — no changed source files, skipping.
+  [3/8] GEN-PROPS — no changed source files.
+
+  [4/8] RUN TESTS...
+
+  PYTEST RUNNER ERROR:
+
+    [ERROR] PYTEST_RUNNER
+      ImportError while loading conftest '/tmp/forge_v13_scrapy/conftest.py'.
+      conftest.py:10: in <module>
+          from scrapy.utils.reactor import set_asyncio_event_loop_policy
+      scrapy/__init__.py:10: in <module>
+          from scrapy.http import FormRequest, Request
+      scrapy/http/__init__.py:11: in <module>
+          from scrapy.http.headers import Headers
+      scrapy/http/headers.py:6: in <module>
+          from w3lib.http import headers_dict_to_raw
+      E   ModuleNotFoundError: No module named 'w3lib'
+
+  [5/8] FLAKY — checking if failures are stable (3 runs)...
+  Running tests 3 times to detect flaky tests...
+    Run 1/3... 0P/0F
+    Run 2/3... 0P/0F
+    Run 3/3... 0P/0F
+
+==================================================
+  FLAKY DETECTION — 3 runs
+==================================================
+  No flaky tests. 1 consistent failure(s).
+==================================================
+
+  [6/8] LOCATE — running Ochiai SBFL on failing tests...
+  Running tests with per-test coverage...
+
+  PYTEST RUNNER ERROR (during --locate):
+    ImportError while loading conftest '/tmp/forge_v13_scrapy/conftest.py'.
+    conftest.py:10: in <module>
+        from scrapy.utils.reactor import set_asyncio_event_loop_policy
+    scrapy/__init__.py:10: in <module>
+        from scrapy.http import FormRequest, Request
+    scrapy/http/__init__.py:11: in <module>
+        from scrapy.http.headers import Headers
+    scrapy/http/headers.py:6: in <module>
+        from w3lib.http import headers_dict_to_raw
+    E   ModuleNotFoundError: No module named 'w3lib'
+  exit code: 4
+  Hint: a test file in your repo crashed at collection
+  (missing dep, plugin conflict, mypy_test_cases/ not for normal pytest...).
+  Try FORGE_TEST_FILTER='specific_test' or fix the broken collector.
+
+  [7/8] ANOMALY — scanning for statistical outliers...
+
+============================================================
+  ANOMALY DETECTION — z-score outliers (208 active files)
+============================================================
+  ANOMALY  scrapy/crawler.py
+           3 flags: freq=+3.3 authors=+3.1 loc=+3.3
+           churn=0.3 freq=7 authors=3 bugfix=0% loc=1050
+  ANOMALY  scrapy/pipelines/files.py
+           3 flags: freq=+2.6 authors=+3.1 loc=+2.1
+           churn=0.4 freq=6 authors=3 bugfix=17% loc=757
+  ANOMALY  scrapy/core/downloader/contextfactory.py
+           2 flags: churn=+2.2 freq=+4.7
+           churn=1.3 freq=9 authors=1 bugfix=0% loc=263
+  ANOMALY  scrapy/core/downloader/handlers/_httpx.py
+           2 flags: freq=+4.0 authors=+3.1
+           churn=0.2 freq=8 authors=3 bugfix=12% loc=307
+  ANOMALY  scrapy/core/downloader/handlers/http11.py
+           2 flags: freq=+4.7 authors=+3.1
+           churn=0.1 freq=9 authors=3 bugfix=0% loc=734
+  ANOMALY  scrapy/settings/__init__.py
+           2 flags: authors=+3.1 loc=+2.0
+           churn=0.1 freq=4 authors=3 bugfix=0% loc=744
+  ANOMALY  scrapy/settings/default_settings.py
+           2 flags: freq=+2.6 authors=+3.1
+           churn=0.0 freq=6 authors=3 bugfix=0% loc=548
+============================================================
+
+  [8/8] CARMACK MOVES ACTIVE: Kalman, Wavelet, Kaplan-Meier, Newman, Hamming, DTW
+
+==================================================
+  FULL CYCLE COMPLETE
+==================================================
+  Tests:   COLLECTION ERROR — pytest could not run (1 error)
+  Status:  pytest never reached your test bodies.
+           Check `forge` output for `PYTEST RUNNER ERROR`
+           or run pytest directly to see the import / collection failure.
+==================================================
+

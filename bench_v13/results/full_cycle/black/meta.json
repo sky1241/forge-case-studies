@@ -1,0 +1,9 @@
+{
+  "tool": "full_cycle",
+  "case": "black",
+  "exit": 0,
+  "elapsed_sec": 13.17,
+  "output_chars": 9324,
+  "pattern": "carmack|heatmap|full.?cycle|init|complete",
+  "status": "PASS"
+}

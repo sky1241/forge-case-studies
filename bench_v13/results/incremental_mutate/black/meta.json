@@ -1,0 +1,9 @@
+{
+  "tool": "incremental_mutate",
+  "case": "black",
+  "exit": 2,
+  "elapsed_sec": 0.13,
+  "output_chars": 123,
+  "pattern": "mutate|incremental|since|mutant",
+  "status": "PASS"
+}

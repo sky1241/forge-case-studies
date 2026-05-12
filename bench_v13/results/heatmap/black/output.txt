@@ -1,0 +1,32 @@
+
+==================================================
+  FAILURE HEAT MAP — 1 runs logged
+==================================================
+    1x  tests/test_black.py
+       #  (8% cumulative)
+    1x  tests/test_blackd.py
+       #  (17% cumulative)
+    1x  tests/test_concurrency_manager_shutdown.py
+       #  (25% cumulative)
+    1x  tests/test_docs.py
+       #  (33% cumulative)
+    1x  tests/test_format.py
+       #  (42% cumulative)
+    1x  tests/test_ipynb.py
+       #  (50% cumulative)
+    1x  tests/test_no_ipynb.py
+       #  (58% cumulative)
+    1x  tests/test_props___init__.py
+       #  (67% cumulative)
+    1x  tests/test_props_fuzz.py
+       #  (75% cumulative)
+    1x  tests/test_ranges.py
+       #  (83% cumulative)
+    1x  tests/test_tokenize.py
+       #  (92% cumulative)
+    1x  tests/test_trans.py
+       #  (100% cumulative)
+
+  Pareto: top 2 test(s) = 17% of all failures
+==================================================
+

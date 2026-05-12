@@ -1,0 +1,9 @@
+{
+  "tool": "baseline_diff",
+  "case": "black",
+  "exit": 1,
+  "elapsed_sec": 2.57,
+  "output_chars": 1603,
+  "pattern": "Baseline saved|snapshot|Diff vs baseline|no diff",
+  "status": "PASS"
+}

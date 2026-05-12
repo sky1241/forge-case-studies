@@ -1,0 +1,9 @@
+{
+  "tool": "predict_carmack",
+  "case": "ansible",
+  "exit": 0,
+  "elapsed_sec": 4.5,
+  "output_chars": 4836,
+  "pattern": "predict|carmack.*score|kalman",
+  "status": "PASS"
+}

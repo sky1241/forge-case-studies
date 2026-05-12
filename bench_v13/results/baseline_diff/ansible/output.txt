@@ -1,0 +1,37 @@
+=== BASELINE ===
+
+==================================================
+  FORGE REPORT — PASS
+==================================================
+  Tests:    4
+  Passed:   4
+  Failed:   0
+  Errors:   0
+  Skipped:  0
+  Duration: 1.2s
+==================================================
+
+  Baseline saved: 4 passed, 0 failed
+
+--STDERR--
+
+=== DIFF ===
+
+==================================================
+  FORGE REPORT — PASS
+==================================================
+  Tests:    4
+  Passed:   4
+  Failed:   0
+  Errors:   0
+  Skipped:  0
+  Duration: 1.2s
+
+  vs baseline:
+    Passed: 4 -> 4 (+0)
+    Failed: 0 -> 0 (+0)
+==================================================
+
+  (Diff shown above in report)
+
+--STDERR--

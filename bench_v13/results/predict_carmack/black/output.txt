@@ -1,0 +1,97 @@
+=== PREDICT ===
+
+==================================================
+  DEFECT PREDICTION — 10 files, last 4 weeks
+==================================================
+  0.65  tests/test_black.py
+       churn=0.0 freq=2 burst=1 authors=2 bugfix=1 loc=3313 recent=0.07
+  0.63  src/black/parsing.py
+       churn=0.1 freq=2 burst=1 authors=2 bugfix=1 loc=266 recent=0.07
+  0.33  src/black/__init__.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=1706 recent=0.07
+  0.30  src/blackd/__init__.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=336 recent=0.07
+  0.20  tests/data/cases/pyi_decorated_class_blank_line.py
+       churn=1.0 freq=1 burst=1 authors=1 bugfix=0 loc=115 recent=0.04
+  0.10  src/black/strings.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=0 loc=391 recent=0.06
+  0.10  docs/conf.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=0 loc=235 recent=0.06
+  0.02  src/black/lines.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=0 loc=1548 recent=0.04
+  0.02  tests/test_format.py
+       churn=0.1 freq=1 burst=1 authors=1 bugfix=0 loc=99 recent=0.04
+  0.00  src/black/mode.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=0 loc=350 recent=0.04
+==================================================
+
+
+--STDERR--
+
+=== CARMACK ===
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  WARNING: small repo or short history — Carmack signals may be noisy.
+           For a meaningful demo, run on a repo with >=6 files and >=4 weeks of history.
+  0.821  tests/test_black.py
+       Kalman=0.16  Wavelet=n/a   Crash=100%  Coupling=0.20
+       churn=0.0 freq=2 authors=2 bugfix=1 loc=3313
+  0.700  src/black/__init__.py
+       Kalman=0.16  Wavelet=n/a   Crash=100%  Coupling=0.23
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=1706
+  0.642  src/black/parsing.py
+       Kalman=0.16  Wavelet=n/a   Crash=100%  Coupling=0.00
+       churn=0.1 freq=2 authors=2 bugfix=1 loc=266
+  0.618  src/blackd/__init__.py
+       Kalman=0.16  Wavelet=n/a   Crash=100%  Coupling=0.23
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=336
+  0.602  src/black/lines.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=1548
+  0.355  tests/test_format.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.20
+       churn=0.1 freq=1 authors=1 bugfix=0 loc=99
+  0.352  src/black/strings.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=391
+  0.279  tests/data/cases/pyi_decorated_class_blank_line.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=115
+  0.134  src/black/mode.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=350
+  0.073  docs/conf.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=235
+============================================================
+
+
+--STDERR--
+<unknown>:163: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:169: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:174: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:179: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:226: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:391: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:397: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:402: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:408: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:455: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:108: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:114: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:119: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:234: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:240: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:245: SyntaxWarning: invalid escape sequence '\ '
+<unknown>:134: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:135: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:135: SyntaxWarning: invalid escape sequence '\}'
+<unknown>:136: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:273: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:274: SyntaxWarning: invalid escape sequence '\{'
+<unknown>:274: SyntaxWarning: invalid escape sequence '\}'
+<unknown>:275: SyntaxWarning: invalid escape sequence '\{'

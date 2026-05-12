@@ -1,0 +1,9 @@
+{
+  "tool": "heatmap",
+  "case": "fastapi",
+  "exit": 0,
+  "elapsed_sec": 0.13,
+  "output_chars": 37,
+  "pattern": "No forge log|No failures",
+  "status": "PARTIAL"
+}

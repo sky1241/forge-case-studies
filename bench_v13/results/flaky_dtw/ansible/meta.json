@@ -1,0 +1,9 @@
+{
+  "tool": "flaky_dtw",
+  "case": "ansible",
+  "exit": 0,
+  "elapsed_sec": 3.91,
+  "output_chars": 96,
+  "pattern": "\\d+ runs|stable|flaky|No flaky",
+  "status": "PASS"
+}

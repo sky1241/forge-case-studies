@@ -1,0 +1,39 @@
+=== BASELINE ===
+
+  PYTEST RUNNER ERROR:
+
+    [ERROR] PYTEST_RUNNER
+      ImportError while loading conftest '/tmp/forge_v13_scrapy/conftest.py'.
+      conftest.py:10: in <module>
+          from scrapy.utils.reactor import set_asyncio_event_loop_policy
+      scrapy/__init__.py:10: in <module>
+          from scrapy.http import FormRequest, Request
+      scrapy/http/__init__.py:11: in <module>
+          from scrapy.http.headers import Headers
+      scrapy/http/headers.py:6: in <module>
+          from w3lib.http import headers_dict_to_raw
+      E   ModuleNotFoundError: No module named 'w3lib'
+
+  REFUSING baseline: 0 tests collected — would mask future regressions. Check cwd, FORGE_TEST_FILTER, [tool.pytest.ini_options] testpaths.
+
+--STDERR--
+
+=== DIFF ===
+
+  PYTEST RUNNER ERROR:
+
+    [ERROR] PYTEST_RUNNER
+      ImportError while loading conftest '/tmp/forge_v13_scrapy/conftest.py'.
+      conftest.py:10: in <module>
+          from scrapy.utils.reactor import set_asyncio_event_loop_policy
+      scrapy/__init__.py:10: in <module>
+          from scrapy.http import FormRequest, Request
+      scrapy/http/__init__.py:11: in <module>
+          from scrapy.http.headers import Headers
+      scrapy/http/headers.py:6: in <module>
+          from w3lib.http import headers_dict_to_raw
+      E   ModuleNotFoundError: No module named 'w3lib'
+
+  No baseline found. Run: forge --baseline
+
+--STDERR--
