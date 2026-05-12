@@ -1,0 +1,96 @@
+=== PREDICT ===
+
+==================================================
+  DEFECT PREDICTION — 89 files, last 4 weeks
+==================================================
+  0.72  scrapy/pipelines/files.py
+       churn=0.2 freq=3 burst=2 authors=3 bugfix=1 loc=757 recent=0.12
+  0.68  scrapy/core/spidermw.py
+       churn=0.6 freq=3 burst=2 authors=3 bugfix=0 loc=438 recent=0.12
+  0.53  scrapy/core/downloader/contextfactory.py
+       churn=0.2 freq=3 burst=2 authors=1 bugfix=0 loc=263 recent=0.12
+  0.49  tests/test_http_request_form.py
+       churn=0.0 freq=2 burst=2 authors=2 bugfix=0 loc=1028 recent=0.12
+  0.48  tests/test_downloader_handlers_http_base.py
+       churn=0.2 freq=3 burst=1 authors=1 bugfix=1 loc=1145 recent=0.12
+  0.47  tests/test_downloader_handler_twisted_http2.py
+       churn=0.4 freq=3 burst=1 authors=1 bugfix=1 loc=215 recent=0.12
+  0.47  scrapy/utils/misc.py
+       churn=0.1 freq=2 burst=2 authors=2 bugfix=0 loc=323 recent=0.12
+  0.46  scrapy/utils/benchserver.py
+       churn=0.1 freq=2 burst=2 authors=2 bugfix=0 loc=48 recent=0.12
+  0.41  scrapy/core/downloader/middleware.py
+       churn=1.0 freq=2 burst=1 authors=2 bugfix=0 loc=156 recent=0.12
+  0.40  scrapy/extensions/feedexport.py
+       churn=0.0 freq=2 burst=1 authors=2 bugfix=1 loc=728 recent=0.12
+  0.40  scrapy/core/http2/stream.py
+       churn=0.1 freq=2 burst=1 authors=2 bugfix=1 loc=507 recent=0.12
+  0.37  tests/test_pipeline_files.py
+       churn=0.0 freq=2 burst=1 authors=2 bugfix=2 loc=825 recent=0.07
+  0.36  tests/test_downloader_handler_httpx.py
+       churn=0.3 freq=2 burst=1 authors=1 bugfix=1 loc=138 recent=0.12
+  0.36  scrapy/pipelines/__init__.py
+       churn=0.5 freq=2 burst=1 authors=2 bugfix=0 loc=142 recent=0.12
+  0.35  tests/test_spidermiddleware_process_start.py
+       churn=1.9 freq=1 burst=1 authors=1 bugfix=0 loc=123 recent=0.12
+==================================================
+
+
+--STDERR--
+
+=== CARMACK ===
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.678  scrapy/crawler.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=1.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=1050
+  0.506  tests/test_pipeline_files.py
+       Kalman=0.40  Wavelet=n/a   Crash=100%  Coupling=0.06
+       churn=0.0 freq=2 authors=2 bugfix=2 loc=825
+  0.427  tests/test_feedexport.py
+       Kalman=0.16  Wavelet=n/a   Crash=100%  Coupling=0.11
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=1404
+  0.402  scrapy/core/http2/protocol.py
+       Kalman=0.19  Wavelet=n/a   Crash=100%  Coupling=0.12
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=483
+  0.385  scrapy/utils/asyncio.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.75
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=313
+  0.380  scrapy/utils/defer.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.52
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=575
+  0.370  scrapy/core/downloader/handlers/_httpx.py
+       Kalman=0.19  Wavelet=n/a   Crash=100%  Coupling=0.04
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=307
+  0.362  scrapy/utils/test.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.63
+       churn=0.9 freq=1 authors=1 bugfix=0 loc=119
+  0.347  tests/test_proxy_connect.py
+       Kalman=0.19  Wavelet=n/a   Crash=100%  Coupling=0.08
+       churn=0.3 freq=1 authors=1 bugfix=1 loc=125
+  0.342  tests/test_settings/__init__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.02
+       churn=0.1 freq=1 authors=1 bugfix=0 loc=1253
+  0.342  tests/mockserver/http_base.py
+       Kalman=0.19  Wavelet=n/a   Crash=100%  Coupling=0.02
+       churn=0.1 freq=1 authors=1 bugfix=1 loc=133
+  0.339  scrapy/core/engine.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.12
+       churn=0.1 freq=1 authors=1 bugfix=0 loc=686
+  0.335  scrapy/core/spidermw.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.04
+       churn=0.6 freq=3 authors=3 bugfix=0 loc=438
+  0.333  tests/test_utils_response.py
+       Kalman=0.16  Wavelet=n/a   Crash=100%  Coupling=0.02
+       churn=0.4 freq=1 authors=1 bugfix=1 loc=225
+  0.328  tests/test_downloader_handlers_http_base.py
+       Kalman=0.19  Wavelet=1953.2  Crash=25%  Coupling=0.10
+       churn=0.2 freq=3 authors=1 bugfix=1 loc=1145
+============================================================
+
+
+--STDERR--

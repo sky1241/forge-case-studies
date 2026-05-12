@@ -1,0 +1,49 @@
+=== BASELINE ===
+
+  PYTEST RUNNER ERROR:
+
+    [ERROR] PYTEST_RUNNER
+      rootdir: /tmp/forge_v13_luigi
+      configfile: tox.ini
+      plugins: timeout-2.4.0, anyio-4.12.1, typeguard-4.4.4, cov-5.0.0, hypothesis-6.151.9
+      timeout: 30.0s
+      timeout method: signal
+      timeout func_only: False
+      collecting ... collected 0 items
+      
+      
+      ---------- coverage: platform linux, python 3.13.12-final-0 ----------
+      Coverage XML written to file coverage.xml
+      
+      ============================ no tests ran in 1.34s =============================
+      /usr/lib/python3/dist-packages/coverage/control.py:915: CoverageWarning: No data was collected. (no-data-collected)
+        self._warn("No data was collected.", slug="no-data-collected")
+
+  REFUSING baseline: 0 tests collected — would mask future regressions. Check cwd, FORGE_TEST_FILTER, [tool.pytest.ini_options] testpaths.
+
+--STDERR--
+
+=== DIFF ===
+
+  PYTEST RUNNER ERROR:
+
+    [ERROR] PYTEST_RUNNER
+      rootdir: /tmp/forge_v13_luigi
+      configfile: tox.ini
+      plugins: timeout-2.4.0, anyio-4.12.1, typeguard-4.4.4, cov-5.0.0, hypothesis-6.151.9
+      timeout: 30.0s
+      timeout method: signal
+      timeout func_only: False
+      collecting ... collected 0 items
+      
+      
+      ---------- coverage: platform linux, python 3.13.12-final-0 ----------
+      Coverage XML written to file coverage.xml
+      
+      ============================ no tests ran in 1.32s =============================
+      /usr/lib/python3/dist-packages/coverage/control.py:915: CoverageWarning: No data was collected. (no-data-collected)
+        self._warn("No data was collected.", slug="no-data-collected")
+
+  No baseline found. Run: forge --baseline
+
+--STDERR--

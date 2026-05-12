@@ -1,0 +1,68 @@
+=== PREDICT ===
+
+==================================================
+  DEFECT PREDICTION — 9 files, last 4 weeks
+==================================================
+  0.32  luigi/task.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=1024 recent=1.00
+  0.31  luigi/__init__.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=155 recent=1.00
+  0.28  test/interface_test.py
+       churn=0.1 freq=1 burst=1 authors=1 bugfix=1 loc=222 recent=0.20
+  0.23  luigi/target.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=351 recent=0.50
+  0.22  test/scheduler_test.py
+       churn=0.1 freq=1 burst=1 authors=1 bugfix=1 loc=395 recent=0.20
+  0.20  luigi/__version__.py
+       churn=0.2 freq=1 burst=1 authors=1 bugfix=0 loc=3 recent=0.20
+  0.20  test/scheduler_api_test.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=2201 recent=0.20
+  0.19  luigi/scheduler.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=1673 recent=0.20
+  0.18  luigi/interface.py
+       churn=0.0 freq=1 burst=1 authors=1 bugfix=1 loc=210 recent=0.20
+==================================================
+
+
+--STDERR--
+
+=== CARMACK ===
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  WARNING: small repo or short history — Carmack signals may be noisy.
+           For a meaningful demo, run on a repo with >=6 files and >=4 weeks of history.
+  0.691  luigi/scheduler.py
+       Kalman=0.56  Wavelet=n/a   Crash=100%  Coupling=0.65
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=1673
+  0.567  test/scheduler_api_test.py
+       Kalman=0.56  Wavelet=n/a   Crash=100%  Coupling=0.20
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=2201
+  0.548  luigi/task.py
+       Kalman=0.56  Wavelet=n/a   Crash=100%  Coupling=0.20
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=1024
+  0.529  luigi/interface.py
+       Kalman=0.56  Wavelet=n/a   Crash=100%  Coupling=0.40
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=210
+  0.475  test/interface_test.py
+       Kalman=0.56  Wavelet=n/a   Crash=100%  Coupling=0.15
+       churn=0.1 freq=1 authors=1 bugfix=1 loc=222
+  0.471  test/scheduler_test.py
+       Kalman=0.56  Wavelet=n/a   Crash=100%  Coupling=0.10
+       churn=0.1 freq=1 authors=1 bugfix=1 loc=395
+  0.455  luigi/target.py
+       Kalman=0.56  Wavelet=n/a   Crash=100%  Coupling=0.15
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=351
+  0.424  luigi/__init__.py
+       Kalman=0.56  Wavelet=n/a   Crash=100%  Coupling=0.10
+       churn=0.0 freq=1 authors=1 bugfix=1 loc=155
+  0.254  luigi/__version__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.05
+       churn=0.7 freq=1 authors=1 bugfix=0 loc=3
+============================================================
+
+
+--STDERR--

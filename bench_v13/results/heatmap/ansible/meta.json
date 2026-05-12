@@ -1,0 +1,9 @@
+{
+  "tool": "heatmap",
+  "case": "ansible",
+  "exit": 0,
+  "elapsed_sec": 0.14,
+  "output_chars": 355,
+  "pattern": "failures|test.*fail|heatmap",
+  "status": "PASS"
+}

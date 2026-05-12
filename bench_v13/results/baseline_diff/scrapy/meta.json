@@ -1,0 +1,9 @@
+{
+  "tool": "baseline_diff",
+  "case": "scrapy",
+  "exit": 1,
+  "elapsed_sec": 1.61,
+  "output_chars": 1399,
+  "pattern": null,
+  "status": "FAIL"
+}

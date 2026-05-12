@@ -1,0 +1,9 @@
+
+============================================================
+  ANOMALY DETECTION — z-score outliers (9 active files)
+============================================================
+  ANOMALY  luigi/__version__.py
+           2 flags: churn=+2.8 bugfix_ratio=-2.8
+           churn=0.7 freq=1 authors=1 bugfix=0% loc=3
+============================================================
+

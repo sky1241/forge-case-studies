@@ -1,0 +1,9 @@
+{
+  "tool": "baseline_diff",
+  "case": "ansible",
+  "exit": 0,
+  "elapsed_sec": 3.02,
+  "output_chars": 715,
+  "pattern": "Baseline saved|snapshot|Diff vs baseline|no diff",
+  "status": "PASS"
+}

@@ -1,0 +1,9 @@
+{
+  "tool": "anomaly",
+  "case": "fastapi",
+  "exit": 0,
+  "elapsed_sec": 0.25,
+  "output_chars": 1609,
+  "pattern": "anomal|outlier|z-score|commits.*flagged",
+  "status": "PASS"
+}

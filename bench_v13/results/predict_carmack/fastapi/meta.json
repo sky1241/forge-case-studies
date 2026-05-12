@@ -1,0 +1,9 @@
+{
+  "tool": "predict_carmack",
+  "case": "fastapi",
+  "exit": 0,
+  "elapsed_sec": 4.66,
+  "output_chars": 4570,
+  "pattern": "predict|carmack.*score|kalman",
+  "status": "PASS"
+}

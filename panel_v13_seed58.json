@@ -1,0 +1,24 @@
+{
+  "seed": 58,
+  "projects": [
+    "ansible",
+    "scrapy",
+    "luigi",
+    "fastapi",
+    "black"
+  ],
+  "tools_main": [
+    "anomaly",
+    "heatmap",
+    "baseline_diff",
+    "init_add_close",
+    "hooks",
+    "watch",
+    "full_cycle",
+    "predict_carmack",
+    "incremental_mutate",
+    "flaky_dtw"
+  ],
+  "cases_per_tool": 5,
+  "total_cases": 50
+}

@@ -1,0 +1,12 @@
+
+============================================================
+  ANOMALY DETECTION — z-score outliers (38 active files)
+============================================================
+  ANOMALY  lib/ansible/module_utils/urls.py
+           2 flags: freq=+3.6 authors=+2.1
+           churn=0.3 freq=3 authors=2 bugfix=33% loc=1639
+  ANOMALY  lib/ansible/modules/git.py
+           2 flags: authors=+2.1 bugfix_ratio=+2.9
+           churn=0.0 freq=2 authors=2 bugfix=100% loc=1476
+============================================================
+

@@ -1,0 +1,18 @@
+
+============================================================
+  ANOMALY DETECTION — z-score outliers (89 active files)
+============================================================
+  ANOMALY  scrapy/core/spidermw.py
+           2 flags: freq=+3.0 authors=+4.3
+           churn=0.6 freq=3 authors=3 bugfix=0% loc=438
+  ANOMALY  scrapy/pipelines/files.py
+           2 flags: freq=+3.0 authors=+4.3
+           churn=0.2 freq=3 authors=3 bugfix=33% loc=757
+  ANOMALY  tests/test_downloader_handlers_http_base.py
+           2 flags: freq=+3.0 loc=+2.8
+           churn=0.2 freq=3 authors=1 bugfix=33% loc=1145
+  ANOMALY  tests/test_feedexport.py
+           2 flags: bugfix_ratio=+2.4 loc=+3.7
+           churn=0.0 freq=1 authors=1 bugfix=100% loc=1404
+============================================================
+

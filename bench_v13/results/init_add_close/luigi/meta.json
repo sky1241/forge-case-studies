@@ -1,0 +1,10 @@
+{
+  "tool": "init_add_close",
+  "case": "luigi",
+  "exit": 0,
+  "elapsed_sec": 0.39,
+  "output_chars": 153,
+  "pattern": "Forge initialized|Created|Added BUG-|marked FIXED|marked CLOSED",
+  "status": "PASS",
+  "bug_id": "BUG-001"
+}

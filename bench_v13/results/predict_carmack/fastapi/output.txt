@@ -1,0 +1,98 @@
+=== PREDICT ===
+
+==================================================
+  DEFECT PREDICTION — 1118 files, last 4 weeks
+==================================================
+  0.63  fastapi/_compat/v2.py
+       churn=1.0 freq=3 burst=1 authors=3 bugfix=0 loc=493 recent=1.00
+  0.63  fastapi/dependencies/utils.py
+       churn=1.0 freq=3 burst=1 authors=3 bugfix=0 loc=1057 recent=1.00
+  0.63  fastapi/encoders.py
+       churn=1.0 freq=3 burst=1 authors=3 bugfix=0 loc=364 recent=1.00
+  0.51  fastapi/routing.py
+       churn=1.0 freq=2 burst=1 authors=2 bugfix=0 loc=4956 recent=1.00
+  0.51  fastapi/applications.py
+       churn=1.0 freq=2 burst=1 authors=2 bugfix=0 loc=4691 recent=1.00
+  0.50  fastapi/cli.py
+       churn=1.2 freq=2 burst=1 authors=2 bugfix=0 loc=13 recent=1.00
+  0.48  fastapi/params.py
+       churn=1.0 freq=2 burst=1 authors=2 bugfix=0 loc=754 recent=1.00
+  0.48  fastapi/responses.py
+       churn=1.0 freq=2 burst=1 authors=2 bugfix=0 loc=98 recent=1.00
+  0.48  fastapi/openapi/utils.py
+       churn=1.0 freq=2 burst=1 authors=2 bugfix=0 loc=606 recent=1.00
+  0.48  fastapi/_compat/shared.py
+       churn=1.0 freq=2 burst=1 authors=2 bugfix=0 loc=214 recent=1.00
+  0.48  fastapi/openapi/models.py
+       churn=1.0 freq=2 burst=1 authors=2 bugfix=0 loc=435 recent=1.00
+  0.35  scripts/translate.py
+       churn=1.1 freq=2 burst=1 authors=2 bugfix=0 loc=484 recent=0.05
+  0.34  tests/test_tutorial/test_body_multiple_params/test_tutorial002.py
+       churn=1.0 freq=2 burst=1 authors=2 bugfix=0 loc=368 recent=0.14
+  0.34  tests/test_tutorial/test_body_multiple_params/test_tutorial005.py
+       churn=1.0 freq=2 burst=1 authors=2 bugfix=0 loc=275 recent=0.14
+  0.34  tests/test_ws_router.py
+       churn=1.0 freq=2 burst=1 authors=2 bugfix=0 loc=271 recent=0.14
+==================================================
+
+
+--STDERR--
+
+=== CARMACK ===
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  WARNING: small repo or short history — Carmack signals may be noisy.
+           For a meaningful demo, run on a repo with >=6 files and >=4 weeks of history.
+  0.703  scripts/docs.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=743
+  0.687  scripts/doc_parsing_utils.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=733
+  0.610  fastapi/routing.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.05
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=4956
+  0.606  tests/test_include_router_defaults_overrides.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=7304
+  0.586  scripts/translate.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.1 freq=2 authors=2 bugfix=0 loc=484
+  0.565  fastapi/dependencies/utils.py
+       Kalman=0.00  Wavelet=208169.7  Crash=0%  Coupling=0.04
+       churn=1.0 freq=3 authors=3 bugfix=0 loc=1057
+  0.556  tests/test_generate_unique_id_function.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=1699
+  0.536  scripts/people.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=483
+  0.526  fastapi/testclient.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=1.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=1
+  0.495  fastapi/applications.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.02
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=4691
+  0.493  scripts/notify_translations.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=432
+  0.483  fastapi/openapi/utils.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.02
+       churn=1.0 freq=2 authors=2 bugfix=0 loc=606
+  0.476  tests/test_response_model_as_return_annotation.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=1121
+  0.470  fastapi/_compat/v2.py
+       Kalman=0.00  Wavelet=41515.7  Crash=0%  Coupling=0.12
+       churn=1.0 freq=3 authors=3 bugfix=0 loc=493
+  0.439  scripts/mkdocs_hooks.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=182
+============================================================
+
+
+--STDERR--

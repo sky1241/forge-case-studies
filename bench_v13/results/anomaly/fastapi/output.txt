@@ -1,0 +1,36 @@
+
+============================================================
+  ANOMALY DETECTION — z-score outliers (1118 active files)
+============================================================
+  ANOMALY  fastapi/applications.py
+           3 flags: freq=+6.2 authors=+6.2 loc=+13.9
+           churn=1.0 freq=2 authors=2 bugfix=0% loc=4691
+  ANOMALY  fastapi/dependencies/utils.py
+           3 flags: freq=+12.6 authors=+12.6 loc=+2.9
+           churn=1.0 freq=3 authors=3 bugfix=0% loc=1057
+  ANOMALY  fastapi/routing.py
+           3 flags: freq=+6.2 authors=+6.2 loc=+14.7
+           churn=1.0 freq=2 authors=2 bugfix=0% loc=4956
+  ANOMALY  fastapi/__init__.py
+           2 flags: freq=+6.2 authors=+6.2
+           churn=1.1 freq=2 authors=2 bugfix=0% loc=25
+  ANOMALY  fastapi/_compat/__init__.py
+           2 flags: freq=+6.2 authors=+6.2
+           churn=1.1 freq=2 authors=2 bugfix=0% loc=40
+  ANOMALY  fastapi/_compat/shared.py
+           2 flags: freq=+6.2 authors=+6.2
+           churn=1.0 freq=2 authors=2 bugfix=0% loc=214
+  ANOMALY  fastapi/_compat/v2.py
+           2 flags: freq=+12.6 authors=+12.6
+           churn=1.0 freq=3 authors=3 bugfix=0% loc=493
+  ANOMALY  fastapi/cli.py
+           2 flags: freq=+6.2 authors=+6.2
+           churn=1.2 freq=2 authors=2 bugfix=0% loc=13
+  ANOMALY  fastapi/encoders.py
+           2 flags: freq=+12.6 authors=+12.6
+           churn=1.0 freq=3 authors=3 bugfix=0% loc=364
+  ANOMALY  fastapi/openapi/models.py
+           2 flags: freq=+6.2 authors=+6.2
+           churn=1.0 freq=2 authors=2 bugfix=0% loc=435
+============================================================
+

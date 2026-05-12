@@ -1,0 +1,2 @@
+  ERROR: --incremental-mutate must be combined with --mutate
+  Usage: forge --mutate --incremental-mutate [--since COMMIT]

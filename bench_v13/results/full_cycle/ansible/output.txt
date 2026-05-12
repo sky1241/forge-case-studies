@@ -1,0 +1,160 @@
+
+==================================================
+  FORGE FULL CYCLE
+==================================================
+
+  [1/8] PREDICT — scanning git history for risky files...
+
+==================================================
+  DEFECT PREDICTION — 169 files, last 8 weeks
+==================================================
+  0.62  lib/ansible/module_utils/urls.py
+       churn=0.3 freq=4 burst=2 authors=3 bugfix=1 loc=1639 recent=0.08
+  0.47  lib/ansible/modules/git.py
+       churn=0.0 freq=2 burst=2 authors=2 bugfix=2 loc=1476 recent=0.06
+  0.32  lib/ansible/cli/doc.py
+       churn=0.0 freq=2 burst=2 authors=1 bugfix=0 loc=1681 recent=0.14
+  0.32  lib/ansible/plugins/connection/psrp.py
+       churn=0.1 freq=4 burst=1 authors=2 bugfix=0 loc=787 recent=0.09
+  0.31  lib/ansible/executor/module_common.py
+       churn=0.2 freq=2 burst=2 authors=2 bugfix=0 loc=1694 recent=0.02
+  0.29  lib/ansible/parsing/vault/__init__.py
+       churn=0.0 freq=2 burst=2 authors=2 bugfix=0 loc=1525 recent=0.03
+  0.29  lib/ansible/playbook/base.py
+       churn=0.0 freq=2 burst=2 authors=2 bugfix=0 loc=784 recent=0.03
+  0.26  test/lib/ansible_test/_internal/commands/integration/cloud/galaxy.py
+       churn=0.9 freq=2 burst=1 authors=1 bugfix=1 loc=193 recent=0.03
+  0.25  lib/ansible/module_utils/common/parameters.py
+       churn=0.0 freq=2 burst=1 authors=2 bugfix=0 loc=936 recent=0.20
+  0.25  lib/ansible/modules/uri.py
+       churn=0.0 freq=2 burst=1 authors=2 bugfix=1 loc=780 recent=0.08
+  0.25  lib/ansible/playbook/included_file.py
+       churn=0.3 freq=2 burst=1 authors=2 bugfix=0 loc=246 recent=0.17
+  0.25  lib/ansible/plugins/action/__init__.py
+       churn=0.2 freq=3 burst=1 authors=2 bugfix=0 loc=1551 recent=0.05
+  0.25  lib/ansible/plugins/connection/winrm.py
+       churn=0.0 freq=3 burst=1 authors=2 bugfix=0 loc=886 recent=0.09
+  0.21  lib/ansible/_internal/_task.py
+       churn=1.0 freq=2 burst=1 authors=1 bugfix=0 loc=1444 recent=0.05
+  0.21  lib/ansible/_internal/_templating/_jinja_bits.py
+       churn=0.0 freq=2 burst=1 authors=2 bugfix=1 loc=1126 recent=0.02
+==================================================
+
+  [1b/8] CARMACK PREDICT — Kalman + Wavelet + Kaplan-Meier + Modularity...
+  [CARMACK] Louvain clustering on import graph...
+
+============================================================
+  CARMACK PREDICT — Cross-domain defect prediction
+  Kalman + Wavelet + Kaplan-Meier + Import Modularity
+============================================================
+  0.684  lib/ansible/plugins/action/copy.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.16
+       churn=0.1 freq=1 authors=1 bugfix=0 loc=612
+  0.650  test/lib/ansible_test/_internal/host_profiles.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.13
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=1779
+  0.607  test/lib/ansible_test/_internal/docker_util.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.11
+       churn=0.0 freq=2 authors=2 bugfix=0 loc=1046
+  0.516  lib/ansible/module_utils/common/collections.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.15
+       churn=0.6 freq=1 authors=1 bugfix=0 loc=221
+  0.515  lib/ansible/modules/group.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.00
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=773
+  0.515  lib/ansible/module_utils/_embed/dnf.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=1 authors=1 bugfix=0 loc=829
+  0.510  lib/ansible/_internal/_templating/_engine.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.09
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=606
+  0.508  lib/ansible/_internal/_task.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=1.0 freq=2 authors=1 bugfix=0 loc=1444
+  0.497  lib/ansible/plugins/strategy/__init__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.03
+       churn=0.3 freq=1 authors=1 bugfix=0 loc=1158
+  0.475  lib/ansible/executor/task_executor.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.01
+       churn=0.8 freq=1 authors=1 bugfix=0 loc=1074
+  0.451  test/lib/ansible_test/_util/controller/sanity/validate-modules/validate_modules/main.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.03
+       churn=0.0 freq=2 authors=1 bugfix=0 loc=2653
+  0.447  test/lib/ansible_test/_internal/classification/__init__.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.04
+       churn=0.0 freq=1 authors=1 bugfix=0 loc=889
+  0.441  lib/ansible/playbook/base.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.03
+       churn=0.0 freq=2 authors=2 bugfix=0 loc=784
+  0.439  lib/ansible/cli/doc.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.02
+       churn=0.0 freq=2 authors=1 bugfix=0 loc=1681
+  0.437  lib/ansible/executor/module_common.py
+       Kalman=0.00  Wavelet=n/a   Crash=0%  Coupling=0.02
+       churn=0.2 freq=2 authors=2 bugfix=0 loc=1694
+============================================================
+
+  [2/8] MUTATE — no changed source files, skipping.
+  [3/8] GEN-PROPS — no changed source files.
+
+  [4/8] RUN TESTS...
+
+==================================================
+  FORGE REPORT — PASS
+==================================================
+  Tests:    4
+  Passed:   4
+  Failed:   0
+  Errors:   0
+  Skipped:  0
+  Duration: 1.2s
+==================================================
+
+  [5/8] FLAKY — all tests pass, skipping.
+  [6/8] LOCATE — no failures, skipping.
+  [7/8] ANOMALY — scanning for statistical outliers...
+
+============================================================
+  ANOMALY DETECTION — z-score outliers (169 active files)
+============================================================
+  ANOMALY  lib/ansible/cli/galaxy.py
+           2 flags: bugfix_ratio=+3.6 loc=+2.4
+           churn=0.0 freq=1 authors=1 bugfix=100% loc=1889
+  ANOMALY  lib/ansible/executor/module_common.py
+           2 flags: authors=+2.5 loc=+2.1
+           churn=0.2 freq=2 authors=2 bugfix=0% loc=1694
+  ANOMALY  lib/ansible/module_utils/basic.py
+           2 flags: authors=+2.5 loc=+3.0
+           churn=0.0 freq=2 authors=2 bugfix=0% loc=2219
+  ANOMALY  lib/ansible/module_utils/urls.py
+           2 flags: freq=+5.5 authors=+5.3
+           churn=0.3 freq=4 authors=3 bugfix=25% loc=1639
+  ANOMALY  lib/ansible/modules/git.py
+           2 flags: authors=+2.5 bugfix_ratio=+3.6
+           churn=0.0 freq=2 authors=2 bugfix=100% loc=1476
+  ANOMALY  lib/ansible/modules/user.py
+           2 flags: authors=+2.5 loc=+5.3
+           churn=0.0 freq=2 authors=2 bugfix=0% loc=3564
+  ANOMALY  lib/ansible/plugins/action/__init__.py
+           2 flags: freq=+3.5 authors=+2.5
+           churn=0.2 freq=3 authors=2 bugfix=0% loc=1551
+  ANOMALY  lib/ansible/plugins/connection/psrp.py
+           2 flags: freq=+5.5 authors=+2.5
+           churn=0.1 freq=4 authors=2 bugfix=0% loc=787
+  ANOMALY  lib/ansible/plugins/connection/winrm.py
+           2 flags: freq=+3.5 authors=+2.5
+           churn=0.0 freq=3 authors=2 bugfix=0% loc=886
+  ANOMALY  lib/ansible/plugins/loader.py
+           2 flags: authors=+2.5 loc=+2.5
+           churn=0.1 freq=2 authors=2 bugfix=0% loc=1905
+============================================================
+
+  [8/8] CARMACK MOVES ACTIVE: Kalman, Wavelet, Kaplan-Meier, Newman, Hamming, DTW
+
+==================================================
+  FULL CYCLE COMPLETE
+==================================================
+  Tests:   4 (4P / 0F / 0E)
+  Status:  ALL CLEAR
+==================================================
+

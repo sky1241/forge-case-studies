@@ -1,0 +1,9 @@
+{
+  "tool": "hooks",
+  "case": "scrapy",
+  "exit": 0,
+  "elapsed_sec": 0.27,
+  "output_chars": 188,
+  "pattern": "Installed.*pre-commit|Removed.*hook",
+  "status": "PASS"
+}
